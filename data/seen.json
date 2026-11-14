@@ -1,4 +1,25 @@
 {
+"039a9fb71c": {
+"by_day": {
+"2026-11-14": 1
+},
+"first_seen": "2026-11-14",
+"headline": "Supo: Myös Suomi on Kiinan vakoilun kohteena – Nämä ovat vaaran merkit",
+"last_seen": "2026-11-14",
+"terms": [
+"suomi",
+"nämä",
+"kohteena",
+"supo",
+"kiinan",
+"vaaran",
+"merkit",
+"vakoilun"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/aab37b68-243a-43fe-867d-98b5b71bde47"
+]
+},
 "0f97cf24e8": {
 "by_day": {
 "2026-11-14": 0
@@ -28,13 +49,13 @@
 "headline": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
 "last_seen": "2026-11-14",
 "terms": [
-"shipment",
-"11.4m",
-"ca",
 "vanish",
+"shipment",
+"ca",
 "tx",
+"hardware",
 "nvidia",
-"hardware"
+"11.4m"
 ],
 "urls": [
 "https://freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
@@ -48,15 +69,15 @@
 "headline": "OpenAI disbands its robotics team as its general models start running robots",
 "last_seen": "2026-11-14",
 "terms": [
-"runn",
-"team",
-"disband",
-"start",
-"robotic",
 "robot",
+"openai",
 "model",
+"robotic",
+"start",
+"team",
 "general",
-"openai"
+"disband",
+"runn"
 ],
 "urls": [
 "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots"
@@ -86,6 +107,29 @@
 "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay"
 ]
 },
+"35ada50d2a": {
+"by_day": {
+"2026-11-14": 0
+},
+"first_seen": "2026-11-14",
+"headline": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+"last_seen": "2026-11-14",
+"terms": [
+"across",
+"dgx",
+"vllm",
+"glm-5.3",
+"serv",
+"607.8",
+"station",
+"two",
+"tok",
+"nvidia"
+],
+"urls": [
+"https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm"
+]
+},
 "38763997ba": {
 "by_day": {
 "2026-11-14": 0
@@ -94,14 +138,14 @@
 "headline": "Arm boss Rene Haas approached in Nvidia CEO search",
 "last_seen": "2026-11-14",
 "terms": [
-"haa",
-"approach",
 "ceo",
 "arm",
-"search",
+"rene",
 "boss",
+"haa",
+"search",
 "nvidia",
-"rene"
+"approach"
 ],
 "urls": [
 "https://ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926"
@@ -112,27 +156,28 @@
 "2026-11-14": 0
 },
 "first_seen": "2026-11-14",
-"headline": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+"headline": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
 "last_seen": "2026-11-14",
 "terms": [
 "claude",
 "code",
 "elevat",
-"error",
-"claude.ai",
 "platform.claude.com",
+"claude.ai",
+"error",
 "meeting",
-"run",
-"ai",
 "upgrad",
 "parallel",
-"anthropic",
 "project",
-"worker"
+"ai",
+"run",
+"worker",
+"anthropic"
 ],
 "urls": [
 "https://claude.com/resources/articles/claude-meetings",
 "https://claude.com/resources/articles/projects-redesigned",
+"https://netmeister.org/blog/claude-delusion.html",
 "https://status.claude.com/history",
 "https://status.claude.com/incidents/nn11wk485zfn"
 ]
@@ -145,16 +190,37 @@
 "headline": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
 "last_seen": "2026-11-14",
 "terms": [
-"open-source",
-"self-improv",
-"manag",
-"agent",
 "agentrun",
+"self-improv",
 "show",
-"hn"
+"hn",
+"manag",
+"open-source",
+"agent"
 ],
 "urls": [
 "https://github.com/Parcha-ai/agentrun/blob/main/README.md"
+]
+},
+"505997472a": {
+"by_day": {
+"2026-11-14": 0
+},
+"first_seen": "2026-11-14",
+"headline": "Italy fines Meta $887M over Android users' data access",
+"last_seen": "2026-11-14",
+"terms": [
+"887m",
+"meta",
+"user",
+"android",
+"fin",
+"data",
+"access",
+"italy"
+],
+"urls": [
+"https://reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14"
 ]
 },
 "5bc3f29063": {
@@ -167,16 +233,16 @@
 "terms": [
 "hack",
 "tsmc",
-"hacker",
+"video",
 "used",
-"crypto",
-"400m",
-"korean",
 "north",
+"hacker",
+"400m",
+"crypto",
 "fake",
 "call",
-"video",
-"fbi"
+"fbi",
+"korean"
 ],
 "urls": [
 "https://bbc.com/news/articles/cqdj1ellpd70o",
@@ -192,19 +258,19 @@
 "last_seen": "2026-11-14",
 "terms": [
 "faa",
-"ground",
 "stop",
+"ground",
 "nationwide",
 "lift",
-"national",
 "issu",
+"national",
 "flight",
 "hour",
 "us",
-"later",
 "4.5",
-"extraordinary",
-"circumstanc"
+"later",
+"circumstanc",
+"extraordinary"
 ],
 "urls": [
 "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history",
@@ -218,6 +284,34 @@
 "https://theverge.com/news/1033489/faa-ground-stop",
 "https://wired.com/story/faa-grounds-all-us-flights-until-further-notice",
 "https://wired.com/story/the-faa-nationwide-ground-stop-is-over"
+]
+},
+"69d8c8ae86": {
+"by_day": {
+"2026-11-14": 2
+},
+"first_seen": "2026-11-14",
+"headline": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+"last_seen": "2026-11-14",
+"terms": [
+"board",
+"openai",
+"ai",
+"member",
+"month",
+"away",
+"society",
+"takeover",
+"worri",
+"ceo",
+"fir",
+"sam",
+"altman",
+"still"
+],
+"urls": [
+"https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+"https://theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
 ]
 },
 "80b032530c": {
@@ -249,17 +343,17 @@
 "microsoft",
 "outage",
 "global",
-"outlook",
 "servic",
+"outlook",
 "365",
 "email",
+"hit",
 "world",
-"happen",
-"ask",
+"restor",
+"fully",
 "azure",
 "hn",
-"experienc",
-"multiple"
+"ask"
 ],
 "urls": [
 "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage",
@@ -272,20 +366,40 @@
 "https://bbc.co.uk/news/videos/cwm2591k27e2o",
 "https://bbc.com/news/live/cq5y10ge3dp3t",
 "https://cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
-"https://engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage",
 "https://engadget.com/2316029/microsoft-services-are-returning-after-an-outage-took-down-outlook-teams-and-more",
 "https://news.ycombinator.com/item?id=50471668",
 "https://pluralistic.net/2026/11/13/outlookpocalypse",
+"https://status.cloud.microsoft/",
 "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis",
-"https://theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+"https://theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
 "https://theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805",
-"https://theverge.com/tech/1032862/microsoft-outlook-down-outage",
 "https://twitter.com/MSFT365Status/status/2121079061774491735",
-"https://wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america",
 "https://wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage",
 "https://wired.com/story/outlook-went-down-microsoft-may-owe-you-money",
 "https://wired.com/story/the-microsoft-outage-is-a-warning-for-the-world",
 "https://zdnet.com/business/microsoft-outage-outlook-teams-copilot"
+]
+},
+"9840358263": {
+"by_day": {
+"2026-11-14": 1
+},
+"first_seen": "2026-11-14",
+"headline": "Ossi Ketolan kasinoita on kielletty ainakin kahdessa maassa – ”Vakavia rikkomuksia”",
+"last_seen": "2026-11-14",
+"terms": [
+"maassa",
+"kahdessa",
+"kasinoita",
+"rikkomuksia",
+"vakavia",
+"ossi",
+"ketolan",
+"kielletty",
+"ainakin"
+],
+"urls": [
+"https://yle.fi/a/74-20256658?origin=rss"
 ]
 },
 "98a5a66230": {
@@ -296,25 +410,24 @@
 "headline": "Russia demands Finland leave Nato in Ukraine peace talks, Bild reports",
 "last_seen": "2026-11-14",
 "terms": [
-"ukraine",
-"starshield",
 "russia",
-"defense",
-"zelenskyy",
-"endanger",
-"slow",
-"russian",
-"limit",
-"stop",
-"can't",
-"strik",
+"finland",
+"ukraine",
+"border",
+"investigat",
+"cross",
+"guard",
+"suspect",
+"illegal",
+"talk",
 "leave",
-"peace"
+"demand",
+"peace",
+"bild"
 ],
 "urls": [
-"https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt",
-"https://engadget.com/2315072/zelenskyy-says-starshield-has-been-slowed-again-endangering-ukraine-defense",
 "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+"https://yle.fi/a/74-20256730?origin=rss",
 "https://yle.fi/a/74-20256829?origin=rss"
 ]
 },
@@ -327,26 +440,26 @@
 "last_seen": "2026-11-14",
 "terms": [
 "google",
-"gemini",
 "search",
+"gemini",
 "hydrogen",
 "upgrade",
-"school",
-"ai",
-"promise",
 "better",
 "complicat",
+"promise",
 "answer",
 "question",
+"school",
+"accept",
 "major",
 "orchestrator"
 ],
 "urls": [
 "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
 "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
-"https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
 "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
 "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+"https://brave.com/blog/search-api-agentic-payments",
 "https://engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts",
 "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
 "https://techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
@@ -361,13 +474,13 @@
 "headline": "Perplexity Decider v1.3: Training, eval, and use cases",
 "last_seen": "2026-11-14",
 "terms": [
-"use",
 "decider",
-"eval",
-"train",
-"perplexity",
 "v1.3",
-"case"
+"train",
+"use",
+"eval",
+"case",
+"perplexity"
 ],
 "urls": [
 "https://perplexity.ai/hub/blog/perplexity-decider"
@@ -381,8 +494,8 @@
 "headline": "Peacock Promo Codes: 40% Off November 2026",
 "last_seen": "2026-11-14",
 "terms": [
-"2026",
 "november",
+"2026",
 "cod",
 "promo",
 "discount",
@@ -397,6 +510,7 @@
 "tuft"
 ],
 "urls": [
+"https://science.org/doi/10.1126/science.132.3436.1291",
 "https://wired.com/story/abt-promo-code",
 "https://wired.com/story/canon-promo-code",
 "https://wired.com/story/disney-plus-discounts",
@@ -418,15 +532,15 @@
 "headline": "AI is turning Apple's app review process into a nightmare for synth developers",
 "last_seen": "2026-11-14",
 "terms": [
-"ai",
-"synth",
-"nightmare",
 "turn",
-"apple",
-"process",
-"review",
 "developer",
-"app"
+"nightmare",
+"synth",
+"ai",
+"process",
+"app",
+"review",
+"apple"
 ],
 "urls": [
 "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html"
@@ -440,14 +554,14 @@
 "headline": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
 "last_seen": "2026-11-14",
 "terms": [
-"pixel-art",
-"area",
-"isometric",
 "map",
+"pixel-art",
+"isometric",
 "show",
 "hn",
-"sf",
-"bay"
+"bay",
+"area",
+"sf"
 ],
 "urls": [
 "https://isometricsf.com/"
@@ -466,15 +580,15 @@
 "let",
 "agent",
 "ai",
-"shop",
 "check",
+"shop",
 "introduc",
-"give",
 "tempt",
 "bank",
 "fate",
 "information",
-"dot"
+"give",
+"openai"
 ],
 "urls": [
 "https://engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt",
@@ -492,12 +606,12 @@
 "last_seen": "2026-11-14",
 "terms": [
 "v1.0.0",
+"llama.cpp",
 "ecosystem",
 "ai",
-"llama.cpp",
 "stronger",
-"local",
 "foundation",
+"local",
 "ggml"
 ],
 "urls": [
@@ -553,11 +667,11 @@
 "headline": "Inside the 42-Year Journey to Bring ‘Neuromancer’ to the Screen",
 "last_seen": "2026-11-14",
 "terms": [
-"neuromancer",
+"bring",
 "42-year",
 "journey",
+"neuromancer",
 "screen",
-"bring",
 "inside"
 ],
 "urls": [
@@ -612,6 +726,54 @@
 "https://tivi.fi/uutiset/a/647ca675-ee14-44c6-8cff-641f24ff7ed5"
 ]
 },
+"d715ca46cc": {
+"by_day": {
+"2026-11-14": 2
+},
+"first_seen": "2026-11-14",
+"headline": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
+"last_seen": "2026-11-14",
+"terms": [
+"personal",
+"tesla",
+"cybercab",
+"use",
+"start",
+"order",
+"tak",
+"fine",
+"print",
+"invit",
+"read",
+"buy",
+"people"
+],
+"urls": [
+"https://engadget.com/2316848/tesla-starts-taking-cybercab-orders-for-personal-use",
+"https://theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print"
+]
+},
+"d71d75da68": {
+"by_day": {
+"2026-11-14": 0
+},
+"first_seen": "2026-11-14",
+"headline": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+"last_seen": "2026-11-14",
+"terms": [
+"useful",
+"independently",
+"hn",
+"skill",
+"learn",
+"ai",
+"concrete",
+"ask"
+],
+"urls": [
+"https://news.ycombinator.com/item?id=50494696"
+]
+},
 "ddd32addc8": {
 "by_day": {
 "2026-11-14": 0
@@ -620,15 +782,15 @@
 "headline": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
 "last_seen": "2026-11-14",
 "terms": [
-"buy",
-"ai",
-"gpu",
-"fund",
 "startup",
-"allegedly",
+"fund",
+"gpu",
+"ai",
 "scarcity",
-"nvidia",
-"engineer"
+"buy",
+"allegedly",
+"engineer",
+"nvidia"
 ],
 "urls": [
 "https://techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
@@ -639,40 +801,35 @@
 "2026-11-14": 7
 },
 "first_seen": "2026-11-14",
-"headline": "Jensen Huang was having a third affair, Reuters reports",
+"headline": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
 "last_seen": "2026-11-14",
 "terms": [
 "huang",
 "jensen",
 "nvidia",
 "scandal",
-"ceo",
 "ai",
+"ceo",
 "affair",
-"resign",
+"founder",
 "exit",
-"congress",
-"testify",
-"source",
 "open",
-"third"
+"third",
+"source",
+"trump",
+"letter"
 ],
 "urls": [
-"https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
 "https://bbc.co.uk/news/articles/c67429m3vem3o",
 "https://bbc.co.uk/news/articles/ck1exevgql4qo",
 "https://bbc.co.uk/news/articles/cmq5vd1wdgz6o",
 "https://bbc.co.uk/news/articles/cqvg2d1eg7zro",
-"https://bbc.co.uk/news/live/c6zjry11v8w1t",
-"https://engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month",
-"https://engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang",
 "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
 "https://forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says",
-"https://nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
 "https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis",
-"https://reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12",
 "https://reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12",
 "https://sifted.eu/articles/jensen-huangs-nvidia-exit-shakes-european-tech",
+"https://standwithjensen.com/",
 "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump",
 "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
 "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
@@ -683,15 +840,13 @@
 "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
 "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
 "https://theguardian.com/technology/2026/nov/12/jensen-huang-built-an-ai-kingdom-now-hes-gone-will-nvidias-ramparts-be-breached",
+"https://theguardian.com/technology/2026/nov/13/marlon-brando-cool-jensen-huang-joke-black-leather-jacket-nvidia",
 "https://theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
 "https://theguardian.com/technology/nils-pratley-on-finance/2026/nov/12/jensen-huang-was-a-busted-flush-at-nvidia-he-had-to-go",
-"https://theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+"https://theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
 "https://wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale",
-"https://wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech",
 "https://wired.com/story/nvidia-employees-petition-for-jensen-huangs-return",
-"https://wired.com/story/silicon-valley-is-still-defending-jensen-huang",
-"https://wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in",
-"https://wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair",
+"https://wired.com/story/with-the-help-of-vogue-gq-and-a-pro-stylist-wired-revamps-jensen-huang",
 "https://youtube.com/watch?v=YYU_geUwQoA"
 ]
 },
@@ -703,8 +858,8 @@
 "headline": "DeepSeek Ultrafast",
 "last_seen": "2026-11-14",
 "terms": [
-"ultrafast",
-"deepseek"
+"deepseek",
+"ultrafast"
 ],
 "urls": [
 "https://github.com/basetenlabs/deepseek-ultrafast"
@@ -723,6 +878,25 @@
 ],
 "urls": [
 "https://ipo.anthropic.com/us"
+]
+},
+"f958884695": {
+"by_day": {
+"2026-11-14": 1
+},
+"first_seen": "2026-11-14",
+"headline": "Renny Harlinin menestymisen reseptistä: Kaikki peliin!",
+"last_seen": "2026-11-14",
+"terms": [
+"reseptistä",
+"harlinin",
+"kaikki",
+"peliin",
+"renny",
+"menestymisen"
+],
+"urls": [
+"https://yle.fi/a/74-20256629?origin=rss"
 ]
 }
 }
