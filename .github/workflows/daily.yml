@@ -1,0 +1,57 @@
+name: Daily news radar
+
+on:
+  schedule:
+    - cron: "11 4 * * *"   # 06:11 Helsinki in winter, 07:11 in summer
+    - cron: "41 9 * * *"   # backup: GitHub sometimes skips scheduled runs; a second run the same day refreshes the list
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: newsradar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - name: Tests
+        run: python -m pytest -q
+      - name: Collect, cluster and score
+        id: radar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          DASHBOARD_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python -m newsradar run
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/news.json data/seen.json digests/latest.md
+          [ -f data/llm_cache.json ] && git add data/llm_cache.json
+          git diff --cached --quiet || git commit -m "Radar: ${{ steps.radar.outputs.shown }} stories, ${{ steps.radar.outputs.new_today }} new"
+          git push
+      - name: Send digest (opens an issue, which GitHub emails to you)
+        # Once a day: the backup run sends it only if the morning run did not.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="News radar $(date +%F)"
+          SENT=$(gh issue list --state all --search "\"$TITLE\" in:title" --json number --jq length)
+          if [ "$SENT" = "0" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            gh issue create \
+              --title "$TITLE: ${{ steps.radar.outputs.new_today }} new, ${{ steps.radar.outputs.shown }} stories" \
+              --body-file digests/latest.md
+          fi

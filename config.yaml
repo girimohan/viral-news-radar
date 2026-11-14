@@ -1,0 +1,121 @@
+# Everything you are likely to tune lives in this file.
+# Edit, commit, and the next morning's run picks it up.
+
+# How far back to look. Stories older than this are ignored.
+lookback_hours: 48
+
+# Topics are checked top to bottom against each story's headlines and snippets; every topic whose keywords
+# appear counts, and the best weight wins. "weight" (0-1) says how much you care about that topic.
+topics:
+  - name: Finland & Nordic tech
+    weight: 1.0
+    any: [finland, finnish, helsinki, espoo, tampere, oulu, turku, vantaa, nordic, nordics, suomi, suomen, suomalainen,
+          tekoäly, sweden, swedish, norway, denmark, estonia, baltic, supercell, wolt, nokia, oura, iceye, rovio,
+          relex, reaktor, silo ai, amd silo, slush, business finland, yle, elisa, kone, wärtsilä, sitra]
+  - name: AI models & labs
+    weight: 1.0
+    any: [ai model, llm, large language model, gpt, chatgpt, openai, anthropic, claude, gemini, deepmind, mistral,
+          llama, meta ai, xai, grok, deepseek, qwen, hugging face, frontier model, foundation model, reasoning model,
+          open-source model, open weights, agi]
+  - name: AI agents & products
+    weight: 0.95
+    any: [ai agent, agents, agentic, copilot, ai assistant, chatbot, ai coding, cursor, ai search, perplexity,
+          generative ai, genai, ai video, ai image, voice ai, ai startup]
+  - name: AI policy & safety
+    weight: 0.9
+    any: [ai act, eu ai act, ai regulation, ai safety, ai law, export controls, copyright lawsuit, deepfake,
+          ai ethics, ai bill, ai governance, gdpr, digital markets act, dma, dsa]
+  - name: AI business & chips
+    weight: 0.85
+    any: [nvidia, gpu, chips, semiconductor, data center, datacenter, tsmc, ai funding, raises, valuation, ipo,
+          acquisition, acquires, layoffs, ai investment, ai spending]
+  - name: Tech & startups
+    weight: 0.6
+    any: [startup, funding round, series a, series b, venture capital, apple, google, microsoft, amazon, meta,
+          tesla, spacex, cybersecurity, data breach, hack, outage, quantum]
+
+# A story that matches no topic is dropped, unless at least this many outlets cover it (big breaking news).
+untopical_min_outlets: 6
+
+# Headline words that drop a story (sport, celebrity gossip, horoscopes, deals...).
+exclude_title: [horoscope, recipe, crossword, wordle, deal of the day, best deals, black friday deal, coupon,
+                promo code, sponsored, "review:", "hands-on:", "podcast:", "newsletter:"]
+
+scoring:
+  # Each signal is turned into 0-1. They combine so that any one of them alone can lift a story up to its
+  # weight below, and together they add up without passing 1 (1 - (1 - w1*s1)(1 - w2*s2)(1 - w3*s3)).
+  coverage: 0.8        # how many distinct outlets ran the story, weighted by outlet weight
+  engagement: 0.6      # Hacker News points and comments, Reddit upvotes and comments
+  velocity: 0.3        # engagement per hour since the story first appeared
+  coverage_saturation: 8       # this many weighted outlets counts as full coverage
+  engagement_saturation: 3000  # this much engagement (points + 2 x comments) counts as full engagement
+  # Freshness multiplies the result: a story keeps (1 - recency_weight) of its score however old it is,
+  # and the rest fades by half every half_life_hours.
+  recency_weight: 0.6
+  half_life_hours: 18
+  rising_bonus: 8              # extra points when more outlets picked the story up since yesterday
+
+# One outlet and no social buzz scores about 20; two outlets about 30; three about 40.
+min_score: 25
+max_stories: 80            # how many go to the dashboard
+
+clustering:
+  # An article joins a story when its words overlap the story's this much (cosine, 0-1).
+  # Check a change with: python -m newsradar tune
+  threshold: 0.18
+  min_shared_terms: 1      # headline words the two must share
+  dek_weight: 0.5          # words from the feed snippet count this much relative to headline words
+  nameless_penalty: 0.1    # extra overlap required when one side names no company, product or place
+
+llm:
+  enabled: true            # only used when ANTHROPIC_API_KEY is set
+  model: claude-haiku-5-5
+  top_n: 25                # how many of the best stories get a brief each morning
+  workers: 4
+  audience: >-
+    The editor of AIFinPost, a weekly English-language newsletter about AI, with a focus on Finland and the
+    Nordics but also covering the big international stories.
+
+# --------------------------------------------------------------------------- sources
+sources:
+  hackernews:
+    enabled: true
+    min_points: 40           # stories under this are ignored
+  reddit:
+    # Needs a free Reddit "script" app: set REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET as repository secrets.
+    # Without them this source is skipped.
+    enabled: true
+    subreddits: [artificial, MachineLearning, LocalLLaMA, OpenAI, singularity, technology, Finland]
+    min_score: 150
+  feeds:
+    enabled: true
+
+# Publisher RSS/Atom feeds. weight (0-1) is how much one outlet's coverage counts.
+# region is shown on the dashboard. Add or remove freely; a broken feed is reported, not fatal.
+feeds:
+  # Finland & Nordics
+  - {name: Yle News, url: "https://yle.fi/rss/news", weight: 1.0, region: Finland}
+  - {name: Yle Uutiset, url: "https://yle.fi/rss/uutiset/paauutiset", weight: 0.9, region: Finland, lang: fi}
+  - {name: Helsingin Sanomat Tech, url: "https://www.hs.fi/rss/teknologia.xml", weight: 0.9, region: Finland, lang: fi}
+  - {name: Helsinki Times, url: "https://www.helsinkitimes.fi/?format=feed&type=rss", weight: 0.7, region: Finland}
+  - {name: ArcticStartup, url: "https://arcticstartup.com/feed/", weight: 0.7, region: Nordics}
+  - {name: Tivi, url: "https://www.tivi.fi/api/feed/v2/rss/tv", weight: 0.7, region: Finland, lang: fi}
+  # International tech and AI
+  - {name: TechCrunch, url: "https://techcrunch.com/feed/", weight: 0.9, region: International}
+  - {name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", weight: 0.9, region: International}
+  - {name: The Verge, url: "https://www.theverge.com/rss/index.xml", weight: 0.9, region: International}
+  - {name: Ars Technica, url: "https://feeds.arstechnica.com/arstechnica/index", weight: 0.85, region: International}
+  - {name: Wired, url: "https://www.wired.com/feed/rss", weight: 0.85, region: International}
+  - {name: MIT Technology Review, url: "https://www.technologyreview.com/feed/", weight: 0.9, region: International}
+  - {name: VentureBeat AI, url: "https://venturebeat.com/category/ai/feed/", weight: 0.75, region: International}
+  - {name: The Guardian Tech, url: "https://www.theguardian.com/technology/rss", weight: 0.9, region: International}
+  - {name: BBC Technology, url: "https://feeds.bbci.co.uk/news/technology/rss.xml", weight: 0.9, region: International}
+  - {name: Engadget, url: "https://www.engadget.com/rss.xml", weight: 0.7, region: International}
+  - {name: ZDNet AI, url: "https://www.zdnet.com/topic/artificial-intelligence/rss.xml", weight: 0.6, region: International}
+  - {name: Sifted, url: "https://sifted.eu/feed", weight: 0.85, region: Europe}
+  - {name: Tech.eu, url: "https://tech.eu/feed/", weight: 0.75, region: Europe}
+  - {name: Euractiv Tech, url: "https://www.euractiv.com/sections/tech/feed/", weight: 0.75, region: Europe}
+  # Labs and companies (their own announcements: count less as "coverage", but are often the origin)
+  - {name: OpenAI News, url: "https://openai.com/news/rss.xml", weight: 0.5, region: Source}
+  - {name: Google AI Blog, url: "https://blog.google/technology/ai/rss/", weight: 0.5, region: Source}
+  - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml", weight: 0.4, region: Source}

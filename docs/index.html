@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viral News Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F0EA; --panel:#FBFAF7; --ink:#1D1A16; --muted:#665F55; --line:#D9D2C6;
+  --hot:#C2410C; --hot-soft:#FBE4D6; --blue:#1D4E89; --blue-soft:#DCE7F5; --green:#2F6B3A; --green-soft:#DDEEDD;
+  --display:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif; --body:"IBM Plex Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#16130F; --panel:#1F1B16; --ink:#EEE8DF; --muted:#A9A094; --line:#3A332B;
+  --hot:#FB8F5B; --hot-soft:#43261A; --blue:#8DB6EE; --blue-soft:#1C2B40; --green:#8FD19B; --green-soft:#1D3322;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 15px/1.5 var(--body)}
+a{color:var(--blue)}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--hot);outline-offset:2px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+header.top{padding:28px 0 4px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:flex-end;justify-content:space-between}
+h1{font:700 clamp(28px,4.4vw,44px)/1.05 var(--display);letter-spacing:-.02em;margin:0}
+.sub{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.stats{display:flex;gap:22px;flex-wrap:wrap}
+.stat b{display:block;font:700 26px/1 var(--display);font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:13px}
+nav.tabs{display:flex;gap:4px;margin-top:20px;border-bottom:1px solid var(--line)}
+nav.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;cursor:pointer;font-weight:500;color:var(--muted)}
+nav.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--hot)}
+.layout{display:grid;grid-template-columns:230px 1fr;gap:28px;padding:22px 0 60px}
+@media (max-width:820px){.layout{grid-template-columns:1fr;gap:14px}}
+aside h2{font:700 15px/1.2 var(--display);margin:18px 0 8px}
+aside h2:first-child{margin-top:0}
+.pick{display:flex;justify-content:space-between;gap:8px;width:100%;text-align:left;background:none;border:0;border-radius:5px;padding:5px 8px;cursor:pointer}
+.pick:hover{background:var(--line)}
+.pick[aria-pressed=true]{background:var(--hot-soft);font-weight:600}
+.pick span:last-child{color:var(--muted);font-variant-numeric:tabular-nums}
+@media (max-width:820px){aside{display:flex;flex-wrap:wrap;gap:6px}aside h2{display:none}
+  .pick{width:auto;border:1px solid var(--line);border-radius:99px;padding:4px 10px;font-size:13.5px}}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+.bar input[type=search]{flex:1;min-width:200px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.bar select{padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.count{color:var(--muted);font-size:13.5px}
+.story{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:12px;display:grid;grid-template-columns:54px 1fr;gap:14px}
+.score{text-align:center}
+.score b{display:block;font:700 24px/1 var(--display);font-variant-numeric:tabular-nums}
+.meter{height:5px;border-radius:3px;background:var(--line);margin-top:6px;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--hot)}
+.score small{color:var(--muted);font-size:11.5px}
+.story h3{font:600 18px/1.3 var(--display);margin:0 0 6px}
+.story h3 a{color:var(--ink);text-decoration:none}
+.story h3 a:hover{text-decoration:underline}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.tag{font-size:12px;padding:2px 8px;border-radius:99px;background:var(--line);color:var(--ink)}
+.tag.new{background:var(--blue-soft);color:var(--blue);font-weight:600}
+.tag.rising{background:var(--hot-soft);color:var(--hot);font-weight:600}
+.tag.fi{background:var(--green-soft);color:var(--green);font-weight:600}
+.brief p{margin:4px 0}
+.brief .lbl{font-weight:600}
+.low{color:var(--hot);font-size:13px}
+.why{color:var(--muted);font-size:13.5px;margin:8px 0 0}
+details.src{margin-top:8px}
+details.src summary{cursor:pointer;color:var(--blue);font-size:14px}
+details.src ul{margin:6px 0 0;padding-left:18px;font-size:14px}
+details.src li{margin:3px 0}
+details.src .t{color:var(--muted);font-size:12.5px}
+.acts{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--paper);border-radius:6px;padding:5px 10px;cursor:pointer;font-size:13.5px}
+.btn[aria-pressed=true]{background:var(--hot);border-color:var(--hot);color:#fff}
+.empty{color:var(--muted);padding:30px 0}
+table.health{border-collapse:collapse;width:100%;font-size:14px}
+table.health td,table.health th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+.ok{color:var(--green);font-weight:600}.err{color:var(--hot);font-weight:600}
+footer{color:var(--muted);font-size:13px;padding:0 0 40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Viral News Radar</h1>
+      <p class="sub" id="sub">Stories that several outlets and readers are picking up, on the topics you follow.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="today">Today</button>
+    <button role="tab" aria-selected="false" data-tab="saved">Saved for newsletter <span id="savedN"></span></button>
+    <button role="tab" aria-selected="false" data-tab="sources">Sources</button>
+  </nav>
+  <div id="view"></div>
+  <footer id="foot"></footer>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const KEY = "viral-news-radar:saved";
+let DATA = null, tab = "today", topic = "", status = "", q = "", sort = "score";
+function loadSaved(){ try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch(e){ return {}; } }
+function storeSaved(s){ try { localStorage.setItem(KEY, JSON.stringify(s)); } catch(e){} }
+let SAVED = loadSaved();
+
+function ago(iso){
+  if(!iso) return "";
+  const h = (Date.now() - new Date(iso)) / 36e5;
+  return h < 1 ? "under an hour ago" : h < 48 ? `${Math.round(h)}h ago` : `${Math.round(h/24)} days ago`;
+}
+function headline(s){ return (s.brief && s.brief.headline) || s.headline; }
+
+function card(s, i){
+  const b = s.brief || {};
+  const fi = b.finland_link === "direct" || s.topic === "Finland & Nordic tech";
+  const tags = [
+    s.status === "new" ? `<span class="tag new">New today</span>` : "",
+    s.status === "rising" ? `<span class="tag rising">Rising</span>` : "",
+    fi ? `<span class="tag fi">Finland</span>` : (b.finland_link === "indirect" ? `<span class="tag fi">Affects Finland/EU</span>` : ""),
+    `<span class="tag">${esc(s.topic)}</span>`,
+    `<span class="tag">${s.outlet_count} outlet${s.outlet_count === 1 ? "" : "s"}</span>`,
+    s.engagement ? `<span class="tag">${s.engagement.toLocaleString()} social</span>` : "",
+  ].join("");
+  const brief = b.summary ? `<div class="brief">
+      <p>${esc(b.summary)}</p>
+      <p><span class="lbl">Why it matters:</span> ${esc(b.why_it_matters)}</p>
+      <p><span class="lbl">Angle:</span> ${esc(b.angle)}</p>
+      ${b.confidence === "low" ? `<p class="low">Low confidence: rests on one outlet or a social post.</p>` : ""}
+    </div>` : "";
+  const src = s.articles.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.outlet)}: ${esc(a.title)}</a>
+      ${a.discussion_url ? ` · <a href="${esc(a.discussion_url)}" target="_blank" rel="noopener">discussion</a> <span class="t">${a.points} points, ${a.comments} comments</span>` : ""}
+      <span class="t">${esc(ago(a.published))}</span></li>`).join("");
+  const saved = !!SAVED[s.id];
+  return `<article class="story">
+    <div class="score"><b>${Math.round(s.score)}</b><div class="meter"><i style="width:${Math.min(100, s.score)}%"></i></div><small>${i != null ? "#" + (i + 1) : ""}</small></div>
+    <div>
+      <h3><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(headline(s))}</a></h3>
+      <div class="tags">${tags}</div>
+      ${brief}
+      <p class="why">${esc(s.reasons.join(" · "))}</p>
+      <details class="src"><summary>${s.articles.length} article${s.articles.length === 1 ? "" : "s"} and posts</summary><ul>${src}</ul></details>
+      <div class="acts">
+        <button class="btn" data-save="${esc(s.id)}" aria-pressed="${saved}">${saved ? "Saved" : "Save for newsletter"}</button>
+      </div>
+    </div>
+  </article>`;
+}
+
+function filtered(){
+  let xs = DATA.stories.filter(s =>
+    (!topic || s.topic === topic || (s.topics || []).includes(topic)) &&
+    (!status || (status === "finland" ? ((s.brief||{}).finland_link === "direct" || s.topic === "Finland & Nordic tech") : s.status === status)) &&
+    (!q || (headline(s) + " " + s.headline + " " + s.outlets.join(" ") + " " + ((s.brief||{}).summary || "")).toLowerCase().includes(q)));
+  if (sort === "newest") xs = xs.slice().sort((a, b) => (b.first_published || "").localeCompare(a.first_published || ""));
+  if (sort === "outlets") xs = xs.slice().sort((a, b) => b.outlet_count - a.outlet_count || b.score - a.score);
+  if (sort === "social") xs = xs.slice().sort((a, b) => b.engagement - a.engagement || b.score - a.score);
+  return xs;
+}
+
+function pick(attr, value, label, n, current){
+  return `<button class="pick" data-${attr}="${esc(value)}" aria-pressed="${current === value}"><span>${esc(label)}</span><span>${n}</span></button>`;
+}
+
+function renderToday(){
+  const st = DATA.stories;
+  const topics = DATA.topics.filter(t => st.some(s => s.topic === t || (s.topics||[]).includes(t)));
+  const cnt = t => st.filter(s => s.topic === t || (s.topics||[]).includes(t)).length;
+  const fiN = st.filter(s => (s.brief||{}).finland_link === "direct" || s.topic === "Finland & Nordic tech").length;
+  const xs = filtered();
+  $("#view").innerHTML = `<div class="layout">
+    <aside>
+      <h2>Topic</h2>${pick("topic", "", "All topics", st.length, topic)}${topics.map(t => pick("topic", t, t, cnt(t), topic)).join("")}
+      <h2>Show</h2>${pick("status", "", "Everything", st.length, status)}
+        ${pick("status", "new", "New today", st.filter(s => s.status === "new").length, status)}
+        ${pick("status", "rising", "Rising", st.filter(s => s.status === "rising").length, status)}
+        ${pick("status", "finland", "Finland", fiN, status)}
+    </aside>
+    <main>
+      <div class="bar">
+        <input type="search" id="q" placeholder="Search headlines, outlets, briefs" value="${esc(q)}" aria-label="Search">
+        <select id="sort" aria-label="Sort">
+          <option value="score">Most viral</option><option value="newest">Newest</option>
+          <option value="outlets">Most outlets</option><option value="social">Most social buzz</option>
+        </select>
+        <span class="count">${xs.length} of ${st.length}</span>
+      </div>
+      ${xs.length ? xs.map((s, i) => card(s, sort === "score" ? i : null)).join("") : `<p class="empty">Nothing matches.</p>`}
+    </main></div>`;
+  $("#sort").value = sort;
+  $("#q").addEventListener("input", e => { q = e.target.value.toLowerCase(); const p = e.target.selectionStart; renderToday(); const el = $("#q"); el.focus(); el.setSelectionRange(p, p); });
+  $("#sort").addEventListener("change", e => { sort = e.target.value; renderToday(); });
+}
+
+function savedMarkdown(){
+  return Object.values(SAVED).sort((a, b) => b.score - a.score).map(s => {
+    const b = s.brief || {};
+    return `### ${headline(s)}\n${b.summary ? b.summary + "\n" : ""}${b.angle ? "*Angle:* " + b.angle + "\n" : ""}Sources: ${s.articles.slice(0, 6).map(a => `[${a.outlet}](${a.url})`).join(", ")}\n`;
+  }).join("\n");
+}
+
+function renderSaved(){
+  const xs = Object.values(SAVED).sort((a, b) => b.score - a.score);
+  $("#view").innerHTML = `<div style="padding:22px 0 60px">
+    <div class="bar"><span class="count">${xs.length} saved. Kept in this browser only.</span>
+      ${xs.length ? `<button class="btn" id="copy">Copy as Markdown</button><button class="btn" id="clear">Clear all</button>` : ""}</div>
+    ${xs.length ? xs.map(s => card(s, null)).join("") : `<p class="empty">Save stories from the Today tab to collect them for your next issue.</p>`}
+  </div>`;
+  const c = $("#copy"); if (c) c.onclick = async () => { try { await navigator.clipboard.writeText(savedMarkdown()); c.textContent = "Copied"; } catch(e){ c.textContent = "Copy failed"; } };
+  const k = $("#clear"); if (k) k.onclick = () => { SAVED = {}; storeSaved(SAVED); render(); };
+}
+
+function renderSources(){
+  const f = DATA.funnel, u = DATA.llm || {};
+  $("#view").innerHTML = `<div style="padding:22px 0 60px">
+    <p>${f.collected.toLocaleString()} articles and posts collected → ${f.articles_in_window.toLocaleString()} from the last ${DATA.lookback_hours} hours
+      → ${f.stories.toLocaleString()} stories → ${f.off_topic.toLocaleString()} off your topics, ${f.low_score.toLocaleString()} below the score cut → <b>${f.shown} shown</b>.</p>
+    <table class="health"><tr><th>Source</th><th>Status</th><th>Fetched</th><th>In shown stories</th><th>Detail</th></tr>
+    ${DATA.sources.map(s => `<tr><td>${esc(s.name)}</td><td class="${s.ok ? "ok" : "err"}">${s.ok ? "OK" : "Failed"}</td><td>${s.fetched}</td><td>${s.in_stories}</td><td>${esc(s.error || s.detail)}</td></tr>`).join("")}
+    </table>
+    <p>${u.enabled ? `Briefs by ${esc(u.model)} from headlines and snippets only, each checked against a verbatim quote: ${u.calls} written today, ${u.cached} reused, ${u.unverified} discarded because the quote was not found. Cost today $${(u.cost_usd || 0).toFixed(4)}.`
+      : "Briefs are off. Add an ANTHROPIC_API_KEY repository secret to turn them on."}</p>
+  </div>`;
+}
+
+function render(){
+  document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
+  $("#savedN").textContent = Object.keys(SAVED).length ? `(${Object.keys(SAVED).length})` : "";
+  ({today: renderToday, saved: renderSaved, sources: renderSources})[tab]();
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-tab]"); if (t){ tab = t.dataset.tab; render(); return; }
+  const p = e.target.closest("[data-topic]"); if (p){ topic = p.dataset.topic; render(); return; }
+  const s = e.target.closest("[data-status]"); if (s){ status = s.dataset.status; render(); return; }
+  const v = e.target.closest("[data-save]");
+  if (v){
+    const id = v.dataset.save;
+    if (SAVED[id]) delete SAVED[id];
+    else { const st = DATA.stories.find(x => x.id === id) || SAVED[id]; if (st) SAVED[id] = st; }
+    storeSaved(SAVED); render();
+  }
+});
+
+fetch("news.json", {cache: "no-store"}).then(r => r.json()).then(d => {
+  DATA = d;
+  const f = d.funnel;
+  $("#sub").textContent = `Updated ${new Date(d.generated_at).toLocaleString()} from ${d.sources.length} source groups. Stories that several outlets and readers are picking up, on the topics you follow.`;
+  $("#stats").innerHTML = `<div class="stat"><b>${f.shown}</b><span>stories shown</span></div>
+    <div class="stat"><b>${d.new_today}</b><span>new today</span></div>
+    <div class="stat"><b>${d.stories.filter(s => s.status === "rising").length}</b><span>rising</span></div>
+    <div class="stat"><b>${f.articles_in_window.toLocaleString()}</b><span>articles read</span></div>`;
+  $("#foot").innerHTML = `Every story links to the outlets' own articles. Briefs are written from headlines and snippets and can be wrong; read the source before you publish.`;
+  render();
+}).catch(() => { $("#view").innerHTML = `<p class="empty">No data yet. Run the workflow once (Actions → Daily news radar → Run workflow).</p>`; });
+</script>
+</body>
+</html>

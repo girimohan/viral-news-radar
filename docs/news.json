@@ -1,0 +1,528 @@
+{
+ "generated_at": "2026-11-14T08:51:04+00:00",
+ "date": "2026-11-14",
+ "new_today": 0,
+ "first_run": true,
+ "lookback_hours": 48,
+ "funnel": {
+  "collected": 34,
+  "undated": 0,
+  "too_old": 1,
+  "excluded": 0,
+  "duplicate": 0,
+  "articles_in_window": 33,
+  "stories": 22,
+  "off_topic": 2,
+  "low_score": 15,
+  "shown": 5
+ },
+ "llm": {
+  "enabled": true,
+  "model": "demo (no API key yet)",
+  "calls": 5,
+  "cached": 0,
+  "failed": 0,
+  "unverified": 0,
+  "input_tokens": 4500,
+  "output_tokens": 700,
+  "cost_usd": 0.0008
+ },
+ "sources": [
+  {
+   "name": "demo",
+   "ok": true,
+   "fetched": 34,
+   "in_stories": 5,
+   "detail": "Demo data from tests/fixtures/day.json. The first real run replaces it.",
+   "error": ""
+  }
+ ],
+ "topics": [
+  "Finland & Nordic tech",
+  "AI models & labs",
+  "AI agents & products",
+  "AI policy & safety",
+  "AI business & chips",
+  "Tech & startups",
+  "Breaking (other)"
+ ],
+ "stories": [
+  {
+   "id": "27533d7b70",
+   "headline": "Inside GPT-6, OpenAI's long-memory model",
+   "url": "https://wired.com/3",
+   "first_published": "2026-11-14T01:51:04+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 76.1,
+   "signals": {
+    "coverage": 0.776,
+    "engagement": 0.955,
+    "velocity": 1.0,
+    "freshness": 0.858,
+    "age_hours": 7.0
+   },
+   "reasons": [
+    "5 outlets: BBC Technology, Wired, Ars Technica, TechCrunch +1 more",
+    "HN 900 points, 600 comments",
+    "first seen 7h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 5,
+   "outlets": [
+    "Ars Technica",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Wired"
+   ],
+   "engagement": 2100,
+   "regions": [],
+   "brief": {
+    "headline": "ChatGPT maker unveils GPT-6 as AI race heats up",
+    "summary": "Demo brief: with an API key, Claude writes a two-sentence summary here from the outlets' headlines and snippets.",
+    "why_it_matters": "Demo: one sentence on why readers care.",
+    "angle": "Demo: a suggested angle for your newsletter.",
+    "finland_link": "none",
+    "category": "other",
+    "evidence": "ChatGPT maker unveils GPT-6 as AI race heats up",
+    "confidence": "high"
+   },
+   "llm_status": "checked",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "ChatGPT maker unveils GPT-6 as AI race heats up",
+     "url": "https://bbc.co.uk/6",
+     "published": "2026-11-14T01:51:04+00:00",
+     "summary": "OpenAI says the system can recall details from months of conversations.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:ChatGPT maker unveil"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Inside GPT-6, OpenAI's long-memory model",
+     "url": "https://wired.com/3",
+     "published": "2026-11-14T04:51:04+00:00",
+     "summary": "We spoke to the team behind the release about how its memory works.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:Inside GPT-6, OpenAI"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "OpenAI's GPT-6 arrives with project-length memory and a higher price",
+     "url": "https://arstechnica.com/2",
+     "published": "2026-11-14T05:51:04+00:00",
+     "summary": "API prices rise by a third for the new flagship.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:OpenAI's GPT-6 arriv"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "GPT-6 is here: OpenAI's new model remembers whole projects",
+     "url": "https://techcrunch.com/1",
+     "published": "2026-11-14T06:51:04+00:00",
+     "summary": "The model is rolling out to ChatGPT Plus users first, OpenAI said.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:GPT-6 is here: OpenA"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "GPT-6",
+     "url": "https://www.theverge.com/0",
+     "published": "2026-11-14T06:51:04+00:00",
+     "summary": "",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 900,
+     "comments": 600,
+     "discussion_url": "https://news.ycombinator.com/item?id=1",
+     "id": "hackernews:Hacker News:GPT-6"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "OpenAI launches GPT-6 with a much longer memory",
+     "url": "https://theverge.com/0",
+     "published": "2026-11-14T07:51:04+00:00",
+     "summary": "OpenAI on Friday released GPT-6, which it says can remember entire projects across sessions.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:OpenAI launches GPT-"
+    }
+   ]
+  },
+  {
+   "id": "1fe7b3132e",
+   "headline": "Supercell to cut 10% of staff in Helsinki restructuring",
+   "url": "https://yle.fi/9",
+   "first_published": "2026-11-14T05:51:04+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech",
+    "AI business & chips"
+   ],
+   "score": 45.4,
+   "signals": {
+    "coverage": 0.608,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.935,
+    "age_hours": 3.0
+   },
+   "reasons": [
+    "3 outlets: Yle News, Sifted, Helsinki Times",
+    "first seen 3h ago",
+    "topic: Finland & Nordic tech"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 3,
+   "outlets": [
+    "Helsinki Times",
+    "Sifted",
+    "Yle News"
+   ],
+   "engagement": 0,
+   "regions": [],
+   "brief": {
+    "headline": "Supercell to cut 10% of staff in Helsinki restructuring",
+    "summary": "Demo brief: with an API key, Claude writes a two-sentence summary here from the outlets' headlines and snippets.",
+    "why_it_matters": "Demo: one sentence on why readers care.",
+    "angle": "Demo: a suggested angle for your newsletter.",
+    "finland_link": "direct",
+    "category": "other",
+    "evidence": "Supercell to cut 10% of staff in Helsinki restructuring",
+    "confidence": "high"
+   },
+   "llm_status": "checked",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Sifted",
+     "title": "Supercell's cuts are a warning for Finland's gaming scene",
+     "url": "https://sifted.eu/11",
+     "published": "2026-11-14T05:51:04+00:00",
+     "summary": "The Clash of Clans maker is reducing headcount by 10%.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Sifted:Supercell's cuts are"
+    },
+    {
+     "source": "feed",
+     "outlet": "Helsinki Times",
+     "title": "Supercell layoffs: game maker cuts staff in Helsinki",
+     "url": "https://helsinkitimes.fi/10",
+     "published": "2026-11-14T06:51:04+00:00",
+     "summary": "Clash of Clans developer Supercell is letting go of roughly a tenth of its workforce.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Helsinki Times:Supercell layoffs: g"
+    },
+    {
+     "source": "feed",
+     "outlet": "Yle News",
+     "title": "Supercell to cut 10% of staff in Helsinki restructuring",
+     "url": "https://yle.fi/9",
+     "published": "2026-11-14T07:51:04+00:00",
+     "summary": "The Helsinki-based game maker said about 60 jobs would go.",
+     "region": "",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle News:Supercell to cut 10%"
+    }
+   ]
+  },
+  {
+   "id": "0751f1da50",
+   "headline": "EU puts off AI Act obligations, a relief for Finnish startups",
+   "url": "https://yle.fi/18",
+   "first_published": "2026-11-13T23:51:04+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech",
+    "AI policy & safety"
+   ],
+   "score": 40.1,
+   "signals": {
+    "coverage": 0.608,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.824,
+    "age_hours": 9.0
+   },
+   "reasons": [
+    "3 outlets: Yle News, The Guardian Tech, Euractiv Tech",
+    "first seen 9h ago",
+    "topic: Finland & Nordic tech"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 3,
+   "outlets": [
+    "Euractiv Tech",
+    "The Guardian Tech",
+    "Yle News"
+   ],
+   "engagement": 0,
+   "regions": [],
+   "brief": {
+    "headline": "EU puts off AI Act obligations, a relief for Finnish startups",
+    "summary": "Demo brief: with an API key, Claude writes a two-sentence summary here from the outlets' headlines and snippets.",
+    "why_it_matters": "Demo: one sentence on why readers care.",
+    "angle": "Demo: a suggested angle for your newsletter.",
+    "finland_link": "direct",
+    "category": "other",
+    "evidence": "EU puts off AI Act obligations, a relief for Finnish startups",
+    "confidence": "high"
+   },
+   "llm_status": "checked",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Brussels postpones AI Act rules for high-risk systems",
+     "url": "https://theguardian.com/17",
+     "published": "2026-11-13T23:51:04+00:00",
+     "summary": "The European Commission confirmed the delay on Friday.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:Brussels postpones A"
+    },
+    {
+     "source": "feed",
+     "outlet": "Euractiv Tech",
+     "title": "EU delays parts of the AI Act by a year",
+     "url": "https://euractiv.com/16",
+     "published": "2026-11-14T00:51:04+00:00",
+     "summary": "Brussels will push back high-risk obligations to 2028.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Euractiv Tech:EU delays parts of t"
+    },
+    {
+     "source": "feed",
+     "outlet": "Yle News",
+     "title": "EU puts off AI Act obligations, a relief for Finnish startups",
+     "url": "https://yle.fi/18",
+     "published": "2026-11-14T07:51:04+00:00",
+     "summary": "The delay affects rules on high-risk AI systems.",
+     "region": "",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle News:EU puts off AI Act o"
+    }
+   ]
+  },
+  {
+   "id": "9e7169392a",
+   "headline": "Mistral AI closes $2bn round, valuing the French lab at $20bn",
+   "url": "https://sifted.eu/14",
+   "first_published": "2026-11-14T02:51:04+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI agents & products",
+    "AI business & chips",
+    "Tech & startups"
+   ],
+   "score": 32.8,
+   "signals": {
+    "coverage": 0.469,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.876,
+    "age_hours": 6.0
+   },
+   "reasons": [
+    "2 outlets: Sifted, TechCrunch",
+    "first seen 6h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 2,
+   "outlets": [
+    "Sifted",
+    "TechCrunch"
+   ],
+   "engagement": 0,
+   "regions": [],
+   "brief": {
+    "headline": "Mistral AI closes $2bn round, valuing the French lab at $20bn",
+    "summary": "Demo brief: with an API key, Claude writes a two-sentence summary here from the outlets' headlines and snippets.",
+    "why_it_matters": "Demo: one sentence on why readers care.",
+    "angle": "Demo: a suggested angle for your newsletter.",
+    "finland_link": "none",
+    "category": "other",
+    "evidence": "Mistral AI closes $2bn round, valuing the French lab at $20bn",
+    "confidence": "high"
+   },
+   "llm_status": "checked",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Sifted",
+     "title": "Mistral AI closes $2bn round, valuing the French lab at $20bn",
+     "url": "https://sifted.eu/14",
+     "published": "2026-11-14T02:51:04+00:00",
+     "summary": "Europe's best-funded AI startup adds new backers.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Sifted:Mistral AI closes $2"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Mistral raises $2B at a $20B valuation",
+     "url": "https://techcrunch.com/13",
+     "published": "2026-11-14T03:51:04+00:00",
+     "summary": "The Paris-based AI lab's round was led by a US investor.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:Mistral raises $2B a"
+    }
+   ]
+  },
+  {
+   "id": "c1769baa33",
+   "headline": "Google launches Gemini 3 Ultra model with a longer context window",
+   "url": "https://theverge.com/7",
+   "first_published": "2026-11-13T23:51:04+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "Tech & startups"
+   ],
+   "score": 30.9,
+   "signals": {
+    "coverage": 0.469,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.824,
+    "age_hours": 9.0
+   },
+   "reasons": [
+    "2 outlets: Engadget, The Verge",
+    "first seen 9h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 2,
+   "outlets": [
+    "Engadget",
+    "The Verge"
+   ],
+   "engagement": 0,
+   "regions": [],
+   "brief": {
+    "headline": "Gemini 3 Ultra is Google's answer to the latest AI models",
+    "summary": "Demo brief: with an API key, Claude writes a two-sentence summary here from the outlets' headlines and snippets.",
+    "why_it_matters": "Demo: one sentence on why readers care.",
+    "angle": "Demo: a suggested angle for your newsletter.",
+    "finland_link": "none",
+    "category": "other",
+    "evidence": "Gemini 3 Ultra is Google's answer to the latest AI models",
+    "confidence": "high"
+   },
+   "llm_status": "checked",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Gemini 3 Ultra is Google's answer to the latest AI models",
+     "url": "https://engadget.com/8",
+     "published": "2026-11-13T23:51:04+00:00",
+     "summary": "The model arrives in the Gemini app today.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:Gemini 3 Ultra is Go"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Google launches Gemini 3 Ultra model with a longer context window",
+     "url": "https://theverge.com/7",
+     "published": "2026-11-14T00:51:04+00:00",
+     "summary": "Google says Gemini 3 Ultra beats rivals on reasoning benchmarks.",
+     "region": "",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:Google launches Gemi"
+    }
+   ]
+  }
+ ]
+}
