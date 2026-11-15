@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-15T11:56:26+00:00",
+ "generated_at": "2026-11-15T16:35:23+00:00",
  "date": "2026-11-15",
- "new_today": 3,
+ "new_today": 4,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2825,
+  "collected": 2820,
   "undated": 0,
-  "too_old": 2538,
+  "too_old": 2562,
   "excluded": 7,
   "duplicate": 0,
-  "articles_in_window": 280,
-  "stories": 178,
+  "articles_in_window": 251,
+  "stories": 171,
   "off_topic": 135,
-  "low_score": 26,
-  "shown": 17
+  "low_score": 25,
+  "shown": 11
  },
  "llm": {
   "enabled": false
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2711,
-   "in_stories": 8,
+   "fetched": 2713,
+   "in_stories": 6,
    "detail": "18/23 feeds read; failed: Helsinki Times (FetchError: HTTP 403 for https://www.helsinkitimes.fi/?format=feed&type=rss); ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 114,
-   "in_stories": 17,
-   "detail": "114 stories with 40+ points",
+   "fetched": 107,
+   "in_stories": 10,
+   "detail": "107 stories with 40+ points",
    "error": ""
   },
   {
@@ -57,211 +57,45 @@
  "stories": [
   {
    "id": "e1d720a95e",
-   "headline": "The unfolding Jensen Huang scandal: a timeline",
-   "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "first_published": "2026-11-13T12:22:30+00:00",
+   "headline": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+   "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "first_published": "2026-11-13T18:40:30+00:00",
    "topic": "AI agents & products",
    "topics": [
     "AI agents & products",
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 41.6,
+   "score": 41.2,
    "signals": {
-    "coverage": 0.772,
+    "coverage": 0.695,
     "engagement": 1.0,
-    "velocity": 0.762,
-    "freshness": 0.496,
-    "age_hours": 47.6
+    "velocity": 0.766,
+    "freshness": 0.502,
+    "age_hours": 45.9
    },
    "reasons": [
-    "5 outlets: BBC Technology, The Guardian Tech, TechCrunch, The Verge +1 more",
-    "HN 1.5k points, 827 comments",
-    "first seen 48h ago",
+    "4 outlets: TechCrunch, BBC Technology, The Guardian Tech, The Verge",
+    "HN 1.5k points, 831 comments",
+    "first seen 46h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-14",
    "status": "steady",
-   "outlet_count": 5,
+   "outlet_count": 4,
    "outlets": [
     "BBC Technology",
     "TechCrunch",
     "The Guardian Tech",
-    "The Verge",
-    "Wired"
+    "The Verge"
    ],
-   "engagement": 3157,
+   "engagement": 3119,
    "regions": [
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "How a sex scandal at Nvidia is putting pressure on the White House",
-     "url": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-13T12:22:30+00:00",
-     "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:5be3146b093c"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Jensen Huang didn’t show confidence in his successor, report says",
-     "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-     "published": "2026-11-13T12:28:23+00:00",
-     "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:cb1e342c913d"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Jensen Huang didn’t show confidence in his successor, report says",
-     "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-     "published": "2026-11-13T12:28:23+00:00",
-     "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:cb1e342c913d"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-     "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-     "published": "2026-11-13T12:52:19+00:00",
-     "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:7c1165afc6ba"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-     "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-     "published": "2026-11-13T12:52:19+00:00",
-     "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:7c1165afc6ba"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Jensen Huang Admitted He Was Facing an \"Avalanche\" of Excess Wafers and Memory",
-     "url": "https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/",
-     "published": "2026-11-13T13:08:48+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 73,
-     "comments": 79,
-     "discussion_url": "https://news.ycombinator.com/item?id=50482992",
-     "id": "hackernews:50482992"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
-     "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
-     "published": "2026-11-13T13:45:06+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 80,
-     "comments": 14,
-     "discussion_url": "https://news.ycombinator.com/item?id=50483391",
-     "id": "hackernews:50483391"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Marlon Brando cool to Jensen Huang joke: how the black leather jacket became a meme",
-     "url": "https://www.theguardian.com/technology/2026/nov/13/marlon-brando-cool-jensen-huang-joke-black-leather-jacket-nvidia",
-     "published": "2026-11-13T14:17:09+00:00",
-     "summary": "Once the ultimate symbol of Hollywood rebellion, the former Nvidia chief’s signature look is now being mocked as a midlife crisis cliche For nearly two decades a black leather jacket has been a key part of Jensen Huang’s look. Now it has become a punchline. As the founder and chief executive of Nvid",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:d1ada6aa206d"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "The unfolding Jensen Huang scandal: a timeline",
-     "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-     "published": "2026-11-13T15:58:00+00:00",
-     "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:ceb6efe66aa2"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "The unfolding Jensen Huang scandal: a timeline",
-     "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-     "published": "2026-11-13T15:58:00+00:00",
-     "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:ceb6efe66aa2"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Jensen Huang and the End of the Founder Fairy Tale",
-     "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
-     "published": "2026-11-13T16:00:00+00:00",
-     "summary": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:4c83cf0ed846"
-    },
     {
      "source": "feed",
      "outlet": "TechCrunch",
@@ -370,6 +204,21 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
+     "title": "An open letter to the Nvidia Board of Directors",
+     "url": "https://standwithjensen.com/",
+     "published": "2026-11-13T23:34:06+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 49,
+     "comments": 46,
+     "discussion_url": "https://news.ycombinator.com/item?id=50491690",
+     "id": "hackernews:50491690"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
      "published": "2026-11-14T02:21:36+00:00",
@@ -378,7 +227,7 @@
      "lang": "en",
      "weight": 1.0,
      "points": 217,
-     "comments": 55,
+     "comments": 56,
      "discussion_url": "https://news.ycombinator.com/item?id=50492993",
      "id": "hackernews:50492993"
     },
@@ -392,40 +241,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 1075,
-     "comments": 640,
+     "points": 1085,
+     "comments": 643,
      "discussion_url": "https://news.ycombinator.com/item?id=50493251",
      "id": "hackernews:50493251"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "We Asked Vogue, GQ, and a Pro Stylist to Kill Jensen Huang’s Leather Jacket",
-     "url": "https://www.wired.com/story/with-the-help-of-vogue-gq-and-a-pro-stylist-wired-revamps-jensen-huang/",
-     "published": "2026-11-14T10:15:00+00:00",
-     "summary": "The signature moto jacket has officially worn out its welcome. Here’s how fashion’s pros would rebrand him.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:e20f26b11e91"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-     "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-     "published": "2026-11-14T12:00:00+00:00",
-     "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leat",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:c97f5c4940d8"
     },
     {
      "source": "hackernews",
@@ -437,8 +256,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 58,
-     "comments": 39,
+     "points": 60,
+     "comments": 42,
      "discussion_url": "https://news.ycombinator.com/item?id=50498051",
      "id": "hackernews:50498051"
     },
@@ -546,6 +365,151 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:The Guardian Tech:2460d1d60ca9"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Jensen Huang allegedly manufactured the GPU shortage",
+     "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+     "published": "2026-11-15T10:53:50+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 46,
+     "comments": 44,
+     "discussion_url": "https://news.ycombinator.com/item?id=50505905",
+     "id": "hackernews:50505905"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "An overview of Jensen Huang’s messy days",
+     "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+     "published": "2026-11-15T13:00:00+00:00",
+     "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepb",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:48b23efc1e8f"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+     "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-15T14:56:21+00:00",
+     "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:1ad243ca73bf"
+    }
+   ]
+  },
+  {
+   "id": "505997472a",
+   "headline": "Italy fines Meta €805m over accessing users' photos",
+   "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+   "first_published": "2026-11-14T13:48:06+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 36.4,
+   "signals": {
+    "coverage": 0.469,
+    "engagement": 0.892,
+    "velocity": 0.701,
+    "freshness": 0.614,
+    "age_hours": 26.8
+   },
+   "reasons": [
+    "2 outlets: BBC Technology, The Guardian Tech",
+    "HN 530 points, 366 comments",
+    "first seen 27h ago",
+    "topic: Tech & startups",
+    "rising: 2 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "rising",
+   "outlet_count": 2,
+   "outlets": [
+    "BBC Technology",
+    "The Guardian Tech"
+   ],
+   "engagement": 1262,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Italy fines Meta $887M over Android users' data access",
+     "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+     "published": "2026-11-14T13:48:06+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 391,
+     "comments": 299,
+     "discussion_url": "https://news.ycombinator.com/item?id=50497009",
+     "id": "hackernews:50497009"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Italy fines Meta €805M over photo privacy",
+     "url": "https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/",
+     "published": "2026-11-14T16:00:14+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 139,
+     "comments": 67,
+     "discussion_url": "https://news.ycombinator.com/item?id=50498063",
+     "id": "hackernews:50498063"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Italy fines Meta €805m over accessing users' photos",
+     "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-14T18:28:06+00:00",
+     "summary": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:f3f303428f62"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Italy fines Meta $887m for accessing Android users’ photos and videos",
+     "url": "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos",
+     "published": "2026-11-15T02:02:01+00:00",
+     "summary": "The fine is among the largest an Italian authority has imposed on a tech giant and Meta says it plans to appeal the decision Italy’s data protection agency has fined Facebook parent company Meta €805m ($887m) for accessing users’ photos without their specific consent. Through the Facebook applicatio",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:e043f4cff3c9"
     }
    ]
   },
@@ -558,24 +522,24 @@
    "topics": [
     "AI business & chips"
    ],
-   "score": 39.7,
+   "score": 36.4,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.844,
-    "velocity": 0.754,
-    "freshness": 0.757,
-    "age_hours": 13.5
+    "engagement": 0.848,
+    "velocity": 0.708,
+    "freshness": 0.698,
+    "age_hours": 18.1
    },
    "reasons": [
-    "HN 425 points, 216 comments",
-    "first seen 13h ago",
+    "HN 435 points, 227 comments",
+    "first seen 18h ago",
     "topic: AI business & chips"
    ],
    "first_seen": "2026-11-15",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 857,
+   "engagement": 889,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -590,8 +554,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 425,
-     "comments": 216,
+     "points": 435,
+     "comments": 227,
      "discussion_url": "https://news.ycombinator.com/item?id=50501631",
      "id": "hackernews:50501631"
     }
@@ -599,91 +563,44 @@
   },
   {
    "id": "94f45cbe56",
-   "headline": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
-   "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
-   "first_published": "2026-11-13T13:15:20+00:00",
+   "headline": "Microsoft says services fully restored after day-long global outage",
+   "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+   "first_published": "2026-11-13T17:15:54+00:00",
    "topic": "AI agents & products",
    "topics": [
     "AI agents & products",
     "Tech & startups"
    ],
-   "score": 39.3,
+   "score": 36.2,
    "signals": {
-    "coverage": 0.815,
+    "coverage": 0.659,
     "engagement": 0.738,
-    "velocity": 0.394,
-    "freshness": 0.499,
-    "age_hours": 46.7
+    "velocity": 0.393,
+    "freshness": 0.497,
+    "age_hours": 47.3
    },
    "reasons": [
-    "6 outlets: TechCrunch, BBC Technology, The Guardian Tech, Ars Technica +2 more",
-    "HN 230 points, 68 comments",
+    "4 outlets: BBC Technology, The Guardian Tech, Wired, ZDNet AI",
+    "HN 232 points, 68 comments",
     "first seen 47h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-14",
    "status": "steady",
-   "outlet_count": 6,
+   "outlet_count": 4,
    "outlets": [
-    "Ars Technica",
     "BBC Technology",
-    "TechCrunch",
     "The Guardian Tech",
     "Wired",
     "ZDNet AI"
    ],
-   "engagement": 366,
+   "engagement": 368,
    "regions": [
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
-     "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
-     "published": "2026-11-13T13:15:20+00:00",
-     "summary": "Microsoft's daylong outage began with Outlook and Teams and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:7651acc7036c"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "NHS, schools and police forces hit by Microsoft outage",
-     "url": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-13T13:41:25+00:00",
-     "summary": "Major airports and intelligence services are unaffected, while the government is still assessing the impact.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:f235dba99d7c"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
-     "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
-     "published": "2026-11-13T15:26:53+00:00",
-     "summary": "Governments, hospitals, courts scrambled by global Microsoft outage.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:625517f21d45"
-    },
     {
      "source": "feed",
      "outlet": "Wired",
@@ -724,7 +641,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 186,
+     "points": 188,
      "comments": 66,
      "discussion_url": "https://news.ycombinator.com/item?id=50487688",
      "id": "hackernews:50487688"
@@ -852,387 +769,6 @@
    ]
   },
   {
-   "id": "505997472a",
-   "headline": "Italy fines Meta $887m for accessing Android users’ photos and videos",
-   "url": "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos",
-   "first_published": "2026-11-14T13:48:06+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 38.4,
-   "signals": {
-    "coverage": 0.469,
-    "engagement": 0.887,
-    "velocity": 0.729,
-    "freshness": 0.656,
-    "age_hours": 22.1
-   },
-   "reasons": [
-    "2 outlets: BBC Technology, The Guardian Tech",
-    "HN 516 points, 351 comments",
-    "first seen 22h ago",
-    "topic: Tech & startups",
-    "rising: 2 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "rising",
-   "outlet_count": 2,
-   "outlets": [
-    "BBC Technology",
-    "The Guardian Tech"
-   ],
-   "engagement": 1218,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Italy fines Meta $887M over Android users' data access",
-     "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-     "published": "2026-11-14T13:48:06+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 381,
-     "comments": 286,
-     "discussion_url": "https://news.ycombinator.com/item?id=50497009",
-     "id": "hackernews:50497009"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Italy fines Meta €805M over photo privacy",
-     "url": "https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/",
-     "published": "2026-11-14T16:00:14+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 135,
-     "comments": 65,
-     "discussion_url": "https://news.ycombinator.com/item?id=50498063",
-     "id": "hackernews:50498063"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Italy fines Meta €805m over accessing users' photos",
-     "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-14T18:28:06+00:00",
-     "summary": "The social media giant is accused of not informing 20 million users it had access to their photos.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:f3f303428f62"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Italy fines Meta $887m for accessing Android users’ photos and videos",
-     "url": "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos",
-     "published": "2026-11-15T02:02:01+00:00",
-     "summary": "The fine is among the largest an Italian authority has imposed on a tech giant and Meta says it plans to appeal the decision Italy’s data protection agency has fined Facebook parent company Meta €805m ($887m) for accessing users’ photos without their specific consent. Through the Facebook applicatio",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:e043f4cff3c9"
-    }
-   ]
-  },
-  {
-   "id": "adfa8a22de",
-   "headline": "30% Off Canon Promo Codes | November 2026",
-   "url": "https://www.wired.com/story/canon-promo-code/",
-   "first_published": "2026-11-13T12:10:24+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech",
-    "Tech & startups"
-   ],
-   "score": 37.7,
-   "signals": {
-    "coverage": 0.477,
-    "engagement": 0.883,
-    "velocity": 0.587,
-    "freshness": 0.495,
-    "age_hours": 47.8
-   },
-   "reasons": [
-    "2 outlets: Yle News, Wired",
-    "HN 499 points, 337 comments",
-    "first seen 48h ago",
-    "topic: Finland & Nordic tech"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 2,
-   "outlets": [
-    "Wired",
-    "Yle News"
-   ],
-   "engagement": 1173,
-   "regions": [
-    "Finland",
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
-     "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
-     "published": "2026-11-13T12:10:24+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 499,
-     "comments": 337,
-     "discussion_url": "https://news.ycombinator.com/item?id=50482379",
-     "id": "hackernews:50482379"
-    },
-    {
-     "source": "feed",
-     "outlet": "Yle News",
-     "title": "Video: This week in Finland, 13 November 2026",
-     "url": "https://yle.fi/a/74-20256883?origin=rss",
-     "published": "2026-11-13T14:34:10+00:00",
-     "summary": "The week's stories included a Ukrainian drone strike near Finland, a crypto tax gap, Kela monitoring its employees, and hands-free Teslas moving forward.",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle News:89edca9e0c2a"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
-     "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-13-2026/",
-     "published": "2026-11-13T19:57:56+00:00",
-     "summary": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:cc5302e41b4d"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Atlas Coffee Club’s Black Friday Deals (2026)",
-     "url": "https://www.wired.com/story/atlas-coffee-club-black-friday-2026/",
-     "published": "2026-11-13T19:58:41+00:00",
-     "summary": "For Black Friday, a new quarterly option delivers three bags at a time, each from a different country.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:0defb5ee7b75"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Early Black Friday AirPods Deals (2026)",
-     "url": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-13-2026/",
-     "published": "2026-11-13T22:30:29+00:00",
-     "summary": "Black Friday is still weeks away, but AirPods discounts are dropping early.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1604b901b2c4"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Disney Plus Discount Codes: 52% Off November 2026",
-     "url": "https://www.wired.com/story/disney-plus-discounts/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:cbc631806363"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "30% Off Canon Promo Codes | November 2026",
-     "url": "https://www.wired.com/story/canon-promo-code/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:8167bdca299d"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Wayfair Coupons: Up to 80% Off November 2026",
-     "url": "https://www.wired.com/story/wayfair-promo-code/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:26a96af05561"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "LG Promo Codes and Coupons 20% Off for November 2026",
-     "url": "https://www.wired.com/story/lg-promo-code/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:dae2007efd02"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Whoop Promo Codes: 20% Off This November 2026",
-     "url": "https://www.wired.com/story/whoop-promo-code/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Whether you're looking for a Whoop free trial, student discount, or military savings, our guide to Whoop promo codes will help you maximize your membership benefits. Stay on top of your fitness goals for less.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:fd415b366778"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Tuft & Needle Promo Codes: 20% Off | November 2026",
-     "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:fb2b8fe924bc"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Womanizer Coupons: Save 15% in November 2026",
-     "url": "https://www.wired.com/story/womanizer-coupon/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:83479849194f"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "ABT Promo Codes & Discounts for November 2026",
-     "url": "https://www.wired.com/story/abt-promo-code/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Learn how to maximize your savings on major appliances, electronics, and mattresses using verified ABT discount codes, rebates, and special coupons, and save up to $1,200 in November 2026.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:bb843ffd3a0b"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "PlayStation Discount Code: 15% Off | November 2026",
-     "url": "https://www.wired.com/story/playstation-discount-code/",
-     "published": "2026-11-14T06:00:00+00:00",
-     "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:5171bddf99e1"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
-     "url": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
-     "published": "2026-11-14T11:30:00+00:00",
-     "summary": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:9be79ef9881a"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "M6 Mac Mini Early Black Friday Sale (2026)",
-     "url": "https://www.wired.com/story/mac-mini-deal-11-13-2026/",
-     "published": "2026-11-15T10:00:00+00:00",
-     "summary": "Not only is it the best mini computer you can buy, but it’s currently on sale, starting at just $779.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:0f2b1e1709ac"
-    }
-   ]
-  },
-  {
    "id": "3ce5c65a6a",
    "headline": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
    "url": "https://claude.com/resources/articles/projects-redesigned",
@@ -1241,24 +777,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 34.0,
+   "score": 32.5,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.895,
-    "velocity": 0.646,
-    "freshness": 0.543,
-    "age_hours": 37.3
+    "engagement": 0.897,
+    "velocity": 0.629,
+    "freshness": 0.519,
+    "age_hours": 41.9
    },
    "reasons": [
-    "HN 405 points, 442 comments",
-    "first seen 37h ago",
+    "HN 408 points, 451 comments",
+    "first seen 42h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-14",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 1289,
+   "engagement": 1310,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1274,7 +810,7 @@
      "lang": "en",
      "weight": 1.0,
      "points": 111,
-     "comments": 87,
+     "comments": 88,
      "discussion_url": "https://news.ycombinator.com/item?id=50491097",
      "id": "hackernews:50491097"
     },
@@ -1288,8 +824,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 98,
-     "comments": 93,
+     "points": 99,
+     "comments": 95,
      "discussion_url": "https://news.ycombinator.com/item?id=50492141",
      "id": "hackernews:50492141"
     },
@@ -1303,8 +839,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 148,
-     "comments": 195,
+     "points": 149,
+     "comments": 197,
      "discussion_url": "https://news.ycombinator.com/item?id=50496921",
      "id": "hackernews:50496921"
     },
@@ -1318,367 +854,102 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 48,
-     "comments": 67,
+     "points": 49,
+     "comments": 71,
      "discussion_url": "https://news.ycombinator.com/item?id=50499114",
      "id": "hackernews:50499114"
     }
    ]
   },
   {
-   "id": "98a5a66230",
-   "headline": "Russia demands Finland leave Nato in Ukraine peace talks, Bild reports",
-   "url": "https://yle.fi/a/74-20256829?origin=rss",
-   "first_published": "2026-11-13T12:05:24+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 33.9,
-   "signals": {
-    "coverage": 0.315,
-    "engagement": 0.834,
-    "velocity": 0.519,
-    "freshness": 0.495,
-    "age_hours": 47.9
-   },
-   "reasons": [
-    "1 outlet: Yle News",
-    "HN 316 points, 238 comments",
-    "first seen 48h ago",
-    "topic: Finland & Nordic tech"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "Yle News"
-   ],
-   "engagement": 792,
-   "regions": [
-    "Finland"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Yle News",
-     "title": "Russia demands Finland leave Nato in Ukraine peace talks, Bild reports",
-     "url": "https://yle.fi/a/74-20256829?origin=rss",
-     "published": "2026-11-13T12:05:24+00:00",
-     "summary": "Russian officials continue to claim that Western countries promised not to expand Nato eastwards.",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle News:65f615a96f21"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
-     "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
-     "published": "2026-11-14T01:10:22+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 316,
-     "comments": 238,
-     "discussion_url": "https://news.ycombinator.com/item?id=50492456",
-     "id": "hackernews:50492456"
-    }
-   ]
-  },
-  {
-   "id": "bc69a055be",
-   "headline": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-   "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-   "first_published": "2026-11-13T14:58:07+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI agents & products"
-   ],
-   "score": 33.1,
-   "signals": {
-    "coverage": 0.398,
-    "engagement": 0.715,
-    "velocity": 0.371,
-    "freshness": 0.506,
-    "age_hours": 45.0
-   },
-   "reasons": [
-    "2 outlets: TechCrunch, OpenAI News",
-    "HN 123 points, 91 comments",
-    "first seen 45h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 2,
-   "outlets": [
-    "OpenAI News",
-    "TechCrunch"
-   ],
-   "engagement": 305,
-   "regions": [
-    "International",
-    "Source"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "EU Digital Identity Wallet rollout: every EU state on one board",
-     "url": "https://myid.ie/business/eu-digital-wallet-tracker/",
-     "published": "2026-11-13T14:58:07+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 123,
-     "comments": 91,
-     "discussion_url": "https://news.ycombinator.com/item?id=50484496",
-     "id": "hackernews:50484496"
-    },
-    {
-     "source": "feed",
-     "outlet": "OpenAI News",
-     "title": "Introducing ChatGPT Wallet",
-     "url": "https://openai.com/index/introducing-chatgpt-wallet",
-     "published": "2026-11-13T15:00:00+00:00",
-     "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-     "region": "Source",
-     "lang": "en",
-     "weight": 0.5,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:OpenAI News:5bf4951adbe9"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-     "published": "2026-11-13T16:00:12+00:00",
-     "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:d13e79445aea"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-     "published": "2026-11-13T16:00:12+00:00",
-     "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:d13e79445aea"
-    }
-   ]
-  },
-  {
-   "id": "bd2efe9f13",
-   "headline": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-   "first_published": "2026-11-13T14:05:22+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 30.2,
-   "signals": {
-    "coverage": 0.153,
-    "engagement": 0.787,
-    "velocity": 0.462,
-    "freshness": 0.503,
-    "age_hours": 45.9
-   },
-   "reasons": [
-    "1 outlet: Hugging Face Blog",
-    "HN 408 points, 68 comments",
-    "first seen 46h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "Hugging Face Blog"
-   ],
-   "engagement": 544,
-   "regions": [
-    "Source"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Hugging Face Blog",
-     "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-     "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-     "published": "2026-11-13T14:05:22+00:00",
-     "summary": "",
-     "region": "Source",
-     "lang": "en",
-     "weight": 0.4,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Hugging Face Blog:40e78db6601d"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Ggml v1.0.0",
-     "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-     "published": "2026-11-14T02:28:29+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 408,
-     "comments": 68,
-     "discussion_url": "https://news.ycombinator.com/item?id=50493062",
-     "id": "hackernews:50493062"
-    }
-   ]
-  },
-  {
-   "id": "210d388636",
-   "headline": "Show HN: Agweb – a browser for agents that stays out of your way",
-   "url": "https://github.com/paul-nameless/agweb",
-   "first_published": "2026-11-14T14:08:12+00:00",
+   "id": "a5c21dbd20",
+   "headline": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+   "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+   "first_published": "2026-11-15T08:56:11+00:00",
    "topic": "AI agents & products",
    "topics": [
     "AI agents & products"
    ],
-   "score": 28.3,
+   "score": 30.2,
    "signals": {
-    "coverage": 0.0,
-    "engagement": 0.635,
-    "velocity": 0.384,
-    "freshness": 0.659,
-    "age_hours": 21.8
+    "coverage": 0.469,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.847,
+    "age_hours": 7.7
    },
    "reasons": [
-    "HN 100 points, 30 comments",
-    "first seen 22h ago",
+    "2 outlets: The Guardian Tech, BBC Technology",
+    "first seen 8h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-15",
    "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 160,
-   "regions": [],
+   "outlet_count": 2,
+   "outlets": [
+    "BBC Technology",
+    "The Guardian Tech"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
    "brief": {},
    "llm_status": "",
    "articles": [
     {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Show HN: Agweb – a browser for agents that stays out of your way",
-     "url": "https://github.com/paul-nameless/agweb",
-     "published": "2026-11-14T14:08:12+00:00",
-     "summary": "",
-     "region": "Social",
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+     "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+     "published": "2026-11-15T08:56:11+00:00",
+     "summary": "Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sceptics were ⁠proven right when he ⁠confe",
+     "region": "International",
      "lang": "en",
-     "weight": 1.0,
-     "points": 100,
-     "comments": 30,
-     "discussion_url": "https://news.ycombinator.com/item?id=50497147",
-     "id": "hackernews:50497147"
-    }
-   ]
-  },
-  {
-   "id": "35ada50d2a",
-   "headline": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-   "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-   "first_published": "2026-11-14T14:09:25+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips"
-   ],
-   "score": 28.2,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.702,
-    "velocity": 0.472,
-    "freshness": 0.659,
-    "age_hours": 21.8
-   },
-   "reasons": [
-    "HN 138 points, 68 comments",
-    "first seen 22h ago",
-    "topic: AI business & chips"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 274,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:aa2588991e1a"
+    },
     {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-     "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-     "published": "2026-11-14T14:09:25+00:00",
-     "summary": "",
-     "region": "Social",
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+     "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-15T13:37:45+00:00",
+     "summary": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
+     "region": "International",
      "lang": "en",
-     "weight": 1.0,
-     "points": 138,
-     "comments": 68,
-     "discussion_url": "https://news.ycombinator.com/item?id=50497155",
-     "id": "hackernews:50497155"
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:70edb9d9bc5b"
     }
    ]
   },
   {
    "id": "5d265fa6c7",
-   "headline": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
-   "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+   "headline": "FAA has lifted its third-ever nationwide ground stop",
+   "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
    "first_published": "2026-11-13T21:05:53+00:00",
    "topic": "Tech & startups",
    "topics": [
     "Tech & startups"
    ],
-   "score": 27.8,
+   "score": 26.6,
    "signals": {
     "coverage": 0.685,
     "engagement": 1.0,
-    "velocity": 0.892,
-    "freshness": 0.534,
-    "age_hours": 38.8
+    "velocity": 0.872,
+    "freshness": 0.512,
+    "age_hours": 43.5
    },
    "reasons": [
     "4 outlets: TechCrunch, The Verge, Wired, Ars Technica",
-    "HN 2.4k points, 1.4k comments",
-    "first seen 39h ago",
+    "HN 2.5k points, 1.4k comments",
+    "first seen 43h ago",
     "topic: Tech & startups"
    ],
    "first_seen": "2026-11-14",
@@ -1690,7 +961,7 @@
     "The Verge",
     "Wired"
    ],
-   "engagement": 5325,
+   "engagement": 5340,
    "regions": [
     "International"
    ],
@@ -1707,8 +978,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 1640,
-     "comments": 1276,
+     "points": 1643,
+     "comments": 1281,
      "discussion_url": "https://news.ycombinator.com/item?id=50489641",
      "id": "hackernews:50489641"
     },
@@ -1813,7 +1084,7 @@
      "lang": "en",
      "weight": 1.0,
      "points": 195,
-     "comments": 80,
+     "comments": 81,
      "discussion_url": "https://news.ycombinator.com/item?id=50492315",
      "id": "hackernews:50492315"
     },
@@ -1850,21 +1121,6 @@
     {
      "source": "feed",
      "outlet": "The Verge",
-     "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
-     "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
-     "published": "2026-11-14T01:53:04+00:00",
-     "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:c2ceb023b9a8"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
      "title": "Work to replace old copper wire led to the FAA’s ground stop",
      "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
      "published": "2026-11-14T17:44:28+00:00",
@@ -1880,6 +1136,102 @@
    ]
   },
   {
+   "id": "210d388636",
+   "headline": "Show HN: Agweb – a browser for agents that stays out of your way",
+   "url": "https://github.com/paul-nameless/agweb",
+   "first_published": "2026-11-14T14:08:12+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 26.4,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.641,
+    "velocity": 0.361,
+    "freshness": 0.617,
+    "age_hours": 26.5
+   },
+   "reasons": [
+    "HN 106 points, 31 comments",
+    "first seen 26h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-15",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 168,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+     "url": "https://github.com/paul-nameless/agweb",
+     "published": "2026-11-14T14:08:12+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 106,
+     "comments": 31,
+     "discussion_url": "https://news.ycombinator.com/item?id=50497147",
+     "id": "hackernews:50497147"
+    }
+   ]
+  },
+  {
+   "id": "35ada50d2a",
+   "headline": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+   "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+   "first_published": "2026-11-14T14:09:25+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips"
+   ],
+   "score": 26.1,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.702,
+    "velocity": 0.441,
+    "freshness": 0.617,
+    "age_hours": 26.4
+   },
+   "reasons": [
+    "HN 140 points, 68 comments",
+    "first seen 26h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 276,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+     "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+     "published": "2026-11-14T14:09:25+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 140,
+     "comments": 68,
+     "discussion_url": "https://news.ycombinator.com/item?id=50497155",
+     "id": "hackernews:50497155"
+    }
+   ]
+  },
+  {
    "id": "ea6392a4bc",
    "headline": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
@@ -1888,24 +1240,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 26.8,
+   "score": 25.9,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.746,
-    "velocity": 0.422,
-    "freshness": 0.518,
-    "age_hours": 42.3
+    "engagement": 0.753,
+    "velocity": 0.413,
+    "freshness": 0.498,
+    "age_hours": 46.9
    },
    "reasons": [
-    "HN 311 points, 41 comments",
-    "first seen 42h ago",
+    "HN 331 points, 41 comments",
+    "first seen 47h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-14",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 393,
+   "engagement": 413,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1920,7 +1272,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 70,
+     "points": 71,
      "comments": 18,
      "discussion_url": "https://news.ycombinator.com/item?id=50486914",
      "id": "hackernews:50486914"
@@ -1935,7 +1287,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 241,
+     "points": 260,
      "comments": 23,
      "discussion_url": "https://news.ycombinator.com/item?id=50497589",
      "id": "hackernews:50497589"
@@ -1943,194 +1295,101 @@
    ]
   },
   {
-   "id": "1bca59691d",
-   "headline": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-   "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-   "first_published": "2026-11-13T18:40:44+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips"
-   ],
-   "score": 25.9,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.837,
-    "velocity": 0.548,
-    "freshness": 0.522,
-    "age_hours": 41.3
-   },
-   "reasons": [
-    "HN 383 points, 214 comments",
-    "first seen 41h ago",
-    "topic: AI business & chips"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 811,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-     "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-     "published": "2026-11-13T18:40:44+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 383,
-     "comments": 214,
-     "discussion_url": "https://news.ycombinator.com/item?id=50487864",
-     "id": "hackernews:50487864"
-    }
-   ]
-  },
-  {
-   "id": "d71d75da68",
-   "headline": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
-   "url": "https://news.ycombinator.com/item?id=50494696",
-   "first_published": "2026-11-14T06:56:42+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 25.9,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.653,
-    "velocity": 0.362,
-    "freshness": 0.596,
-    "age_hours": 29.0
-   },
-   "reasons": [
-    "HN 83 points, 51 comments",
-    "first seen 29h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 185,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
-     "url": "https://news.ycombinator.com/item?id=50494696",
-     "published": "2026-11-14T06:56:42+00:00",
-     "summary": "Specifically, what are the most useful, concrete skills to learn as an individual to take economic advantage of the advances in LLMs, agents and associated new technological capabilities?<p>What is accessible to learn just from the internet and experimentation, without a degree program, assuming a p",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 83,
-     "comments": 51,
-     "discussion_url": "https://news.ycombinator.com/item?id=50494696",
-     "id": "hackernews:50494696"
-    }
-   ]
-  },
-  {
-   "id": "2ab97a3f96",
-   "headline": "OpenAI disbands its robotics team as its general models start running robots",
-   "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
-   "first_published": "2026-11-13T17:55:23+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 25.9,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.722,
-    "velocity": 0.391,
-    "freshness": 0.519,
-    "age_hours": 42.0
-   },
-   "reasons": [
-    "HN 177 points, 73 comments",
-    "first seen 42h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 323,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "OpenAI disbands its robotics team as its general models start running robots",
-     "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
-     "published": "2026-11-13T17:55:23+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 177,
-     "comments": 73,
-     "discussion_url": "https://news.ycombinator.com/item?id=50487184",
-     "id": "hackernews:50487184"
-    }
-   ]
-  },
-  {
-   "id": "148a343513",
-   "headline": "How did Woz write the Apple 1 BASIC before building the computer?",
-   "url": "https://retrocomputing.stackexchange.com/questions/17957",
-   "first_published": "2026-11-14T22:22:49+00:00",
+   "id": "f8abe1a368",
+   "headline": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+   "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+   "first_published": "2026-11-14T00:49:13+00:00",
    "topic": "Tech & startups",
    "topics": [
     "Tech & startups"
    ],
-   "score": 25.6,
+   "score": 25.7,
    "signals": {
-    "coverage": 0.0,
-    "engagement": 0.766,
-    "velocity": 0.643,
-    "freshness": 0.756,
-    "age_hours": 13.6
+    "coverage": 0.46,
+    "engagement": 1.0,
+    "velocity": 0.809,
+    "freshness": 0.53,
+    "age_hours": 39.8
    },
    "reasons": [
-    "HN 233 points, 114 comments",
-    "first seen 14h ago",
+    "2 outlets: The Verge, Ars Technica",
+    "HN 1.5k points, 989 comments",
+    "first seen 40h ago",
     "topic: Tech & startups"
    ],
    "first_seen": "2026-11-15",
    "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 461,
-   "regions": [],
+   "outlet_count": 2,
+   "outlets": [
+    "Ars Technica",
+    "The Verge"
+   ],
+   "engagement": 3440,
+   "regions": [
+    "International"
+   ],
    "brief": {},
    "llm_status": "",
    "articles": [
     {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+     "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+     "published": "2026-11-14T00:49:13+00:00",
+     "summary": "One way or another, the company will get some more data on Saturday.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:46f76adf161f"
+    },
+    {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "How did Woz write the Apple 1 BASIC before building the computer?",
-     "url": "https://retrocomputing.stackexchange.com/questions/17957",
-     "published": "2026-11-14T22:22:49+00:00",
-     "summary": "",
+     "title": "SpaceX catches the Starship to end Flight 15",
+     "url": "https://www.spacex.com/launches/starship-flight-15",
+     "published": "2026-11-14T21:22:24+00:00",
+     "summary": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 233,
-     "comments": 114,
-     "discussion_url": "https://news.ycombinator.com/item?id=50501594",
-     "id": "hackernews:50501594"
+     "points": 1462,
+     "comments": 989,
+     "discussion_url": "https://news.ycombinator.com/item?id=50500963",
+     "id": "hackernews:50500963"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+     "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+     "published": "2026-11-14T21:44:44+00:00",
+     "summary": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopstick' catches of its boosters before, but this is the first time the maneuver has successfully been e",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:8c9559d66ad1"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+     "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+     "published": "2026-11-15T00:40:59+00:00",
+     "summary": "It felt like stepping into the future.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:ce3d0293b235"
     }
    ]
   }

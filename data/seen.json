@@ -51,10 +51,10 @@
 "terms": [
 "computer",
 "woz",
-"write",
-"apple",
+"basic",
 "build",
-"basic"
+"write",
+"apple"
 ],
 "urls": [
 "https://retrocomputing.stackexchange.com/questions/17957"
@@ -69,13 +69,13 @@
 "headline": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
 "last_seen": "2026-11-15",
 "terms": [
-"ca",
-"tx",
-"shipment",
 "nvidia",
-"11.4m",
 "vanish",
-"hardware"
+"tx",
+"hardware",
+"ca",
+"shipment",
+"11.4m"
 ],
 "urls": [
 "https://freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
@@ -89,13 +89,13 @@
 "headline": "Show HN: Agweb – a browser for agents that stays out of your way",
 "last_seen": "2026-11-15",
 "terms": [
-"way",
-"agweb",
-"hn",
-"browser",
 "stay",
+"agweb",
+"way",
+"hn",
 "agent",
-"show"
+"show",
+"browser"
 ],
 "urls": [
 "https://github.com/paul-nameless/agweb"
@@ -110,14 +110,14 @@
 "headline": "OpenAI disbands its robotics team as its general models start running robots",
 "last_seen": "2026-11-15",
 "terms": [
-"disband",
-"model",
 "start",
-"robotic",
-"runn",
-"openai",
 "robot",
+"runn",
+"robotic",
 "general",
+"openai",
+"model",
+"disband",
 "team"
 ],
 "urls": [
@@ -157,16 +157,16 @@
 "headline": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
 "last_seen": "2026-11-15",
 "terms": [
-"vllm",
 "serv",
-"across",
-"glm-5.3",
 "nvidia",
-"tok",
 "station",
-"two",
+"tok",
+"607.8",
 "dgx",
-"607.8"
+"two",
+"vllm",
+"across",
+"glm-5.3"
 ],
 "urls": [
 "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm"
@@ -181,14 +181,14 @@
 "headline": "Arm boss Rene Haas approached in Nvidia CEO search",
 "last_seen": "2026-11-15",
 "terms": [
-"haa",
-"arm",
-"boss",
-"ceo",
-"approach",
 "nvidia",
+"approach",
+"ceo",
+"boss",
 "search",
-"rene"
+"rene",
+"haa",
+"arm"
 ],
 "urls": [
 "https://ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926"
@@ -205,18 +205,18 @@
 "terms": [
 "claude",
 "meeting",
-"upgrad",
+"parallel",
 "ai",
 "worker",
-"run",
-"parallel",
-"code",
 "project",
+"upgrad",
 "anthropic",
+"run",
+"code",
 "delusion",
+"pag",
 "professor",
-"renumber",
-"ask"
+"syllabu"
 ],
 "urls": [
 "https://claude.com/resources/articles/claude-meetings",
@@ -251,17 +251,17 @@
 "2026-11-15": 2
 },
 "first_seen": "2026-11-14",
-"headline": "Italy fines Meta $887m for accessing Android users’ photos and videos",
+"headline": "Italy fines Meta €805m over accessing users' photos",
 "last_seen": "2026-11-15",
 "terms": [
-"meta",
 "italy",
 "fin",
+"meta",
 "access",
 "user",
 "photo",
-"887m",
 "android",
+"887m",
 "805m",
 "data",
 "privacy",
@@ -282,15 +282,15 @@
 "headline": "Nvidia deliberately kept GPU prices high through circular financing deals",
 "last_seen": "2026-11-15",
 "terms": [
+"nvidia",
+"high",
+"deliberately",
+"financ",
 "kept",
 "circular",
 "deal",
-"nvidia",
 "pric",
-"high",
-"financ",
-"gpu",
-"deliberately"
+"gpu"
 ],
 "urls": [
 "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
@@ -328,23 +328,23 @@
 "2026-11-15": 4
 },
 "first_seen": "2026-11-14",
-"headline": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+"headline": "FAA has lifted its third-ever nationwide ground stop",
 "last_seen": "2026-11-15",
 "terms": [
-"faa",
 "ground",
+"faa",
 "stop",
 "nationwide",
-"lift",
-"national",
 "issu",
+"national",
+"lift",
 "flight",
-"hour",
-"extraordinary",
 "circumstanc",
 "due",
+"extraordinary",
 "us",
-"later"
+"hour",
+"4.5"
 ],
 "urls": [
 "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history",
@@ -355,7 +355,6 @@
 "https://nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
 "https://news9.com/oklahoma-city-news/national-weather-service-reports-nationwide-radar-website-outage",
 "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances",
-"https://theverge.com/news/1033489/faa-ground-stop",
 "https://theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
 "https://wired.com/story/faa-grounds-all-us-flights-until-further-notice",
 "https://wired.com/story/the-faa-nationwide-ground-stop-is-over"
@@ -399,19 +398,19 @@
 "last_seen": "2026-11-15",
 "terms": [
 "ai",
-"openai",
-"board",
 "member",
-"takeover",
+"board",
+"openai",
 "month",
-"away",
 "worri",
+"takeover",
 "society",
+"away",
+"altman",
 "can't",
 "sam",
-"altman",
 "ceo",
-"fir"
+"trust"
 ],
 "urls": [
 "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
@@ -462,33 +461,30 @@
 "2026-11-15": 6
 },
 "first_seen": "2026-11-14",
-"headline": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
+"headline": "Microsoft says services fully restored after day-long global outage",
 "last_seen": "2026-11-15",
 "terms": [
 "microsoft",
 "outage",
-"global",
-"email",
 "world",
 "fully",
-"servic",
 "restor",
-"hit",
-"crisi",
-"cloud",
-"full-blown",
-"turn",
-"worse"
+"servic",
+"global",
+"warn",
+"felt",
+"mps",
+"court",
+"spi",
+"around",
+"giv"
 ],
 "urls": [
-"https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage",
 "https://bbc.co.uk/news/articles/c6rrg51rkz09o",
-"https://bbc.co.uk/news/articles/c6vg2ljjpj32o",
 "https://bbc.co.uk/news/articles/cqp9d58eldlro",
 "https://bbc.co.uk/news/articles/cwvg238zrnm5o",
 "https://bbc.co.uk/news/articles/cxzd9171m51qo",
 "https://pluralistic.net/2026/11/13/outlookpocalypse",
-"https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis",
 "https://theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
 "https://theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805",
 "https://wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage",
@@ -605,27 +601,29 @@
 },
 "a5c21dbd20": {
 "by_day": {
-"2026-11-15": 1
+"2026-11-15": 2
 },
 "first_seen": "2026-11-15",
 "headline": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
 "last_seen": "2026-11-15",
 "terms": [
-"one",
-"question",
 "top",
-"ai",
-"cheat",
-"exam",
-"south",
-"admit",
-"tax",
-"wrong",
 "scorer",
+"south",
 "korea",
-"160"
+"admit",
+"cheat",
+"tax",
+"exam",
+"one",
+"ai",
+"wrong",
+"question",
+"160",
+"accountancy"
 ],
 "urls": [
+"https://bbc.co.uk/news/articles/ckvg2ezvpe08o",
 "https://theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam"
 ]
 },
@@ -638,13 +636,13 @@
 "headline": "Perplexity Decider v1.3: Training, eval, and use cases",
 "last_seen": "2026-11-15",
 "terms": [
-"use",
-"case",
-"train",
-"eval",
+"perplexity",
 "decider",
 "v1.3",
-"perplexity"
+"use",
+"train",
+"eval",
+"case"
 ],
 "urls": [
 "https://perplexity.ai/hub/blog/perplexity-decider"
@@ -658,18 +656,18 @@
 "headline": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
 "last_seen": "2026-11-15",
 "terms": [
-"data",
 "center",
+"data",
+"investor",
+"power",
 "startup",
-"young",
-"want",
+"heat",
 "ocean",
-"board",
 "already",
 "float",
-"power",
-"heat",
-"investor",
+"want",
+"board",
+"young",
 "put",
 "space"
 ],
@@ -960,14 +958,14 @@
 "headline": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
 "last_seen": "2026-11-15",
 "terms": [
-"independently",
-"ai",
-"hn",
-"skill",
-"useful",
-"ask",
 "concrete",
-"learn"
+"ai",
+"skill",
+"ask",
+"useful",
+"hn",
+"learn",
+"independently"
 ],
 "urls": [
 "https://news.ycombinator.com/item?id=50494696"
@@ -1001,47 +999,41 @@
 "2026-11-15": 5
 },
 "first_seen": "2026-11-14",
-"headline": "The unfolding Jensen Huang scandal: a timeline",
+"headline": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
 "last_seen": "2026-11-15",
 "terms": [
+"nvidia",
 "jensen",
 "huang",
-"nvidia",
-"scandal",
 "ai",
-"vcs",
-"founder",
+"scandal",
+"china",
 "departure",
 "startup",
 "fund",
-"ceo",
-"pressure",
-"lutnick",
-"commerce"
+"gpu",
+"chip",
+"powerful",
+"export-bann",
+"uh-oh"
 ],
 "urls": [
-"https://bbc.co.uk/news/articles/c67429m3vem3o",
 "https://bbc.co.uk/news/articles/ck1exevgql4qo",
+"https://bbc.co.uk/news/articles/cmdx1vpprk9vo",
 "https://bbc.co.uk/news/articles/cqvg2d1eg7zro",
 "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-"https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis",
+"https://standwithjensen.com/",
 "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
-"https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil",
-"https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says",
 "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
-"https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
 "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
 "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
 "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
 "https://techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-"https://theguardian.com/technology/2026/nov/13/marlon-brando-cool-jensen-huang-joke-black-leather-jacket-nvidia",
 "https://theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
 "https://theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
-"https://theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+"https://theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
 "https://tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
-"https://wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale",
-"https://wired.com/story/with-the-help-of-vogue-gq-and-a-pro-stylist-wired-revamps-jensen-huang",
-"https://youtube.com/watch?v=YYU_geUwQoA"
+"https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon"
 ]
 },
 "ea6392a4bc": {
@@ -1057,11 +1049,11 @@
 "ultrafast",
 "lin",
 "hn",
-"200",
-"pure",
 "jax",
+"pure",
+"show",
 "v3",
-"show"
+"200"
 ],
 "urls": [
 "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
@@ -1091,26 +1083,24 @@
 "headline": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
 "last_seen": "2026-11-15",
 "terms": [
-"starship",
 "catch",
+"starship",
 "spacex",
 "flight",
-"rocket",
 "saturday",
-"successfully",
-"test",
-"century",
-"historic",
-"electron",
-"set",
+"orbit",
+"power",
 "possible",
-"sett"
+"sett",
+"end",
+"successfully",
+"execute",
+"chopstick",
+"watch"
 ],
 "urls": [
-"https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron",
 "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday",
 "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
-"https://engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time",
 "https://spacex.com/launches/starship-flight-15",
 "https://theverge.com/science/1033930/spacex-chopstick-starship-catch"
 ]
