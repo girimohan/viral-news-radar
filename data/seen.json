@@ -20,6 +20,74 @@
 "https://tivi.fi/uutiset/a/aab37b68-243a-43fe-867d-98b5b71bde47"
 ]
 },
+"0a2c1ea32b": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Seurakunta tulkitsi Essin eroaikeet psykoosiksi – yhteisön painostus paljastui hoitajille osastolla",
+"last_seen": "2026-11-16",
+"terms": [
+"hoitajille",
+"essin",
+"seurakunta",
+"paljastui",
+"tulkitsi",
+"yhteisön",
+"osastolla",
+"painostu",
+"eroaikeet",
+"psykoosiksi"
+],
+"urls": [
+"https://yle.fi/a/74-20254053?origin=rss"
+]
+},
+"0c4185fc4e": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Suomen parhaat tekoälyteot ja -yritykset palkittiin – Nopeasti ulkomailla kasvava startup oli illan suurin voittaja",
+"last_seen": "2026-11-16",
+"terms": [
+"illan",
+"tekoälyteot",
+"yritykset",
+"ulkomailla",
+"kasvava",
+"voittaja",
+"startup",
+"suurin",
+"suomen",
+"palkittiin",
+"nopeasti",
+"parhaat"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/e52cbfa4-6dcd-4610-a0cb-fa695e6e7e9a"
+]
+},
+"0e6b005954": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "OpenAI will embed safety researchers to investigate AI subversion",
+"last_seen": "2026-11-16",
+"terms": [
+"safety",
+"ai",
+"openai",
+"researcher",
+"subversion",
+"emb",
+"investigate"
+],
+"urls": [
+"https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion"
+]
+},
 "0f97cf24e8": {
 "by_day": {
 "2026-11-14": 0
@@ -51,12 +119,12 @@
 "last_seen": "2026-11-16",
 "terms": [
 "computer",
-"basic",
-"apple",
 "write",
-"2021",
+"build",
+"apple",
 "woz",
-"build"
+"2021",
+"basic"
 ],
 "urls": [
 "https://retrocomputing.stackexchange.com/questions/17957"
@@ -70,14 +138,14 @@
 "headline": "Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia",
 "last_seen": "2026-11-16",
 "terms": [
-"russia",
-"attack",
-"häkkänen",
-"act",
-"suspect",
-"estonia",
 "arson",
-"desperation"
+"act",
+"desperation",
+"suspect",
+"attack",
+"estonia",
+"russia",
+"häkkänen"
 ],
 "urls": [
 "https://yle.fi/a/74-20257202?origin=rss"
@@ -125,6 +193,62 @@
 "urls": [
 "https://github.com/paul-nameless/agweb",
 "https://joshblais.com/blog/emacs-as-my-browser"
+]
+},
+"2528f5b30c": {
+"by_day": {
+"2026-11-16": 3
+},
+"first_seen": "2026-11-16",
+"headline": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
+"last_seen": "2026-11-16",
+"terms": [
+"abuse",
+"child",
+"sexual",
+"show",
+"rise",
+"two",
+"material",
+"ai-relat",
+"400",
+"data",
+"support",
+"strengthen",
+"tool",
+"online"
+],
+"urls": [
+"https://openai.com/index/strengthening-online-child-safety",
+"https://theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+"https://theverge.com/policy/1034527/openai-csam-classifier"
+]
+},
+"27a774dffe": {
+"by_day": {
+"2026-11-16": 2
+},
+"first_seen": "2026-11-16",
+"headline": "Mercedes-Benz takes on Tesla FSD with new point-to-point city driving assist",
+"last_seen": "2026-11-16",
+"terms": [
+"assist",
+"mercedes-benz",
+"system",
+"pro",
+"upcom",
+"hands-on",
+"mb.drive",
+"tak",
+"city",
+"driv",
+"tesla",
+"fsd",
+"point-to-point"
+],
+"urls": [
+"https://engadget.com/2315999/hands-on-and-off-with-mercedes-benz-mbdrive-assist-pro",
+"https://theverge.com/transportation/1034321/mercedes-benz-mb-drive-assist-pro-hands-free-highway-assist-2027"
 ]
 },
 "2ab97a3f96": {
@@ -246,17 +370,48 @@
 "headline": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
 "last_seen": "2026-11-16",
 "terms": [
-"chip",
+"push",
 "lutnick",
-"business",
-"rul",
-"weaken",
-"family",
+"chip",
 "overlap",
-"push"
+"rul",
+"business",
+"family",
+"weaken"
 ],
 "urls": [
 "https://nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html"
+]
+},
+"40c12cb1ac": {
+"by_day": {
+"2026-11-16": 4
+},
+"first_seen": "2026-11-16",
+"headline": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+"last_seen": "2026-11-16",
+"terms": [
+"iphone",
+"duo",
+"face",
+"apple",
+"id",
+"limit",
+"add",
+"unlock",
+"gett",
+"version",
+"without",
+"hardware",
+"action",
+"2027"
+],
+"urls": [
+"https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id",
+"https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+"https://theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+"https://wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
+"https://zdnet.com/tech/apple-iphone-duo-2-face-id-upgrades-2027"
 ]
 },
 "43d73ecae8": {
@@ -277,6 +432,60 @@
 ],
 "urls": [
 "https://github.com/Parcha-ai/agentrun/blob/main/README.md"
+]
+},
+"4c79989f2c": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Peter Sarlin puolusti eurooppalaista tekoälyä mutta myi Silo AI:n Amerikkaan – Nyt hän kertoo syyn",
+"last_seen": "2026-11-16",
+"terms": [
+"kertoo",
+"syyn",
+"puolusti",
+"eurooppalaista",
+"tekoälyä",
+"ai",
+"sarlin",
+"silo",
+"myi",
+"amerikkaan",
+"peter"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/a017a98a-ce42-4310-baa4-f0ec974fdb46"
+]
+},
+"4fdf193d64": {
+"by_day": {
+"2026-11-16": 4
+},
+"first_seen": "2026-11-16",
+"headline": "Google Maps can now build trip itineraries with real-time details about each stop",
+"last_seen": "2026-11-16",
+"terms": [
+"map",
+"google",
+"trip",
+"featur",
+"holiday",
+"stop",
+"itinerari",
+"real-time",
+"detail",
+"build",
+"ask",
+"prep",
+"travel",
+"help"
+],
+"urls": [
+"https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
+"https://engadget.com/2318186/google-maps-chatbot-can-find-appointments-and-call-to-book-them-for-you",
+"https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop",
+"https://zdnet.com/tech/google-ask-maps-new-features-holiday-travel"
 ]
 },
 "505997472a": {
@@ -309,6 +518,49 @@
 "https://theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos"
 ]
 },
+"52fe3fa7d4": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Google adds 66 regional dialects to Gemini",
+"last_seen": "2026-11-16",
+"terms": [
+"dialect",
+"add",
+"regional",
+"google",
+"gemini"
+],
+"urls": [
+"https://engadget.com/2317417/google-adds-66-regional-dialects-to-gemini"
+]
+},
+"54879409ac": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+"last_seen": "2026-11-16",
+"terms": [
+"control",
+"deter",
+"ai",
+"compani",
+"tighten",
+"chip",
+"export",
+"us",
+"remotely",
+"compute",
+"access",
+"chinese"
+],
+"urls": [
+"https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely"
+]
+},
 "56e6463b37": {
 "by_day": {
 "2026-11-15": 0,
@@ -318,15 +570,15 @@
 "headline": "Nvidia deliberately kept GPU prices high through circular financing deals",
 "last_seen": "2026-11-16",
 "terms": [
-"pric",
 "gpu",
-"kept",
+"nvidia",
+"pric",
 "deliberately",
 "high",
-"nvidia",
+"kept",
+"financ",
 "deal",
-"circular",
-"financ"
+"circular"
 ],
 "urls": [
 "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
@@ -341,17 +593,17 @@
 "last_seen": "2026-11-16",
 "terms": [
 "plural",
-"fund",
 "raise",
-"back",
-"non-obviou",
+"fund",
 "fresh",
-"1bn",
 "compani",
-"hels",
-"europe",
+"non-obviou",
+"1bn",
+"back",
 "moonshot",
 "1.1b",
+"europe",
+"hels",
 "backer"
 ],
 "urls": [
@@ -425,23 +677,31 @@
 },
 "67a2955d39": {
 "by_day": {
-"2026-11-16": 0
+"2026-11-16": 2
 },
 "first_seen": "2026-11-16",
-"headline": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+"headline": "15 hotel guests were injured by chlorine poisoning due to Microsoft’s global email outage",
 "last_seen": "2026-11-16",
 "terms": [
-"guest",
-"chlorine",
-"lead",
-"365",
-"poison",
-"hotel",
 "microsoft",
 "outage",
-"gas"
+"hotel",
+"365",
+"guest",
+"chlorine",
+"poison",
+"email",
+"gas",
+"lead",
+"defect",
+"july",
+"software",
+"monster"
 ],
 "urls": [
+"https://engadget.com/2314266/microsoft-ditching-365-companion-apps-2026",
+"https://theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+"https://theverge.com/tech/1034538/microsoft-365-outlook-outage-hotel-chlorine-poisoning",
 "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html"
 ]
 },
@@ -542,6 +802,33 @@
 "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits"
 ]
 },
+"72be98160e": {
+"by_day": {
+"2026-11-16": 3
+},
+"first_seen": "2026-11-16",
+"headline": "Instagram now lets creators add Amazon affiliate links in reels and feed posts",
+"last_seen": "2026-11-16",
+"terms": [
+"reel",
+"link",
+"post",
+"instagram",
+"affiliate",
+"amazon",
+"add",
+"let",
+"creator",
+"directly",
+"feed",
+"bring"
+],
+"urls": [
+"https://engadget.com/2316714/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels",
+"https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts",
+"https://wired.com/story/instagram-is-bringing-amazon-affiliate-links-directly-to-reels-and-posts"
+]
+},
 "75501eef18": {
 "by_day": {
 "2026-11-15": 1
@@ -561,6 +848,33 @@
 "https://tivi.fi/uutiset/a/8af4720d-d4b0-407e-8469-27e5461cb81c"
 ]
 },
+"757e72a63e": {
+"by_day": {
+"2026-11-16": 2
+},
+"first_seen": "2026-11-16",
+"headline": "Which Google Pixel phone is most similar to the Galaxy S26+?",
+"last_seen": "2026-11-16",
+"terms": [
+"galaxy",
+"phone",
+"soon",
+"ai",
+"agent",
+"personal",
+"claw",
+"know",
+"samsung",
+"similar",
+"s26",
+"pixel",
+"google"
+],
+"urls": [
+"https://engadget.com/2314824/google-pixel-phone-most-similar-to-galaxy-s26-plus",
+"https://zdnet.com/innovation/samsung-galaxy-claw-ai-cross-app-upgrade"
+]
+},
 "7f28626705": {
 "by_day": {
 "2026-11-16": 0
@@ -569,11 +883,11 @@
 "headline": "Tell HN: HN is being scraped for emails to scam",
 "last_seen": "2026-11-16",
 "terms": [
-"email",
-"hn",
 "scrap",
-"scam",
-"tell"
+"tell",
+"hn",
+"email",
+"scam"
 ],
 "urls": [
 "https://news.ycombinator.com/item?id=50513451"
@@ -606,19 +920,24 @@
 "headline": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
 "last_seen": "2026-11-16",
 "terms": [
+"show",
+"agent",
+"hn",
+"second",
+"ai",
 "db-branch",
 "database",
-"second",
-"hn",
-"ci",
-"ai",
-"branch",
-"agent",
 "zfs",
-"show"
+"ci",
+"branch",
+"gateway",
+"open-source",
+"tool",
+"write"
 ],
 "urls": [
-"https://github.com/db-branch/db-branch"
+"https://github.com/db-branch/db-branch",
+"https://github.com/withcoral/coral"
 ]
 },
 "833f3b575a": {
@@ -629,13 +948,31 @@
 "headline": "Wet and wintry weather to start the week",
 "last_seen": "2026-11-16",
 "terms": [
-"wintry",
 "weather",
+"wintry",
 "start",
 "wet"
 ],
 "urls": [
 "https://yle.fi/a/74-20257134?origin=rss"
+]
+},
+"84bd9b566f": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Building AI that can work across the enterprise",
+"last_seen": "2026-11-16",
+"terms": [
+"work",
+"ai",
+"build",
+"enterprise",
+"across"
+],
+"urls": [
+"https://technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise"
 ]
 },
 "94f45cbe56": {
@@ -732,30 +1069,28 @@
 "2026-11-16": 3
 },
 "first_seen": "2026-11-16",
-"headline": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+"headline": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
 "last_seen": "2026-11-16",
 "terms": [
 "rocket",
-"amazon",
-"satellit",
 "fail",
-"vulcan",
-"destroy",
+"amazon",
 "launch",
-"leo",
-"return-to-flight",
+"satellit",
+"vulcan",
 "lost",
-"mid-flight",
+"return-to-flight",
 "boeing-lockhe",
 "payload",
-"competitor"
+"mid-flight",
+"destroy",
+"competitor",
+"spacex"
 ],
 "urls": [
 "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
-"https://engadget.com/2317283/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites",
 "https://reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15",
-"https://space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
-"https://theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
+"https://space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
 ]
 },
 "9ca6cd203a": {
@@ -822,24 +1157,44 @@
 "last_seen": "2026-11-16",
 "terms": [
 "ai",
-"apple",
 "health",
+"apple",
 "study",
 "app",
-"tool",
-"launch",
 "use",
+"launch",
 "people",
-"look",
-"improve",
-"effectiveness",
+"tool",
+"user-friendly",
+"design",
 "research",
-"user-friendly"
+"chatbot",
+"build"
 ],
 "urls": [
 "https://engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly",
 "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
-"https://theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
+"https://zdnet.com/tech/apple-health-ai-usage-study-how-to-enroll"
+]
+},
+"a554a76fff": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Just 400 US Data Centers Use More Electricity Than Michigan",
+"last_seen": "2026-11-16",
+"terms": [
+"michigan",
+"center",
+"use",
+"us",
+"400",
+"data",
+"electricity"
+],
+"urls": [
+"https://wired.com/story/data-centers-use-more-electricity-than-michigan"
 ]
 },
 "a5c21dbd20": {
@@ -851,24 +1206,42 @@
 "headline": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
 "last_seen": "2026-11-16",
 "terms": [
-"korea",
-"admit",
 "top",
 "tax",
+"exam",
+"korea",
+"admit",
+"cheat",
 "south",
 "scorer",
-"cheat",
-"exam",
 "one",
 "ai",
-"question",
 "160",
+"question",
 "wrong",
 "accountancy"
 ],
 "urls": [
 "https://bbc.co.uk/news/articles/ckvg2ezvpe08o",
 "https://theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam"
+]
+},
+"a644d977b6": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Building trustworthy AI by fencing it in, not predicting it",
+"last_seen": "2026-11-16",
+"terms": [
+"trustworthy",
+"ai",
+"build",
+"predict",
+"fenc"
+],
+"urls": [
+"https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it"
 ]
 },
 "a838ee181d": {
@@ -879,10 +1252,10 @@
 "headline": "Coles hit by a cybersecurity incident",
 "last_seen": "2026-11-16",
 "terms": [
-"col",
+"cybersecurity",
 "hit",
-"incident",
-"cybersecurity"
+"col",
+"incident"
 ],
 "urls": [
 "https://colesgroup.com.au/updates"
@@ -940,44 +1313,33 @@
 "adfa8a22de": {
 "by_day": {
 "2026-11-14": 2,
-"2026-11-15": 2
+"2026-11-15": 2,
+"2026-11-16": 2
 },
 "first_seen": "2026-11-14",
-"headline": "30% Off Canon Promo Codes | November 2026",
-"last_seen": "2026-11-15",
+"headline": "Sony’s PlayStation 5 accessories are cheaper ahead of Black Friday",
+"last_seen": "2026-11-16",
 "terms": [
-"2026",
-"november",
 "friday",
-"cod",
 "black",
-"promo",
-"deal",
+"cheaper",
+"ahead",
+"2026",
+"sale",
+"mac",
+"m6",
 "early",
-"discount",
-"coupon",
-"best",
-"1960",
-"doomsday",
-"a.d"
+"mini",
+"saving",
+"cyber",
+"offer",
+"many"
 ],
 "urls": [
-"https://science.org/doi/10.1126/science.132.3436.1291",
-"https://wired.com/story/abt-promo-code",
-"https://wired.com/story/atlas-coffee-club-black-friday-2026",
-"https://wired.com/story/best-early-black-friday-airpods-deals-11-13-2026",
-"https://wired.com/story/best-early-black-friday-headphone-deals-11-14-26",
-"https://wired.com/story/best-early-black-friday-mattress-deals-11-13-2026",
-"https://wired.com/story/canon-promo-code",
-"https://wired.com/story/disney-plus-discounts",
-"https://wired.com/story/lg-promo-code",
-"https://wired.com/story/mac-mini-deal-11-13-2026",
-"https://wired.com/story/playstation-discount-code",
-"https://wired.com/story/tuft-and-needle-promo-code",
-"https://wired.com/story/wayfair-promo-code",
-"https://wired.com/story/whoop-promo-code",
-"https://wired.com/story/womanizer-coupon",
-"https://yle.fi/a/74-20256883?origin=rss"
+"https://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w",
+"https://theverge.com/gadgets/1034178/sony-playstation-5-ps5-accessories-monitor-dualsense-headset-deal-sale",
+"https://theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+"https://wired.com/story/mac-mini-deal-11-13-2026"
 ]
 },
 "b248c2a655": {
@@ -1026,31 +1388,23 @@
 "bc69a055be": {
 "by_day": {
 "2026-11-14": 4,
-"2026-11-15": 2
+"2026-11-15": 2,
+"2026-11-16": 1
 },
 "first_seen": "2026-11-14",
-"headline": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-"last_seen": "2026-11-15",
+"headline": "Science at the Frontier: How scientists use ChatGPT",
+"last_seen": "2026-11-16",
 "terms": [
-"wallet",
 "chatgpt",
-"ai",
-"agent",
-"let",
-"shop",
-"check",
-"one",
-"identity",
-"digital",
-"rollout",
-"board",
-"state",
-"eu"
+"scientist",
+"use",
+"frontier",
+"science",
+"wallet"
 ],
 "urls": [
-"https://myid.ie/business/eu-digital-wallet-tracker",
 "https://openai.com/index/introducing-chatgpt-wallet",
-"https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you"
+"https://openai.com/index/science-at-the-frontier"
 ]
 },
 "bd2efe9f13": {
@@ -1258,46 +1612,98 @@
 "by_day": {
 "2026-11-14": 7,
 "2026-11-15": 5,
-"2026-11-16": 6
+"2026-11-16": 7
 },
 "first_seen": "2026-11-14",
-"headline": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+"headline": "Is bad news for Jensen Huang also bad news for the AI industry?",
 "last_seen": "2026-11-16",
 "terms": [
-"huang",
 "jensen",
+"huang",
 "nvidia",
-"ai",
-"elon",
-"musk",
+"back",
 "ceo",
-"reinstate",
+"trump",
+"security",
+"industry",
+"return",
+"ex-nvidia",
+"musk",
 "call",
-"gpu",
-"exit",
-"react",
-"asian",
-"government"
+"elon",
+"bring"
 ],
 "urls": [
-"https://bbc.co.uk/news/articles/cmdx1vpprk9vo",
+"https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
 "https://bbc.co.uk/news/articles/cry49plv8v3go",
 "https://ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
 "https://reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15",
 "https://steveblank.com/2026/11/15/whats-next-for-nvidia",
-"https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
 "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
 "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
 "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
+"https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
+"https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security",
+"https://technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back",
 "https://theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
 "https://theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
-"https://theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-"https://theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
-"https://theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-"https://tivi.fi/uutiset/a/1b719d03-26cf-45c8-8e13-7ada879fb340",
-"https://tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+"https://theverge.com/tech/1034355/trump-jensen-huang-nvidia-return",
+"https://theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
 "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon",
-"https://wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess"
+"https://wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess",
+"https://wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang"
+]
+},
+"e50bf90c61": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+"last_seen": "2026-11-16",
+"terms": [
+"geothermal",
+"energy",
+"drill",
+"enterprise",
+"24m",
+"raise",
+"bedrock",
+"rig",
+"build",
+"building",
+"ai-enabl",
+"solution",
+"mazama",
+"biggest"
+],
+"urls": [
+"https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings",
+"https://techcrunch.com/2026/11/16/mazama-energy-has-a-solution-for-geothermals-biggest-drilling-problem"
+]
+},
+"e8ee1daadc": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Kotipihalla meteliä jopa kuin konepajalla – näin vantaalaiset sietävät asumista Suomen pahimmalla lentomelualueella",
+"last_seen": "2026-11-16",
+"terms": [
+"sietävät",
+"konepajalla",
+"kotipihalla",
+"vantaalaiset",
+"näin",
+"asumista",
+"suomen",
+"lentomelualueella",
+"jopa",
+"meteliä",
+"pahimmalla"
+],
+"urls": [
+"https://yle.fi/a/74-20255566?origin=rss"
 ]
 },
 "ea6392a4bc": {
@@ -1323,6 +1729,27 @@
 "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
 ]
 },
+"eecb58ba6e": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "US moves to cut China’s remote access to AI chips",
+"last_seen": "2026-11-16",
+"terms": [
+"china",
+"remote",
+"ai",
+"chip",
+"cut",
+"mov",
+"us",
+"access"
+],
+"urls": [
+"https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips"
+]
+},
 "ef14fe40de": {
 "by_day": {
 "2026-11-14": 0
@@ -1338,6 +1765,27 @@
 "https://ipo.anthropic.com/us"
 ]
 },
+"ef586f2972": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+"last_seen": "2026-11-16",
+"terms": [
+"chatgpt",
+"csam",
+"openai",
+"warning",
+"release",
+"combat",
+"classifier",
+"image"
+],
+"urls": [
+"https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam"
+]
+},
 "f02301e1df": {
 "by_day": {
 "2026-11-16": 1
@@ -1346,15 +1794,40 @@
 "headline": "Why are protests so much smaller in Finland than other parts of Europe?",
 "last_seen": "2026-11-16",
 "terms": [
-"europe",
-"protest",
-"finland",
 "much",
+"finland",
 "part",
-"smaller"
+"europe",
+"smaller",
+"protest"
 ],
 "urls": [
 "https://yle.fi/a/74-20257147?origin=rss"
+]
+},
+"f449d14b31": {
+"by_day": {
+"2026-11-16": 2
+},
+"first_seen": "2026-11-16",
+"headline": "GTA 6 hacker pleads guilty to stealing and leaking gameplay footage",
+"last_seen": "2026-11-16",
+"terms": [
+"gta",
+"guilty",
+"hacker",
+"plead",
+"secure",
+"hospital",
+"release",
+"leak",
+"footage",
+"steal",
+"gameplay"
+],
+"urls": [
+"https://bbc.co.uk/news/articles/cq99exy89dngo",
+"https://engadget.com/2318001/gta-6-hacker-pleads-guilty-to-stealing-and-leaking-gameplay-footage"
 ]
 },
 "f8abe1a368": {
@@ -1366,13 +1839,13 @@
 "headline": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
 "last_seen": "2026-11-16",
 "terms": [
+"starship",
 "spacex",
 "catch",
-"starship",
-"end",
 "flight",
-"rocket",
+"end",
 "return",
+"rocket",
 "saturday"
 ],
 "urls": [

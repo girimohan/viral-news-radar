@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-16T12:42:49+00:00",
+ "generated_at": "2026-11-16T19:52:03+00:00",
  "date": "2026-11-16",
- "new_today": 6,
+ "new_today": 12,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2808,
+  "collected": 2807,
   "undated": 0,
-  "too_old": 2588,
-  "excluded": 3,
+  "too_old": 2554,
+  "excluded": 4,
   "duplicate": 0,
-  "articles_in_window": 217,
-  "stories": 167,
-  "off_topic": 125,
-  "low_score": 31,
-  "shown": 11
+  "articles_in_window": 249,
+  "stories": 179,
+  "off_topic": 117,
+  "low_score": 46,
+  "shown": 16
  },
  "llm": {
   "enabled": false
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2716,
-   "in_stories": 4,
+   "fetched": 2723,
+   "in_stories": 12,
    "detail": "18/23 feeds read; failed: Helsinki Times (FetchError: HTTP 403 for https://www.helsinkitimes.fi/?format=feed&type=rss); ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 92,
-   "in_stories": 9,
-   "detail": "92 stories with 40+ points",
+   "fetched": 84,
+   "in_stories": 10,
+   "detail": "84 stories with 40+ points",
    "error": ""
   },
   {
@@ -57,107 +57,48 @@
  "stories": [
   {
    "id": "e1d720a95e",
-   "headline": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-   "first_published": "2026-11-14T15:58:57+00:00",
-   "topic": "AI business & chips",
+   "headline": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "first_published": "2026-11-14T21:41:22+00:00",
+   "topic": "AI models & labs",
    "topics": [
+    "AI models & labs",
     "AI business & chips"
    ],
-   "score": 46.3,
+   "score": 53.8,
    "signals": {
-    "coverage": 0.827,
-    "engagement": 0.965,
-    "velocity": 0.714,
-    "freshness": 0.507,
-    "age_hours": 44.7
+    "coverage": 0.898,
+    "engagement": 1.0,
+    "velocity": 0.767,
+    "freshness": 0.501,
+    "age_hours": 46.2
    },
    "reasons": [
-    "6 outlets: TechCrunch, The Verge, The Guardian Tech, BBC Technology +2 more",
-    "HN 724 points, 773 comments",
-    "first seen 45h ago",
-    "topic: AI business & chips",
-    "rising: 1 more outlets since yesterday"
+    "7 outlets: TechCrunch AI, The Guardian Tech, MIT Technology Review, The Verge +3 more",
+    "HN 976 points, 1.1k comments",
+    "first seen 46h ago",
+    "topic: AI models & labs",
+    "rising: 2 more outlets since yesterday"
    ],
    "first_seen": "2026-11-14",
    "status": "rising",
-   "outlet_count": 6,
+   "outlet_count": 7,
    "outlets": [
+    "Ars Technica",
     "BBC Technology",
-    "TechCrunch",
+    "MIT Technology Review",
+    "TechCrunch AI",
     "The Guardian Tech",
     "The Verge",
-    "Tivi",
     "Wired"
    ],
-   "engagement": 2270,
+   "engagement": 3152,
    "regions": [
-    "Finland",
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
-     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
-     "published": "2026-11-14T15:58:57+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 61,
-     "comments": 43,
-     "discussion_url": "https://news.ycombinator.com/item?id=50498051",
-     "id": "hackernews:50498051"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-     "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-     "published": "2026-11-14T16:34:15+00:00",
-     "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:646960f0d7f0"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-     "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-     "published": "2026-11-14T16:34:15+00:00",
-     "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:646960f0d7f0"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-     "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-     "published": "2026-11-14T21:41:22+00:00",
-     "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:a94ea3d980e9"
-    },
     {
      "source": "feed",
      "outlet": "TechCrunch AI",
@@ -172,21 +113,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:a94ea3d980e9"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Where was Nvidia’s security team?",
-     "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-     "published": "2026-11-15T00:08:07+00:00",
-     "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:da5bbc0f0d83"
     },
     {
      "source": "feed",
@@ -228,25 +154,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 63,
-     "comments": 60,
+     "points": 64,
+     "comments": 64,
      "discussion_url": "https://news.ycombinator.com/item?id=50505905",
      "id": "hackernews:50505905"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-     "published": "2026-11-15T19:15:43+00:00",
-     "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded th",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:f9f788924ea2"
     },
     {
      "source": "hackernews",
@@ -258,40 +169,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 126,
-     "comments": 122,
+     "points": 128,
+     "comments": 128,
      "discussion_url": "https://news.ycombinator.com/item?id=50509883",
      "id": "hackernews:50509883"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
-     "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-     "published": "2026-11-15T20:43:49+00:00",
-     "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:cc4917f194b8"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-     "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-     "published": "2026-11-15T21:56:35+00:00",
-     "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:dd73cd74bb28"
     },
     {
      "source": "feed",
@@ -318,8 +199,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 169,
-     "comments": 164,
+     "points": 174,
+     "comments": 177,
      "discussion_url": "https://news.ycombinator.com/item?id=50511982",
      "id": "hackernews:50511982"
     },
@@ -333,40 +214,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 305,
-     "comments": 384,
+     "points": 440,
+     "comments": 558,
      "discussion_url": "https://news.ycombinator.com/item?id=50512235",
      "id": "hackernews:50512235"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-     "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-16T01:47:57+00:00",
-     "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:1ad243ca73bf"
-    },
-    {
-     "source": "feed",
-     "outlet": "Tivi",
-     "title": "FT: Vakoojakohuun kaatunut Jensen Huang juonii paluuta – Elon Musk riensi apuun",
-     "url": "https://www.tivi.fi/uutiset/a/1b719d03-26cf-45c8-8e13-7ada879fb340?utm_source=rss",
-     "published": "2026-11-16T06:16:10+00:00",
-     "summary": "Liittolaiset Piilaaksossa ja Elon Musk painostavat Nvidian johtoporrasta ottamaan Jensen Huangin takaisin.",
-     "region": "Finland",
-     "lang": "fi",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Tivi:14541e33d766"
     },
     {
      "source": "feed",
@@ -385,21 +236,6 @@
     },
     {
      "source": "feed",
-     "outlet": "The Verge",
-     "title": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
-     "url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
-     "published": "2026-11-16T11:00:00+00:00",
-     "summary": "Washington Senator Maria Cantwell, one of the top Democrats on the Senate commerce committee, has taken fire at the Department of Commerce (DOC) under Secretary Howard Lutnick for neglecting to enforce protections intended to keep Nvidia's AI chips away from China. In a letter to Lutnick on Sunday, ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:b8971d0bcb52"
-    },
-    {
-     "source": "feed",
      "outlet": "The Guardian Tech",
      "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
      "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
@@ -415,10 +251,160 @@
     },
     {
      "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+     "published": "2026-11-16T14:06:16+00:00",
+     "summary": "Huang is weighing a return just days after resigning amid a deepening scandal.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:c0787d91eb5d"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Nvidia was in trouble before the Jensen Huang mess",
+     "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+     "published": "2026-11-16T15:24:09+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 170,
+     "comments": 161,
+     "discussion_url": "https://news.ycombinator.com/item?id=50518567",
+     "id": "hackernews:50518567"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Jensen Huang Is Gone. Now What?",
+     "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+     "published": "2026-11-16T16:12:51+00:00",
+     "summary": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen Huang himself.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:16dd4e1a2c73"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Trump says it ‘certainly isn’t a bad idea’ for Jensen Huang to return to Nvidia",
+     "url": "https://www.theverge.com/tech/1034355/trump-jensen-huang-nvidia-return",
+     "published": "2026-11-16T16:39:36+00:00",
+     "summary": "Following Jensen Huang's resignation as Nvidia's CEO last week, Trump told reporters on Monday that he's open to seeing Huang return and that he's not certain that the woman Huang reportedly had an affair with was in fact a spy. \"I think having Jensen go back- a lot of people are asking Jensen, they",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:f49c45a9b396"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+     "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+     "published": "2026-11-16T18:11:10+00:00",
+     "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:299d9ec42eff"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+     "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+     "published": "2026-11-16T18:11:10+00:00",
+     "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:299d9ec42eff"
+    },
+    {
+     "source": "feed",
+     "outlet": "MIT Technology Review",
+     "title": "The open-source movement wants Jensen Huang back",
+     "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+     "published": "2026-11-16T18:38:47+00:00",
+     "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including El",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:MIT Technology Review:4ae51b6f1699"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+     "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+     "published": "2026-11-16T18:43:35+00:00",
+     "summary": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, alon",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:3d2c7f7c4e5f"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+     "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+     "published": "2026-11-16T19:12:02+00:00",
+     "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:285e2fc35693"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+     "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+     "published": "2026-11-16T19:12:02+00:00",
+     "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:285e2fc35693"
+    },
+    {
+     "source": "feed",
      "outlet": "BBC Technology",
-     "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+     "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
      "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-16T12:20:49+00:00",
+     "published": "2026-11-16T19:16:52+00:00",
      "summary": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
      "region": "International",
      "lang": "en",
@@ -431,6 +417,259 @@
    ]
   },
   {
+   "id": "bc69a055be",
+   "headline": "Science at the Frontier: How scientists use ChatGPT",
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "first_published": "2026-11-16T12:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 48.6,
+   "signals": {
+    "coverage": 0.185,
+    "engagement": 0.66,
+    "velocity": 0.589,
+    "freshness": 0.843,
+    "age_hours": 7.9
+   },
+   "reasons": [
+    "1 outlet: OpenAI News",
+    "HN 42 points, 77 comments",
+    "first seen 8h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 1,
+   "outlets": [
+    "OpenAI News"
+   ],
+   "engagement": 196,
+   "regions": [
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "OpenAI News",
+     "title": "Science at the Frontier: How scientists use ChatGPT",
+     "url": "https://openai.com/index/science-at-the-frontier",
+     "published": "2026-11-16T12:00:00+00:00",
+     "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:OpenAI News:f891bd93f3d2"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "ChatGPT Wallet",
+     "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+     "published": "2026-11-16T15:17:56+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 42,
+     "comments": 77,
+     "discussion_url": "https://news.ycombinator.com/item?id=50518501",
+     "id": "hackernews:50518501"
+    }
+   ]
+  },
+  {
+   "id": "a554a76fff",
+   "headline": "Just 400 US Data Centers Use More Electricity Than Michigan",
+   "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
+   "first_published": "2026-11-16T16:00:00+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips"
+   ],
+   "score": 47.3,
+   "signals": {
+    "coverage": 0.28,
+    "engagement": 0.616,
+    "velocity": 0.652,
+    "freshness": 0.917,
+    "age_hours": 3.9
+   },
+   "reasons": [
+    "1 outlet: Wired",
+    "HN 54 points, 42 comments",
+    "first seen 4h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "new",
+   "outlet_count": 1,
+   "outlets": [
+    "Wired"
+   ],
+   "engagement": 138,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Just 400 US Data Centers Use More Electricity Than Michigan",
+     "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
+     "published": "2026-11-16T16:00:00+00:00",
+     "summary": "New Harvard research shows that data-center power demand is outstripping states—and that doesn’t even include facilities with off-grid gas plants.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:473c72fc447b"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Just 400 US Data Centers Use More Electricity Than Michigan",
+     "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
+     "published": "2026-11-16T18:04:55+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 54,
+     "comments": 42,
+     "discussion_url": "https://news.ycombinator.com/item?id=50520697",
+     "id": "hackernews:50520697"
+    }
+   ]
+  },
+  {
+   "id": "4fdf193d64",
+   "headline": "Google Maps can now build trip itineraries with real-time details about each stop",
+   "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+   "first_published": "2026-11-16T14:00:00+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 39.8,
+   "signals": {
+    "coverage": 0.595,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.879,
+    "age_hours": 5.9
+   },
+   "reasons": [
+    "4 outlets: TechCrunch, Engadget, ZDNet AI, Google AI Blog",
+    "first seen 6h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "new",
+   "outlet_count": 4,
+   "outlets": [
+    "Engadget",
+    "Google AI Blog",
+    "TechCrunch",
+    "ZDNet AI"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International",
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Google AI Blog",
+     "title": "New Ask Maps features to help with holiday travel and prep",
+     "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+     "published": "2026-11-16T14:00:00+00:00",
+     "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Google AI Blog:717626b76ea0"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+     "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+     "published": "2026-11-16T14:48:13+00:00",
+     "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:7e1f66820720"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+     "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+     "published": "2026-11-16T14:48:13+00:00",
+     "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:7e1f66820720"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "4 new Google Maps features to try on your next holiday road trip",
+     "url": "https://www.zdnet.com/tech/google-ask-maps-new-features-holiday-travel/",
+     "published": "2026-11-16T17:21:42+00:00",
+     "summary": "Google’s Ask Maps features start rolling out today on Android and iOS. Here’s what they can do for you now.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:1e37d711af26"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Google Maps' chatbot can find appointments and call to book them for you",
+     "url": "https://www.engadget.com/2318186/google-maps-chatbot-can-find-appointments-and-call-to-book-them-for-you/",
+     "published": "2026-11-16T19:17:00+00:00",
+     "summary": "The Ask Maps chatbot is also expanding to more than 30 additional countries across Europe.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:15101099f94d"
+    }
+   ]
+  },
+  {
    "id": "7f28626705",
    "headline": "Tell HN: HN is being scraped for emails to scam",
    "url": "https://news.ycombinator.com/item?id=50513451",
@@ -439,24 +678,24 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 37.5,
+   "score": 32.6,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.649,
-    "velocity": 0.535,
-    "freshness": 0.811,
-    "age_hours": 9.8
+    "engagement": 0.663,
+    "velocity": 0.462,
+    "freshness": 0.712,
+    "age_hours": 17.0
    },
    "reasons": [
-    "HN 107 points, 36 comments",
-    "first seen 10h ago",
+    "HN 119 points, 41 comments",
+    "first seen 17h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-16",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 179,
+   "engagement": 201,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -471,45 +710,644 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 107,
-     "comments": 36,
+     "points": 119,
+     "comments": 41,
      "discussion_url": "https://news.ycombinator.com/item?id=50513451",
      "id": "hackernews:50513451"
     }
    ]
   },
   {
-   "id": "99f058a9da",
-   "headline": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
-   "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
-   "first_published": "2026-11-15T20:37:28+00:00",
+   "id": "40c12cb1ac",
+   "headline": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+   "url": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/",
+   "first_published": "2026-11-16T18:26:26+00:00",
    "topic": "Tech & startups",
    "topics": [
     "Tech & startups"
    ],
-   "score": 33.4,
+   "score": 30.6,
    "signals": {
-    "coverage": 0.564,
-    "engagement": 0.797,
-    "velocity": 0.657,
-    "freshness": 0.723,
-    "age_hours": 16.1
+    "coverage": 0.659,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.968,
+    "age_hours": 1.4
    },
    "reasons": [
-    "3 outlets: The Verge, Ars Technica, Engadget",
-    "HN 255 points, 168 comments",
-    "first seen 16h ago",
+    "4 outlets: The Verge, TechCrunch, Wired, ZDNet AI",
+    "first seen 1h ago",
     "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "new",
+   "outlet_count": 4,
+   "outlets": [
+    "TechCrunch",
+    "The Verge",
+    "Wired",
+    "ZDNet AI"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The iPhone Duo Is Getting a Limited Version of Face ID",
+     "url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id/",
+     "published": "2026-11-16T18:26:26+00:00",
+     "summary": "Originally launching only with Touch ID, Apple’s folding phone now borrows a feature from the new HomeView and can recognize your mug, but it’s likely not as secure as Face ID.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:884cd3c4be0b"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "iPhone Duo 2 prototypes suggest FaceID, Action Button, other potential 2027 features",
+     "url": "https://www.zdnet.com/tech/apple-iphone-duo-2-face-id-upgrades-2027/",
+     "published": "2026-11-16T18:43:17+00:00",
+     "summary": "With manufacturing deadlines looming, it’s unclear which of several feature upgrades may have to wait until the foldable’s third generation.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:8148ac8f0c01"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Apple is adding face unlock to the iPhone Duo — without new hardware",
+     "url": "https://www.theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
+     "published": "2026-11-16T18:44:16+00:00",
+     "summary": "Apple is working on a face unlock feature for the iPhone Duo that uses the front-facing camera for authentication, and it's already testing it with the new iOS 27.3 beta released today, as reported by MacRumors. Currently, the only way to unlock the iPhone Duo is by using Touch ID or entering a pass",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:1f159c61f6ee"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+     "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+     "published": "2026-11-16T19:24:40+00:00",
+     "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advan",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:d78e8f7519d0"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+     "url": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/",
+     "published": "2026-11-16T19:26:55+00:00",
+     "summary": "Apple's latest iOS 27.3 developer beta introduces a limited face unlock feature for the iPhone Duo, alongside other improvements.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:4a7e7e5a12fb"
+    }
+   ]
+  },
+  {
+   "id": "3fde1b9b0b",
+   "headline": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+   "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+   "first_published": "2026-11-15T11:40:51+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips"
+   ],
+   "score": 29.8,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.867,
+    "velocity": 0.633,
+    "freshness": 0.574,
+    "age_hours": 32.2
+   },
+   "reasons": [
+    "HN 533 points, 250 comments",
+    "first seen 32h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 1033,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+     "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+     "published": "2026-11-15T11:40:51+00:00",
+     "summary": "<a href=\"https:&#x2F;&#x2F;wallhop.io&#x2F;https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;15&#x2F;us&#x2F;politics&#x2F;trump-lutnick-ai-chips-cantor-fitzgerald.html\" rel=\"nofollow\">https:&#x2F;&#x2F;wallhop.io&#x2F;https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;15&#x2F;us&#x2F;p",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 533,
+     "comments": 250,
+     "discussion_url": "https://news.ycombinator.com/item?id=50506180",
+     "id": "hackernews:50506180"
+    }
+   ]
+  },
+  {
+   "id": "2528f5b30c",
+   "headline": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
+   "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+   "first_published": "2026-11-16T00:01:27+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 29.5,
+   "signals": {
+    "coverage": 0.543,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.679,
+    "age_hours": 19.8
+   },
+   "reasons": [
+    "3 outlets: The Guardian Tech, The Verge, OpenAI News",
+    "first seen 20h ago",
+    "topic: AI models & labs"
    ],
    "first_seen": "2026-11-16",
    "status": "new",
    "outlet_count": 3,
    "outlets": [
-    "Ars Technica",
+    "OpenAI News",
+    "The Guardian Tech",
+    "The Verge"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International",
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
+     "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+     "published": "2026-11-16T00:01:27+00:00",
+     "summary": "Calls for governments to recognise sexual exploitation of children as preventable public health emergency Reports of artificial intelligence being used to sexually exploit children have risen by more than 8,400% in two years, research has found. A report by the Edinburgh-based Childlight – Global Ch",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:2f404cbfd468"
+    },
+    {
+     "source": "feed",
+     "outlet": "OpenAI News",
+     "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+     "url": "https://openai.com/index/strengthening-online-child-safety",
+     "published": "2026-11-16T17:00:00+00:00",
+     "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:OpenAI News:b1c71d07875a"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+     "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+     "published": "2026-11-16T19:23:45+00:00",
+     "summary": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:d146097754ce"
+    }
+   ]
+  },
+  {
+   "id": "67a2955d39",
+   "headline": "15 hotel guests were injured by chlorine poisoning due to Microsoft’s global email outage",
+   "url": "https://www.theverge.com/tech/1034538/microsoft-365-outlook-outage-hotel-chlorine-poisoning",
+   "first_published": "2026-11-15T18:36:10+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 28.8,
+   "signals": {
+    "coverage": 0.435,
+    "engagement": 0.9,
+    "velocity": 0.723,
+    "freshness": 0.627,
+    "age_hours": 25.3
+   },
+   "reasons": [
+    "2 outlets: The Verge, Engadget",
+    "HN 683 points, 333 comments",
+    "first seen 25h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
     "Engadget",
     "The Verge"
    ],
-   "engagement": 591,
+   "engagement": 1349,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+     "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+     "published": "2026-11-15T18:36:10+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 614,
+     "comments": 269,
+     "discussion_url": "https://news.ycombinator.com/item?id=50509411",
+     "id": "hackernews:50509411"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+     "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+     "published": "2026-11-16T13:18:22+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 69,
+     "comments": 64,
+     "discussion_url": "https://news.ycombinator.com/item?id=50517321",
+     "id": "hackernews:50517321"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Why Microsoft is ditching a few of its 365 companion apps in 2026",
+     "url": "https://www.engadget.com/2314266/microsoft-ditching-365-companion-apps-2026/",
+     "published": "2026-11-16T16:15:00+00:00",
+     "summary": "These apps are being shut down after just 14 months.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:47600d5ac1a9"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "15 hotel guests were injured by chlorine poisoning due to Microsoft’s global email outage",
+     "url": "https://www.theverge.com/tech/1034538/microsoft-365-outlook-outage-hotel-chlorine-poisoning",
+     "published": "2026-11-16T18:29:55+00:00",
+     "summary": "Microsoft's worldwide 365 and Outlook outage had real-world consequences after it cut off email alerts for a German hotel's pool safety system. The German outlet Westdeutscher Rundfunk (WDR) said several people were injured at a Phantasialand hotel on Friday after its email system failed to deliver ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:e3302497fc7e"
+    }
+   ]
+  },
+  {
+   "id": "757e72a63e",
+   "headline": "Which Google Pixel phone is most similar to the Galaxy S26+?",
+   "url": "https://www.engadget.com/2314824/google-pixel-phone-most-similar-to-galaxy-s26-plus/",
+   "first_published": "2026-11-16T17:35:43+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 28.8,
+   "signals": {
+    "coverage": 0.379,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.95,
+    "age_hours": 2.3
+   },
+   "reasons": [
+    "2 outlets: Engadget, ZDNet AI",
+    "first seen 2h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "Engadget",
+    "ZDNet AI"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Your Samsung phone could soon get a personal AI agent – what we know about Galaxy Claw",
+     "url": "https://www.zdnet.com/innovation/samsung-galaxy-claw-ai-cross-app-upgrade/",
+     "published": "2026-11-16T17:35:43+00:00",
+     "summary": "Similar to Gemini Intelligence and Siri AI, Galaxy Claw could bring cross-app intelligence to your phone.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:c2b8c6f00f9f"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Which Google Pixel phone is most similar to the Galaxy S26+?",
+     "url": "https://www.engadget.com/2314824/google-pixel-phone-most-similar-to-galaxy-s26-plus/",
+     "published": "2026-11-16T19:30:00+00:00",
+     "summary": "Trying to choose between the Google Pixel 11 Pro and Samsung Galaxy S26+? We break down the specs, cameras and prices to help find the best one for you.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:9012a5466715"
+    }
+   ]
+  },
+  {
+   "id": "9d3eb6f940",
+   "headline": "Apple launches new app to study how people use AI for health",
+   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+   "first_published": "2026-11-16T01:30:00+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 28.0,
+   "signals": {
+    "coverage": 0.529,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.696,
+    "age_hours": 18.4
+   },
+   "reasons": [
+    "3 outlets: TechCrunch AI, Engadget, ZDNet AI",
+    "first seen 18h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "new",
+   "outlet_count": 3,
+   "outlets": [
+    "Engadget",
+    "TechCrunch AI",
+    "ZDNet AI"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Apple launches new app to study how people use AI for health",
+     "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+     "published": "2026-11-16T01:30:00+00:00",
+     "summary": "Apple's new app for a study will answer everyday medical questions",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:8d87d951ba25"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Apple's new research app is designed to make AI health tools more user-friendly",
+     "url": "https://www.engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly/",
+     "published": "2026-11-16T06:06:05+00:00",
+     "summary": "Apple has unveiled a new research study with the aim of learning how people use AI health tools.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:83b4e6be3903"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Apple could build its AI health chatbot from this study – how to enroll",
+     "url": "https://www.zdnet.com/tech/apple-health-ai-usage-study-how-to-enroll/",
+     "published": "2026-11-16T19:25:57+00:00",
+     "summary": "Apple is leaning into AI-powered health tools with the launch of its Apple Health AI Usage Study.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:1ed8298cc5a6"
+    }
+   ]
+  },
+  {
+   "id": "adfa8a22de",
+   "headline": "Sony’s PlayStation 5 accessories are cheaper ahead of Black Friday",
+   "url": "https://www.theverge.com/gadgets/1034178/sony-playstation-5-ps5-accessories-monitor-dualsense-headset-deal-sale",
+   "first_published": "2026-11-15T10:00:00+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 26.1,
+   "signals": {
+    "coverage": 0.46,
+    "engagement": 0.909,
+    "velocity": 0.683,
+    "freshness": 0.563,
+    "age_hours": 33.9
+   },
+   "reasons": [
+    "2 outlets: The Verge, Wired",
+    "HN 647 points, 398 comments",
+    "first seen 34h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 2,
+   "outlets": [
+    "The Verge",
+    "Wired"
+   ],
+   "engagement": 1443,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "M6 Mac Mini Early Black Friday Sale (2026)",
+     "url": "https://www.wired.com/story/mac-mini-deal-11-13-2026/",
+     "published": "2026-11-15T10:00:00+00:00",
+     "summary": "The Mac Mini is the best mini computer you can buy, and it’s currently $120 off, starting at just $779.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:0f2b1e1709ac"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+     "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+     "published": "2026-11-16T13:39:07+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 647,
+     "comments": 398,
+     "discussion_url": "https://news.ycombinator.com/item?id=50517488",
+     "id": "hackernews:50517488"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Sony’s PlayStation 5 accessories are cheaper ahead of Black Friday",
+     "url": "https://www.theverge.com/gadgets/1034178/sony-playstation-5-ps5-accessories-monitor-dualsense-headset-deal-sale",
+     "published": "2026-11-16T16:48:01+00:00",
+     "summary": "Several retailers are offering discounts on PlayStation 5 games, including deep price cuts on recent console-exclusive hits like Marvel’s Wolverine, Ghost of Yotei, Saros, and hundreds more. We’ll cover a bunch of those in the coming days, but this post is focused on the great hardware discounts tha",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:86137a7cda94"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+     "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+     "published": "2026-11-16T19:50:47+00:00",
+     "summary": "If you’re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple’s latest smartwatch, the 42mm Apple Watch Series 12 with Wi-Fi and GPS connectivity, has dropped to a new all-time low of $329 at Amazon, Best Buy, and Walmart, beating the October Prime ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:24ee1af8e468"
+    }
+   ]
+  },
+  {
+   "id": "99f058a9da",
+   "headline": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+   "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+   "first_published": "2026-11-15T20:37:28+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 26.0,
+   "signals": {
+    "coverage": 0.28,
+    "engagement": 0.805,
+    "velocity": 0.604,
+    "freshness": 0.645,
+    "age_hours": 23.2
+   },
+   "reasons": [
+    "1 outlet: Ars Technica",
+    "HN 266 points, 182 comments",
+    "first seen 23h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "new",
+   "outlet_count": 1,
+   "outlets": [
+    "Ars Technica"
+   ],
+   "engagement": 630,
    "regions": [
     "International"
    ],
@@ -526,25 +1364,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 161,
-     "comments": 109,
+     "points": 167,
+     "comments": 122,
      "discussion_url": "https://news.ycombinator.com/item?id=50510442",
      "id": "hackernews:50510442"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
-     "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
-     "published": "2026-11-15T21:05:02+00:00",
-     "summary": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the nec",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:44d97597784b"
     },
     {
      "source": "hackernews",
@@ -556,8 +1379,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 94,
-     "comments": 59,
+     "points": 99,
+     "comments": 60,
      "discussion_url": "https://news.ycombinator.com/item?id=50511072",
      "id": "hackernews:50511072"
     },
@@ -575,104 +1398,41 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Ars Technica:2eef4a5b12a1"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "ULA Vulcan rocket failure destroys 40 Amazon Leo satellites",
-     "url": "https://www.engadget.com/2317283/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites/",
-     "published": "2026-11-16T04:56:53+00:00",
-     "summary": "United Launch Alliance is known for its ultra-dependable Atlas V, but its its latest rocket is off to a shaky start.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:50969f1926a0"
     }
    ]
   },
   {
-   "id": "3fde1b9b0b",
-   "headline": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
-   "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
-   "first_published": "2026-11-15T11:40:51+00:00",
-   "topic": "AI business & chips",
+   "id": "72be98160e",
+   "headline": "Instagram now lets creators add Amazon affiliate links in reels and feed posts",
+   "url": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/",
+   "first_published": "2026-11-16T17:00:00+00:00",
+   "topic": "Tech & startups",
    "topics": [
-    "AI business & chips"
+    "Tech & startups"
    ],
-   "score": 32.8,
+   "score": 25.4,
    "signals": {
-    "coverage": 0.0,
-    "engagement": 0.861,
-    "velocity": 0.669,
-    "freshness": 0.629,
-    "age_hours": 25.0
-   },
-   "reasons": [
-    "HN 504 points, 239 comments",
-    "first seen 25h ago",
-    "topic: AI business & chips"
-   ],
-   "first_seen": "2026-11-16",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 982,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
-     "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
-     "published": "2026-11-15T11:40:51+00:00",
-     "summary": "<a href=\"https:&#x2F;&#x2F;wallhop.io&#x2F;https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;15&#x2F;us&#x2F;politics&#x2F;trump-lutnick-ai-chips-cantor-fitzgerald.html\" rel=\"nofollow\">https:&#x2F;&#x2F;wallhop.io&#x2F;https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;15&#x2F;us&#x2F;p",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 504,
-     "comments": 239,
-     "discussion_url": "https://news.ycombinator.com/item?id=50506180",
-     "id": "hackernews:50506180"
-    }
-   ]
-  },
-  {
-   "id": "5b94630fee",
-   "headline": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
-   "url": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
-   "first_published": "2026-11-16T06:51:20+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips"
-   ],
-   "score": 27.5,
-   "signals": {
-    "coverage": 0.46,
+    "coverage": 0.564,
     "engagement": 0.0,
     "velocity": 0.0,
-    "freshness": 0.879,
-    "age_hours": 5.9
+    "freshness": 0.937,
+    "age_hours": 2.9
    },
    "reasons": [
-    "2 outlets: TechCrunch, Sifted",
-    "first seen 6h ago",
-    "topic: AI business & chips"
+    "3 outlets: TechCrunch, Wired, Engadget",
+    "first seen 3h ago",
+    "topic: Tech & startups"
    ],
    "first_seen": "2026-11-16",
    "status": "new",
-   "outlet_count": 2,
+   "outlet_count": 3,
    "outlets": [
-    "Sifted",
-    "TechCrunch"
+    "Engadget",
+    "TechCrunch",
+    "Wired"
    ],
    "engagement": 0,
    "regions": [
-    "Europe",
     "International"
    ],
    "brief": {},
@@ -680,33 +1440,48 @@
    "articles": [
     {
      "source": "feed",
-     "outlet": "Sifted",
-     "title": "Plural raises fresh €1bn fund to back ‘non-obvious companies’",
-     "url": "https://sifted.eu/articles/plural-new-fund-e1bn/",
-     "published": "2026-11-16T06:51:20+00:00",
-     "summary": "",
-     "region": "Europe",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Sifted:4988df291f03"
-    },
-    {
-     "source": "feed",
      "outlet": "TechCrunch",
-     "title": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
-     "url": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
-     "published": "2026-11-16T07:00:00+00:00",
-     "summary": "Operator-led VC firm Plural has raised €1 billion in new capital ($1.1 billion), joining a growing cohort of larger European funds that also includes Mundi Ventures’ Kembara and EQT-managed Scaleup Europe Fund.",
+     "title": "Instagram now lets creators add Amazon affiliate links in reels and feed posts",
+     "url": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/",
+     "published": "2026-11-16T17:00:00+00:00",
+     "summary": "While creators have long shared Amazon affiliate links through stories, DMs, and their bios, the new integration brings them to new parts of the app.",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:TechCrunch:1c9329094b36"
+     "id": "feed:TechCrunch:7bd9d0dd03f0"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Instagram Is Bringing Amazon Affiliate Links Directly to Reels and Posts",
+     "url": "https://www.wired.com/story/instagram-is-bringing-amazon-affiliate-links-directly-to-reels-and-posts/",
+     "published": "2026-11-16T17:00:00+00:00",
+     "summary": "The Meta-owned social media platform now lets creators attach up to 30 affiliate links per Reel to make money from Amazon more easily.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:d7b684b43f94"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Instagram will let creators add Amazon affiliate links directly to their posts and Reels",
+     "url": "https://www.engadget.com/2316714/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels/",
+     "published": "2026-11-16T17:00:00+00:00",
+     "summary": "The app will become even more of a shopping mall, just in time for Black Friday.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:db8a19d6a146"
     }
    ]
   },
@@ -719,24 +1494,24 @@
    "topics": [
     "AI business & chips"
    ],
-   "score": 27.3,
+   "score": 25.4,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.852,
-    "velocity": 0.583,
-    "freshness": 0.537,
-    "age_hours": 38.3
+    "engagement": 0.853,
+    "velocity": 0.554,
+    "freshness": 0.504,
+    "age_hours": 45.4
    },
    "reasons": [
-    "HN 448 points, 236 comments",
-    "first seen 38h ago",
+    "HN 450 points, 238 comments",
+    "first seen 45h ago",
     "topic: AI business & chips"
    ],
    "first_seen": "2026-11-15",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 920,
+   "engagement": 926,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -751,88 +1526,40 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 448,
-     "comments": 236,
+     "points": 450,
+     "comments": 238,
      "discussion_url": "https://news.ycombinator.com/item?id=50501631",
      "id": "hackernews:50501631"
     }
    ]
   },
   {
-   "id": "3ce5c65a6a",
-   "headline": "The Claude Delusion",
-   "url": "https://www.netmeister.org/blog/claude-delusion.html",
-   "first_published": "2026-11-14T13:36:17+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 27.2,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.789,
-    "velocity": 0.46,
-    "freshness": 0.498,
-    "age_hours": 47.1
-   },
-   "reasons": [
-    "HN 152 points, 200 comments",
-    "first seen 47h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 552,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "The Claude Delusion",
-     "url": "https://www.netmeister.org/blog/claude-delusion.html",
-     "published": "2026-11-14T13:36:17+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 152,
-     "comments": 200,
-     "discussion_url": "https://news.ycombinator.com/item?id=50496921",
-     "id": "hackernews:50496921"
-    }
-   ]
-  },
-  {
-   "id": "210d388636",
-   "headline": "Show HN: Agweb – a browser for agents that stays out of your way",
-   "url": "https://github.com/paul-nameless/agweb",
-   "first_published": "2026-11-14T14:08:12+00:00",
+   "id": "8189db4c4a",
+   "headline": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+   "url": "https://github.com/db-branch/db-branch",
+   "first_published": "2026-11-15T13:50:51+00:00",
    "topic": "AI agents & products",
    "topics": [
     "AI agents & products"
    ],
-   "score": 26.6,
+   "score": 25.2,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.809,
-    "velocity": 0.489,
-    "freshness": 0.5,
-    "age_hours": 46.6
+    "engagement": 0.644,
+    "velocity": 0.346,
+    "freshness": 0.589,
+    "age_hours": 30.0
    },
    "reasons": [
-    "HN 329 points, 160 comments",
-    "first seen 47h ago",
+    "HN 95 points, 39 comments",
+    "first seen 30h ago",
     "topic: AI agents & products"
    ],
-   "first_seen": "2026-11-15",
-   "status": "steady",
+   "first_seen": "2026-11-16",
+   "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 649,
+   "engagement": 173,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -840,180 +1567,32 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Show HN: Agweb – a browser for agents that stays out of your way",
-     "url": "https://github.com/paul-nameless/agweb",
-     "published": "2026-11-14T14:08:12+00:00",
+     "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+     "url": "https://github.com/db-branch/db-branch",
+     "published": "2026-11-15T13:50:51+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 109,
-     "comments": 37,
-     "discussion_url": "https://news.ycombinator.com/item?id=50497147",
-     "id": "hackernews:50497147"
+     "points": 45,
+     "comments": 16,
+     "discussion_url": "https://news.ycombinator.com/item?id=50506940",
+     "id": "hackernews:50506940"
     },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Emacs Is My Browser",
-     "url": "https://joshblais.com/blog/emacs-as-my-browser/",
-     "published": "2026-11-15T15:21:21+00:00",
-     "summary": "",
+     "title": "Show HN: Coral – Open-source gateway where agents write their own tools",
+     "url": "https://github.com/withcoral/coral",
+     "published": "2026-11-16T14:14:51+00:00",
+     "summary": "Hi HN, I&#x27;m James, one of the co-founders of Coral.<p>Coral is an open-source, self-hosted gateway that sits between your agents and the systems they work on. Agents call tools by writing short TypeScript programs that they can save as custom tools to reuse.<p>You can publish custom tools for gr",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 220,
-     "comments": 123,
-     "discussion_url": "https://news.ycombinator.com/item?id=50507553",
-     "id": "hackernews:50507553"
-    }
-   ]
-  },
-  {
-   "id": "67a2955d39",
-   "headline": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
-   "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
-   "first_published": "2026-11-15T18:36:10+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 26.4,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.873,
-    "velocity": 0.743,
-    "freshness": 0.699,
-    "age_hours": 18.1
-   },
-   "reasons": [
-    "HN 583 points, 249 comments",
-    "first seen 18h ago",
-    "topic: Tech & startups"
-   ],
-   "first_seen": "2026-11-16",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1081,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
-     "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
-     "published": "2026-11-15T18:36:10+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 583,
-     "comments": 249,
-     "discussion_url": "https://news.ycombinator.com/item?id=50509411",
-     "id": "hackernews:50509411"
-    }
-   ]
-  },
-  {
-   "id": "ea6392a4bc",
-   "headline": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-   "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-   "first_published": "2026-11-14T15:04:15+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 25.2,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.725,
-    "velocity": 0.382,
-    "freshness": 0.503,
-    "age_hours": 45.6
-   },
-   "reasons": [
-    "HN 273 points, 29 comments",
-    "first seen 46h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 331,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-     "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-     "published": "2026-11-14T15:04:15+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 273,
-     "comments": 29,
-     "discussion_url": "https://news.ycombinator.com/item?id=50497589",
-     "id": "hackernews:50497589"
-    }
-   ]
-  },
-  {
-   "id": "1a7442f5be",
-   "headline": "Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia",
-   "url": "https://yle.fi/a/74-20257202?origin=rss",
-   "first_published": "2026-11-16T12:24:06+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 25.1,
-   "signals": {
-    "coverage": 0.315,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.993,
-    "age_hours": 0.3
-   },
-   "reasons": [
-    "1 outlet: Yle News",
-    "broke in the last hour",
-    "topic: Finland & Nordic tech"
-   ],
-   "first_seen": "2026-11-16",
-   "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "Yle News"
-   ],
-   "engagement": 0,
-   "regions": [
-    "Finland"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Yle News",
-     "title": "Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia",
-     "url": "https://yle.fi/a/74-20257202?origin=rss",
-     "published": "2026-11-16T12:24:06+00:00",
-     "summary": "Finnish officials have noted that Russia is stepping up its sabotage strategy across Europe.",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle News:39abdf490ce5"
+     "points": 50,
+     "comments": 23,
+     "discussion_url": "https://news.ycombinator.com/item?id=50517803",
+     "id": "hackernews:50517803"
     }
    ]
   }
