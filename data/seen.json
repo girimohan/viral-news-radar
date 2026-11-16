@@ -43,21 +43,44 @@
 },
 "148a343513": {
 "by_day": {
-"2026-11-15": 0
+"2026-11-15": 0,
+"2026-11-16": 0
 },
 "first_seen": "2026-11-15",
-"headline": "How did Woz write the Apple 1 BASIC before building the computer?",
-"last_seen": "2026-11-15",
+"headline": "How did Woz write the Apple 1 BASIC before building the computer? (2021)",
+"last_seen": "2026-11-16",
 "terms": [
 "computer",
-"woz",
 "basic",
-"build",
+"apple",
 "write",
-"apple"
+"2021",
+"woz",
+"build"
 ],
 "urls": [
 "https://retrocomputing.stackexchange.com/questions/17957"
+]
+},
+"1a7442f5be": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia",
+"last_seen": "2026-11-16",
+"terms": [
+"russia",
+"attack",
+"häkkänen",
+"act",
+"suspect",
+"estonia",
+"arson",
+"desperation"
+],
+"urls": [
+"https://yle.fi/a/74-20257202?origin=rss"
 ]
 },
 "1bca59691d": {
@@ -83,22 +106,25 @@
 },
 "210d388636": {
 "by_day": {
-"2026-11-15": 0
+"2026-11-15": 0,
+"2026-11-16": 0
 },
 "first_seen": "2026-11-15",
 "headline": "Show HN: Agweb – a browser for agents that stays out of your way",
-"last_seen": "2026-11-15",
+"last_seen": "2026-11-16",
 "terms": [
-"stay",
+"browser",
+"hn",
 "agweb",
 "way",
-"hn",
 "agent",
 "show",
-"browser"
+"stay",
+"emac"
 ],
 "urls": [
-"https://github.com/paul-nameless/agweb"
+"https://github.com/paul-nameless/agweb",
+"https://joshblais.com/blog/emacs-as-my-browser"
 ]
 },
 "2ab97a3f96": {
@@ -151,22 +177,23 @@
 "35ada50d2a": {
 "by_day": {
 "2026-11-14": 0,
-"2026-11-15": 0
+"2026-11-15": 0,
+"2026-11-16": 0
 },
 "first_seen": "2026-11-14",
 "headline": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-"last_seen": "2026-11-15",
+"last_seen": "2026-11-16",
 "terms": [
-"serv",
-"nvidia",
+"two",
 "station",
 "tok",
+"glm-5.3",
+"across",
+"serv",
 "607.8",
 "dgx",
-"two",
-"vllm",
-"across",
-"glm-5.3"
+"nvidia",
+"vllm"
 ],
 "urls": [
 "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm"
@@ -197,32 +224,39 @@
 "3ce5c65a6a": {
 "by_day": {
 "2026-11-14": 0,
-"2026-11-15": 0
+"2026-11-15": 0,
+"2026-11-16": 0
 },
 "first_seen": "2026-11-14",
-"headline": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
-"last_seen": "2026-11-15",
+"headline": "The Claude Delusion",
+"last_seen": "2026-11-16",
 "terms": [
-"claude",
-"meeting",
-"parallel",
-"ai",
-"worker",
-"project",
-"upgrad",
-"anthropic",
-"run",
-"code",
 "delusion",
-"pag",
-"professor",
-"syllabu"
+"claude"
 ],
 "urls": [
-"https://claude.com/resources/articles/claude-meetings",
-"https://claude.com/resources/articles/projects-redesigned",
-"https://netmeister.org/blog/claude-delusion.html",
-"https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits"
+"https://netmeister.org/blog/claude-delusion.html"
+]
+},
+"3fde1b9b0b": {
+"by_day": {
+"2026-11-16": 0
+},
+"first_seen": "2026-11-16",
+"headline": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+"last_seen": "2026-11-16",
+"terms": [
+"chip",
+"lutnick",
+"business",
+"rul",
+"weaken",
+"family",
+"overlap",
+"push"
+],
+"urls": [
+"https://nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html"
 ]
 },
 "43d73ecae8": {
@@ -248,15 +282,16 @@
 "505997472a": {
 "by_day": {
 "2026-11-14": 0,
-"2026-11-15": 2
+"2026-11-15": 2,
+"2026-11-16": 2
 },
 "first_seen": "2026-11-14",
-"headline": "Italy fines Meta €805m over accessing users' photos",
-"last_seen": "2026-11-15",
+"headline": "Italy fines Meta $887m for accessing Android users’ photos and videos",
+"last_seen": "2026-11-16",
 "terms": [
-"italy",
 "fin",
 "meta",
+"italy",
 "access",
 "user",
 "photo",
@@ -276,24 +311,52 @@
 },
 "56e6463b37": {
 "by_day": {
-"2026-11-15": 0
+"2026-11-15": 0,
+"2026-11-16": 0
 },
 "first_seen": "2026-11-15",
 "headline": "Nvidia deliberately kept GPU prices high through circular financing deals",
-"last_seen": "2026-11-15",
+"last_seen": "2026-11-16",
 "terms": [
-"nvidia",
-"high",
-"deliberately",
-"financ",
-"kept",
-"circular",
-"deal",
 "pric",
-"gpu"
+"gpu",
+"kept",
+"deliberately",
+"high",
+"nvidia",
+"deal",
+"circular",
+"financ"
 ],
 "urls": [
 "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
+]
+},
+"5b94630fee": {
+"by_day": {
+"2026-11-16": 2
+},
+"first_seen": "2026-11-16",
+"headline": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
+"last_seen": "2026-11-16",
+"terms": [
+"plural",
+"fund",
+"raise",
+"back",
+"non-obviou",
+"fresh",
+"1bn",
+"compani",
+"hels",
+"europe",
+"moonshot",
+"1.1b",
+"backer"
+],
+"urls": [
+"https://sifted.eu/articles/plural-new-fund-e1bn",
+"https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots"
 ]
 },
 "5bc3f29063": {
@@ -360,6 +423,28 @@
 "https://wired.com/story/the-faa-nationwide-ground-stop-is-over"
 ]
 },
+"67a2955d39": {
+"by_day": {
+"2026-11-16": 0
+},
+"first_seen": "2026-11-16",
+"headline": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+"last_seen": "2026-11-16",
+"terms": [
+"guest",
+"chlorine",
+"lead",
+"365",
+"poison",
+"hotel",
+"microsoft",
+"outage",
+"gas"
+],
+"urls": [
+"https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html"
+]
+},
 "68ad117f76": {
 "by_day": {
 "2026-11-15": 1
@@ -386,6 +471,26 @@
 "urls": [
 "https://technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong",
 "https://technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking"
+]
+},
+"697d4dc743": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "It-alan liikevaihto kasvaa, henkilöstömäärä vähenee – Edunvalvojalta jyrähdys",
+"last_seen": "2026-11-16",
+"terms": [
+"kasvaa",
+"jyrähdy",
+"edunvalvojalta",
+"vähenee",
+"it-alan",
+"liikevaihto",
+"henkilöstömäärä"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/49909e9b-d3ff-455b-b3d4-dad3043e11b5"
 ]
 },
 "69d8c8ae86": {
@@ -417,6 +522,26 @@
 "https://theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
 ]
 },
+"717377749a": {
+"by_day": {
+"2026-11-16": 0
+},
+"first_seen": "2026-11-16",
+"headline": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+"last_seen": "2026-11-16",
+"terms": [
+"delet",
+"pag",
+"renumber",
+"syllabu",
+"ask",
+"professor",
+"claude"
+],
+"urls": [
+"https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits"
+]
+},
 "75501eef18": {
 "by_day": {
 "2026-11-15": 1
@@ -436,6 +561,24 @@
 "https://tivi.fi/uutiset/a/8af4720d-d4b0-407e-8469-27e5461cb81c"
 ]
 },
+"7f28626705": {
+"by_day": {
+"2026-11-16": 0
+},
+"first_seen": "2026-11-16",
+"headline": "Tell HN: HN is being scraped for emails to scam",
+"last_seen": "2026-11-16",
+"terms": [
+"email",
+"hn",
+"scrap",
+"scam",
+"tell"
+],
+"urls": [
+"https://news.ycombinator.com/item?id=50513451"
+]
+},
 "80b032530c": {
 "by_day": {
 "2026-11-14": 0,
@@ -453,6 +596,46 @@
 ],
 "urls": [
 "https://standwithjensen.com/"
+]
+},
+"8189db4c4a": {
+"by_day": {
+"2026-11-16": 0
+},
+"first_seen": "2026-11-16",
+"headline": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+"last_seen": "2026-11-16",
+"terms": [
+"db-branch",
+"database",
+"second",
+"hn",
+"ci",
+"ai",
+"branch",
+"agent",
+"zfs",
+"show"
+],
+"urls": [
+"https://github.com/db-branch/db-branch"
+]
+},
+"833f3b575a": {
+"by_day": {
+"2026-11-16": 1
+},
+"first_seen": "2026-11-16",
+"headline": "Wet and wintry weather to start the week",
+"last_seen": "2026-11-16",
+"terms": [
+"wintry",
+"weather",
+"start",
+"wet"
+],
+"urls": [
+"https://yle.fi/a/74-20257134?origin=rss"
 ]
 },
 "94f45cbe56": {
@@ -544,6 +727,37 @@
 "https://yle.fi/a/74-20256829?origin=rss"
 ]
 },
+"99f058a9da": {
+"by_day": {
+"2026-11-16": 3
+},
+"first_seen": "2026-11-16",
+"headline": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+"last_seen": "2026-11-16",
+"terms": [
+"rocket",
+"amazon",
+"satellit",
+"fail",
+"vulcan",
+"destroy",
+"launch",
+"leo",
+"return-to-flight",
+"lost",
+"mid-flight",
+"boeing-lockhe",
+"payload",
+"competitor"
+],
+"urls": [
+"https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
+"https://engadget.com/2317283/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites",
+"https://reuters.com/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15",
+"https://space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+"https://theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
+]
+},
 "9ca6cd203a": {
 "by_day": {
 "2026-11-14": 4,
@@ -599,32 +813,79 @@
 "https://yle.fi/a/74-20255932?origin=rss"
 ]
 },
+"9d3eb6f940": {
+"by_day": {
+"2026-11-16": 3
+},
+"first_seen": "2026-11-16",
+"headline": "Apple launches new app to study how people use AI for health",
+"last_seen": "2026-11-16",
+"terms": [
+"ai",
+"apple",
+"health",
+"study",
+"app",
+"tool",
+"launch",
+"use",
+"people",
+"look",
+"improve",
+"effectiveness",
+"research",
+"user-friendly"
+],
+"urls": [
+"https://engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly",
+"https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
+"https://theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools"
+]
+},
 "a5c21dbd20": {
 "by_day": {
-"2026-11-15": 2
+"2026-11-15": 2,
+"2026-11-16": 2
 },
 "first_seen": "2026-11-15",
 "headline": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
-"last_seen": "2026-11-15",
+"last_seen": "2026-11-16",
 "terms": [
-"top",
-"scorer",
-"south",
 "korea",
 "admit",
-"cheat",
+"top",
 "tax",
+"south",
+"scorer",
+"cheat",
 "exam",
 "one",
 "ai",
-"wrong",
 "question",
 "160",
+"wrong",
 "accountancy"
 ],
 "urls": [
 "https://bbc.co.uk/news/articles/ckvg2ezvpe08o",
 "https://theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam"
+]
+},
+"a838ee181d": {
+"by_day": {
+"2026-11-16": 0
+},
+"first_seen": "2026-11-16",
+"headline": "Coles hit by a cybersecurity incident",
+"last_seen": "2026-11-16",
+"terms": [
+"col",
+"hit",
+"incident",
+"cybersecurity"
+],
+"urls": [
+"https://colesgroup.com.au/updates"
 ]
 },
 "aa88a5c92e": {
@@ -996,68 +1257,70 @@
 "e1d720a95e": {
 "by_day": {
 "2026-11-14": 7,
-"2026-11-15": 5
+"2026-11-15": 5,
+"2026-11-16": 6
 },
 "first_seen": "2026-11-14",
-"headline": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-"last_seen": "2026-11-15",
+"headline": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+"last_seen": "2026-11-16",
 "terms": [
-"nvidia",
-"jensen",
 "huang",
+"jensen",
+"nvidia",
 "ai",
-"scandal",
-"china",
-"departure",
-"startup",
-"fund",
+"elon",
+"musk",
+"ceo",
+"reinstate",
+"call",
 "gpu",
-"chip",
-"powerful",
-"export-bann",
-"uh-oh"
+"exit",
+"react",
+"asian",
+"government"
 ],
 "urls": [
-"https://bbc.co.uk/news/articles/ck1exevgql4qo",
 "https://bbc.co.uk/news/articles/cmdx1vpprk9vo",
-"https://bbc.co.uk/news/articles/cqvg2d1eg7zro",
-"https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-"https://standwithjensen.com/",
-"https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
-"https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+"https://bbc.co.uk/news/articles/cry49plv8v3go",
+"https://ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+"https://reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15",
+"https://steveblank.com/2026/11/15/whats-next-for-nvidia",
 "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
 "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
 "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
-"https://techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-"https://theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+"https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
 "https://theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
-"https://theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+"https://theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+"https://theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+"https://theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+"https://theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+"https://tivi.fi/uutiset/a/1b719d03-26cf-45c8-8e13-7ada879fb340",
 "https://tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
-"https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon"
+"https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon",
+"https://wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess"
 ]
 },
 "ea6392a4bc": {
 "by_day": {
 "2026-11-14": 0,
-"2026-11-15": 0
+"2026-11-15": 0,
+"2026-11-16": 0
 },
 "first_seen": "2026-11-14",
 "headline": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-"last_seen": "2026-11-15",
+"last_seen": "2026-11-16",
 "terms": [
-"deepseek",
-"ultrafast",
-"lin",
-"hn",
-"jax",
 "pure",
-"show",
+"jax",
+"hn",
+"deepseek",
+"lin",
 "v3",
-"200"
+"200",
+"show"
 ],
 "urls": [
-"https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-"https://github.com/basetenlabs/deepseek-ultrafast"
+"https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
 ]
 },
 "ef14fe40de": {
@@ -1075,34 +1338,46 @@
 "https://ipo.anthropic.com/us"
 ]
 },
-"f8abe1a368": {
+"f02301e1df": {
 "by_day": {
-"2026-11-15": 3
+"2026-11-16": 1
 },
-"first_seen": "2026-11-15",
-"headline": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
-"last_seen": "2026-11-15",
+"first_seen": "2026-11-16",
+"headline": "Why are protests so much smaller in Finland than other parts of Europe?",
+"last_seen": "2026-11-16",
 "terms": [
-"catch",
-"starship",
-"spacex",
-"flight",
-"saturday",
-"orbit",
-"power",
-"possible",
-"sett",
-"end",
-"successfully",
-"execute",
-"chopstick",
-"watch"
+"europe",
+"protest",
+"finland",
+"much",
+"part",
+"smaller"
 ],
 "urls": [
-"https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday",
+"https://yle.fi/a/74-20257147?origin=rss"
+]
+},
+"f8abe1a368": {
+"by_day": {
+"2026-11-15": 3,
+"2026-11-16": 1
+},
+"first_seen": "2026-11-15",
+"headline": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+"last_seen": "2026-11-16",
+"terms": [
+"spacex",
+"catch",
+"starship",
+"end",
+"flight",
+"rocket",
+"return",
+"saturday"
+],
+"urls": [
 "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world",
-"https://spacex.com/launches/starship-flight-15",
-"https://theverge.com/science/1033930/spacex-chopstick-starship-catch"
+"https://spacex.com/launches/starship-flight-15"
 ]
 },
 "f958884695": {
@@ -1122,6 +1397,28 @@
 ],
 "urls": [
 "https://yle.fi/a/74-20256629?origin=rss"
+]
+},
+"fe2010c9a5": {
+"by_day": {
+"2026-11-16": 2
+},
+"first_seen": "2026-11-16",
+"headline": "Zoox robotaxis are now on the Uber app in Las Vegas",
+"last_seen": "2026-11-16",
+"terms": [
+"uber",
+"robotaxi",
+"zoox",
+"app",
+"las",
+"vega",
+"amazon",
+"available"
+],
+"urls": [
+"https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas",
+"https://theverge.com/transportation/1032984/uber-zoox-robotaxi-las-vegas-launch-mgm-resorts-los-angeles"
 ]
 }
 }
