@@ -109,6 +109,37 @@
 "https://brave.com/blog/search-api-agentic-payments"
 ]
 },
+"12545991ff": {
+"by_day": {
+"2026-11-17": 3
+},
+"first_seen": "2026-11-17",
+"headline": "Starling founder Anne Boden plots new AI-powered bank",
+"last_seen": "2026-11-17",
+"terms": [
+"bank",
+"starl",
+"online",
+"plot",
+"ai-power",
+"founder",
+"boden",
+"anne",
+"ceo",
+"step",
+"end",
+"delay",
+"us",
+"chase"
+],
+"urls": [
+"https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+"https://engadget.com/2318431/customers-at-major-banks-report-difficulty-accessing-accounts-online",
+"https://sifted.eu/articles/starling-ceo-to-step-down",
+"https://sifted.eu/articles/starling-founder-anne-boden-plots-new-ai-powered-bank",
+"https://wired.com/story/jpmorganchase-bank-outage-oh-come-on"
+]
+},
 "148a343513": {
 "by_day": {
 "2026-11-15": 0,
@@ -132,22 +163,30 @@
 },
 "1a7442f5be": {
 "by_day": {
-"2026-11-16": 1
+"2026-11-16": 1,
+"2026-11-17": 2
 },
 "first_seen": "2026-11-16",
 "headline": "Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
-"arson",
-"act",
-"desperation",
-"suspect",
-"attack",
 "estonia",
 "russia",
-"häkkänen"
+"alleg",
+"gru",
+"close",
+"december",
+"border",
+"sabotage",
+"desperation",
+"suspect",
+"act",
+"häkkänen",
+"attack",
+"arson"
 ],
 "urls": [
+"https://helsinkitimes.com/world-int/29496-estonia-to-close-border-with-russia-on-1-december-after-alleged-gru-sabotage.html",
 "https://yle.fi/a/74-20257202?origin=rss"
 ]
 },
@@ -170,6 +209,48 @@
 ],
 "urls": [
 "https://freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"
+]
+},
+"1d3cbad625": {
+"by_day": {
+"2026-11-17": 1
+},
+"first_seen": "2026-11-17",
+"headline": "Tekoäly vei 25 000 työpaikkaa kolmessa kuukaudessa – Yksi ala koki valtavan romahduksen",
+"last_seen": "2026-11-17",
+"terms": [
+"kuukaudessa",
+"tekoäly",
+"romahduksen",
+"000",
+"vei",
+"valtavan",
+"kolmessa",
+"koki",
+"yksi",
+"työpaikkaa",
+"ala"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/2cb279e8-cda3-4cc2-aa74-d58359ec132c"
+]
+},
+"1d8f421545": {
+"by_day": {
+"2026-11-17": 0
+},
+"first_seen": "2026-11-17",
+"headline": "How the Claude Code team thinks about verification",
+"last_seen": "2026-11-17",
+"terms": [
+"code",
+"think",
+"verification",
+"team",
+"claude"
+],
+"urls": [
+"https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification"
 ]
 },
 "210d388636": {
@@ -385,31 +466,32 @@
 },
 "40c12cb1ac": {
 "by_day": {
-"2026-11-16": 4
+"2026-11-16": 4,
+"2026-11-17": 4
 },
 "first_seen": "2026-11-16",
 "headline": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
 "iphone",
 "duo",
 "face",
-"apple",
 "id",
-"limit",
-"add",
 "unlock",
-"gett",
 "version",
-"without",
-"hardware",
-"action",
-"2027"
+"limit",
+"gett",
+"add",
+"apple",
+"ios",
+"beta",
+"mosseri",
+"adam"
 ],
 "urls": [
+"https://engadget.com/2318489/iphone-duo-gets-face-unlock-with-the-latest-ios-27-beta",
+"https://engadget.com/2318832/adam-mosseri-pretty-challenging-design-instagram-iphone-duo",
 "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id",
-"https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-"https://theverge.com/tech/1034590/apple-iphone-duo-face-unlock-ios-27-3-beta",
 "https://wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id",
 "https://zdnet.com/tech/apple-iphone-duo-2-face-id-upgrades-2027"
 ]
@@ -432,6 +514,55 @@
 ],
 "urls": [
 "https://github.com/Parcha-ai/agentrun/blob/main/README.md"
+]
+},
+"45a3309519": {
+"by_day": {
+"2026-11-17": 2
+},
+"first_seen": "2026-11-17",
+"headline": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+"last_seen": "2026-11-17",
+"terms": [
+"agent",
+"apple",
+"ai",
+"control",
+"privacy",
+"mac",
+"security",
+"raise",
+"reveal",
+"risk",
+"runn",
+"add",
+"prevent",
+"amok"
+],
+"urls": [
+"https://engadget.com/2318790/apple-adds-new-disk-controls-to-prevent-ai-agents-from-running-amok",
+"https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks"
+]
+},
+"4653f09819": {
+"by_day": {
+"2026-11-17": 1
+},
+"first_seen": "2026-11-17",
+"headline": "Tekoäly-yhtiö listautuu pörssiin: Nämä sijoittajat käärivät satumaiset jättipotit",
+"last_seen": "2026-11-17",
+"terms": [
+"tekoäly-yhtiö",
+"listautuu",
+"sijoittajat",
+"pörssiin",
+"jättipotit",
+"nämä",
+"satumaiset",
+"käärivät"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/9c6109c7-68dc-4fac-bdc5-74dccb7a0984"
 ]
 },
 "4c79989f2c": {
@@ -460,26 +591,27 @@
 },
 "4fdf193d64": {
 "by_day": {
-"2026-11-16": 4
+"2026-11-16": 4,
+"2026-11-17": 4
 },
 "first_seen": "2026-11-16",
 "headline": "Google Maps can now build trip itineraries with real-time details about each stop",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
 "map",
 "google",
 "trip",
 "featur",
 "holiday",
-"stop",
 "itinerari",
 "real-time",
-"detail",
+"stop",
 "build",
-"ask",
+"detail",
 "prep",
-"travel",
-"help"
+"ask",
+"help",
+"travel"
 ],
 "urls": [
 "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
@@ -677,31 +809,33 @@
 },
 "67a2955d39": {
 "by_day": {
-"2026-11-16": 2
+"2026-11-16": 2,
+"2026-11-17": 3
 },
 "first_seen": "2026-11-16",
-"headline": "15 hotel guests were injured by chlorine poisoning due to Microsoft’s global email outage",
-"last_seen": "2026-11-16",
+"headline": "Microsoft identifies months-old bug as a root cause of global outage",
+"last_seen": "2026-11-17",
 "terms": [
 "microsoft",
 "outage",
-"hotel",
 "365",
+"bug",
+"gas",
+"poison",
+"hotel",
+"lead",
 "guest",
 "chlorine",
-"poison",
-"email",
-"gas",
-"lead",
-"defect",
-"july",
-"software",
-"monster"
+"cause",
+"identifi",
+"root",
+"months-old"
 ],
 "urls": [
-"https://engadget.com/2314266/microsoft-ditching-365-companion-apps-2026",
+"https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage",
+"https://engadget.com/2318906/microsoft-reveals-that-an-old-bug-caused-the-massive-outage-that-took-its-services-offline",
+"https://theguardian.com/technology/2026/nov/16/microsoft-global-outage-cause",
 "https://theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-"https://theverge.com/tech/1034538/microsoft-365-outlook-outage-hotel-chlorine-poisoning",
 "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html"
 ]
 },
@@ -850,43 +984,75 @@
 },
 "757e72a63e": {
 "by_day": {
-"2026-11-16": 2
+"2026-11-16": 2,
+"2026-11-17": 2
 },
 "first_seen": "2026-11-16",
 "headline": "Which Google Pixel phone is most similar to the Galaxy S26+?",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
 "galaxy",
 "phone",
-"soon",
-"ai",
 "agent",
+"ai",
+"know",
 "personal",
 "claw",
-"know",
 "samsung",
-"similar",
-"s26",
+"soon",
+"google",
 "pixel",
-"google"
+"s26",
+"similar"
 ],
 "urls": [
 "https://engadget.com/2314824/google-pixel-phone-most-similar-to-galaxy-s26-plus",
 "https://zdnet.com/innovation/samsung-galaxy-claw-ai-cross-app-upgrade"
 ]
 },
+"7a18444762": {
+"by_day": {
+"2026-11-17": 2
+},
+"first_seen": "2026-11-17",
+"headline": "United Airlines has fixed issue that caused 'widespread system outage'",
+"last_seen": "2026-11-17",
+"terms": [
+"outage",
+"airlin",
+"system",
+"unit",
+"widespread",
+"airline",
+"experienc",
+"fix",
+"caus",
+"issue",
+"departur",
+"ground",
+"stop",
+"disrupt"
+],
+"urls": [
+"https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
+"https://cnn.com/2026/11/16/us/united-airlines-outage",
+"https://engadget.com/2318613/united-airlines-is-experiencing-a-widespread-system-outage",
+"https://theverge.com/transportation/1035025/united-airlines-outage-down-departures"
+]
+},
 "7f28626705": {
 "by_day": {
-"2026-11-16": 0
+"2026-11-16": 0,
+"2026-11-17": 0
 },
 "first_seen": "2026-11-16",
 "headline": "Tell HN: HN is being scraped for emails to scam",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
 "scrap",
+"email",
 "tell",
 "hn",
-"email",
 "scam"
 ],
 "urls": [
@@ -914,26 +1080,27 @@
 },
 "8189db4c4a": {
 "by_day": {
-"2026-11-16": 0
+"2026-11-16": 0,
+"2026-11-17": 0
 },
 "first_seen": "2026-11-16",
 "headline": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
-"show",
 "agent",
+"show",
 "hn",
+"database",
+"branch",
 "second",
 "ai",
-"db-branch",
-"database",
 "zfs",
 "ci",
-"branch",
-"gateway",
+"db-branch",
 "open-source",
+"gateway",
 "tool",
-"write"
+"coral"
 ],
 "urls": [
 "https://github.com/db-branch/db-branch",
@@ -975,6 +1142,41 @@
 "https://technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise"
 ]
 },
+"89b0c4b2e3": {
+"by_day": {
+"2026-11-17": 1
+},
+"first_seen": "2026-11-17",
+"headline": "Our first phase of embedded assessments",
+"last_seen": "2026-11-17",
+"terms": [
+"phase",
+"embedd",
+"assessment",
+"openai"
+],
+"urls": [
+"https://openai.com/index/our-first-phase-of-embedded-assessments"
+]
+},
+"8af16c43db": {
+"by_day": {
+"2026-11-17": 1
+},
+"first_seen": "2026-11-17",
+"headline": "Video: Young people want a party of their own",
+"last_seen": "2026-11-17",
+"terms": [
+"young",
+"people",
+"party",
+"video",
+"want"
+],
+"urls": [
+"https://yle.fi/a/74-20257444?origin=rss"
+]
+},
 "94f45cbe56": {
 "by_day": {
 "2026-11-14": 8,
@@ -1011,6 +1213,32 @@
 "https://wired.com/story/outlook-went-down-microsoft-may-owe-you-money",
 "https://wired.com/story/the-microsoft-outage-is-a-warning-for-the-world",
 "https://zdnet.com/business/microsoft-outage-outlook-teams-copilot"
+]
+},
+"981fa511b0": {
+"by_day": {
+"2026-11-17": 0
+},
+"first_seen": "2026-11-17",
+"headline": "Windows 11 is collecting data on which coding agents and developer tools you use",
+"last_seen": "2026-11-17",
+"terms": [
+"agent",
+"cod",
+"tool",
+"developer",
+"use",
+"data",
+"window",
+"collect",
+"runn",
+"hand",
+"credential",
+"without"
+],
+"urls": [
+"https://blog.antonio.cx/running-agents-with-lend",
+"https://xusheng.dev/posts/windows-coding-agent-telemetry"
 ]
 },
 "9840358263": {
@@ -1064,28 +1292,54 @@
 "https://yle.fi/a/74-20256829?origin=rss"
 ]
 },
+"98c16d57df": {
+"by_day": {
+"2026-11-17": 2
+},
+"first_seen": "2026-11-17",
+"headline": "Finland to test FI-Alert emergency system at noon on Tuesday",
+"last_seen": "2026-11-17",
+"terms": [
+"test",
+"finland",
+"emergency",
+"fi-alert",
+"noon",
+"system",
+"tuesday",
+"problem",
+"hit",
+"technical",
+"alert"
+],
+"urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29501-finland-s-emergency-alert-test-hit-by-technical-problems.html",
+"https://yle.fi/a/74-20257359?origin=rss"
+]
+},
 "99f058a9da": {
 "by_day": {
-"2026-11-16": 3
+"2026-11-16": 3,
+"2026-11-17": 1
 },
 "first_seen": "2026-11-16",
 "headline": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
 "rocket",
 "fail",
-"amazon",
 "launch",
 "satellit",
+"amazon",
 "vulcan",
 "lost",
 "return-to-flight",
-"boeing-lockhe",
-"payload",
 "mid-flight",
+"payload",
 "destroy",
-"competitor",
-"spacex"
+"boeing-lockhe",
+"major",
+"blow"
 ],
 "urls": [
 "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors",
@@ -1150,50 +1404,50 @@
 },
 "9d3eb6f940": {
 "by_day": {
-"2026-11-16": 3
+"2026-11-16": 3,
+"2026-11-17": 2
 },
 "first_seen": "2026-11-16",
 "headline": "Apple launches new app to study how people use AI for health",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
+"study",
+"apple",
 "ai",
 "health",
-"apple",
-"study",
-"app",
-"use",
 "launch",
 "people",
-"tool",
-"user-friendly",
-"design",
-"research",
+"use",
+"app",
 "chatbot",
-"build"
+"build",
+"enroll"
 ],
 "urls": [
-"https://engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly",
 "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
 "https://zdnet.com/tech/apple-health-ai-usage-study-how-to-enroll"
 ]
 },
 "a554a76fff": {
 "by_day": {
-"2026-11-16": 1
+"2026-11-16": 1,
+"2026-11-17": 2
 },
 "first_seen": "2026-11-16",
 "headline": "Just 400 US Data Centers Use More Electricity Than Michigan",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
-"michigan",
 "center",
-"use",
+"electricity",
 "us",
-"400",
+"use",
 "data",
-"electricity"
+"michigan",
+"400",
+"hyperscale"
 ],
 "urls": [
+"https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity",
 "https://wired.com/story/data-centers-use-more-electricity-than-michigan"
 ]
 },
@@ -1242,6 +1496,50 @@
 ],
 "urls": [
 "https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it"
+]
+},
+"a7737fc1b8": {
+"by_day": {
+"2026-11-17": 0
+},
+"first_seen": "2026-11-17",
+"headline": "Generative AI Usage in the Games Industry",
+"last_seen": "2026-11-17",
+"terms": [
+"generative",
+"industry",
+"usage",
+"ai",
+"gam"
+],
+"urls": [
+"https://gameworkers.co.uk/ai-manifesto"
+]
+},
+"a78fd5e070": {
+"by_day": {
+"2026-11-17": 1
+},
+"first_seen": "2026-11-17",
+"headline": "Millionaire factory: Anthropic IPO set to fuel AI gold rush in London’s high-end property market",
+"last_seen": "2026-11-17",
+"terms": [
+"property",
+"anthropic",
+"gold",
+"factory",
+"set",
+"fuel",
+"ipo",
+"market",
+"rush",
+"ai",
+"london",
+"high-end",
+"millionaire"
+],
+"urls": [
+"https://theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market"
 ]
 },
 "a838ee181d": {
@@ -1314,32 +1612,34 @@
 "by_day": {
 "2026-11-14": 2,
 "2026-11-15": 2,
-"2026-11-16": 2
+"2026-11-16": 2,
+"2026-11-17": 4
 },
 "first_seen": "2026-11-14",
-"headline": "Sony’s PlayStation 5 accessories are cheaper ahead of Black Friday",
-"last_seen": "2026-11-16",
+"headline": "Some of our favorite PlayStation games are steeply discounted for Black Friday",
+"last_seen": "2026-11-17",
 "terms": [
-"friday",
 "black",
-"cheaper",
-"ahead",
-"2026",
-"sale",
-"mac",
-"m6",
-"early",
-"mini",
-"saving",
+"friday",
+"deal",
+"discount",
+"don't",
+"many",
 "cyber",
 "offer",
-"many"
+"saving",
+"monday",
+"amazon",
+"best",
+"early",
+"2026"
 ],
 "urls": [
+"https://engadget.com/2318262/nvidia-gou-dont-get-deep-discounts-black-friend-ceo-scandal",
 "https://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w",
-"https://theverge.com/gadgets/1034178/sony-playstation-5-ps5-accessories-monitor-dualsense-headset-deal-sale",
-"https://theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
-"https://wired.com/story/mac-mini-deal-11-13-2026"
+"https://theguardian.com/thefilter/2025/nov/27/expert-tips-buying-refurbished-tech-phones-laptop-uk",
+"https://theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
+"https://wired.com/story/early-black-friday-coffee-espresso-deals-11-16-2026"
 ]
 },
 "b248c2a655": {
@@ -1364,6 +1664,26 @@
 "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html"
 ]
 },
+"b38e766ecf": {
+"by_day": {
+"2026-11-17": 1
+},
+"first_seen": "2026-11-17",
+"headline": "Isomorphic Labs raises $5bn backed by Sequoia and A16z",
+"last_seen": "2026-11-17",
+"terms": [
+"sequoia",
+"a16z",
+"isomorphic",
+"lab",
+"back",
+"raise",
+"5bn"
+],
+"urls": [
+"https://sifted.eu/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z"
+]
+},
 "b9cf980e63": {
 "by_day": {
 "2026-11-14": 0
@@ -1385,26 +1705,68 @@
 "https://isometricsf.com/"
 ]
 },
+"bb2884dced": {
+"by_day": {
+"2026-11-17": 0
+},
+"first_seen": "2026-11-17",
+"headline": "Claude Mythos slashed software work to onboard AMD GPUs to around three days",
+"last_seen": "2026-11-17",
+"terms": [
+"gpu",
+"around",
+"onboard",
+"three",
+"work",
+"amd",
+"slash",
+"software",
+"mytho",
+"claude"
+],
+"urls": [
+"https://tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat"
+]
+},
 "bc69a055be": {
 "by_day": {
 "2026-11-14": 4,
 "2026-11-15": 2,
-"2026-11-16": 1
+"2026-11-16": 1,
+"2026-11-17": 1
 },
 "first_seen": "2026-11-14",
 "headline": "Science at the Frontier: How scientists use ChatGPT",
-"last_seen": "2026-11-16",
+"last_seen": "2026-11-17",
 "terms": [
 "chatgpt",
+"science",
+"frontier",
 "scientist",
 "use",
-"frontier",
-"science",
 "wallet"
 ],
 "urls": [
 "https://openai.com/index/introducing-chatgpt-wallet",
 "https://openai.com/index/science-at-the-frontier"
+]
+},
+"bd226b18fb": {
+"by_day": {
+"2026-11-17": 1
+},
+"first_seen": "2026-11-17",
+"headline": "Unemployment in Finland to turn the corner by year-end",
+"last_seen": "2026-11-17",
+"terms": [
+"year-end",
+"finland",
+"unemployment",
+"turn",
+"corner"
+],
+"urls": [
+"https://yle.fi/a/74-20257445?origin=rss"
 ]
 },
 "bd2efe9f13": {
@@ -1428,6 +1790,52 @@
 "urls": [
 "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
 "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+]
+},
+"bf03cb1b56": {
+"by_day": {
+"2026-11-17": 2
+},
+"first_seen": "2026-11-17",
+"headline": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin gigafactory expansion",
+"last_seen": "2026-11-17",
+"terms": [
+"tesla",
+"cybercab",
+"goe",
+"berlin",
+"all-in",
+"3b",
+"upcom",
+"expansion",
+"gigafactory",
+"told",
+"subscription",
+"worry",
+"hell"
+],
+"urls": [
+"https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion",
+"https://wired.com/story/tesla-cybercab-is-the-subscription-hell-they-told-you-not-to-worry-about"
+]
+},
+"c73d8890b0": {
+"by_day": {
+"2026-11-17": 0
+},
+"first_seen": "2026-11-17",
+"headline": "Show HN: Fakemetrics.com – \"build in public\" like a superstar",
+"last_seen": "2026-11-17",
+"terms": [
+"show",
+"fakemetrics.com",
+"public",
+"build",
+"hn",
+"superstar"
+],
+"urls": [
+"https://fakemetrics.com/"
 ]
 },
 "c7c6aa0332": {
@@ -1537,6 +1945,38 @@
 "https://tivi.fi/uutiset/a/647ca675-ee14-44c6-8cff-641f24ff7ed5"
 ]
 },
+"d3238dbc9b": {
+"by_day": {
+"2026-11-17": 6
+},
+"first_seen": "2026-11-17",
+"headline": "California state AG sues OpenAI over rogue agent incidents",
+"last_seen": "2026-11-17",
+"terms": [
+"california",
+"openai",
+"rogue",
+"sue",
+"hack",
+"incident",
+"agent",
+"hugg",
+"face",
+"state",
+"ag",
+"ai",
+"safety",
+"concern"
+],
+"urls": [
+"https://bbc.co.uk/news/articles/c6wy4xv2mxglo",
+"https://engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident",
+"https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+"https://theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+"https://theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+"https://wired.com/story/wired-yearbook-2026-clement-delangue"
+]
+},
 "d715ca46cc": {
 "by_day": {
 "2026-11-14": 2
@@ -1612,26 +2052,27 @@
 "by_day": {
 "2026-11-14": 7,
 "2026-11-15": 5,
-"2026-11-16": 7
+"2026-11-16": 7,
+"2026-11-17": 7
 },
 "first_seen": "2026-11-14",
-"headline": "Is bad news for Jensen Huang also bad news for the AI industry?",
-"last_seen": "2026-11-16",
+"headline": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+"last_seen": "2026-11-17",
 "terms": [
 "jensen",
 "huang",
 "nvidia",
-"back",
 "ceo",
-"trump",
-"security",
+"back",
 "industry",
-"return",
-"ex-nvidia",
-"musk",
-"call",
-"elon",
-"bring"
+"trump",
+"alli",
+"mess",
+"trouble",
+"bring",
+"sam",
+"fine",
+"altman"
 ],
 "urls": [
 "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
@@ -1639,17 +2080,12 @@
 "https://ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
 "https://reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15",
 "https://steveblank.com/2026/11/15/whats-next-for-nvidia",
-"https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
-"https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
 "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
 "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
 "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security",
 "https://technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back",
-"https://theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
 "https://theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
-"https://theverge.com/tech/1034355/trump-jensen-huang-nvidia-return",
-"https://theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
-"https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon",
+"https://theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
 "https://wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess",
 "https://wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang"
 ]
