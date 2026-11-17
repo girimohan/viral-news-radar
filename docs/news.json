@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-17T13:21:55+00:00",
+ "generated_at": "2026-11-17T18:45:01+00:00",
  "date": "2026-11-17",
- "new_today": 9,
+ "new_today": 15,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2854,
+  "collected": 2866,
   "undated": 0,
-  "too_old": 2518,
-  "excluded": 8,
+  "too_old": 2497,
+  "excluded": 9,
   "duplicate": 0,
-  "articles_in_window": 328,
-  "stories": 232,
-  "off_topic": 156,
-  "low_score": 60,
-  "shown": 16
+  "articles_in_window": 360,
+  "stories": 262,
+  "off_topic": 169,
+  "low_score": 72,
+  "shown": 21
  },
  "llm": {
   "enabled": false
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2743,
-   "in_stories": 11,
+   "fetched": 2747,
+   "in_stories": 14,
    "detail": "19/23 feeds read; failed: ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 111,
-   "in_stories": 12,
-   "detail": "111 stories with 40+ points",
+   "fetched": 119,
+   "in_stories": 16,
+   "detail": "119 stories with 40+ points",
    "error": ""
   },
   {
@@ -56,271 +56,112 @@
  ],
  "stories": [
   {
-   "id": "adfa8a22de",
-   "headline": "Some of our favorite PlayStation games are steeply discounted for Black Friday",
-   "url": "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
-   "first_published": "2026-11-16T13:39:07+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips",
-    "Tech & startups"
-   ],
-   "score": 54.2,
-   "signals": {
-    "coverage": 0.669,
-    "engagement": 0.949,
-    "velocity": 0.804,
-    "freshness": 0.641,
-    "age_hours": 23.7
-   },
-   "reasons": [
-    "4 outlets: The Verge, The Guardian Tech, Wired, Engadget",
-    "HN 917 points, 537 comments",
-    "first seen 24h ago",
-    "topic: AI business & chips",
-    "rising: 2 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "rising",
-   "outlet_count": 4,
-   "outlets": [
-    "Engadget",
-    "The Guardian Tech",
-    "The Verge",
-    "Wired"
-   ],
-   "engagement": 1991,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
-     "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-     "published": "2026-11-16T13:39:07+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 917,
-     "comments": 537,
-     "discussion_url": "https://news.ycombinator.com/item?id=50517488",
-     "id": "hackernews:50517488"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Early Black Friday Espresso Machine Deals (2026)",
-     "url": "https://www.wired.com/story/early-black-friday-coffee-espresso-deals-11-16-2026/",
-     "published": "2026-11-16T20:00:00+00:00",
-     "summary": "Impress your Thanksgiving guests with a cappuccino. These early deals on WIRED-tested favorites leave you time to practice.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1af47fb5b7a6"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Some of our favorite PlayStation games are steeply discounted for Black Friday",
-     "url": "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
-     "published": "2026-11-16T20:36:14+00:00",
-     "summary": "Black Friday is approaching, and some companies are already rolling out the discounts ahead of the big day. If you’re hunting for PlayStation 5 accessories, we’ve already rounded up some of our favorite controllers and headsets from Sony’s ongoing promotion. However, if you’re looking to expand your",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:9547bb96a379"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "Whether it's Black Friday or a CEO scandal, NVIDIA GPUs just don't get deep discounts",
-     "url": "https://www.engadget.com/2318262/nvidia-gou-dont-get-deep-discounts-black-friend-ceo-scandal/",
-     "published": "2026-11-17T00:00:00+00:00",
-     "summary": "Hoping the Jensen Huang fallout means cheap RTX cards this Black Friday? Here's what's really driving GPU prices and why deals may be hard to find.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:fb68dfd488ce"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Don’t buy new tech this Black Friday: expert tips for buying refurbished phones and laptops",
-     "url": "https://www.theguardian.com/thefilter/2025/nov/27/expert-tips-buying-refurbished-tech-phones-laptop-uk",
-     "published": "2026-11-17T10:50:47+00:00",
-     "summary": "Tech on its last legs? Refurbished can be the cheaper, greener option. Here’s how to choose well and avoid the pitfalls • How to make your phone last longer Even if you do your best to avoid it, it’s hard to escape the noise of retailers offering implausible-seeming Black Friday discounts on desirab",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:feb3c2b9b9b5"
-    }
-   ]
-  },
-  {
-   "id": "1d8f421545",
-   "headline": "How the Claude Code team thinks about verification",
-   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "first_published": "2026-11-17T10:20:40+00:00",
+   "id": "7e323dabae",
+   "headline": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "first_published": "2026-11-17T17:45:00+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs"
    ],
-   "score": 51.6,
+   "score": 68.8,
    "signals": {
-    "coverage": 0.0,
-    "engagement": 0.687,
-    "velocity": 0.796,
-    "freshness": 0.934,
-    "age_hours": 3.0
+    "coverage": 0.185,
+    "engagement": 0.841,
+    "velocity": 1.0,
+    "freshness": 0.977,
+    "age_hours": 1.0
    },
    "reasons": [
-    "HN 69 points, 87 comments",
-    "first seen 3h ago",
+    "1 outlet: OpenAI News",
+    "HN 415 points, 212 comments",
+    "first seen 1h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-17",
    "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 243,
-   "regions": [],
+   "outlet_count": 1,
+   "outlets": [
+    "OpenAI News"
+   ],
+   "engagement": 839,
+   "regions": [
+    "Source"
+   ],
    "brief": {},
    "llm_status": "",
    "articles": [
     {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "How the Claude Code team thinks about verification",
-     "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-     "published": "2026-11-17T10:20:40+00:00",
-     "summary": "",
-     "region": "Social",
+     "source": "feed",
+     "outlet": "OpenAI News",
+     "title": "Introducing GPT-6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+     "published": "2026-11-17T17:45:00+00:00",
+     "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+     "region": "Source",
      "lang": "en",
-     "weight": 1.0,
-     "points": 69,
-     "comments": 87,
-     "discussion_url": "https://news.ycombinator.com/item?id=50529612",
-     "id": "hackernews:50529612"
-    }
-   ]
-  },
-  {
-   "id": "981fa511b0",
-   "headline": "Windows 11 is collecting data on which coding agents and developer tools you use",
-   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-   "first_published": "2026-11-16T22:58:20+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 48.5,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.95,
-    "velocity": 0.895,
-    "freshness": 0.745,
-    "age_hours": 14.4
-   },
-   "reasons": [
-    "HN 779 points, 612 comments",
-    "first seen 14h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-17",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 2003,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-     "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-     "published": "2026-11-16T22:58:20+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 658,
-     "comments": 513,
-     "discussion_url": "https://news.ycombinator.com/item?id=50524736",
-     "id": "hackernews:50524736"
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:OpenAI News:549a77347d5e"
     },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Running coding agents without handing them my credentials",
-     "url": "https://blog.antonio.cx/running-agents-with-lend",
-     "published": "2026-11-17T01:18:56+00:00",
+     "title": "GPT‑6.2 Astra and Sol",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "published": "2026-11-17T17:46:43+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 121,
-     "comments": 99,
-     "discussion_url": "https://news.ycombinator.com/item?id=50526152",
-     "id": "hackernews:50526152"
+     "points": 415,
+     "comments": 212,
+     "discussion_url": "https://news.ycombinator.com/item?id=50535230",
+     "id": "hackernews:50535230"
     }
    ]
   },
   {
    "id": "e1d720a95e",
-   "headline": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
-   "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+   "headline": "Jensen Huang says he’s willing to return as Nvidia CEO",
+   "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
    "first_published": "2026-11-15T19:31:11+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs",
     "AI business & chips"
    ],
-   "score": 47.5,
+   "score": 54.0,
    "signals": {
-    "coverage": 0.898,
+    "coverage": 0.941,
     "engagement": 1.0,
-    "velocity": 0.796,
-    "freshness": 0.52,
-    "age_hours": 41.8
+    "velocity": 0.811,
+    "freshness": 0.497,
+    "age_hours": 47.2
    },
    "reasons": [
-    "7 outlets: TechCrunch AI, The Guardian Tech, MIT Technology Review, The Verge +3 more",
-    "HN 1.1k points, 1.1k comments",
-    "first seen 42h ago",
-    "topic: AI models & labs"
+    "8 outlets: The Guardian Tech, TechCrunch AI, MIT Technology Review, BBC Technology +4 more",
+    "HN 1.3k points, 1.4k comments",
+    "first seen 47h ago",
+    "topic: AI models & labs",
+    "rising: 1 more outlets since yesterday"
    ],
    "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 7,
+   "status": "rising",
+   "outlet_count": 8,
    "outlets": [
     "Ars Technica",
     "BBC Technology",
+    "Engadget",
     "MIT Technology Review",
     "TechCrunch AI",
     "The Guardian Tech",
     "The Verge",
     "Wired"
    ],
-   "engagement": 3367,
+   "engagement": 4128,
    "regions": [
     "International"
    ],
@@ -338,24 +179,9 @@
      "lang": "en",
      "weight": 1.0,
      "points": 135,
-     "comments": 132,
+     "comments": 134,
      "discussion_url": "https://news.ycombinator.com/item?id=50509883",
      "id": "hackernews:50509883"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-     "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-     "published": "2026-11-15T21:56:35+00:00",
-     "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:dd73cd74bb28"
     },
     {
      "source": "hackernews",
@@ -368,7 +194,7 @@
      "lang": "en",
      "weight": 1.0,
      "points": 177,
-     "comments": 191,
+     "comments": 193,
      "discussion_url": "https://news.ycombinator.com/item?id=50511982",
      "id": "hackernews:50511982"
     },
@@ -382,10 +208,25 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 475,
-     "comments": 577,
+     "points": 478,
+     "comments": 582,
      "discussion_url": "https://news.ycombinator.com/item?id=50512235",
      "id": "hackernews:50512235"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+     "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-16T01:47:57+00:00",
+     "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:1ad243ca73bf"
     },
     {
      "source": "feed",
@@ -442,8 +283,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 280,
-     "comments": 250,
+     "points": 285,
+     "comments": 260,
      "discussion_url": "https://news.ycombinator.com/item?id=50518567",
      "id": "hackernews:50518567"
     },
@@ -464,21 +305,6 @@
     },
     {
      "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
-     "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-     "published": "2026-11-16T18:11:10+00:00",
-     "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:299d9ec42eff"
-    },
-    {
-     "source": "feed",
      "outlet": "TechCrunch AI",
      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
@@ -491,6 +317,21 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:299d9ec42eff"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO",
+     "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
+     "published": "2026-11-16T18:30:57+00:00",
+     "summary": "As tech industry pushes for return, US president says he thinks Huang ‘learned a big lesson’ Donald Trump has expressed support for the return of Jensen Huang as the chief executive of Nvidia, joining Silicon Valley heavyweights in backing the reinstatement of the AI figurehead. The US president ref",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:49a1ce094a2b"
     },
     {
      "source": "feed",
@@ -509,21 +350,6 @@
     },
     {
      "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-     "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-     "published": "2026-11-16T19:12:02+00:00",
-     "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:285e2fc35693"
-    },
-    {
-     "source": "feed",
      "outlet": "TechCrunch AI",
      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
@@ -539,21 +365,6 @@
     },
     {
      "source": "feed",
-     "outlet": "The Verge",
-     "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-     "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-     "published": "2026-11-16T23:17:34+00:00",
-     "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:ac515713d6d8"
-    },
-    {
-     "source": "feed",
      "outlet": "BBC Technology",
      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
      "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
@@ -566,41 +377,409 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:BBC Technology:14e8bd8af174"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Tech leaders are convinced that Jensen Huang's exit was a plot against him",
+     "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+     "published": "2026-11-17T05:50:41+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 43,
+     "comments": 33,
+     "discussion_url": "https://news.ycombinator.com/item?id=50527905",
+     "id": "hackernews:50527905"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "US government confirms investigation into tech firm Megaspeed",
+     "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-17T11:17:32+00:00",
+     "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:81799d5a72cf"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+     "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+     "published": "2026-11-17T14:05:30+00:00",
+     "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:27f75c565d44"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+     "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+     "published": "2026-11-17T14:05:30+00:00",
+     "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:27f75c565d44"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+     "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+     "published": "2026-11-17T16:09:57+00:00",
+     "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business par",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:e02ef3c089b3"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "The DOJ says it’s investigating Megaspeed",
+     "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+     "published": "2026-11-17T16:19:03+00:00",
+     "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing inv",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:bfe921b0175b"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Jensen Huang Posts on X",
+     "url": "https://twitter.com/JensenHuang/status/2122726005219737649",
+     "published": "2026-11-17T16:23:55+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 74,
+     "comments": 71,
+     "discussion_url": "https://news.ycombinator.com/item?id=50533723",
+     "id": "hackernews:50533723"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "NVIDIA establishes export control committee following Jensen Huang resignation",
+     "url": "https://www.engadget.com/2319262/nvidia-establishes-export-control-committee-following-jensen-huang-resignation/",
+     "published": "2026-11-17T16:33:21+00:00",
+     "summary": "The company's existing global trade compliance team will report to the new committee.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:3fb5f1b90f80"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Jensen Huang says he’s open to returning in first statement since resignation",
+     "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+     "published": "2026-11-17T16:40:38+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 84,
+     "comments": 153,
+     "discussion_url": "https://news.ycombinator.com/item?id=50534044",
+     "id": "hackernews:50534044"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+     "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+     "published": "2026-11-17T16:44:15+00:00",
+     "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:3f639a8b1c2a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+     "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+     "published": "2026-11-17T16:44:15+00:00",
+     "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:3f639a8b1c2a"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Jensen Huang said he'd be 'honored' to return as NVIDIA CEO, because of course he would",
+     "url": "https://www.engadget.com/2319382/jensen-huang-said-hed-be-honored-to-return-as-nvidia-ceo-because-of-course-he-would/",
+     "published": "2026-11-17T17:29:48+00:00",
+     "summary": "Huang is set to testify before congressional committees on December 1.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:89123c9a74ba"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Jensen Huang Says He’s Open to Coming Back to Nvidia",
+     "url": "https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/",
+     "published": "2026-11-17T17:32:24+00:00",
+     "summary": "Huang said in a statement that he “would be honored” to return as Nvidia CEO if the board of directors supported the decision.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:211a329443fa"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Nvidia Scandal Could Upend Chip Sales to China. Trump Wants to Keep Them Going",
+     "url": "https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/",
+     "published": "2026-11-17T18:03:32+00:00",
+     "summary": "Commerce secretary Howard Lutnick has been under attack for not blacklisting a company caught up in the Jensen Huang scandal. But Trump is on board with the policy.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:40796fba628b"
+    }
+   ]
+  },
+  {
+   "id": "1d8f421545",
+   "headline": "How the Claude Code team thinks about verification",
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "first_published": "2026-11-17T10:20:40+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 48.7,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.776,
+    "velocity": 0.741,
+    "freshness": 0.834,
+    "age_hours": 8.4
+   },
+   "reasons": [
+    "HN 185 points, 156 comments",
+    "first seen 8h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 497,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "How the Claude Code team thinks about verification",
+     "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+     "published": "2026-11-17T10:20:40+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 185,
+     "comments": 156,
+     "discussion_url": "https://news.ycombinator.com/item?id=50529612",
+     "id": "hackernews:50529612"
+    }
+   ]
+  },
+  {
+   "id": "8d43e0c3db",
+   "headline": "Regulatory Capture by Anthropic Through METR",
+   "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+   "first_published": "2026-11-17T12:21:57+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 47.1,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.704,
+    "velocity": 0.688,
+    "freshness": 0.869,
+    "age_hours": 6.4
+   },
+   "reasons": [
+    "HN 135 points, 72 comments",
+    "first seen 6h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 279,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Regulatory Capture by Anthropic Through METR",
+     "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+     "published": "2026-11-17T12:21:57+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 135,
+     "comments": 72,
+     "discussion_url": "https://news.ycombinator.com/item?id=50530450",
+     "id": "hackernews:50530450"
+    }
+   ]
+  },
+  {
+   "id": "981fa511b0",
+   "headline": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "first_published": "2026-11-16T22:58:20+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 44.2,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.96,
+    "velocity": 0.852,
+    "freshness": 0.68,
+    "age_hours": 19.8
+   },
+   "reasons": [
+    "HN 820 points, 676 comments",
+    "first seen 20h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 2172,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+     "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+     "published": "2026-11-16T22:58:20+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 694,
+     "comments": 568,
+     "discussion_url": "https://news.ycombinator.com/item?id=50524736",
+     "id": "hackernews:50524736"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Running coding agents without handing them my credentials",
+     "url": "https://blog.antonio.cx/running-agents-with-lend",
+     "published": "2026-11-17T01:18:56+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 126,
+     "comments": 108,
+     "discussion_url": "https://news.ycombinator.com/item?id=50526152",
+     "id": "hackernews:50526152"
     }
    ]
   },
   {
    "id": "d3238dbc9b",
-   "headline": "California state AG sues OpenAI over rogue agent incidents",
-   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-   "first_published": "2026-11-16T19:52:24+00:00",
+   "headline": "California sues OpenAI over safety concerns after rogue agent hacking",
+   "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+   "first_published": "2026-11-16T20:07:13+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs",
     "AI agents & products"
    ],
-   "score": 46.7,
+   "score": 40.0,
    "signals": {
-    "coverage": 0.827,
+    "coverage": 0.768,
     "engagement": 0.0,
     "velocity": 0.0,
-    "freshness": 0.706,
-    "age_hours": 17.5
+    "freshness": 0.651,
+    "age_hours": 22.6
    },
    "reasons": [
-    "6 outlets: TechCrunch, The Verge, The Guardian Tech, BBC Technology +2 more",
-    "first seen 17h ago",
+    "5 outlets: TechCrunch AI, The Guardian Tech, BBC Technology, Wired +1 more",
+    "first seen 23h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-17",
    "status": "new",
-   "outlet_count": 6,
+   "outlet_count": 5,
    "outlets": [
+    "Ars Technica",
     "BBC Technology",
-    "Engadget",
-    "TechCrunch",
+    "TechCrunch AI",
     "The Guardian Tech",
-    "The Verge",
     "Wired"
    ],
    "engagement": 0,
@@ -610,36 +789,6 @@
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "California sues OpenAI after that Hugging Face rogue hacking incident",
-     "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
-     "published": "2026-11-16T19:52:24+00:00",
-     "summary": "State AG Rob Bonta has accused the company of making AI agents \"without the safeguards and monitoring necessary to adequately protect\" users.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:f74519cfe40c"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "California state AG sues OpenAI over rogue agent incidents",
-     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-     "published": "2026-11-16T20:07:13+00:00",
-     "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:2ceefba1e593"
-    },
     {
      "source": "feed",
      "outlet": "TechCrunch AI",
@@ -657,26 +806,11 @@
     },
     {
      "source": "feed",
-     "outlet": "The Verge",
-     "title": "California sues OpenAI over rogue AI hacking incidents",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-     "published": "2026-11-16T20:46:01+00:00",
-     "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:00905f97de50"
-    },
-    {
-     "source": "feed",
      "outlet": "The Guardian Tech",
      "title": "California sues OpenAI over safety concerns after rogue agent hacking",
      "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
      "published": "2026-11-16T21:41:10+00:00",
-     "summary": "The lawsuit stems from an earlier incident where the tech company’s products hacked into the open-source platform Hugging Face California sued OpenAI on Monday, accusing the artificial intelligence titan of developing its technology without safety or the public’s interest in mind. The lawsuit concer",
+     "summary": "Lawsuit stems from earlier incident where tech company’s products hacked into open-source platform Hugging Face California sued OpenAI on Monday, accusing the artificial intelligence titan of developing its technology without safety or the public’s interest in mind. The lawsuit concerns an incident ",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
@@ -714,6 +848,457 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Wired:ad07f4033d09"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "OpenAI sued by California after admitting to 80 loss-of-control incidents",
+     "url": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
+     "published": "2026-11-17T18:13:34+00:00",
+     "summary": "AG: OpenAI tested dangerous AI without proper oversight and misled public about it.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:89d80c21bb59"
+    }
+   ]
+  },
+  {
+   "id": "6a8e1b9276",
+   "headline": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+   "first_published": "2026-11-17T17:12:06+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips"
+   ],
+   "score": 39.0,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.55,
+    "velocity": 0.72,
+    "freshness": 0.965,
+    "age_hours": 1.5
+   },
+   "reasons": [
+    "HN 53 points, 14 comments",
+    "first seen 2h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 81,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+     "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+     "published": "2026-11-17T17:12:06+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 53,
+     "comments": 14,
+     "discussion_url": "https://news.ycombinator.com/item?id=50534631",
+     "id": "hackernews:50534631"
+    }
+   ]
+  },
+  {
+   "id": "9d3eb6f940",
+   "headline": "Apple reveals daily limits on your Siri AI use – here’s how much you’ll have to pay",
+   "url": "https://www.zdnet.com/innovation/apple-siri-ai-daily-limits-cost-icloud-plus-plan/",
+   "first_published": "2026-11-16T19:25:57+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 38.9,
+   "signals": {
+    "coverage": 0.379,
+    "engagement": 0.671,
+    "velocity": 0.42,
+    "freshness": 0.644,
+    "age_hours": 23.3
+   },
+   "reasons": [
+    "2 outlets: Engadget, ZDNet AI",
+    "HN 110 points, 52 comments",
+    "first seen 23h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "steady",
+   "outlet_count": 2,
+   "outlets": [
+    "Engadget",
+    "ZDNet AI"
+   ],
+   "engagement": 214,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Apple could build its AI health chatbot from this study – how to enroll",
+     "url": "https://www.zdnet.com/tech/apple-health-ai-usage-study-how-to-enroll/",
+     "published": "2026-11-16T19:25:57+00:00",
+     "summary": "Apple is leaning into AI-powered health tools with the launch of its Apple Health AI Usage Study.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:1ed8298cc5a6"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Apple reveals daily limits on your Siri AI use – here’s how much you’ll have to pay",
+     "url": "https://www.zdnet.com/innovation/apple-siri-ai-daily-limits-cost-icloud-plus-plan/",
+     "published": "2026-11-17T17:16:38+00:00",
+     "summary": "The more you pay for an iCloud+ plan, the more you’ll be able to use Siri AI and Apple Intelligence for advanced server-side tasks.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:4c73bdf90576"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Apple Services Down",
+     "url": "https://downdetector.com/status/apple-support/",
+     "published": "2026-11-17T17:47:14+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 110,
+     "comments": 52,
+     "discussion_url": "https://news.ycombinator.com/item?id=50535238",
+     "id": "hackernews:50535238"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "iCloud and other Apple services are down in an apparent outage",
+     "url": "https://www.engadget.com/2319504/icloud-and-other-apple-services-are-down-in-an-apparent-outage/",
+     "published": "2026-11-17T18:15:04+00:00",
+     "summary": "The full extent of the disruption isn't known yet.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:8fb0189a672f"
+    }
+   ]
+  },
+  {
+   "id": "d6567a3ee2",
+   "headline": "Google makes it easier to use Gemini without training AI on your data",
+   "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+   "first_published": "2026-11-17T16:50:10+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "Tech & startups"
+   ],
+   "score": 37.7,
+   "signals": {
+    "coverage": 0.492,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.957,
+    "age_hours": 1.9
+   },
+   "reasons": [
+    "3 outlets: Ars Technica, ZDNet AI, Google AI Blog",
+    "first seen 2h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "new",
+   "outlet_count": 3,
+   "outlets": [
+    "Ars Technica",
+    "Google AI Blog",
+    "ZDNet AI"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International",
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "Google makes it easier to use Gemini without training AI on your data",
+     "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+     "published": "2026-11-17T16:50:10+00:00",
+     "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:a513c3b2bdea"
+    },
+    {
+     "source": "feed",
+     "outlet": "Google AI Blog",
+     "title": "Put Gemini to work for you",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+     "published": "2026-11-17T17:00:00+00:00",
+     "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Google AI Blog:357d085ae06f"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "I asked Gemini Notebook to ‘make me a site’ from my notes – it was satisfying",
+     "url": "https://www.zdnet.com/innovation/google-gemini-notebook-interactive-sites-notes/",
+     "published": "2026-11-17T17:52:39+00:00",
+     "summary": "A new Gemini Notebook feature lets you create interactive sites from intricate data.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:e18cb721814b"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Google is making it easier to opt out of Gemini AI model training – here’s how",
+     "url": "https://www.zdnet.com/innovation/google-gemini-ai-model-training-opt-out-how/",
+     "published": "2026-11-17T18:01:38+00:00",
+     "summary": "You’ll soon be able to turn off Gemini model training but still retain access to your previous chats with Google’s AI.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:f57c80116452"
+    }
+   ]
+  },
+  {
+   "id": "67a2955d39",
+   "headline": "Microsoft identifies months-old bug as a root cause of global outage",
+   "url": "https://www.theguardian.com/technology/2026/nov/16/microsoft-global-outage-cause",
+   "first_published": "2026-11-16T13:18:22+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 36.4,
+   "signals": {
+    "coverage": 0.589,
+    "engagement": 0.873,
+    "velocity": 0.657,
+    "freshness": 0.593,
+    "age_hours": 29.4
+   },
+   "reasons": [
+    "3 outlets: The Verge, The Guardian Tech, Ars Technica",
+    "HN 435 points, 324 comments",
+    "first seen 29h ago",
+    "topic: Tech & startups",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-16",
+   "status": "rising",
+   "outlet_count": 3,
+   "outlets": [
+    "Ars Technica",
+    "The Guardian Tech",
+    "The Verge"
+   ],
+   "engagement": 1083,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+     "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+     "published": "2026-11-16T13:18:22+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 435,
+     "comments": 324,
+     "discussion_url": "https://news.ycombinator.com/item?id=50517321",
+     "id": "hackernews:50517321"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Microsoft identifies months-old bug as a root cause of global outage",
+     "url": "https://www.theguardian.com/technology/2026/nov/16/microsoft-global-outage-cause",
+     "published": "2026-11-16T20:54:40+00:00",
+     "summary": "Report identifies three factors that led to blackout: a bug, malfunctioning internal connections and server capacity Microsoft has identified the root causes of the global outage that crippled Outlook, Exchange and a host of other vital office software last week. The office software giant issued an ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:10c5b3de5ba9"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "Three small failures combined to take down Microsoft 365",
+     "url": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
+     "published": "2026-11-16T21:56:39+00:00",
+     "summary": "A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:948b78f96237"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Inside Microsoft’s giant Outlook outage",
+     "url": "https://www.theverge.com/tech/1035364/microsoft-outlook-outage-notepad",
+     "published": "2026-11-17T17:00:00+00:00",
+     "summary": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings. But barely an hour later, one of Microsoft's worst outages in history started to unfold, leaving employees, businesses, and many governments without access to ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:26ec39806b38"
+    }
+   ]
+  },
+  {
+   "id": "b38e766ecf",
+   "headline": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+   "first_published": "2026-11-17T12:55:56+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI business & chips",
+    "Tech & startups"
+   ],
+   "score": 32.4,
+   "signals": {
+    "coverage": 0.46,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.88,
+    "age_hours": 5.8
+   },
+   "reasons": [
+    "2 outlets: TechCrunch, Sifted",
+    "first seen 6h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "Sifted",
+    "TechCrunch"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Europe",
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Sifted",
+     "title": "Isomorphic Labs raises $5bn backed by Sequoia and A16z",
+     "url": "https://sifted.eu/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z/",
+     "published": "2026-11-17T12:55:56+00:00",
+     "summary": "",
+     "region": "Europe",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Sifted:090e9ef15403"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+     "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+     "published": "2026-11-17T14:50:58+00:00",
+     "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:ded49ed280d6"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+     "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+     "published": "2026-11-17T14:50:58+00:00",
+     "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:ded49ed280d6"
     }
    ]
   },
@@ -726,29 +1311,27 @@
    "topics": [
     "AI business & chips"
    ],
-   "score": 46.6,
+   "score": 32.1,
    "signals": {
-    "coverage": 0.452,
-    "engagement": 0.704,
-    "velocity": 0.479,
-    "freshness": 0.664,
-    "age_hours": 21.4
+    "coverage": 0.28,
+    "engagement": 0.71,
+    "velocity": 0.45,
+    "freshness": 0.614,
+    "age_hours": 26.8
    },
    "reasons": [
-    "2 outlets: Wired, Ars Technica",
-    "HN 92 points, 94 comments",
-    "first seen 21h ago",
-    "topic: AI business & chips",
-    "rising: 1 more outlets since yesterday"
+    "1 outlet: Wired",
+    "HN 94 points, 100 comments",
+    "first seen 27h ago",
+    "topic: AI business & chips"
    ],
    "first_seen": "2026-11-16",
-   "status": "rising",
-   "outlet_count": 2,
+   "status": "steady",
+   "outlet_count": 1,
    "outlets": [
-    "Ars Technica",
     "Wired"
    ],
-   "engagement": 280,
+   "engagement": 294,
    "regions": [
     "International"
    ],
@@ -780,25 +1363,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 92,
-     "comments": 94,
+     "points": 94,
+     "comments": 100,
      "discussion_url": "https://news.ycombinator.com/item?id=50520697",
      "id": "hackernews:50520697"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Hyperscale data centers use 2% of US electricity",
-     "url": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
-     "published": "2026-11-16T20:52:10+00:00",
-     "summary": "Study attempts to tally hyperscalers’ energy use and emissions.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:1a436479b568"
     }
    ]
   },
@@ -811,18 +1379,18 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 34.4,
+   "score": 31.8,
    "signals": {
     "coverage": 0.185,
     "engagement": 0.666,
-    "velocity": 0.4,
-    "freshness": 0.626,
-    "age_hours": 25.4
+    "velocity": 0.369,
+    "freshness": 0.584,
+    "age_hours": 30.8
    },
    "reasons": [
     "1 outlet: OpenAI News",
     "HN 46 points, 80 comments",
-    "first seen 25h ago",
+    "first seen 31h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-14",
@@ -871,217 +1439,87 @@
    ]
   },
   {
-   "id": "67a2955d39",
-   "headline": "Microsoft identifies months-old bug as a root cause of global outage",
-   "url": "https://www.theguardian.com/technology/2026/nov/16/microsoft-global-outage-cause",
-   "first_published": "2026-11-15T18:36:10+00:00",
+   "id": "12545991ff",
+   "headline": "The Bank Outage May Have Nothing to Do With Your Bank",
+   "url": "https://www.wired.com/story/jpmorganchase-bank-outage-oh-come-on/",
+   "first_published": "2026-11-16T16:01:40+00:00",
    "topic": "Tech & startups",
    "topics": [
     "Tech & startups"
    ],
-   "score": 33.2,
+   "score": 29.3,
    "signals": {
-    "coverage": 0.564,
-    "engagement": 0.955,
-    "velocity": 0.707,
-    "freshness": 0.516,
-    "age_hours": 42.8
+    "coverage": 0.452,
+    "engagement": 0.961,
+    "velocity": 0.8,
+    "freshness": 0.614,
+    "age_hours": 26.7
    },
    "reasons": [
-    "3 outlets: The Guardian Tech, Ars Technica, Engadget",
-    "HN 997 points, 546 comments",
-    "first seen 43h ago",
-    "topic: Tech & startups",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-16",
-   "status": "rising",
-   "outlet_count": 3,
-   "outlets": [
-    "Ars Technica",
-    "Engadget",
-    "The Guardian Tech"
-   ],
-   "engagement": 2089,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
-     "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
-     "published": "2026-11-15T18:36:10+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 636,
-     "comments": 277,
-     "discussion_url": "https://news.ycombinator.com/item?id=50509411",
-     "id": "hackernews:50509411"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Microsoft blames monster email outage on software defect introduced in July fix",
-     "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-     "published": "2026-11-16T13:18:22+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 361,
-     "comments": 269,
-     "discussion_url": "https://news.ycombinator.com/item?id=50517321",
-     "id": "hackernews:50517321"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Microsoft identifies months-old bug as a root cause of global outage",
-     "url": "https://www.theguardian.com/technology/2026/nov/16/microsoft-global-outage-cause",
-     "published": "2026-11-16T20:54:40+00:00",
-     "summary": "Report identifies three factors that led to blackout: a bug, malfunctioning internal connections and server capacity Microsoft has identified the root causes of the global outage that crippled Outlook, Exchange and a host of other vital office software last week. The office software giant issued an ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:10c5b3de5ba9"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Three small failures combined to take down Microsoft 365",
-     "url": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
-     "published": "2026-11-16T21:56:39+00:00",
-     "summary": "A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:948b78f96237"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "Microsoft reveals that an old bug caused the massive outage that took its services offline",
-     "url": "https://www.engadget.com/2318906/microsoft-reveals-that-an-old-bug-caused-the-massive-outage-that-took-its-services-offline/",
-     "published": "2026-11-17T12:57:51+00:00",
-     "summary": "Microsoft has revealed more information on what knocked Teams, Outlook and its other services offline for almost a day.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:8a7d08d3e205"
-    }
-   ]
-  },
-  {
-   "id": "7a18444762",
-   "headline": "United Airlines has fixed issue that caused 'widespread system outage'",
-   "url": "https://www.engadget.com/2318613/united-airlines-is-experiencing-a-widespread-system-outage/",
-   "first_published": "2026-11-16T22:14:38+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 32.0,
-   "signals": {
-    "coverage": 0.435,
-    "engagement": 0.791,
-    "velocity": 0.659,
-    "freshness": 0.735,
-    "age_hours": 15.1
-   },
-   "reasons": [
-    "2 outlets: The Verge, Engadget",
-    "HN 288 points, 137 comments",
-    "first seen 15h ago",
+    "2 outlets: Sifted, Wired",
+    "HN 816 points, 690 comments",
+    "first seen 27h ago",
     "topic: Tech & startups"
    ],
    "first_seen": "2026-11-17",
    "status": "new",
    "outlet_count": 2,
    "outlets": [
-    "Engadget",
-    "The Verge"
+    "Sifted",
+    "Wired"
    ],
-   "engagement": 562,
+   "engagement": 2196,
    "regions": [
+    "Europe",
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
     {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "United Airlines experiencing a widespread system outage, airline says",
-     "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
-     "published": "2026-11-16T22:14:38+00:00",
-     "summary": "<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50524260\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50524260</a>",
-     "region": "Social",
+     "source": "feed",
+     "outlet": "Sifted",
+     "title": "Starling Bank CEO to step down at the end of the year",
+     "url": "https://sifted.eu/articles/starling-ceo-to-step-down/",
+     "published": "2026-11-16T16:01:40+00:00",
+     "summary": "",
+     "region": "Europe",
      "lang": "en",
-     "weight": 1.0,
-     "points": 240,
-     "comments": 125,
-     "discussion_url": "https://news.ycombinator.com/item?id=50524165",
-     "id": "hackernews:50524165"
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Sifted:fcb459d2c795"
     },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "United Airlines has a widespread system outage",
-     "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
-     "published": "2026-11-16T22:22:18+00:00",
+     "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+     "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+     "published": "2026-11-16T18:31:30+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 48,
-     "comments": 12,
-     "discussion_url": "https://news.ycombinator.com/item?id=50524260",
-     "id": "hackernews:50524260"
+     "points": 816,
+     "comments": 690,
+     "discussion_url": "https://news.ycombinator.com/item?id=50521045",
+     "id": "hackernews:50521045"
     },
     {
      "source": "feed",
-     "outlet": "Engadget",
-     "title": "United Airlines has fixed issue that caused 'widespread system outage'",
-     "url": "https://www.engadget.com/2318613/united-airlines-is-experiencing-a-widespread-system-outage/",
-     "published": "2026-11-16T22:38:43+00:00",
-     "summary": "United is apparently experiencing a major outage just days after a nationwide ground stop halted thousands of flights.",
+     "outlet": "Wired",
+     "title": "The Bank Outage May Have Nothing to Do With Your Bank",
+     "url": "https://www.wired.com/story/jpmorganchase-bank-outage-oh-come-on/",
+     "published": "2026-11-16T21:45:45+00:00",
+     "summary": "Amid hundreds of reports of US banks experiencing outages, JPMorganChase says a technical “issue” with its “on-premise hardware systems” may be causing “slowness” with transactions at outside banks.",
      "region": "International",
      "lang": "en",
-     "weight": 0.7,
+     "weight": 0.85,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:Engadget:39e5841e5bad"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "United Airlines system outage disrupts departures just days after the big ground stop",
-     "url": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
-     "published": "2026-11-16T22:54:59+00:00",
-     "summary": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. At 6:13PM ET, United said the problem has been fixed: Earlier today we experienced a technology-related is",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:e141c24b56fd"
+     "id": "feed:Wired:0eb640dcb32f"
     }
    ]
   },
@@ -1094,24 +1532,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 31.8,
+   "score": 28.7,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.552,
-    "velocity": 0.375,
-    "freshness": 0.781,
-    "age_hours": 11.8
+    "engagement": 0.563,
+    "velocity": 0.331,
+    "freshness": 0.71,
+    "age_hours": 17.2
    },
    "reasons": [
-    "HN 48 points, 17 comments",
-    "first seen 12h ago",
+    "HN 50 points, 20 comments",
+    "first seen 17h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-17",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 82,
+   "engagement": 90,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1126,10 +1564,212 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 48,
-     "comments": 17,
+     "points": 50,
+     "comments": 20,
      "discussion_url": "https://news.ycombinator.com/item?id=50526264",
      "id": "hackernews:50526264"
+    }
+   ]
+  },
+  {
+   "id": "adfa8a22de",
+   "headline": "Don’t buy new tech this Black Friday: expert tips for buying refurbished phones and laptops",
+   "url": "https://www.theguardian.com/thefilter/2025/nov/27/expert-tips-buying-refurbished-tech-phones-laptop-uk",
+   "first_published": "2026-11-16T13:39:07+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 28.3,
+   "signals": {
+    "coverage": 0.46,
+    "engagement": 0.951,
+    "velocity": 0.771,
+    "freshness": 0.596,
+    "age_hours": 29.1
+   },
+   "reasons": [
+    "2 outlets: The Guardian Tech, Wired",
+    "HN 939 points, 544 comments",
+    "first seen 29h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 2,
+   "outlets": [
+    "The Guardian Tech",
+    "Wired"
+   ],
+   "engagement": 2027,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+     "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+     "published": "2026-11-16T13:39:07+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 939,
+     "comments": 544,
+     "discussion_url": "https://news.ycombinator.com/item?id=50517488",
+     "id": "hackernews:50517488"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Early Black Friday Espresso Machine Deals (2026)",
+     "url": "https://www.wired.com/story/early-black-friday-coffee-espresso-deals-11-16-2026/",
+     "published": "2026-11-16T20:00:00+00:00",
+     "summary": "Impress your Thanksgiving guests with a cappuccino. These early deals on WIRED-tested favorites leave you time to practice.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:1af47fb5b7a6"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Don’t buy new tech this Black Friday: expert tips for buying refurbished phones and laptops",
+     "url": "https://www.theguardian.com/thefilter/2025/nov/27/expert-tips-buying-refurbished-tech-phones-laptop-uk",
+     "published": "2026-11-17T10:50:47+00:00",
+     "summary": "Tech on its last legs? Refurbished can be the cheaper, greener option. Here’s how to choose well and avoid the pitfalls • How to make your phone last longer Even if you do your best to avoid it, it’s hard to escape the noise of retailers offering implausible-seeming Black Friday discounts on desirab",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:feb3c2b9b9b5"
+    }
+   ]
+  },
+  {
+   "id": "a7737fc1b8",
+   "headline": "Generative AI Usage in the Games Industry",
+   "url": "https://www.gameworkers.co.uk/ai-manifesto/",
+   "first_published": "2026-11-16T15:59:48+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 28.2,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.682,
+    "velocity": 0.413,
+    "freshness": 0.614,
+    "age_hours": 26.8
+   },
+   "reasons": [
+    "HN 43 points, 96 comments",
+    "first seen 27h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 235,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Generative AI Usage in the Games Industry",
+     "url": "https://www.gameworkers.co.uk/ai-manifesto/",
+     "published": "2026-11-16T15:59:48+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 43,
+     "comments": 96,
+     "discussion_url": "https://news.ycombinator.com/item?id=50519043",
+     "id": "hackernews:50519043"
+    }
+   ]
+  },
+  {
+   "id": "b757ba4fd9",
+   "headline": "Genesis AI raises $500M to deploy glove-wearing robots",
+   "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+   "first_published": "2026-11-17T14:00:00+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips",
+    "Tech & startups"
+   ],
+   "score": 28.2,
+   "signals": {
+    "coverage": 0.46,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.9,
+    "age_hours": 4.8
+   },
+   "reasons": [
+    "2 outlets: TechCrunch, Sifted",
+    "first seen 5h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "Sifted",
+    "TechCrunch"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Europe",
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Genesis AI raises $500M to deploy glove-wearing robots",
+     "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
+     "published": "2026-11-17T14:00:00+00:00",
+     "summary": "Genesis AI's novel approach to training dexterous robots earned it $500 million in Series A funding.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:b83f63c9ae24"
+    },
+    {
+     "source": "feed",
+     "outlet": "Sifted",
+     "title": "Robotics startup Genesis AI raises $500m backed by Nvidia",
+     "url": "https://sifted.eu/articles/genesis-ai-raises-500m/",
+     "published": "2026-11-17T14:00:45+00:00",
+     "summary": "",
+     "region": "Europe",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Sifted:e94bb1b1c80f"
     }
    ]
   },
@@ -1142,17 +1782,17 @@
    "topics": [
     "Finland & Nordic tech"
    ],
-   "score": 31.1,
+   "score": 28.0,
    "signals": {
     "coverage": 0.452,
     "engagement": 0.0,
     "velocity": 0.0,
-    "freshness": 0.86,
-    "age_hours": 6.9
+    "freshness": 0.773,
+    "age_hours": 12.3
    },
    "reasons": [
     "2 outlets: Yle News, Helsinki Times",
-    "first seen 7h ago",
+    "first seen 12h ago",
     "topic: Finland & Nordic tech"
    ],
    "first_seen": "2026-11-17",
@@ -1202,171 +1842,6 @@
    ]
   },
   {
-   "id": "a7737fc1b8",
-   "headline": "Generative AI Usage in the Games Industry",
-   "url": "https://www.gameworkers.co.uk/ai-manifesto/",
-   "first_published": "2026-11-16T15:59:48+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 30.7,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.68,
-    "velocity": 0.446,
-    "freshness": 0.663,
-    "age_hours": 21.4
-   },
-   "reasons": [
-    "HN 42 points, 94 comments",
-    "first seen 21h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-17",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 230,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Generative AI Usage in the Games Industry",
-     "url": "https://www.gameworkers.co.uk/ai-manifesto/",
-     "published": "2026-11-16T15:59:48+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 42,
-     "comments": 94,
-     "discussion_url": "https://news.ycombinator.com/item?id=50519043",
-     "id": "hackernews:50519043"
-    }
-   ]
-  },
-  {
-   "id": "4fdf193d64",
-   "headline": "Google Maps can now build trip itineraries with real-time details about each stop",
-   "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-   "first_published": "2026-11-16T14:00:00+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products",
-    "Tech & startups"
-   ],
-   "score": 29.1,
-   "signals": {
-    "coverage": 0.595,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.644,
-    "age_hours": 23.4
-   },
-   "reasons": [
-    "4 outlets: TechCrunch, Engadget, ZDNet AI, Google AI Blog",
-    "first seen 23h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-16",
-   "status": "steady",
-   "outlet_count": 4,
-   "outlets": [
-    "Engadget",
-    "Google AI Blog",
-    "TechCrunch",
-    "ZDNet AI"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International",
-    "Source"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Google AI Blog",
-     "title": "New Ask Maps features to help with holiday travel and prep",
-     "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-     "published": "2026-11-16T14:00:00+00:00",
-     "summary": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
-     "region": "Source",
-     "lang": "en",
-     "weight": 0.5,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Google AI Blog:717626b76ea0"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Google Maps can now build trip itineraries with real-time details about each stop",
-     "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-     "published": "2026-11-16T14:48:13+00:00",
-     "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:7e1f66820720"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Google Maps can now build trip itineraries with real-time details about each stop",
-     "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-     "published": "2026-11-16T14:48:13+00:00",
-     "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:7e1f66820720"
-    },
-    {
-     "source": "feed",
-     "outlet": "ZDNet AI",
-     "title": "4 new Google Maps features to try on your next holiday road trip",
-     "url": "https://www.zdnet.com/tech/google-ask-maps-new-features-holiday-travel/",
-     "published": "2026-11-16T17:21:42+00:00",
-     "summary": "Google’s Ask Maps features start rolling out today on Android and iOS. Here’s what they can do for you now.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.6,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:ZDNet AI:1e37d711af26"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "Google Maps' chatbot can find appointments and call to book them for you",
-     "url": "https://www.engadget.com/2318186/google-maps-chatbot-can-find-appointments-and-call-to-book-them-for-you/",
-     "published": "2026-11-16T19:17:00+00:00",
-     "summary": "The Ask Maps chatbot is also expanding to more than 30 additional countries across Europe.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:15101099f94d"
-    }
-   ]
-  },
-  {
    "id": "89b0c4b2e3",
    "headline": "Our first phase of embedded assessments",
    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
@@ -1375,18 +1850,18 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 28.5,
+   "score": 26.6,
    "signals": {
     "coverage": 0.185,
-    "engagement": 0.565,
-    "velocity": 0.255,
-    "freshness": 0.594,
-    "age_hours": 29.4
+    "engagement": 0.567,
+    "velocity": 0.236,
+    "freshness": 0.557,
+    "age_hours": 34.8
    },
    "reasons": [
     "1 outlet: OpenAI News",
-    "HN 55 points, 18 comments",
-    "first seen 29h ago",
+    "HN 57 points, 18 comments",
+    "first seen 35h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-17",
@@ -1395,7 +1870,7 @@
    "outlets": [
     "OpenAI News"
    ],
-   "engagement": 91,
+   "engagement": 93,
    "regions": [
     "Source"
    ],
@@ -1427,7 +1902,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 55,
+     "points": 57,
      "comments": 18,
      "discussion_url": "https://news.ycombinator.com/item?id=50519153",
      "id": "hackernews:50519153"
@@ -1435,32 +1910,32 @@
    ]
   },
   {
-   "id": "c73d8890b0",
-   "headline": "Show HN: Fakemetrics.com – \"build in public\" like a superstar",
-   "url": "https://fakemetrics.com/",
-   "first_published": "2026-11-16T18:08:04+00:00",
-   "topic": "AI models & labs",
+   "id": "0e641b216f",
+   "headline": "CNN, Zoom, Fox News Served Visitors a Crypto-Stealing Skimmer – OPTIMJACK",
+   "url": "https://amirulcyber.com/2026/11/16/optimjack-optimizely-skimmer/",
+   "first_published": "2026-11-16T21:08:38+00:00",
+   "topic": "Tech & startups",
    "topics": [
-    "AI models & labs"
+    "Tech & startups"
    ],
-   "score": 27.4,
+   "score": 25.6,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.562,
-    "velocity": 0.313,
-    "freshness": 0.686,
-    "age_hours": 19.2
+    "engagement": 0.904,
+    "velocity": 0.756,
+    "freshness": 0.661,
+    "age_hours": 21.6
    },
    "reasons": [
-    "HN 47 points, 21 comments",
-    "first seen 19h ago",
-    "topic: AI models & labs"
+    "HN 872 points, 258 comments",
+    "first seen 22h ago",
+    "topic: Tech & startups"
    ],
    "first_seen": "2026-11-17",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 89,
+   "engagement": 1388,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1468,86 +1943,47 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Show HN: Fakemetrics.com – \"build in public\" like a superstar",
-     "url": "https://fakemetrics.com/",
-     "published": "2026-11-16T18:08:04+00:00",
-     "summary": "Hi HN, I am Tigran (github.com&#x2F;tigranbs)\nI made Fakemetrics.com as a fun experiment while testing how well Claude Opus can build pixel-identical UIs. It turned out it wasn&#x27;t as easy as just prompting it, but I spent time building the system so it works almost every time.\nAnd I am pretty su",
+     "title": "CNN, Zoom, Fox News Served Visitors a Crypto-Stealing Skimmer – OPTIMJACK",
+     "url": "https://amirulcyber.com/2026/11/16/optimjack-optimizely-skimmer/",
+     "published": "2026-11-16T21:08:38+00:00",
+     "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 47,
-     "comments": 21,
-     "discussion_url": "https://news.ycombinator.com/item?id=50520741",
-     "id": "hackernews:50520741"
-    }
-   ]
-  },
-  {
-   "id": "1a7442f5be",
-   "headline": "Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia",
-   "url": "https://yle.fi/a/74-20257202?origin=rss",
-   "first_published": "2026-11-15T16:22:57+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 26.3,
-   "signals": {
-    "coverage": 0.452,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.506,
-    "age_hours": 45.0
-   },
-   "reasons": [
-    "2 outlets: Yle News, Helsinki Times",
-    "first seen 45h ago",
-    "topic: Finland & Nordic tech",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-16",
-   "status": "rising",
-   "outlet_count": 2,
-   "outlets": [
-    "Helsinki Times",
-    "Yle News"
-   ],
-   "engagement": 0,
-   "regions": [
-    "Finland"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Helsinki Times",
-     "title": "Estonia to close border with Russia on 1 December after alleged GRU sabotage",
-     "url": "https://www.helsinkitimes.com/world-int/29496-estonia-to-close-border-with-russia-on-1-december-after-alleged-gru-sabotage.html",
-     "published": "2026-11-15T16:22:57+00:00",
-     "summary": "Estonia plans to close all border crossings with Russia from 1 December following an attempted arson attack on a defence company that authorities have linked to Russian military intelligence. Foreign Minister Margus Tsahkna announced the measure on Sunday, after Estonian security officials accused R",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Helsinki Times:512f5898f266"
+     "points": 190,
+     "comments": 2,
+     "discussion_url": "https://news.ycombinator.com/item?id=50523300",
+     "id": "hackernews:50523300"
     },
     {
-     "source": "feed",
-     "outlet": "Yle News",
-     "title": "Russia acting out of desperation, says Häkkänen on suspected arson attack in Estonia",
-     "url": "https://yle.fi/a/74-20257202?origin=rss",
-     "published": "2026-11-16T12:24:06+00:00",
-     "summary": "Finnish officials have noted that Russia is stepping up its sabotage strategy across Europe.",
-     "region": "Finland",
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Optimizely compromised, served malware on Zoom, GitLab",
+     "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+     "published": "2026-11-16T23:00:34+00:00",
+     "summary": "",
+     "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle News:39abdf490ce5"
+     "points": 612,
+     "comments": 242,
+     "discussion_url": "https://news.ycombinator.com/item?id=50524767",
+     "id": "hackernews:50524767"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+     "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+     "published": "2026-11-17T17:13:57+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 70,
+     "comments": 14,
+     "discussion_url": "https://news.ycombinator.com/item?id=50534664",
+     "id": "hackernews:50534664"
     }
    ]
   }
