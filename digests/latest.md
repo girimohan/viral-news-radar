@@ -1,140 +1,140 @@
-# Viral news radar, 2026-11-18
+# Viral news radar, 2026-11-19
 
-19 stories worth a look out of 257 found in 378 articles from the last 48 hours. 11 are new since yesterday.
+20 stories worth a look out of 254 found in 392 articles from the last 48 hours. 7 are new since yesterday.
 
 **[Open the dashboard](https://girimohan.github.io/viral-news-radar/)** for filters and the full list.
 
 ## Top stories
 
-### 1. [Google makes it easier to use Gemini without training AI on your data](https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/)
+### 1. [Anthropic IPO: how can I buy shares, and is it worth it?](https://www.theguardian.com/technology/2026/nov/17/anthropic-ipo-flotation-buy-shares-stock-market-claude-ai)
 
-**61/100** · AI models & labs · 📈 rising
+**51/100** · AI models & labs · 📈 rising
 
-_5 outlets: TechCrunch AI, Ars Technica, Engadget, ZDNet AI +1 more · HN 906 points, 639 comments · first seen 26h ago · topic: AI models & labs · rising: 2 more outlets since yesterday_
+_5 outlets: The Guardian Tech, BBC Technology, TechCrunch, Sifted +1 more · HN 468 points, 603 comments · first seen 48h ago · topic: AI models & labs · rising: 1 more outlets since yesterday_
 
-Sources: [Ars Technica](https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/) · [Google AI Blog](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/) · [ZDNet AI](https://www.zdnet.com/innovation/google-gemini-notebook-interactive-sites-notes/) · [ZDNet AI](https://www.zdnet.com/innovation/google-gemini-ai-model-training-opt-out-how/) · [TechCrunch AI](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/) · [TechCrunch AI](https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/) · [Engadget](https://www.engadget.com/2319673/google-wallet-is-launching-on-ios/) · [ZDNet AI](https://www.zdnet.com/business/gemini-gems-google-skills-transition/)
+Sources: [The Guardian Tech](https://www.theguardian.com/technology/2026/nov/17/anthropic-ipo-flotation-buy-shares-stock-market-claude-ai) · [Sifted](https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/) · [Hacker News](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/) · [discussion](https://news.ycombinator.com/item?id=50547901) · [Hacker News](https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO) · [discussion](https://news.ycombinator.com/item?id=50548485) · [BBC Technology](https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss) · [The Guardian Tech](https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo) · [TechCrunch](https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/) · [TechCrunch AI](https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/)
 
-### 2. [Amazon and Google will together own nearly 30% of Anthropic after its IPO](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/)
+### 2. [DeepMind Employees Are Unionising](https://www.gdmunion.co.uk)
 
-**52/100** · AI models & labs · 📈 rising
+**48/100** · AI models & labs · 🆕 new
 
-_4 outlets: The Guardian Tech, TechCrunch, BBC Technology, Sifted · HN 236 points, 119 comments · first seen 35h ago · topic: AI models & labs · rising: 3 more outlets since yesterday_
+_HN 77 points, 52 comments · first seen 4h ago · topic: AI models & labs_
 
-Sources: [The Guardian Tech](https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market) · [Hacker News](https://nitter.cf/kevinnbass/status/2099621874279817638) · [discussion](https://news.ycombinator.com/item?id=50530450) · [The Guardian Tech](https://www.theguardian.com/technology/2026/nov/17/anthropic-ipo-flotation-buy-shares-stock-market-claude-ai) · [TechCrunch](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/) · [TechCrunch AI](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/) · [Sifted](https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/) · [BBC Technology](https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss) · [Hacker News](https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO) · [discussion](https://news.ycombinator.com/item?id=50548485)
+Sources: [Hacker News](https://www.gdmunion.co.uk) · [discussion](https://news.ycombinator.com/item?id=50557885)
 
-### 3. [Lovable Wants You to Vibe Code Your Dream Job](https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/)
-
-**50/100** · Finland & Nordic tech · 📈 rising
-
-_1 outlet: Wired · HN 703 points, 396 comments · first seen 32h ago · topic: Finland & Nordic tech · rising: 1 more outlets since yesterday_
-
-Sources: [Hacker News](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/) · [discussion](https://news.ycombinator.com/item?id=50529612) · [Hacker News](https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/) · [discussion](https://news.ycombinator.com/item?id=50535885) · [Wired](https://www.wired.com/story/lovable-wants-you-to-vibe-code-a-living/)
-
-### 4. [‘Human’ wins Cambridge dictionary’s word of the year](https://www.theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human)
-
-**49/100** · AI models & labs · 🆕 new
-
-_1 outlet: The Guardian Tech · HN 151 points, 105 comments · first seen 13h ago · topic: AI models & labs_
-
-Sources: [The Guardian Tech](https://www.theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human) · [Hacker News](https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026) · [discussion](https://news.ycombinator.com/item?id=50546914)
-
-### 5. [Introducing GPT-6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol)
-
-**47/100** · AI models & labs
-
-_1 outlet: OpenAI News · HN 1.3k points, 841 comments · first seen 25h ago · topic: AI models & labs_
-
-Sources: [OpenAI News](https://openai.com/index/introducing-gpt-6-2-astra-sol) · [Hacker News](https://openai.com/index/introducing-gpt-6-2-astra-sol/) · [discussion](https://news.ycombinator.com/item?id=50535230)
-
-### 6. [AI Agents Ask Better Questions Than KPMG Accountants in Landmark Audit Trial](https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/)
-
-**47/100** · AI agents & products · 🆕 new
-
-_HN 87 points, 37 comments · first seen 3h ago · topic: AI agents & products_
-
-Sources: [Hacker News](https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/) · [discussion](https://news.ycombinator.com/item?id=50547777)
-
-### 7. [Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO](https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/)
+### 3. [Google’s AI feature in Search gets its own incognito mode](https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/)
 
 **43/100** · AI models & labs
 
-_6 outlets: MIT Technology Review, TechCrunch, BBC Technology, Wired +2 more · HN 293 points, 357 comments · first seen 48h ago · topic: AI models & labs_
+_4 outlets: TechCrunch, The Verge, ZDNet AI, Google AI Blog · HN 1.9k points, 1.5k comments · first seen 45h ago · topic: AI models & labs_
 
-Sources: [MIT Technology Review](https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/) · [Hacker News](https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories) · [discussion](https://news.ycombinator.com/item?id=50527905) · [MIT Technology Review](https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/) · [Hacker News](https://twitter.com/JensenHuang/status/2122726005219737649) · [discussion](https://news.ycombinator.com/item?id=50533723) · [Hacker News](https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html) · [discussion](https://news.ycombinator.com/item?id=50534044) · [Wired](https://www.wired.com/story/jensen-huang-says-hes-open-to-coming-back-to-nvidia/) · [Wired](https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/) · [Ars Technica](https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/)
+Sources: [ZDNet AI](https://www.zdnet.com/tech/android-fast-switch-like-iphone-handoff/) · [Google AI Blog](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/) · [ZDNet AI](https://www.zdnet.com/innovation/google-gemini-notebook-interactive-sites-notes/) · [ZDNet AI](https://www.zdnet.com/innovation/google-gemini-ai-model-training-opt-out-how/) · [ZDNet AI](https://www.zdnet.com/business/gemini-gems-google-skills-transition/) · [Hacker News](https://revscope.co/blog/search-seo-geo-2026/) · [discussion](https://news.ycombinator.com/item?id=50540178) · [Hacker News](https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/) · [discussion](https://news.ycombinator.com/item?id=50541790) · [Google AI Blog](https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/)
 
-### 8. [Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost](https://www.zdnet.com/innovation/microsoft-ai-coding-model-rivals-claude-opus-5-5-ignite/)
+### 4. [Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit](https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/)
 
-**43/100** · AI models & labs · 🆕 new
+**42/100** · AI models & labs
 
-_1 outlet: ZDNet AI · HN 193 points, 123 comments · first seen 20h ago · topic: AI models & labs_
+_5 outlets: MIT Technology Review, BBC Technology, TechCrunch, The Guardian Tech +1 more · HN 294 points, 348 comments · first seen 48h ago · topic: AI models & labs_
 
-Sources: [ZDNet AI](https://www.zdnet.com/innovation/microsoft-ai-coding-model-rivals-claude-opus-5-5-ignite/) · [ZDNet AI](https://www.zdnet.com/innovation/microsoft-copilot-workspaces-ignite-2026/) · [ZDNet AI](https://www.zdnet.com/innovation/microsoft-licensed-weights-ai-models-ignite-2026/) · [Hacker News](https://microsoft.ai/news/microsoft-ignite-2026/) · [discussion](https://news.ycombinator.com/item?id=50548021)
+Sources: [MIT Technology Review](https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/) · [Hacker News](https://twitter.com/JensenHuang/status/2122726005219737649) · [discussion](https://news.ycombinator.com/item?id=50533723) · [Hacker News](https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html) · [discussion](https://news.ycombinator.com/item?id=50534044) · [Hacker News](https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html) · [discussion](https://news.ycombinator.com/item?id=50538942) · [TechCrunch AI](https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/) · [BBC Technology](https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss) · [TechCrunch AI](https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/) · [BBC Technology](https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss)
 
-### 9. [Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story](https://www.theguardian.com/games/2026/nov/18/grand-theft-auto-vi-gta-6-review-playstation-rockstar)
+### 5. [AI agents ask better questions than KPMG accountants in audit trial](https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/)
 
-**40/100** · Tech & startups · 🆕 new
+**39/100** · AI agents & products
 
-_9 outlets: The Guardian Tech, TechCrunch, BBC Technology, The Verge +5 more · first seen 7h ago · topic: Tech & startups_
+_HN 471 points, 224 comments · first seen 21h ago · topic: AI agents & products_
 
-Sources: [Ars Technica](https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review/) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/18/grand-theft-auto-vi-gta-6-review-playstation-rockstar) · [Yle Uutiset](https://yle.fi/a/74-20257645?origin=rss) · [Wired](https://www.wired.com/story/i-will-never-stop-playing-grand-theft-auto/) · [Helsinki Times](https://www.helsinkitimes.com/207-themes/player-one/29505-gta-6-launches-after-13-year-wait-to-near-perfect-reviews.html) · [Engadget](https://www.engadget.com/2320303/youll-need-the-latest-ps5-firmware-update-to-play-gta-vi/) · [TechCrunch](https://techcrunch.com/2026/11/18/british-hackers-face-prison-for-gta-6-data-breach-and-crypto-thefts/) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/18/players-say-goodbye-to-grand-theft-auto-v-with-one-last-drive)
+Sources: [Hacker News](https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/) · [discussion](https://news.ycombinator.com/item?id=50547777)
 
-### 10. [Claude was trained on protein sequences at scale](http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/)
+### 6. [Grand Theft Auto 6 is a masterpiece, say critics](https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss)
 
-**38/100** · AI models & labs · 🆕 new
+**38/100** · Finland & Nordic tech
 
-_HN 149 points, 66 comments · first seen 15h ago · topic: AI models & labs_
+_5 outlets: Yle News, BBC Technology, The Guardian Tech, Ars Technica +1 more · first seen 26h ago · topic: Finland & Nordic tech_
 
-Sources: [Hacker News](http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/) · [discussion](https://news.ycombinator.com/item?id=50541619)
+Sources: [Ars Technica](https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review/) · [Wired](https://www.wired.com/story/i-will-never-stop-playing-grand-theft-auto/) · [BBC Technology](https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-vi-critics-response-masterpiece) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi) · [Yle News](https://yle.fi/a/74-20257918?origin=rss)
 
-### 11. [Apple outage: iPhone apps suffer disruption days after major Microsoft issues](https://www.theguardian.com/technology/2026/nov/17/gmail-apple-outage-major-disruption)
+### 7. [Introducing GPT-6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol)
 
-**36/100** · AI agents & products
+**38/100** · AI models & labs
 
-_2 outlets: The Guardian Tech, ZDNet AI · HN 791 points, 427 comments · first seen 47h ago · topic: AI agents & products_
+_1 outlet: OpenAI News · HN 1.3k points, 853 comments · first seen 43h ago · topic: AI models & labs_
 
-Sources: [ZDNet AI](https://www.zdnet.com/tech/apple-health-ai-usage-study-how-to-enroll/) · [ZDNet AI](https://www.zdnet.com/innovation/apple-siri-ai-daily-limits-cost-icloud-plus-plan/) · [Hacker News](https://developer.apple.com/system-status/) · [discussion](https://news.ycombinator.com/item?id=50535238) · [Hacker News](https://9to5mac.com/2026/11/17/icloud-app-store-and-other-apple-services-hit-by-ongoing-outage/) · [discussion](https://news.ycombinator.com/item?id=50535268) · [The Guardian Tech](https://www.theguardian.com/technology/2026/nov/17/gmail-apple-outage-major-disruption) · [ZDNet AI](https://www.zdnet.com/health/5-new-ai-features-in-apples-health-app-for-ios-27-3-and-which-iphones-can-try-them/)
+Sources: [OpenAI News](https://openai.com/index/introducing-gpt-6-2-astra-sol) · [Hacker News](https://openai.com/index/introducing-gpt-6-2-astra-sol/) · [discussion](https://news.ycombinator.com/item?id=50535230)
 
-### 12. [Windows 11 is collecting data on which coding agents and developer tools you use](https://xusheng.dev/posts/windows-coding-agent-telemetry/)
+### 8. [Fable: Written, painted and directed by Claude Fable 5.2](https://claudia.gallery/fable/)
 
-**34/100** · AI agents & products
+**37/100** · AI models & labs · 🆕 new
 
-_HN 1.2k points, 1.1k comments · first seen 43h ago · topic: AI agents & products_
+_HN 60 points, 59 comments · first seen 13h ago · topic: AI models & labs_
 
-Sources: [Hacker News](https://xusheng.dev/posts/windows-coding-agent-telemetry/) · [discussion](https://news.ycombinator.com/item?id=50524736) · [Hacker News](https://blog.antonio.cx/running-agents-with-lend) · [discussion](https://news.ycombinator.com/item?id=50526152) · [Hacker News](https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/) · [discussion](https://news.ycombinator.com/item?id=50538303)
+Sources: [Hacker News](https://claudia.gallery/fable/) · [discussion](https://news.ycombinator.com/item?id=50554269)
 
-### 13. [Nvidia stopped disclosing Singapore sales as revenues hit $104B](https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf)
-
-**34/100** · AI business & chips
-
-_HN 647 points, 290 comments · first seen 25h ago · topic: AI business & chips_
-
-Sources: [Hacker News](https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf) · [discussion](https://news.ycombinator.com/item?id=50534631)
-
-### 14. [Not Everything Needs an LLM](https://newsletter.posthog.com/p/decision-models)
+### 9. [Advancing chip design with OpenAI models](https://openai.com/index/advancing-chip-design-with-our-models)
 
 **33/100** · AI models & labs · 🆕 new
 
-_HN 174 points, 73 comments · first seen 24h ago · topic: AI models & labs_
+_1 outlet: OpenAI News · HN 212 points, 152 comments · first seen 37h ago · topic: AI models & labs_
 
-Sources: [Hacker News](https://newsletter.posthog.com/p/decision-models) · [discussion](https://news.ycombinator.com/item?id=50535740)
+Sources: [OpenAI News](https://openai.com/index/advancing-chip-design-with-our-models) · [Hacker News](https://openai.com/index/advancing-chip-design-with-our-models/) · [discussion](https://news.ycombinator.com/item?id=50549493)
 
-### 15. [Finland extends 'pushback' law to repel instrumentalised migration](https://yle.fi/a/74-20257718?origin=rss)
+### 10. [Canva adds an AI ‘off’ button](https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button)
+
+**33/100** · AI agents & products · 🆕 new
+
+_2 outlets: The Verge, Engadget · broke in the last hour · topic: AI agents & products_
+
+Sources: [The Verge](https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button) · [Engadget](https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/)
+
+### 11. [Microsoft says its new AI coding model rivals Claude Opus 5.5 at 5% of the cost](https://www.zdnet.com/innovation/microsoft-ai-coding-model-rivals-claude-opus-5-5-ignite/)
+
+**32/100** · AI models & labs
+
+_1 outlet: ZDNet AI · HN 236 points, 73 comments · first seen 38h ago · topic: AI models & labs_
+
+Sources: [ZDNet AI](https://www.zdnet.com/innovation/microsoft-ai-coding-model-rivals-claude-opus-5-5-ignite/) · [Hacker News](https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/) · [discussion](https://news.ycombinator.com/item?id=50554374)
+
+### 12. [HSL to trial distance-based fares and launch group tickets](https://www.helsinkitimes.com/finland/finland-news/domestic/29509-hsl-to-trial-distance-based-fares-and-launch-group-tickets.html)
 
 **32/100** · Finland & Nordic tech · 🆕 new
 
-_2 outlets: Yle News, Helsinki Times · first seen 5h ago · topic: Finland & Nordic tech_
+_2 outlets: Yle News, Helsinki Times · first seen 6h ago · topic: Finland & Nordic tech_
 
-Sources: [Yle News](https://yle.fi/a/74-20257718?origin=rss) · [Helsinki Times](https://www.helsinkitimes.com/finland/finland-news/politics/29506-finland-extends-controversial-border-law-until-2028.html)
+Sources: [Yle News](https://yle.fi/a/74-20257709?origin=rss) · [Helsinki Times](https://www.helsinkitimes.com/finland/finland-news/domestic/29509-hsl-to-trial-distance-based-fares-and-launch-group-tickets.html)
+
+### 13. [Best Early Black Friday Phone Deals (2026)](https://www.wired.com/story/best-early-black-friday-phone-deals-11-18-26/)
+
+**31/100** · Tech & startups · 📈 rising
+
+_3 outlets: The Verge, The Guardian Tech, Wired · HN 418 points, 133 comments · first seen 46h ago · topic: Tech & startups · rising: 1 more outlets since yesterday_
+
+Sources: [Hacker News](https://runta.com/blog/introducing-frontierharness-eval-v1-1/) · [discussion](https://news.ycombinator.com/item?id=50532191) · [Wired](https://www.wired.com/gallery/best-smart-bed/) · [Wired](https://www.wired.com/story/best-early-black-friday-deals-under-100-11-18-2026/) · [Wired](https://www.wired.com/story/best-gifts-under-25-2026/) · [The Guardian Tech](https://www.theguardian.com/thefilter/2026/nov/18/best-tvs-tested-uk) · [Wired](https://www.wired.com/story/macbook-neo-deal-november-2026/) · [Wired](https://www.wired.com/story/best-early-black-friday-phone-deals-11-18-26/) · [The Verge](https://www.theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale)
+
+### 14. [Harvard researchers find AI coding agents shifted the bottleneck to code review](https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/)
+
+**31/100** · AI agents & products
+
+_HN 321 points, 444 comments · first seen 40h ago · topic: AI agents & products_
+
+Sources: [Hacker News](https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/) · [discussion](https://news.ycombinator.com/item?id=50538303)
+
+### 15. [Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction](https://arxiv.org/abs/2607.29378)
+
+**30/100** · AI models & labs · 🆕 new
+
+_HN 46 points, 9 comments · first seen 12h ago · topic: AI models & labs_
+
+Sources: [Hacker News](https://arxiv.org/abs/2607.29378) · [discussion](https://news.ycombinator.com/item?id=50554908)
 
 ## Also from Finland and the Nordics
 
-### 1. [HS poll: Support for NCP hits record low](https://yle.fi/a/74-20257586?origin=rss)
+### 1. [Security expert: Trump's admiration of Putin verges on worship](https://yle.fi/a/74-20257911?origin=rss)
 
-**30/100** · Finland & Nordic tech · 🆕 new
+**25/100** · Finland & Nordic tech · 🆕 new
 
-_3 outlets: Yle News, MIT Technology Review, Helsinki Times · first seen 25h ago · topic: Finland & Nordic tech_
+_1 outlet: Yle News · broke in the last hour · topic: Finland & Nordic tech_
 
-Sources: [MIT Technology Review](https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/) · [Yle News](https://yle.fi/a/74-20257586?origin=rss) · [Helsinki Times](https://www.helsinkitimes.com/finland/finland-news/politics/29504-hs-poll-ncp-support-hits-record-low-as-finns-party-closes-gap.html)
+Sources: [Yle News](https://yle.fi/a/74-20257911?origin=rss)
 
 ## Source problems
 
