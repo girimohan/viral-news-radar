@@ -80,6 +80,47 @@
 "https://theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor"
 ]
 },
+"05d35d3fef": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "How a handful of European angels hit the Anthropic jackpot",
+"last_seen": "2026-11-20",
+"terms": [
+"hit",
+"anthropic",
+"angel",
+"european",
+"jackpot",
+"handful"
+],
+"urls": [
+"https://sifted.eu/articles/european-angels-anthropic-ipo"
+]
+},
+"06522523b3": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "Menestyvä suomalaisyhtiö paljastaa Venäjän pommidroonit ja aikoo seuraavaksi tuhota ne",
+"last_seen": "2026-11-20",
+"terms": [
+"venäjän",
+"menestyvä",
+"tuhota",
+"ne",
+"aikoo",
+"pommidroonit",
+"seuraavaksi",
+"paljastaa",
+"suomalaisyhtiö"
+],
+"urls": [
+"https://yle.fi/a/74-20257542?origin=rss"
+]
+},
 "07d7d697b1": {
 "by_day": {
 "2026-11-20": 1
@@ -89,12 +130,12 @@
 "last_seen": "2026-11-20",
 "terms": [
 "national",
-"head",
 "frii",
+"head",
+"team",
+"football",
 "coach",
 "jacob",
-"football",
-"team",
 "finland",
 "sack"
 ],
@@ -146,20 +187,21 @@
 },
 "0a5140f0d8": {
 "by_day": {
-"2026-11-19": 2
+"2026-11-19": 2,
+"2026-11-20": 2
 },
 "first_seen": "2026-11-19",
 "headline": "HSL to trial distance-based fares and launch group tickets",
-"last_seen": "2026-11-19",
+"last_seen": "2026-11-20",
 "terms": [
 "hsl",
 "trial",
 "ticket",
 "pay-as-you-go",
-"far",
-"distance-bas",
 "group",
-"launch"
+"distance-bas",
+"launch",
+"far"
 ],
 "urls": [
 "https://helsinkitimes.com/finland/finland-news/domestic/29509-hsl-to-trial-distance-based-fares-and-launch-group-tickets.html",
@@ -194,7 +236,7 @@
 "0c5a6a8108": {
 "by_day": {
 "2026-11-19": 0,
-"2026-11-20": 2
+"2026-11-20": 3
 },
 "first_seen": "2026-11-19",
 "headline": "The unfolding Jensen Huang scandal: a timeline",
@@ -202,26 +244,46 @@
 "terms": [
 "jensen",
 "huang",
-"openai",
-"hit",
-"model",
+"musk",
+"elon",
+"scandal",
 "timeline",
 "unfold",
-"scandal",
-"open",
-"boost",
-"anthropic",
-"fall",
-"advanc",
-"design"
+"don't",
+"spacex",
+"michael",
+"team",
+"jordan",
+"oust",
+"kick"
 ],
 "urls": [
-"https://ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
-"https://moq.dev/blog/webrtc-is-still-the-problem",
+"https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space",
 "https://nypost.com/2026/11/17/business/jensen-huangs-daughter-madison-insulted-workers-reports",
-"https://openai.com/index/advancing-chip-design-with-our-models",
+"https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team",
+"https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones",
 "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+"https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear",
+"https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues",
+"https://wired.com/story/dont-bring-jensen-back",
 "https://wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too"
+]
+},
+"0c5a6a8108x": {
+"by_day": {
+"2026-11-20": 0
+},
+"first_seen": "2026-11-20",
+"headline": "OpenAI still has a WebRTC Problem",
+"last_seen": "2026-11-20",
+"terms": [
+"still",
+"openai",
+"problem",
+"webrtc"
+],
+"urls": [
+"https://moq.dev/blog/webrtc-is-still-the-problem"
 ]
 },
 "0c5fe85b64": {
@@ -398,8 +460,8 @@
 "terms": [
 "assist",
 "engineer",
-"llm",
-"reverse"
+"reverse",
+"llm"
 ],
 "urls": [
 "https://slowchronicle.com/posts/llm-assisted-reverse-engineering"
@@ -407,22 +469,28 @@
 },
 "13dda85d25": {
 "by_day": {
-"2026-11-20": 1
+"2026-11-20": 2
 },
 "first_seen": "2026-11-20",
 "headline": "California investigates Nvidia over whether chip exports ended up in China",
 "last_seen": "2026-11-20",
 "terms": [
-"end",
-"export",
 "california",
 "nvidia",
 "china",
+"chip",
+"end",
+"export",
 "whether",
 "investigat",
-"chip"
+"worri",
+"ag",
+"subpoena",
+"tie",
+"huang"
 ],
 "urls": [
+"https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
 "https://theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
 ]
 },
@@ -445,6 +513,26 @@
 ],
 "urls": [
 "https://retrocomputing.stackexchange.com/questions/17957"
+]
+},
+"154d385473": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "Inside Malmö: The Swedish city building the future of food",
+"last_seen": "2026-11-20",
+"terms": [
+"build",
+"inside",
+"malmö",
+"future",
+"food",
+"city",
+"swedish"
+],
+"urls": [
+"https://sifted.eu/articles/inside-the-swedish-city-building-the-future-of-food-brnd"
 ]
 },
 "16b6b4df3e": {
@@ -607,22 +695,28 @@
 },
 "1c14cff742": {
 "by_day": {
-"2026-11-20": 1
+"2026-11-20": 2
 },
 "first_seen": "2026-11-20",
 "headline": "Russia reprimands Finland's deputy ambassador over entry curbs on athletes",
 "last_seen": "2026-11-20",
 "terms": [
-"reprimand",
+"athlet",
+"russia",
 "deputy",
 "ambassador",
-"curb",
-"athlet",
-"finland",
 "entry",
-"russia"
+"curb",
+"finland",
+"reprimand",
+"russian",
+"ban",
+"summon",
+"finnish",
+"diplomat"
 ],
 "urls": [
+"https://helsinkitimes.com/world-int/29515-russia-summons-finnish-charge-d-affaires-over-ban-on-russian-athletes.html",
 "https://yle.fi/a/74-20258049?origin=rss"
 ]
 },
@@ -676,6 +770,24 @@
 "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
 "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
 "https://wired.com/story/lovable-wants-you-to-vibe-code-a-living"
+]
+},
+"1f5ceb79fb": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "Chips can survive the space environment. Can their financing?",
+"last_seen": "2026-11-20",
+"terms": [
+"environment",
+"chip",
+"space",
+"financ",
+"survive"
+],
+"urls": [
+"https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing"
 ]
 },
 "210d388636": {
@@ -1023,13 +1135,13 @@
 "headline": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
 "last_seen": "2026-11-20",
 "terms": [
-"previous-token",
-"prediction",
-"llm",
-"bas",
+"inversion",
 "prompt",
+"prediction",
 "reconstruction",
-"inversion"
+"previous-token",
+"bas",
+"llm"
 ],
 "urls": [
 "https://arxiv.org/abs/2607.29378"
@@ -1064,25 +1176,23 @@
 "headline": "Apple may be developing its own AI agent that runs your Mac",
 "last_seen": "2026-11-20",
 "terms": [
-"agent",
 "ai",
+"agent",
 "apple",
 "develop",
 "run",
 "mac",
-"build",
-"hir",
-"engineer",
 "confirm",
 "job",
+"post",
 "work",
-"seemingly",
-"task"
+"cod",
+"task",
+"seemingly"
 ],
 "urls": [
 "https://engadget.com/2322586/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks",
-"https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
-"https://theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+"https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac"
 ]
 },
 "3ce5c65a6a": {
@@ -1104,21 +1214,25 @@
 },
 "3ef39960a9": {
 "by_day": {
-"2026-11-19": 1
+"2026-11-19": 1,
+"2026-11-20": 2
 },
 "first_seen": "2026-11-19",
-"headline": "Bankruptcy filings in Finland hit record high for 2000s",
-"last_seen": "2026-11-19",
+"headline": "Finland's bankruptcy filings reach new 21st-century high",
+"last_seen": "2026-11-20",
 "terms": [
-"2000",
-"record",
-"finland",
+"filing",
 "bankruptcy",
 "high",
+"finland",
 "hit",
-"filing"
+"2000",
+"record",
+"21st-century",
+"reach"
 ],
 "urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29514-finland-s-bankruptcy-filings-reach-new-21st-century-high.html",
 "https://yle.fi/a/74-20257822?origin=rss"
 ]
 },
@@ -1287,6 +1401,28 @@
 "https://tivi.fi/uutiset/a/9c6109c7-68dc-4fac-bdc5-74dccb7a0984"
 ]
 },
+"4bdc3591c5": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "Suomen vanhin mies, talvisodan veteraani Ilmari Koppinen ei pelkää kuolemaa",
+"last_seen": "2026-11-20",
+"terms": [
+"ilmari",
+"kuolemaa",
+"pelkää",
+"koppinen",
+"talvisodan",
+"vanhin",
+"suomen",
+"veteraani",
+"mie"
+],
+"urls": [
+"https://yle.fi/a/74-20257209?origin=rss"
+]
+},
 "4c79989f2c": {
 "by_day": {
 "2026-11-16": 1
@@ -1319,25 +1455,16 @@
 "headline": "Inside Slush 2026: Robots, riches and the race to superintelligence",
 "last_seen": "2026-11-20",
 "terms": [
-"inside",
-"deutsche",
-"bank",
-"2026",
 "rich",
+"inside",
+"race",
+"slush",
 "superintelligence",
 "robot",
-"slush",
-"race",
-"build",
-"food",
-"swedish",
-"future",
-"malmö"
+"2026"
 ],
 "urls": [
-"https://inside-db.com/",
-"https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence",
-"https://sifted.eu/articles/inside-the-swedish-city-building-the-future-of-food-brnd"
+"https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence"
 ]
 },
 "4defa3f913": {
@@ -1372,30 +1499,30 @@
 "2026-11-20": 4
 },
 "first_seen": "2026-11-18",
-"headline": "Grand Theft Auto 6 is a masterpiece, say critics",
+"headline": "Video: Grand Theft Auto VI lands in Finland",
 "last_seen": "2026-11-20",
 "terms": [
-"grand",
 "theft",
 "auto",
+"grand",
 "vi",
-"masterpiece",
-"critic",
 "play",
-"hail",
-"world",
 "virtual",
 "extraordinary",
-"cash",
-"tip",
+"critic",
+"masterpiece",
+"hail",
+"world",
+"bloodsh",
+"go",
 "easy"
 ],
 "urls": [
-"https://bbc.co.uk/news/articles/cw8r75xm8v4po",
 "https://theguardian.com/games/2026/nov/19/grand-theft-auto-parents-please-dont-buy-gta-6-vi-for-your-child",
 "https://theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
 "https://theguardian.com/games/2026/nov/19/grand-theft-auto-vi-critics-response-masterpiece",
 "https://theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi",
+"https://theverge.com/entertainment/1037545/gta-6-discussion",
 "https://wired.com/story/dudes-online-are-so-mad-that-gta-vi-makes-them-respect-women",
 "https://wired.com/story/gta-vi-is-finally-out-dont-rush-it",
 "https://yle.fi/a/74-20257918?origin=rss"
@@ -1504,6 +1631,25 @@
 "https://yle.fi/a/74-20257544?origin=rss"
 ]
 },
+"541933a8b2": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "Exclusive: Storonsky-backed Aikido seeks €4bn valuation",
+"last_seen": "2026-11-20",
+"terms": [
+"seek",
+"4bn",
+"aikido",
+"storonsky-back",
+"exclusive",
+"valuation"
+],
+"urls": [
+"https://sifted.eu/articles/exclusive-aikido-4bn-valuation"
+]
+},
 "54879409ac": {
 "by_day": {
 "2026-11-16": 1
@@ -1560,14 +1706,14 @@
 "headline": "Espoo closes in on Helsinki as Finland’s startup funding race tightens",
 "last_seen": "2026-11-20",
 "terms": [
+"startup",
+"fund",
 "tighten",
-"close",
-"finland",
-"espoo",
 "helsinki",
 "race",
-"startup",
-"fund"
+"finland",
+"espoo",
+"close"
 ],
 "urls": [
 "https://sifted.eu/articles/espoo-closes-in-on-helsinki-as-finlands-startup-funding-race-tightens"
@@ -1695,9 +1841,9 @@
 "headline": "DeepMind Employees Are Unionising",
 "last_seen": "2026-11-20",
 "terms": [
-"deepmind",
+"unionis",
 "employe",
-"unionis"
+"deepmind"
 ],
 "urls": [
 "https://gdmunion.co.uk/"
@@ -1711,15 +1857,15 @@
 "headline": "Finnish far-right groups order stickers from abroad as domestic firms refuse orders",
 "last_seen": "2026-11-20",
 "terms": [
+"order",
+"group",
+"sticker",
 "abroad",
 "far-right",
-"firm",
-"finnish",
+"refuse",
 "domestic",
-"order",
-"sticker",
-"group",
-"refuse"
+"firm",
+"finnish"
 ],
 "urls": [
 "https://yle.fi/a/74-20258093?origin=rss"
@@ -1813,6 +1959,26 @@
 ],
 "urls": [
 "https://theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026"
+]
+},
+"686571dc93": {
+"by_day": {
+"2026-11-20": 0
+},
+"first_seen": "2026-11-20",
+"headline": "Epic Games Turns to AI Coding for the Unreal Engine",
+"last_seen": "2026-11-20",
+"terms": [
+"engine",
+"ai",
+"cod",
+"gam",
+"turn",
+"unreal",
+"epic"
+],
+"urls": [
+"https://spectrum.ieee.org/epic-games-unreal-engine-ai"
 ]
 },
 "68ad117f76": {
@@ -2155,6 +2321,27 @@
 "https://zdnet.com/innovation/samsung-galaxy-claw-ai-cross-app-upgrade"
 ]
 },
+"7598222c1a": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "Work-based immigration to Finland rises as student applications drop by a third",
+"last_seen": "2026-11-20",
+"terms": [
+"rise",
+"immigration",
+"work-bas",
+"student",
+"application",
+"drop",
+"finland",
+"third"
+],
+"urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29517-work-based-immigration-to-finland-rises-as-student-applications-drop-by-a-third.html"
+]
+},
 "7937c7468f": {
 "by_day": {
 "2026-11-19": 1
@@ -2181,24 +2368,21 @@
 "2026-11-20": 1
 },
 "first_seen": "2026-11-19",
-"headline": "UK government forced to disclose secret Apple backdoor order",
+"headline": "UK government forced to admit it issued Apple a secret encryption order",
 "last_seen": "2026-11-20",
 "terms": [
-"uk",
-"government",
-"apple",
-"order",
-"forc",
-"secret",
-"disclose",
-"backdoor",
 "encryption",
+"order",
+"uk",
+"apple",
 "issu",
-"admit"
+"government",
+"secret",
+"admit",
+"forc"
 ],
 "urls": [
-"https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order",
-"https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order"
+"https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order"
 ]
 },
 "7a18444762": {
@@ -2273,18 +2457,18 @@
 "terms": [
 "tell",
 "ai",
+"plain",
+"old",
 "outage",
 "cyberattack",
-"old",
-"plain",
 "came",
-"understand",
 "us",
+"understand",
 "coder",
 "wrote",
 "yourself",
-"watchdog",
-"dutch"
+"dutch",
+"glasse"
 ],
 "urls": [
 "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage",
@@ -2381,14 +2565,14 @@
 "headline": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
 "last_seen": "2026-11-20",
 "terms": [
-"fridg",
-"uk",
-"secur",
 "hacker",
-"ten",
+"secur",
+"uk",
+"fridg",
 "nationwide",
 "operation",
 "secret",
+"ten",
 "thousand"
 ],
 "urls": [
@@ -2516,13 +2700,13 @@
 "headline": "‘I want to be the world’s youngest billionaire’: Meet the Slush 20u20",
 "last_seen": "2026-11-20",
 "terms": [
-"slush",
-"20u20",
-"billionaire",
-"world",
 "youngest",
-"want",
-"meet"
+"world",
+"billionaire",
+"20u20",
+"meet",
+"slush",
+"want"
 ],
 "urls": [
 "https://sifted.eu/articles/slush-20u20-2026"
@@ -2530,31 +2714,32 @@
 },
 "8d0c613735": {
 "by_day": {
-"2026-11-19": 3
+"2026-11-19": 3,
+"2026-11-20": 2
 },
 "first_seen": "2026-11-19",
 "headline": "MP Nasima Razmyar considers legal action over MEP Tynkkynen's social media post",
-"last_seen": "2026-11-19",
+"last_seen": "2026-11-20",
 "terms": [
-"social",
-"media",
 "nasima",
 "razmyar",
-"consider",
-"post",
 "action",
+"social",
 "mep",
-"legal",
+"post",
+"consider",
 "tynkkynen",
-"explore",
-"study",
-"once-in-a-generation",
-"children"
+"legal",
+"media",
+"sebastian",
+"mp",
+"puheista",
+"tutkintapyynnön"
 ],
 "urls": [
 "https://helsinkitimes.com/finland/finland-news/politics/29512-nasima-razmyar-considers-legal-action-against-mep-sebastian-tynkkynen-over-social-media-post.html",
-"https://theguardian.com/uk-news/2026/nov/18/social-media-ban-once-in-a-generation-study",
-"https://yle.fi/a/74-20257983?origin=rss"
+"https://yle.fi/a/74-20257983?origin=rss",
+"https://yle.fi/a/74-20258206?origin=rss"
 ]
 },
 "8d43e0c3db": {
@@ -2583,10 +2768,10 @@
 "last_seen": "2026-11-20",
 "terms": [
 "chatgpt",
-"fast",
-"openai",
 "keep",
 "factory",
+"openai",
+"fast",
 "performance",
 "sne"
 ],
@@ -2597,23 +2782,30 @@
 },
 "8e6c78a143": {
 "by_day": {
-"2026-11-20": 0
+"2026-11-20": 1
 },
 "first_seen": "2026-11-20",
-"headline": "Claude solves two open problems in the physics of black holes",
+"headline": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
 "last_seen": "2026-11-20",
 "terms": [
 "claude",
-"open",
-"two",
-"hol",
-"problem",
-"black",
 "solv",
-"physic"
+"problem",
+"open",
+"hol",
+"physic",
+"two",
+"black",
+"anthropic",
+"claim",
+"millennium",
+"mathematician",
+"prestigiou",
+"prize"
 ],
 "urls": [
-"https://anthropic.com/research/claude-black-hole-physics"
+"https://anthropic.com/research/claude-black-hole-physics",
+"https://theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
 ]
 },
 "94f45cbe56": {
@@ -2791,18 +2983,18 @@
 "headline": "Fable: Written, painted and directed by Claude Fable 5.2",
 "last_seen": "2026-11-20",
 "terms": [
-"5.2",
 "fable",
+"5.2",
 "claude",
 "direct",
 "paint",
 "written",
-"appear",
-"stealth",
-"two",
-"ahead",
 "model",
-"leaderboard"
+"leaderboard",
+"ahead",
+"two",
+"stealth",
+"appear"
 ],
 "urls": [
 "https://claudia.gallery/fable",
@@ -2955,6 +3147,31 @@
 "https://zdnet.com/health/apple-health-ios-27-3-ai-features-compatible-iphones"
 ]
 },
+"9e9ac3b030": {
+"by_day": {
+"2026-11-20": 2
+},
+"first_seen": "2026-11-20",
+"headline": "Your Google AI mode searches can stay private now with ‘temporary threads’ – here’s how",
+"last_seen": "2026-11-20",
+"terms": [
+"ai",
+"search",
+"google",
+"stay",
+"thread",
+"temporary",
+"mode",
+"private",
+"call",
+"employe",
+"school"
+],
+"urls": [
+"https://engadget.com/2322304/employees-call-out-google-over-ai-search-in-schools",
+"https://zdnet.com/innovation/google-ai-mode-searches-private-temporary-threads"
+]
+},
 "9ede15ed13": {
 "by_day": {
 "2026-11-18": 1
@@ -3069,36 +3286,35 @@
 "2026-11-20": 6
 },
 "first_seen": "2026-11-17",
-"headline": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+"headline": "Anthropic raises $81bn in record-breaking stock market debut",
 "last_seen": "2026-11-20",
 "terms": [
 "anthropic",
 "ipo",
 "ai",
-"record-break",
-"nasdaq",
-"public",
-"debut",
-"nearly",
-"bubble",
-"founder",
-"ceo",
 "market",
+"record-break",
+"public",
 "stock",
-"put"
+"debut",
+"bubble",
+"nasdaq",
+"founder",
+"sell-off",
+"protester",
+"156b"
 ],
 "urls": [
+"https://anihil.com/the-market-is-down",
 "https://anthropic.com/news/anthropic-prices-initial-public-offering",
 "https://bbc.co.uk/news/articles/c3x29ggenz12o",
 "https://bbc.co.uk/news/articles/c6742m39xgzxo",
+"https://bbc.co.uk/news/articles/c6808ym10vzgo",
 "https://bbc.co.uk/news/articles/cj4gnpzll020o",
 "https://bbc.co.uk/news/articles/cmd7159vlr85o",
-"https://businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
 "https://engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion",
 "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
 "https://sifted.eu/articles/menlo-ventures-podcast",
-"https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
-"https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
 "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
 "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models",
 "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
@@ -3106,9 +3322,10 @@
 "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
 "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
 "https://techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say",
+"https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
 "https://theguardian.com/technology/2026/nov/19/anthropic-ipo-protests",
 "https://theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
-"https://theguardian.com/technology/video/2026/nov/19/anthropic-dario-amodei-acknowledges-ai-risks-before-ipo-video",
+"https://theguardian.com/technology/2026/nov/19/who-are-anthropic-founders",
 "https://wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself"
 ]
 },
@@ -3277,23 +3494,14 @@
 "last_seen": "2026-11-20",
 "terms": [
 "outag",
-"ai",
-"tech",
-"agent",
 "y2k",
+"ai",
+"agent",
+"tech",
 "giv",
-"style",
-"hack",
-"many",
-"overdue",
-"white",
-"remov",
-"house",
-"cyber-security"
+"style"
 ],
 "urls": [
-"https://bbc.co.uk/news/articles/c6z0kly2lll7o",
-"https://bbc.co.uk/news/articles/cwz0k3nn5p5mo",
 "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style",
 "https://wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages"
 ]
@@ -3539,6 +3747,27 @@
 "https://wired.com/story/tesla-cybercab-is-the-subscription-hell-they-told-you-not-to-worry-about"
 ]
 },
+"bfcd8f4dc9": {
+"by_day": {
+"2026-11-20": 0
+},
+"first_seen": "2026-11-20",
+"headline": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+"last_seen": "2026-11-20",
+"terms": [
+"anthropic",
+"claim",
+"general",
+"hypothesi",
+"proof",
+"riemann",
+"employee",
+"pdf"
+],
+"urls": [
+"https://alpo.ge/remark.pdf"
+]
+},
 "c160c4f41c": {
 "by_day": {
 "2026-11-17": 1
@@ -3611,12 +3840,12 @@
 "headline": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
 "last_seen": "2026-11-20",
 "terms": [
-"unlock",
-"grapheneo",
-"oem",
-"google",
 "bootloader",
-"push"
+"push",
+"oem",
+"unlock",
+"google",
+"grapheneo"
 ],
 "urls": [
 "https://grapheneos.social/@GrapheneOS/117645038299496084"
@@ -3779,18 +4008,18 @@
 "terms": [
 "chrome",
 "google",
-"bug",
-"bankruptcy",
-"dev",
-"team",
 "2012",
+"team",
+"bankruptcy",
+"bug",
 "declar",
-"agent",
+"dev",
 "built",
-"test",
 "ai",
+"agent",
+"mirror",
 "dimension",
-"internet"
+"test"
 ],
 "urls": [
 "https://blog.plover.com/tech/bug-reports.html",
@@ -3889,30 +4118,28 @@
 "2026-11-20": 6
 },
 "first_seen": "2026-11-17",
-"headline": "Meta’s Muse Charm might cost $300",
+"headline": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
 "last_seen": "2026-11-20",
 "terms": [
 "muse",
 "meta",
 "charm",
-"300",
 "cost",
-"agent",
-"expos",
-"mix",
+"300",
 "ai",
-"private",
+"mix",
+"expos",
+"agent",
 "conversation",
+"private",
 "data",
 "device",
-"invasion"
+"book"
 ],
 "urls": [
-"https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
 "https://engadget.com/2322541/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g",
 "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
 "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300",
-"https://theverge.com/tech/1038087/meta-muse-charm-ai-price",
 "https://wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram",
 "https://zdnet.com/tech/meta-muse-privacy-violatons-employees-report"
 ]
@@ -3925,15 +4152,15 @@
 "headline": "FMI warns of poor driving conditions as snow falls, temps freeze",
 "last_seen": "2026-11-20",
 "terms": [
-"fmi",
-"snow",
-"condition",
-"driv",
-"freeze",
 "warn",
+"freeze",
+"fall",
+"fmi",
 "temp",
+"snow",
 "poor",
-"fall"
+"driv",
+"condition"
 ],
 "urls": [
 "https://yle.fi/a/74-20258043?origin=rss"
@@ -3952,34 +4179,29 @@
 "terms": [
 "gemini",
 "google",
-"ai",
 "neon",
-"use",
-"task",
 "ability",
 "mac",
-"app",
-"available",
-"free",
+"task",
+"use",
 "giv",
-"search",
-"devic"
+"com",
+"feature",
+"wallet",
+"without",
+"iphone",
+"assistant"
 ],
 "urls": [
 "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
-"https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
 "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
-"https://databricks.com/blog/postgresql-19-available-lakebase",
-"https://engadget.com/2322304/employees-call-out-google-over-ai-search-in-schools",
+"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
 "https://engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent",
 "https://engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app",
 "https://git-aarvin.github.io/mei",
 "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model",
 "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
 "https://theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-"https://theverge.com/tech/1038059/google-search-homepage-ai-chats",
-"https://zdnet.com/innovation/gemini-spark-tasks-free-personal-agent",
-"https://zdnet.com/innovation/google-ai-mode-searches-private-temporary-threads",
 "https://zdnet.com/tech/google-wallet-iphone-ios-no-tap-to-pay"
 ]
 },
@@ -4179,6 +4401,66 @@
 "https://yle.fi/a/74-20257267?origin=rss"
 ]
 },
+"e31085b265": {
+"by_day": {
+"2026-11-20": 2
+},
+"first_seen": "2026-11-20",
+"headline": "Dyson Promo Codes: 25% Off in November 2026",
+"last_seen": "2026-11-20",
+"terms": [
+"november",
+"2026",
+"coupon",
+"cod",
+"promo",
+"discount",
+"reebok",
+"code",
+"full",
+"service",
+"turbotax",
+"vimeo",
+"ancestry",
+"photo"
+],
+"urls": [
+"https://wired.com/story/ancestry-coupon-codes",
+"https://wired.com/story/castlery-promo-code",
+"https://wired.com/story/dyson-cordless-vacuum-promo-code",
+"https://wired.com/story/ebay-coupon-code",
+"https://wired.com/story/expedia-coupon",
+"https://wired.com/story/groupon-promo-code",
+"https://wired.com/story/reebok-discount-code",
+"https://wired.com/story/turbotax-coupon",
+"https://wired.com/story/vimeo-promo-code",
+"https://wired.com/story/walgreens-photo-coupon",
+"https://yle.fi/a/74-20258181?origin=rss"
+]
+},
+"e39692bc0c": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "Signal to restrict screenshots over AI agent concerns – again",
+"last_seen": "2026-11-20",
+"terms": [
+"signal",
+"seriou",
+"privacy",
+"protect",
+"concern",
+"ai",
+"agent",
+"screenshot",
+"restrict"
+],
+"urls": [
+"https://signal.org/blog/protecting-your-privacy",
+"https://zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns"
+]
+},
 "e50bf90c61": {
 "by_day": {
 "2026-11-16": 1
@@ -4283,11 +4565,11 @@
 "headline": "Finland's military ordering €450m in explosives",
 "last_seen": "2026-11-20",
 "terms": [
+"450m",
+"order",
 "military",
 "explosiv",
-"order",
-"finland",
-"450m"
+"finland"
 ],
 "urls": [
 "https://yle.fi/a/74-20257988?origin=rss"
@@ -4410,6 +4692,29 @@
 ],
 "urls": [
 "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam"
+]
+},
+"efe3584776": {
+"by_day": {
+"2026-11-20": 1
+},
+"first_seen": "2026-11-20",
+"headline": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
+"last_seen": "2026-11-20",
+"terms": [
+"stuck",
+"ai",
+"noth",
+"december",
+"look",
+"debut",
+"two",
+"vap",
+"device",
+"together"
+],
+"urls": [
+"https://engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together"
 ]
 },
 "f02301e1df": {

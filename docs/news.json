@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-20T12:51:43+00:00",
+ "generated_at": "2026-11-20T18:00:12+00:00",
  "date": "2026-11-20",
- "new_today": 8,
+ "new_today": 12,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2871,
+  "collected": 2882,
   "undated": 0,
-  "too_old": 2492,
-  "excluded": 8,
+  "too_old": 2514,
+  "excluded": 7,
   "duplicate": 0,
-  "articles_in_window": 371,
-  "stories": 237,
-  "off_topic": 172,
+  "articles_in_window": 361,
+  "stories": 238,
+  "off_topic": 171,
   "low_score": 45,
-  "shown": 20
+  "shown": 22
  },
  "llm": {
   "enabled": false
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2747,
-   "in_stories": 12,
-   "detail": "18/23 feeds read; failed: Helsinki Times (ParseError: not well-formed (invalid token): line 1, column 141); ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
+   "fetched": 2778,
+   "in_stories": 14,
+   "detail": "20/23 feeds read; failed: VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 124,
+   "fetched": 104,
    "in_stories": 17,
-   "detail": "124 stories with 40+ points",
+   "detail": "104 stories with 40+ points",
    "error": ""
   },
   {
@@ -56,10 +56,127 @@
  ],
  "stories": [
   {
+   "id": "bfcd8f4dc9",
+   "headline": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+   "url": "https://alpo.ge/remark.pdf",
+   "first_published": "2026-11-20T14:16:21+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 66.2,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 1.0,
+    "velocity": 1.0,
+    "freshness": 0.92,
+    "age_hours": 3.7
+   },
+   "reasons": [
+    "HN 1.5k points, 1.0k comments",
+    "first seen 4h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 3572,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+     "url": "https://alpo.ge/remark.pdf",
+     "published": "2026-11-20T14:16:21+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 1508,
+     "comments": 1032,
+     "discussion_url": "https://news.ycombinator.com/item?id=50574968",
+     "id": "hackernews:50574968"
+    }
+   ]
+  },
+  {
+   "id": "e39692bc0c",
+   "headline": "Signal to restrict screenshots over AI agent concerns – again",
+   "url": "https://www.zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns/",
+   "first_published": "2026-11-20T09:42:16+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 53.1,
+   "signals": {
+    "coverage": 0.214,
+    "engagement": 0.799,
+    "velocity": 0.777,
+    "freshness": 0.836,
+    "age_hours": 8.3
+   },
+   "reasons": [
+    "1 outlet: ZDNet AI",
+    "HN 282 points, 159 comments",
+    "first seen 8h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "new",
+   "outlet_count": 1,
+   "outlets": [
+    "ZDNet AI"
+   ],
+   "engagement": 600,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Signal Is Serious About Protecting Your Privacy",
+     "url": "https://signal.org/blog/protecting-your-privacy/",
+     "published": "2026-11-20T09:42:16+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 282,
+     "comments": 159,
+     "discussion_url": "https://news.ycombinator.com/item?id=50572348",
+     "id": "hackernews:50572348"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Signal to restrict screenshots over AI agent concerns – again",
+     "url": "https://www.zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns/",
+     "published": "2026-11-20T17:03:37+00:00",
+     "summary": "The messaging app similarly limited screenshots because of Microsoft Recall last year.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:57e7f6587c8c"
+    }
+   ]
+  },
+  {
    "id": "a78fd5e070",
-   "headline": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-   "first_published": "2026-11-18T15:59:04+00:00",
+   "headline": "Anthropic raises $81bn in record-breaking stock market debut",
+   "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+   "first_published": "2026-11-18T21:28:08+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs",
@@ -68,17 +185,17 @@
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 45.7,
+   "score": 45.8,
    "signals": {
     "coverage": 0.823,
     "engagement": 1.0,
-    "velocity": 0.937,
-    "freshness": 0.507,
-    "age_hours": 44.9
+    "velocity": 0.95,
+    "freshness": 0.508,
+    "age_hours": 44.5
    },
    "reasons": [
-    "6 outlets: TechCrunch, BBC Technology, The Guardian Tech, Wired +2 more",
-    "HN 1.8k points, 3.1k comments",
+    "6 outlets: BBC Technology, TechCrunch AI, The Guardian Tech, Wired +2 more",
+    "HN 1.8k points, 3.3k comments",
     "first seen 45h ago",
     "topic: AI models & labs"
    ],
@@ -89,11 +206,11 @@
     "BBC Technology",
     "Engadget",
     "Sifted",
-    "TechCrunch",
+    "TechCrunch AI",
     "The Guardian Tech",
     "Wired"
    ],
-   "engagement": 7920,
+   "engagement": 8414,
    "regions": [
     "Europe",
     "International"
@@ -101,36 +218,6 @@
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-     "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-     "published": "2026-11-18T15:59:04+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 53,
-     "comments": 0,
-     "discussion_url": "https://news.ycombinator.com/item?id=50547901",
-     "id": "hackernews:50547901"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
-     "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
-     "published": "2026-11-18T16:41:22+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 147,
-     "comments": 79,
-     "discussion_url": "https://news.ycombinator.com/item?id=50548485",
-     "id": "hackernews:50548485"
-    },
     {
      "source": "feed",
      "outlet": "BBC Technology",
@@ -147,21 +234,6 @@
      "id": "feed:BBC Technology:62ea430de39d"
     },
     {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Anthropic prices IPO at $83 a share, above projected range",
-     "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-     "published": "2026-11-18T22:11:15+00:00",
-     "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:ac2ef87eecc8"
-    },
-    {
      "source": "hackernews",
      "outlet": "Hacker News",
      "title": "Anthropic prices initial public offering",
@@ -172,7 +244,7 @@
      "lang": "en",
      "weight": 1.0,
      "points": 417,
-     "comments": 788,
+     "comments": 790,
      "discussion_url": "https://news.ycombinator.com/item?id=50553843",
      "id": "hackernews:50553843"
     },
@@ -223,21 +295,6 @@
     },
     {
      "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-     "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-     "published": "2026-11-19T14:54:39+00:00",
-     "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:a8055ee411cb"
-    },
-    {
-     "source": "feed",
      "outlet": "TechCrunch AI",
      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
@@ -268,21 +325,6 @@
     },
     {
      "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-     "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-     "published": "2026-11-19T16:19:41+00:00",
-     "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:ff72221a21f2"
-    },
-    {
-     "source": "feed",
      "outlet": "TechCrunch AI",
      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
@@ -295,36 +337,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:ff72221a21f2"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Anthropic CEO acknowledges AI has 'very real risks' shortly before IPO – video",
-     "url": "https://www.theguardian.com/technology/video/2026/nov/19/anthropic-dario-amodei-acknowledges-ai-risks-before-ipo-video",
-     "published": "2026-11-19T16:24:13+00:00",
-     "summary": "Anthropic's CEO, Dario Amodei, issued a warning about the dangers of AI, saying it has 'very real' but 'avoidable' risks, shortly before the company rang the opening bell at Nasdaq Anthropic ‘to open up more than 20% higher at over $100 a share’ after blockbuster IPO – business live Continue reading",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:23e4229d8f3b"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-     "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-     "published": "2026-11-19T16:59:23+00:00",
-     "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:6a50be9df6e2"
     },
     {
      "source": "feed",
@@ -351,8 +363,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 1101,
-     "comments": 2182,
+     "points": 1118,
+     "comments": 2257,
      "discussion_url": "https://news.ycombinator.com/item?id=50562754",
      "id": "hackernews:50562754"
     },
@@ -381,8 +393,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 48,
-     "comments": 28,
+     "points": 50,
+     "comments": 29,
      "discussion_url": "https://news.ycombinator.com/item?id=50564282",
      "id": "hackernews:50564282"
     },
@@ -415,6 +427,21 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:e55b025db59f"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Who are Anthropic’s seven co-founders, now worth $180bn?",
+     "url": "https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders",
+     "published": "2026-11-19T20:05:13+00:00",
+     "summary": "The company counts physicists, a former journalist and an associate of the pope among its guiding lights The paper fortunes of Anthropic’s seven co-founders reached a total of more than $180bn on Thursday as shares in their company started trading at a price ahead of expectations. The opening price ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:6dd2ec3981ff"
     },
     {
      "source": "feed",
@@ -505,42 +532,99 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:f1b30e9fd90e"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "The Market Is Down",
+     "url": "https://anihil.com/the-market-is-down",
+     "published": "2026-11-20T11:37:00+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 72,
+     "comments": 56,
+     "discussion_url": "https://news.ycombinator.com/item?id=50573288",
+     "id": "hackernews:50573288"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+     "published": "2026-11-20T13:29:59+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 157,
+     "comments": 168,
+     "discussion_url": "https://news.ycombinator.com/item?id=50574383",
+     "id": "hackernews:50574383"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
+     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+     "published": "2026-11-20T16:26:07+00:00",
+     "summary": "Asian markets record worst week since 2020 as investors question huge sums being poured into AI build-out Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic’s shares fell at the start of its second day of trading, as its record-breaking IPO failed to stem a sell-off in AI-linked comp",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:fd2811614640"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+     "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-20T17:36:29+00:00",
+     "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:daf74c652ec5"
     }
    ]
   },
   {
-   "id": "0c5a6a8108",
-   "headline": "The unfolding Jensen Huang scandal: a timeline",
-   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "first_published": "2026-11-18T15:08:21+00:00",
+   "id": "8e6c78a143",
+   "headline": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "first_published": "2026-11-19T17:30:44+00:00",
    "topic": "AI models & labs",
    "topics": [
-    "AI models & labs",
-    "AI business & chips"
+    "AI models & labs"
    ],
-   "score": 45.5,
+   "score": 44.9,
    "signals": {
-    "coverage": 0.46,
-    "engagement": 0.857,
-    "velocity": 0.558,
-    "freshness": 0.503,
-    "age_hours": 45.7
+    "coverage": 0.292,
+    "engagement": 0.87,
+    "velocity": 0.686,
+    "freshness": 0.634,
+    "age_hours": 24.5
    },
    "reasons": [
-    "2 outlets: TechCrunch, Wired",
-    "HN 422 points, 265 comments",
-    "first seen 46h ago",
-    "topic: AI models & labs",
-    "rising: 2 more outlets since yesterday"
+    "1 outlet: The Verge",
+    "HN 539 points, 260 comments",
+    "first seen 24h ago",
+    "topic: AI models & labs"
    ],
-   "first_seen": "2026-11-19",
-   "status": "rising",
-   "outlet_count": 2,
+   "first_seen": "2026-11-20",
+   "status": "new",
+   "outlet_count": 1,
    "outlets": [
-    "TechCrunch",
-    "Wired"
+    "The Verge"
    ],
-   "engagement": 952,
+   "engagement": 1059,
    "regions": [
     "International"
    ],
@@ -550,107 +634,32 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Jensen Huang's fall hits 'open' models in boost to Anthropic and OpenAI",
-     "url": "https://www.ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
-     "published": "2026-11-18T15:08:21+00:00",
+     "title": "Claude solves two open problems in the physics of black holes",
+     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+     "published": "2026-11-19T17:30:44+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 46,
-     "comments": 25,
-     "discussion_url": "https://news.ycombinator.com/item?id=50547223",
-     "id": "hackernews:50547223"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Advancing chip design with OpenAI models",
-     "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
-     "published": "2026-11-18T17:45:47+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 222,
-     "comments": 170,
-     "discussion_url": "https://news.ycombinator.com/item?id=50549493",
-     "id": "hackernews:50549493"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "OpenAI still has a WebRTC Problem",
-     "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
-     "published": "2026-11-19T14:20:08+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 97,
-     "comments": 28,
-     "discussion_url": "https://news.ycombinator.com/item?id=50560461",
-     "id": "hackernews:50560461"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Jensen Huang's daughter Madison insulted employees and drove top talent away",
-     "url": "https://nypost.com/2026/11/17/business/jensen-huangs-daughter-madison-insulted-workers-reports/",
-     "published": "2026-11-19T16:34:02+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 57,
-     "comments": 42,
-     "discussion_url": "https://news.ycombinator.com/item?id=50562319",
-     "id": "hackernews:50562319"
+     "points": 539,
+     "comments": 260,
+     "discussion_url": "https://news.ycombinator.com/item?id=50563148",
+     "id": "hackernews:50563148"
     },
     {
      "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "The unfolding Jensen Huang scandal: a timeline",
-     "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-     "published": "2026-11-19T20:18:49+00:00",
-     "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+     "outlet": "The Verge",
+     "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+     "published": "2026-11-20T16:34:13+00:00",
+     "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic ",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:TechCrunch:ceb6efe66aa2"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "The unfolding Jensen Huang scandal: a timeline",
-     "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-     "published": "2026-11-19T20:18:49+00:00",
-     "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:ceb6efe66aa2"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants",
-     "url": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
-     "published": "2026-11-19T20:34:17+00:00",
-     "summary": "In Taiwan, some food vendors are distancing themselves from Nvidia’s former CEO. Others stand by him. “It’s not as if he killed someone or set something on fire,” says one shop owner.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:b8dd6014146a"
+     "id": "feed:The Verge:fefc30d6bd36"
     }
    ]
   },
@@ -663,24 +672,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 45.4,
+   "score": 43.7,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.754,
-    "velocity": 0.677,
-    "freshness": 0.806,
-    "age_hours": 10.1
+    "engagement": 0.817,
+    "velocity": 0.694,
+    "freshness": 0.733,
+    "age_hours": 15.3
    },
    "reasons": [
-    "HN 87 points, 165 comments",
-    "first seen 10h ago",
+    "HN 143 points, 275 comments",
+    "first seen 15h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-20",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 417,
+   "engagement": 693,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -695,8 +704,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 87,
-     "comments": 165,
+     "points": 143,
+     "comments": 275,
      "discussion_url": "https://news.ycombinator.com/item?id=50569519",
      "id": "hackernews:50569519"
     }
@@ -706,25 +715,25 @@
    "id": "d6567a3ee2",
    "headline": "Google gives Gemini the ability to use your Mac for you",
    "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-   "first_published": "2026-11-18T17:00:00+00:00",
+   "first_published": "2026-11-18T18:02:15+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs",
     "AI agents & products",
     "Tech & startups"
    ],
-   "score": 44.2,
+   "score": 42.8,
    "signals": {
     "coverage": 0.695,
     "engagement": 1.0,
-    "velocity": 0.823,
-    "freshness": 0.511,
-    "age_hours": 43.9
+    "velocity": 0.805,
+    "freshness": 0.495,
+    "age_hours": 48.0
    },
    "reasons": [
     "5 outlets: TechCrunch, The Verge, Engadget, ZDNet AI +1 more",
-    "HN 1.8k points, 1.2k comments",
-    "first seen 44h ago",
+    "HN 1.7k points, 1.2k comments",
+    "first seen 48h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-17",
@@ -737,7 +746,7 @@
     "The Verge",
     "ZDNet AI"
    ],
-   "engagement": 4107,
+   "engagement": 4046,
    "regions": [
     "International",
     "Source"
@@ -745,36 +754,6 @@
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "Google AI Blog",
-     "title": "The Gemini app is now available on lower-memory Android devices.",
-     "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-     "published": "2026-11-18T17:00:00+00:00",
-     "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-     "region": "Source",
-     "lang": "en",
-     "weight": 0.5,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Google AI Blog:03ca256a4adf"
-    },
-    {
-     "source": "feed",
-     "outlet": "ZDNet AI",
-     "title": "You can use Google’s Spark AI agent, renamed Tasks, for free now – with limits",
-     "url": "https://www.zdnet.com/innovation/gemini-spark-tasks-free-personal-agent/",
-     "published": "2026-11-18T17:11:39+00:00",
-     "summary": "At least if Tasks disappoints, it won’t cost you – unlike OpenAI and Anthropic’s subscription-based agents.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.6,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:ZDNet AI:f8cfd13ab3cb"
-    },
     {
      "source": "feed",
      "outlet": "ZDNet AI",
@@ -801,7 +780,7 @@
      "lang": "en",
      "weight": 1.0,
      "points": 57,
-     "comments": 75,
+     "comments": 76,
      "discussion_url": "https://news.ycombinator.com/item?id=50551601",
      "id": "hackernews:50551601"
     },
@@ -815,8 +794,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 1037,
-     "comments": 772,
+     "points": 1042,
+     "comments": 774,
      "discussion_url": "https://news.ycombinator.com/item?id=50552424",
      "id": "hackernews:50552424"
     },
@@ -837,18 +816,18 @@
     },
     {
      "source": "feed",
-     "outlet": "ZDNet AI",
-     "title": "Your Google AI mode searches can stay private now with ‘temporary threads’ – here’s how",
-     "url": "https://www.zdnet.com/innovation/google-ai-mode-searches-private-temporary-threads/",
-     "published": "2026-11-19T17:12:31+00:00",
-     "summary": "With temporary threads, any searches you run in Google’s AI Mode won’t be associated with your account or saved to your chat history.",
-     "region": "International",
+     "outlet": "Google AI Blog",
+     "title": "Introducing Tool Retrieval in the Gemini API",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+     "published": "2026-11-19T18:00:00+00:00",
+     "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+     "region": "Source",
      "lang": "en",
-     "weight": 0.6,
+     "weight": 0.5,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:ZDNet AI:ebd9c744d6f1"
+     "id": "feed:Google AI Blog:57728669e048"
     },
     {
      "source": "feed",
@@ -881,36 +860,6 @@
      "id": "feed:TechCrunch AI:73e84c57b04b"
     },
     {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "Employees call out Google over AI Search in schools",
-     "url": "https://www.engadget.com/2322304/employees-call-out-google-over-ai-search-in-schools/",
-     "published": "2026-11-19T20:00:12+00:00",
-     "summary": "The Alphabet Workers Union voiced concern over Google requiring its AI tools be bundled with Search.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:811463c21a22"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Google is putting AI chats right on the homepage",
-     "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-     "published": "2026-11-19T20:05:06+00:00",
-     "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:5c5f4a179024"
-    },
-    {
      "source": "hackernews",
      "outlet": "Hacker News",
      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
@@ -920,25 +869,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 353,
-     "comments": 225,
+     "points": 360,
+     "comments": 238,
      "discussion_url": "https://news.ycombinator.com/item?id=50568130",
      "id": "hackernews:50568130"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Postgres 19 is out, and it's available on Neon and Databricks Lakebase",
-     "url": "https://www.databricks.com/blog/postgresql-19-available-lakebase",
-     "published": "2026-11-20T00:37:31+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 63,
-     "comments": 21,
-     "discussion_url": "https://news.ycombinator.com/item?id=50568643",
-     "id": "hackernews:50568643"
     },
     {
      "source": "feed",
@@ -988,32 +922,32 @@
    ]
   },
   {
-   "id": "8e6c78a143",
-   "headline": "Claude solves two open problems in the physics of black holes",
-   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "first_published": "2026-11-19T17:30:44+00:00",
-   "topic": "AI models & labs",
+   "id": "686571dc93",
+   "headline": "Epic Games Turns to AI Coding for the Unreal Engine",
+   "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+   "first_published": "2026-11-20T12:16:36+00:00",
+   "topic": "AI agents & products",
    "topics": [
-    "AI models & labs"
+    "AI agents & products"
    ],
-   "score": 42.6,
+   "score": 41.3,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.863,
-    "velocity": 0.717,
-    "freshness": 0.685,
-    "age_hours": 19.3
+    "engagement": 0.634,
+    "velocity": 0.608,
+    "freshness": 0.881,
+    "age_hours": 5.7
    },
    "reasons": [
-    "HN 516 points, 242 comments",
-    "first seen 19h ago",
-    "topic: AI models & labs"
+    "HN 49 points, 55 comments",
+    "first seen 6h ago",
+    "topic: AI agents & products"
    ],
    "first_seen": "2026-11-20",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 1000,
+   "engagement": 159,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1021,52 +955,310 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Claude solves two open problems in the physics of black holes",
-     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-     "published": "2026-11-19T17:30:44+00:00",
+     "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+     "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+     "published": "2026-11-20T12:16:36+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 516,
-     "comments": 242,
-     "discussion_url": "https://news.ycombinator.com/item?id=50563148",
-     "id": "hackernews:50563148"
+     "points": 49,
+     "comments": 55,
+     "discussion_url": "https://news.ycombinator.com/item?id=50573681",
+     "id": "hackernews:50573681"
     }
    ]
   },
   {
-   "id": "d3238dbc9b",
-   "headline": "Meta’s Muse Charm might cost $300",
-   "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-   "first_published": "2026-11-18T19:19:33+00:00",
+   "id": "0c5a6a8108",
+   "headline": "The unfolding Jensen Huang scandal: a timeline",
+   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "first_published": "2026-11-18T23:25:17+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips",
+    "Tech & startups"
+   ],
+   "score": 38.4,
+   "signals": {
+    "coverage": 0.583,
+    "engagement": 0.621,
+    "velocity": 0.266,
+    "freshness": 0.516,
+    "age_hours": 42.6
+   },
+   "reasons": [
+    "3 outlets: TechCrunch AI, Wired, Ars Technica",
+    "HN 59 points, 42 comments",
+    "first seen 43h ago",
+    "topic: AI business & chips",
+    "rising: 3 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-19",
+   "status": "rising",
+   "outlet_count": 3,
+   "outlets": [
+    "Ars Technica",
+    "TechCrunch AI",
+    "Wired"
+   ],
+   "engagement": 143,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+     "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+     "published": "2026-11-18T23:25:17+00:00",
+     "summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:de689ee65f00"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Jensen Huang's daughter Madison insulted employees and drove top talent away",
+     "url": "https://nypost.com/2026/11/17/business/jensen-huangs-daughter-madison-insulted-workers-reports/",
+     "published": "2026-11-19T16:34:02+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 59,
+     "comments": 42,
+     "discussion_url": "https://news.ycombinator.com/item?id=50562319",
+     "id": "hackernews:50562319"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "The unfolding Jensen Huang scandal: a timeline",
+     "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+     "published": "2026-11-19T20:18:49+00:00",
+     "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:ceb6efe66aa2"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "The unfolding Jensen Huang scandal: a timeline",
+     "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+     "published": "2026-11-19T20:18:49+00:00",
+     "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:ceb6efe66aa2"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Jensen Huang Blast Radius Has Hit His Favorite Restaurants",
+     "url": "https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/",
+     "published": "2026-11-19T20:34:17+00:00",
+     "summary": "In Taiwan, some food vendors are distancing themselves from Nvidia’s former CEO. Others stand by him. “It’s not as if he killed someone or set something on fire,” says one shop owner.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:b8dd6014146a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+     "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+     "published": "2026-11-19T23:37:56+00:00",
+     "summary": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:ecaacdb29f88"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
+     "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+     "published": "2026-11-20T13:25:00+00:00",
+     "summary": "Elon Musk may have been overstating it when he said Nvidia’s employees “love” the ousted Jensen Huang.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:4eb9be83aea3"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
+     "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+     "published": "2026-11-20T14:15:21+00:00",
+     "summary": "Bondholders want SpaceX’s valuable chip collateral kept on Earth and within reach.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:8194e1cabb8a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+     "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+     "published": "2026-11-20T14:55:44+00:00",
+     "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:7cf6c71f1f01"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Don’t Bring Jensen Back",
+     "url": "https://www.wired.com/story/dont-bring-jensen-back/",
+     "published": "2026-11-20T16:00:00+00:00",
+     "summary": "A mob of tech bros is clamoring for Nvidia to reinstate Jensen Huang as CEO. It's a bad idea.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:0ba94f108e92"
+    }
+   ]
+  },
+  {
+   "id": "cbc16b53cb",
+   "headline": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+   "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+   "first_published": "2026-11-19T16:20:12+00:00",
    "topic": "AI agents & products",
    "topics": [
     "AI agents & products",
     "Tech & startups"
    ],
-   "score": 39.7,
+   "score": 34.6,
    "signals": {
-    "coverage": 0.8,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.521,
-    "age_hours": 41.5
+    "coverage": 0.28,
+    "engagement": 0.657,
+    "velocity": 0.386,
+    "freshness": 0.623,
+    "age_hours": 25.7
    },
    "reasons": [
-    "6 outlets: TechCrunch, The Verge, Ars Technica, Wired +2 more",
-    "first seen 42h ago",
-    "topic: AI agents & products",
-    "rising: 2 more outlets since yesterday"
+    "1 outlet: Wired",
+    "HN 97 points, 47 comments",
+    "first seen 26h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-19",
+   "status": "steady",
+   "outlet_count": 1,
+   "outlets": [
+    "Wired"
+   ],
+   "engagement": 191,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Google Chrome dev team declares bug report bankruptcy (2012)",
+     "url": "https://blog.plover.com/tech/bug-reports.html",
+     "published": "2026-11-19T16:20:12+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 97,
+     "comments": 47,
+     "discussion_url": "https://news.ycombinator.com/item?id=50562101",
+     "id": "hackernews:50562101"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+     "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+     "published": "2026-11-19T17:00:00+00:00",
+     "summary": "The company’s alternate-universe internet serves as a massive sandbox that allows the Chrome team to properly train AI browsing agents—without the risk of them going rogue.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:9f6978800811"
+    }
+   ]
+  },
+  {
+   "id": "d3238dbc9b",
+   "headline": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+   "first_published": "2026-11-19T17:38:40+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 30.7,
+   "signals": {
+    "coverage": 0.637,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.635,
+    "age_hours": 24.4
+   },
+   "reasons": [
+    "4 outlets: TechCrunch, Wired, Engadget, ZDNet AI",
+    "first seen 24h ago",
+    "topic: AI agents & products"
    ],
    "first_seen": "2026-11-17",
-   "status": "rising",
-   "outlet_count": 6,
+   "status": "steady",
+   "outlet_count": 4,
    "outlets": [
-    "Ars Technica",
     "Engadget",
     "TechCrunch",
-    "The Verge",
     "Wired",
     "ZDNet AI"
    ],
@@ -1077,21 +1269,6 @@
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
-     "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-     "published": "2026-11-18T19:19:33+00:00",
-     "summary": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:be28d25a0e42"
-    },
     {
      "source": "feed",
      "outlet": "TechCrunch",
@@ -1136,21 +1313,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:ZDNet AI:28fc2580a9f7"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Meta’s Muse Charm might cost $300",
-     "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-     "published": "2026-11-19T20:22:17+00:00",
-     "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\"",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:1ffa618a4ea6"
     },
     {
      "source": "feed",
@@ -1215,677 +1377,33 @@
    ]
   },
   {
-   "id": "cbc16b53cb",
-   "headline": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
-   "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-   "first_published": "2026-11-19T16:20:12+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products",
-    "Tech & startups"
-   ],
-   "score": 37.6,
-   "signals": {
-    "coverage": 0.28,
-    "engagement": 0.656,
-    "velocity": 0.421,
-    "freshness": 0.672,
-    "age_hours": 20.5
-   },
-   "reasons": [
-    "1 outlet: Wired",
-    "HN 96 points, 47 comments",
-    "first seen 21h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-19",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "Wired"
-   ],
-   "engagement": 190,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Google Chrome dev team declares bug report bankruptcy (2012)",
-     "url": "https://blog.plover.com/tech/bug-reports.html",
-     "published": "2026-11-19T16:20:12+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 96,
-     "comments": 47,
-     "discussion_url": "https://news.ycombinator.com/item?id=50562101",
-     "id": "hackernews:50562101"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
-     "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-     "published": "2026-11-19T17:00:00+00:00",
-     "summary": "The company’s alternate-universe internet serves as a massive sandbox that allows the Chrome team to properly train AI browsing agents—without the risk of them going rogue.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:9f6978800811"
-    }
-   ]
-  },
-  {
-   "id": "4d41a27096",
-   "headline": "Inside Slush 2026: Robots, riches and the race to superintelligence",
-   "url": "https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence/",
-   "first_published": "2026-11-18T15:38:33+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 35.7,
-   "signals": {
-    "coverage": 0.28,
-    "engagement": 0.895,
-    "velocity": 0.614,
-    "freshness": 0.505,
-    "age_hours": 45.2
-   },
-   "reasons": [
-    "1 outlet: Sifted",
-    "HN 779 points, 259 comments",
-    "first seen 45h ago",
-    "topic: Finland & Nordic tech"
-   ],
-   "first_seen": "2026-11-20",
-   "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "Sifted"
-   ],
-   "engagement": 1297,
-   "regions": [
-    "Europe"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Inside Deutsche Bank",
-     "url": "https://www.inside-db.com/",
-     "published": "2026-11-18T15:38:33+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 779,
-     "comments": 259,
-     "discussion_url": "https://news.ycombinator.com/item?id=50547620",
-     "id": "hackernews:50547620"
-    },
-    {
-     "source": "feed",
-     "outlet": "Sifted",
-     "title": "Inside Slush 2026: Robots, riches and the race to superintelligence",
-     "url": "https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence/",
-     "published": "2026-11-20T05:00:44+00:00",
-     "summary": "",
-     "region": "Europe",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Sifted:347c80e37fc4"
-    },
-    {
-     "source": "feed",
-     "outlet": "Sifted",
-     "title": "Inside Malmö: The Swedish city building the future of food",
-     "url": "https://sifted.eu/articles/inside-the-swedish-city-building-the-future-of-food-brnd/",
-     "published": "2026-11-20T09:00:01+00:00",
-     "summary": "",
-     "region": "Europe",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Sifted:3c93504324f4"
-    }
-   ]
-  },
-  {
-   "id": "3bcf89cdf0",
-   "headline": "Apple may be developing its own AI agent that runs your Mac",
-   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-   "first_published": "2026-11-19T22:31:41+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI agents & products",
-    "Tech & startups"
-   ],
-   "score": 34.0,
-   "signals": {
-    "coverage": 0.57,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.745,
-    "age_hours": 14.3
-   },
-   "reasons": [
-    "3 outlets: The Verge, TechCrunch, Engadget",
-    "first seen 14h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-20",
-   "status": "new",
-   "outlet_count": 3,
-   "outlets": [
-    "Engadget",
-    "TechCrunch",
-    "The Verge"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Apple is hiring engineers to build its own AI agent",
-     "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-     "published": "2026-11-19T22:31:41+00:00",
-     "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:2ce9d2f469c5"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "Job posting seemingly confirms Apple is working on its own AI agent for coding and other tasks",
-     "url": "https://www.engadget.com/2322586/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks/",
-     "published": "2026-11-20T00:03:22+00:00",
-     "summary": "Apple is is hiring a senior engineering manager to build \"capable, reliable and safe\" agentic tools.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:4454632f6d6a"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Apple may be developing its own AI agent that runs your Mac",
-     "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-     "published": "2026-11-20T00:56:01+00:00",
-     "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:a4cd37f0c905"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Apple may be developing its own AI agent that runs your Mac",
-     "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-     "published": "2026-11-20T00:56:01+00:00",
-     "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:a4cd37f0c905"
-    }
-   ]
-  },
-  {
-   "id": "c690eeb256",
-   "headline": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
-   "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
-   "first_published": "2026-11-20T05:21:02+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 31.4,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.818,
-    "velocity": 0.822,
-    "freshness": 0.849,
-    "age_hours": 7.5
-   },
-   "reasons": [
-    "HN 405 points, 146 comments",
-    "first seen 8h ago",
-    "topic: Tech & startups"
-   ],
-   "first_seen": "2026-11-20",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 697,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
-     "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
-     "published": "2026-11-20T05:21:02+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 405,
-     "comments": 146,
-     "discussion_url": "https://news.ycombinator.com/item?id=50570479",
-     "id": "hackernews:50570479"
-    }
-   ]
-  },
-  {
-   "id": "8e182986ef",
-   "headline": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-   "first_published": "2026-11-19T08:00:00+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 31.3,
-   "signals": {
-    "coverage": 0.185,
-    "engagement": 0.632,
-    "velocity": 0.337,
-    "freshness": 0.597,
-    "age_hours": 28.9
-   },
-   "reasons": [
-    "1 outlet: OpenAI News",
-    "HN 103 points, 27 comments",
-    "first seen 29h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-20",
-   "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "OpenAI News"
-   ],
-   "engagement": 157,
-   "regions": [
-    "Source"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "OpenAI News",
-     "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-     "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-     "published": "2026-11-19T08:00:00+00:00",
-     "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-     "region": "Source",
-     "lang": "en",
-     "weight": 0.5,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:OpenAI News:6687f7be62c3"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "ChatGPT for SNES",
-     "url": "https://www.bxfoundry.com/chatgpt_snes/",
-     "published": "2026-11-20T00:25:59+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 103,
-     "comments": 27,
-     "discussion_url": "https://news.ycombinator.com/item?id=50568548",
-     "id": "hackernews:50568548"
-    }
-   ]
-  },
-  {
-   "id": "625da38946",
-   "headline": "DeepMind Employees Are Unionising",
-   "url": "https://www.gdmunion.co.uk",
-   "first_published": "2026-11-19T09:28:56+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 30.5,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.708,
-    "velocity": 0.443,
-    "freshness": 0.609,
-    "age_hours": 27.4
-   },
-   "reasons": [
-    "HN 121 points, 84 comments",
-    "first seen 27h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-19",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 289,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "DeepMind Employees Are Unionising",
-     "url": "https://www.gdmunion.co.uk",
-     "published": "2026-11-19T09:28:56+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 121,
-     "comments": 84,
-     "discussion_url": "https://news.ycombinator.com/item?id=50557885",
-     "id": "hackernews:50557885"
-    }
-   ]
-  },
-  {
-   "id": "e1fb8dfac6",
-   "headline": "AI agents ask better questions than KPMG accountants in audit trial",
-   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "first_published": "2026-11-18T15:49:34+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 28.9,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.864,
-    "velocity": 0.571,
-    "freshness": 0.506,
-    "age_hours": 45.0
-   },
-   "reasons": [
-    "HN 492 points, 260 comments",
-    "first seen 45h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-18",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1012,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "AI agents ask better questions than KPMG accountants in audit trial",
-     "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-     "published": "2026-11-18T15:49:34+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 492,
-     "comments": 260,
-     "discussion_url": "https://news.ycombinator.com/item?id=50547777",
-     "id": "hackernews:50547777"
-    }
-   ]
-  },
-  {
-   "id": "9991051736",
-   "headline": "Fable: Written, painted and directed by Claude Fable 5.2",
-   "url": "https://claudia.gallery/fable/",
-   "first_published": "2026-11-19T00:18:18+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 28.9,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.755,
-    "velocity": 0.457,
-    "freshness": 0.547,
-    "age_hours": 36.6
-   },
-   "reasons": [
-    "HN 203 points, 109 comments",
-    "first seen 37h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-19",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 421,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Fable: Written, painted and directed by Claude Fable 5.2",
-     "url": "https://claudia.gallery/fable/",
-     "published": "2026-11-19T00:18:18+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 61,
-     "comments": 63,
-     "discussion_url": "https://news.ycombinator.com/item?id=50554269",
-     "id": "hackernews:50554269"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
-     "url": "https://contralabs.com/frontierdesign",
-     "published": "2026-11-19T11:03:20+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 142,
-     "comments": 46,
-     "discussion_url": "https://news.ycombinator.com/item?id=50558559",
-     "id": "hackernews:50558559"
-    }
-   ]
-  },
-  {
-   "id": "7954fb4462",
-   "headline": "UK government forced to disclose secret Apple backdoor order",
-   "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
-   "first_published": "2026-11-19T15:32:20+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 28.9,
-   "signals": {
-    "coverage": 0.292,
-    "engagement": 0.895,
-    "velocity": 0.746,
-    "freshness": 0.664,
-    "age_hours": 21.3
-   },
-   "reasons": [
-    "1 outlet: TechCrunch",
-    "HN 664 points, 314 comments",
-    "first seen 21h ago",
-    "topic: Tech & startups"
-   ],
-   "first_seen": "2026-11-19",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "TechCrunch"
-   ],
-   "engagement": 1292,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "UK government forced to disclose secret Apple backdoor order",
-     "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
-     "published": "2026-11-19T15:32:20+00:00",
-     "summary": "The U.K. tribunal's ruling rejected London's claim that disclosing the order would be damaging to national security.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:e43e96964b27"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "UK government forced to admit it issued Apple a secret encryption order",
-     "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
-     "published": "2026-11-19T16:21:03+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 664,
-     "comments": 314,
-     "discussion_url": "https://news.ycombinator.com/item?id=50562113",
-     "id": "hackernews:50562113"
-    }
-   ]
-  },
-  {
-   "id": "139db17eea",
-   "headline": "LLM assisted reverse engineering",
-   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-   "first_published": "2026-11-18T22:29:13+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 28.8,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.767,
-    "velocity": 0.465,
-    "freshness": 0.537,
-    "age_hours": 38.4
-   },
-   "reasons": [
-    "HN 306 points, 79 comments",
-    "first seen 38h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-18",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 464,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "LLM assisted reverse engineering",
-     "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-     "published": "2026-11-18T22:29:13+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 306,
-     "comments": 79,
-     "discussion_url": "https://news.ycombinator.com/item?id=50553225",
-     "id": "hackernews:50553225"
-    }
-   ]
-  },
-  {
    "id": "4e955720e0",
-   "headline": "Grand Theft Auto 6 is a masterpiece, say critics",
-   "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-   "first_published": "2026-11-18T17:34:25+00:00",
+   "headline": "Video: Grand Theft Auto VI lands in Finland",
+   "url": "https://yle.fi/a/74-20257918?origin=rss",
+   "first_published": "2026-11-19T04:00:16+00:00",
    "topic": "Finland & Nordic tech",
    "topics": [
     "Finland & Nordic tech"
    ],
-   "score": 28.7,
+   "score": 30.2,
    "signals": {
     "coverage": 0.699,
     "engagement": 0.0,
     "velocity": 0.0,
-    "freshness": 0.513,
-    "age_hours": 43.3
+    "freshness": 0.539,
+    "age_hours": 38.0
    },
    "reasons": [
-    "4 outlets: Yle News, BBC Technology, The Guardian Tech, Wired",
-    "first seen 43h ago",
+    "4 outlets: Yle News, The Guardian Tech, The Verge, Wired",
+    "first seen 38h ago",
     "topic: Finland & Nordic tech"
    ],
    "first_seen": "2026-11-18",
    "status": "steady",
    "outlet_count": 4,
    "outlets": [
-    "BBC Technology",
     "The Guardian Tech",
+    "The Verge",
     "Wired",
     "Yle News"
    ],
@@ -1897,21 +1415,6 @@
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Grand Theft Auto 6 is a masterpiece, say critics",
-     "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-18T17:34:25+00:00",
-     "summary": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:ea5ae0646376"
-    },
     {
      "source": "feed",
      "outlet": "The Guardian Tech",
@@ -2016,6 +1519,501 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Wired:be73449a42f3"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Let’s talk about GTA VI",
+     "url": "https://www.theverge.com/entertainment/1037545/gta-6-discussion",
+     "published": "2026-11-20T15:00:00+00:00",
+     "summary": "It's hard to believe, but Grand Theft Auto VI is now a real thing that we all can play. Thirteen years after GTA V, and eight years since Red Dead Redemption 2, Rockstar is back with its latest sprawling, extravagant open world. There's a lot to experience - and a lot to talk about. Perhaps […]",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:40ce89139a79"
+    }
+   ]
+  },
+  {
+   "id": "8e182986ef",
+   "headline": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "first_published": "2026-11-19T08:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 29.9,
+   "signals": {
+    "coverage": 0.185,
+    "engagement": 0.65,
+    "velocity": 0.334,
+    "freshness": 0.562,
+    "age_hours": 34.0
+   },
+   "reasons": [
+    "1 outlet: OpenAI News",
+    "HN 111 points, 35 comments",
+    "first seen 34h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "new",
+   "outlet_count": 1,
+   "outlets": [
+    "OpenAI News"
+   ],
+   "engagement": 181,
+   "regions": [
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "OpenAI News",
+     "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+     "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+     "published": "2026-11-19T08:00:00+00:00",
+     "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:OpenAI News:6687f7be62c3"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "ChatGPT for SNES",
+     "url": "https://www.bxfoundry.com/chatgpt_snes/",
+     "published": "2026-11-20T00:25:59+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 111,
+     "comments": 35,
+     "discussion_url": "https://news.ycombinator.com/item?id=50568548",
+     "id": "hackernews:50568548"
+    }
+   ]
+  },
+  {
+   "id": "625da38946",
+   "headline": "DeepMind Employees Are Unionising",
+   "url": "https://www.gdmunion.co.uk",
+   "first_published": "2026-11-19T09:28:56+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 28.5,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.711,
+    "velocity": 0.418,
+    "freshness": 0.572,
+    "age_hours": 32.5
+   },
+   "reasons": [
+    "HN 123 points, 86 comments",
+    "first seen 33h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-19",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 295,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "DeepMind Employees Are Unionising",
+     "url": "https://www.gdmunion.co.uk",
+     "published": "2026-11-19T09:28:56+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 123,
+     "comments": 86,
+     "discussion_url": "https://news.ycombinator.com/item?id=50557885",
+     "id": "hackernews:50557885"
+    }
+   ]
+  },
+  {
+   "id": "1c14cff742",
+   "headline": "Russia reprimands Finland's deputy ambassador over entry curbs on athletes",
+   "url": "https://yle.fi/a/74-20258049?origin=rss",
+   "first_published": "2026-11-20T06:45:45+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech"
+   ],
+   "score": 28.5,
+   "signals": {
+    "coverage": 0.452,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.789,
+    "age_hours": 11.2
+   },
+   "reasons": [
+    "2 outlets: Yle News, Helsinki Times",
+    "first seen 11h ago",
+    "topic: Finland & Nordic tech"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "Helsinki Times",
+    "Yle News"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Finland"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Yle News",
+     "title": "Russia reprimands Finland's deputy ambassador over entry curbs on athletes",
+     "url": "https://yle.fi/a/74-20258049?origin=rss",
+     "published": "2026-11-20T06:45:45+00:00",
+     "summary": "Finland's foreign ministry noted that \"Russia uses sports as a propaganda tool\" when tightened restrictions were announced last week.",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle News:73844be14fa7"
+    },
+    {
+     "source": "feed",
+     "outlet": "Helsinki Times",
+     "title": "Russia summons Finnish diplomat over ban on Russian athletes",
+     "url": "https://www.helsinkitimes.com/world-int/29515-russia-summons-finnish-charge-d-affaires-over-ban-on-russian-athletes.html",
+     "published": "2026-11-20T10:43:02+00:00",
+     "summary": "Russia summoned Finland’s chargé d’affaires in Moscow on Thursday to protest against new Finnish entry restrictions that prevent Russian athletes from competing in the country, even under a neutral flag. The Russian Foreign Ministry accused Helsinki of discrimination based on nationality and demande",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Helsinki Times:06f6eaae1a02"
+    }
+   ]
+  },
+  {
+   "id": "3ef39960a9",
+   "headline": "Finland's bankruptcy filings reach new 21st-century high",
+   "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29514-finland-s-bankruptcy-filings-reach-new-21st-century-high.html",
+   "first_published": "2026-11-19T08:27:52+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech"
+   ],
+   "score": 28.4,
+   "signals": {
+    "coverage": 0.452,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.565,
+    "age_hours": 33.5
+   },
+   "reasons": [
+    "2 outlets: Yle News, Helsinki Times",
+    "first seen 34h ago",
+    "topic: Finland & Nordic tech",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-19",
+   "status": "rising",
+   "outlet_count": 2,
+   "outlets": [
+    "Helsinki Times",
+    "Yle News"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Finland"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Yle News",
+     "title": "Bankruptcy filings in Finland hit record high for 2000s",
+     "url": "https://yle.fi/a/74-20257822?origin=rss",
+     "published": "2026-11-19T08:27:52+00:00",
+     "summary": "More than 4,000 Finnish companies have filed for bankruptcy in the past year, the highest annual total since the turn of the millennium.",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle News:27d5fb2d1a61"
+    },
+    {
+     "source": "feed",
+     "outlet": "Helsinki Times",
+     "title": "Finland's bankruptcy filings reach new 21st-century high",
+     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29514-finland-s-bankruptcy-filings-reach-new-21st-century-high.html",
+     "published": "2026-11-19T18:43:34+00:00",
+     "summary": "The number of companies facing bankruptcy petitions in Finland has reached its highest level this century, with 4,092 businesses subject to filings over the past 12 months, according to figures published by Statistics Finland on Wednesday. In October alone, creditors and businesses initiated 364 ban",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Helsinki Times:7644ec9b0084"
+    }
+   ]
+  },
+  {
+   "id": "c690eeb256",
+   "headline": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+   "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+   "first_published": "2026-11-20T05:21:02+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 28.2,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.832,
+    "velocity": 0.749,
+    "freshness": 0.769,
+    "age_hours": 12.7
+   },
+   "reasons": [
+    "HN 437 points, 171 comments",
+    "first seen 13h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 779,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+     "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+     "published": "2026-11-20T05:21:02+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 437,
+     "comments": 171,
+     "discussion_url": "https://news.ycombinator.com/item?id=50570479",
+     "id": "hackernews:50570479"
+    }
+   ]
+  },
+  {
+   "id": "9991051736",
+   "headline": "Fable: Written, painted and directed by Claude Fable 5.2",
+   "url": "https://claudia.gallery/fable/",
+   "first_published": "2026-11-19T00:18:18+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 27.4,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.757,
+    "velocity": 0.439,
+    "freshness": 0.52,
+    "age_hours": 41.7
+   },
+   "reasons": [
+    "HN 209 points, 110 comments",
+    "first seen 42h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-19",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 429,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+     "url": "https://claudia.gallery/fable/",
+     "published": "2026-11-19T00:18:18+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 61,
+     "comments": 63,
+     "discussion_url": "https://news.ycombinator.com/item?id=50554269",
+     "id": "hackernews:50554269"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+     "url": "https://contralabs.com/frontierdesign",
+     "published": "2026-11-19T11:03:20+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 148,
+     "comments": 47,
+     "discussion_url": "https://news.ycombinator.com/item?id=50558559",
+     "id": "hackernews:50558559"
+    }
+   ]
+  },
+  {
+   "id": "139db17eea",
+   "headline": "LLM assisted reverse engineering",
+   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+   "first_published": "2026-11-18T22:29:13+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 27.3,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.769,
+    "velocity": 0.447,
+    "freshness": 0.512,
+    "age_hours": 43.5
+   },
+   "reasons": [
+    "HN 310 points, 80 comments",
+    "first seen 44h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-18",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 470,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "LLM assisted reverse engineering",
+     "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+     "published": "2026-11-18T22:29:13+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 310,
+     "comments": 80,
+     "discussion_url": "https://news.ycombinator.com/item?id=50553225",
+     "id": "hackernews:50553225"
+    }
+   ]
+  },
+  {
+   "id": "83678100b2",
+   "headline": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+   "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
+   "first_published": "2026-11-20T00:02:07+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 27.2,
+   "signals": {
+    "coverage": 0.292,
+    "engagement": 0.743,
+    "velocity": 0.562,
+    "freshness": 0.7,
+    "age_hours": 18.0
+   },
+   "reasons": [
+    "1 outlet: BBC Technology",
+    "HN 133 points, 125 comments",
+    "first seen 18h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "new",
+   "outlet_count": 1,
+   "outlets": [
+    "BBC Technology"
+   ],
+   "engagement": 383,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+     "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-20T00:02:07+00:00",
+     "summary": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:ba5e1acacef2"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "UK fridges secured from hackers",
+     "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
+     "published": "2026-11-20T09:52:20+00:00",
+     "summary": "<a href=\"https:&#x2F;&#x2F;www.pentestpartners.com&#x2F;security-blog&#x2F;the-fridge-hack-uk-supermarkets-narrowly-avoided&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pentestpartners.com&#x2F;security-blog&#x2F;the-fridge-hac...</a>",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 133,
+     "comments": 125,
+     "discussion_url": "https://news.ycombinator.com/item?id=50572430",
+     "id": "hackernews:50572430"
     }
    ]
   },
@@ -2028,18 +2026,18 @@
    "topics": [
     "Tech & startups"
    ],
-   "score": 28.2,
+   "score": 26.9,
    "signals": {
     "coverage": 0.46,
-    "engagement": 0.854,
-    "velocity": 0.656,
-    "freshness": 0.623,
-    "age_hours": 25.6
+    "engagement": 0.896,
+    "velocity": 0.682,
+    "freshness": 0.583,
+    "age_hours": 30.8
    },
    "reasons": [
     "2 outlets: BBC Technology, Ars Technica",
-    "HN 307 points, 314 comments",
-    "first seen 26h ago",
+    "HN 431 points, 435 comments",
+    "first seen 31h ago",
     "topic: Tech & startups"
    ],
    "first_seen": "2026-11-20",
@@ -2049,7 +2047,7 @@
     "Ars Technica",
     "BBC Technology"
    ],
-   "engagement": 935,
+   "engagement": 1301,
    "regions": [
     "International"
    ],
@@ -2096,8 +2094,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 55,
-     "comments": 63,
+     "points": 59,
+     "comments": 72,
      "discussion_url": "https://news.ycombinator.com/item?id=50563328",
      "id": "hackernews:50563328"
     },
@@ -2111,43 +2109,91 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 252,
-     "comments": 251,
+     "points": 372,
+     "comments": 363,
      "discussion_url": "https://news.ycombinator.com/item?id=50571189",
      "id": "hackernews:50571189"
     }
    ]
   },
   {
-   "id": "83678100b2",
-   "headline": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
-   "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
-   "first_published": "2026-11-20T00:02:07+00:00",
-   "topic": "Tech & startups",
+   "id": "0c5a6a8108x",
+   "headline": "OpenAI still has a WebRTC Problem",
+   "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
+   "first_published": "2026-11-19T14:20:08+00:00",
+   "topic": "AI models & labs",
    "topics": [
-    "Tech & startups"
+    "AI models & labs"
    ],
-   "score": 27.1,
+   "score": 26.8,
    "signals": {
-    "coverage": 0.292,
-    "engagement": 0.628,
-    "velocity": 0.462,
-    "freshness": 0.766,
-    "age_hours": 12.8
+    "coverage": 0.0,
+    "engagement": 0.63,
+    "velocity": 0.341,
+    "freshness": 0.607,
+    "age_hours": 27.7
    },
    "reasons": [
-    "1 outlet: BBC Technology",
-    "HN 62 points, 45 comments",
-    "first seen 13h ago",
-    "topic: Tech & startups"
+    "HN 98 points, 28 comments",
+    "first seen 28h ago",
+    "topic: AI models & labs"
    ],
    "first_seen": "2026-11-20",
    "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "BBC Technology"
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 154,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "OpenAI still has a WebRTC Problem",
+     "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
+     "published": "2026-11-19T14:20:08+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 98,
+     "comments": 28,
+     "discussion_url": "https://news.ycombinator.com/item?id=50560461",
+     "id": "hackernews:50560461"
+    }
+   ]
+  },
+  {
+   "id": "13dda85d25",
+   "headline": "California investigates Nvidia over whether chip exports ended up in China",
+   "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+   "first_published": "2026-11-20T09:18:30+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips"
    ],
-   "engagement": 152,
+   "score": 26.4,
+   "signals": {
+    "coverage": 0.469,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.829,
+    "age_hours": 8.7
+   },
+   "reasons": [
+    "2 outlets: The Guardian Tech, TechCrunch",
+    "first seen 9h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "TechCrunch",
+    "The Guardian Tech"
+   ],
+   "engagement": 0,
    "regions": [
     "International"
    ],
@@ -2156,96 +2202,33 @@
    "articles": [
     {
      "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
-     "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-20T00:02:07+00:00",
-     "summary": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+     "outlet": "The Guardian Tech",
+     "title": "California investigates Nvidia over whether chip exports ended up in China",
+     "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+     "published": "2026-11-20T09:18:30+00:00",
+     "summary": "State attorney says scandal ‘raises bright red flags’ and aims to find out if company misled investors California has served an investigative subpoena on Nvidia after a scandal that prompted the departure of co-founder and longtime chief executive Jensen Huang. Rob Bonta, the US state’s attorney gen",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:BBC Technology:ba5e1acacef2"
+     "id": "feed:The Guardian Tech:2c3757b0893a"
     },
     {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "UK fridges secured from hackers",
-     "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
-     "published": "2026-11-20T09:52:20+00:00",
-     "summary": "<a href=\"https:&#x2F;&#x2F;www.pentestpartners.com&#x2F;security-blog&#x2F;the-fridge-hack-uk-supermarkets-narrowly-avoided&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.pentestpartners.com&#x2F;security-blog&#x2F;the-fridge-hac...</a>",
-     "region": "Social",
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+     "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+     "published": "2026-11-20T13:21:11+00:00",
+     "summary": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said.",
+     "region": "International",
      "lang": "en",
-     "weight": 1.0,
-     "points": 62,
-     "comments": 45,
-     "discussion_url": "https://news.ycombinator.com/item?id=50572430",
-     "id": "hackernews:50572430"
-    }
-   ]
-  },
-  {
-   "id": "33836431eb",
-   "headline": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
-   "url": "https://news.ycombinator.com/item?id=50549188",
-   "first_published": "2026-11-18T17:26:28+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 26.0,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.769,
-    "velocity": 0.448,
-    "freshness": 0.513,
-    "age_hours": 43.4
-   },
-   "reasons": [
-    "HN 180 points, 146 comments",
-    "first seen 43h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-18",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 472,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
-     "url": "https://news.ycombinator.com/item?id=50549188",
-     "published": "2026-11-18T17:26:28+00:00",
-     "summary": "Hi HN, we&#x27;re Ary and Maria, co-founders of Maritime (<a href=\"https:&#x2F;&#x2F;maritime.sh\">https:&#x2F;&#x2F;maritime.sh</a>). We&#x27;re building an agent-native cloud that handles everything from custom environments to lifecycle management for AI agents.<p>Demo: <a href=\"https:&#x2F;&#x2F;w",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 60,
-     "comments": 63,
-     "discussion_url": "https://news.ycombinator.com/item?id=50549188",
-     "id": "hackernews:50549188"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
-     "url": "https://github.com/onlook-dev/onlook/",
-     "published": "2026-11-19T16:34:04+00:00",
-     "summary": "Hey HN, I&#x27;m Daniel, founder of Onlook (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;onlook-dev&#x2F;onlook\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;onlook-dev&#x2F;onlook</a> and onlook.com).<p>Onlook is a desktop app that puts a canvas on top of your real codebase, letting you design di",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 120,
-     "comments": 83,
-     "discussion_url": "https://news.ycombinator.com/item?id=50562320",
-     "id": "hackernews:50562320"
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:e5c79a5ae719"
     }
    ]
   }
