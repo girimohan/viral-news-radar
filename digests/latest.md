@@ -1,130 +1,122 @@
-# Viral news radar, 2026-11-20
+# Viral news radar, 2026-11-21
 
-22 stories worth a look out of 238 found in 361 articles from the last 48 hours. 12 are new since yesterday.
+14 stories worth a look out of 234 found in 335 articles from the last 48 hours. 5 are new since yesterday.
 
 **[Open the dashboard](https://girimohan.github.io/viral-news-radar/)** for filters and the full list.
 
 ## Top stories
 
-### 1. [Anthropic employee claims general proof of the Riemann Hypothesis [pdf]](https://alpo.ge/remark.pdf)
+### 1. [Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem)
 
-**66/100** · AI models & labs · 🆕 new
+**47/100** · AI models & labs · 📈 rising
 
-_HN 1.5k points, 1.0k comments · first seen 4h ago · topic: AI models & labs_
+_2 outlets: The Verge, BBC Technology · HN 559 points, 270 comments · first seen 43h ago · topic: AI models & labs · rising: 1 more outlets since yesterday_
 
-Sources: [Hacker News](https://alpo.ge/remark.pdf) · [discussion](https://news.ycombinator.com/item?id=50574968)
+Sources: [Hacker News](https://www.anthropic.com/research/claude-black-hole-physics) · [discussion](https://news.ycombinator.com/item?id=50563148) · [The Verge](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem) · [BBC Technology](https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss)
 
-### 2. [Signal to restrict screenshots over AI agent concerns – again](https://www.zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns/)
+### 2. [Anthropic raises $81bn in record-breaking stock market debut](https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss)
 
-**53/100** · AI agents & products · 🆕 new
+**44/100** · AI models & labs
 
-_1 outlet: ZDNet AI · HN 282 points, 159 comments · first seen 8h ago · topic: AI agents & products_
+_4 outlets: TechCrunch AI, BBC Technology, The Guardian Tech, Sifted · HN 2.0k points, 3.0k comments · first seen 47h ago · topic: AI models & labs_
 
-Sources: [Hacker News](https://signal.org/blog/protecting-your-privacy/) · [discussion](https://news.ycombinator.com/item?id=50572348) · [ZDNet AI](https://www.zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns/)
+Sources: [Sifted](https://sifted.eu/articles/menlo-ventures-podcast/) · [TechCrunch AI](https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/) · [BBC Technology](https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss) · [TechCrunch AI](https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/) · [TechCrunch AI](https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/) · [Hacker News](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/) · [discussion](https://news.ycombinator.com/item?id=50562754) · [Hacker News](https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/) · [discussion](https://news.ycombinator.com/item?id=50564282) · [TechCrunch AI](https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/)
 
-### 3. [Anthropic raises $81bn in record-breaking stock market debut](https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss)
+### 3. [ClawDOS – An AI coding agent for DOS](http://ricapar.net/ClawDOS/)
 
-**46/100** · AI models & labs
+**39/100** · AI agents & products · 🆕 new
 
-_6 outlets: BBC Technology, TechCrunch AI, The Guardian Tech, Wired +2 more · HN 1.8k points, 3.3k comments · first seen 45h ago · topic: AI models & labs_
+_HN 89 points, 24 comments · first seen 7h ago · topic: AI agents & products_
 
-Sources: [BBC Technology](https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss) · [Hacker News](https://www.anthropic.com/news/anthropic-prices-initial-public-offering) · [discussion](https://news.ycombinator.com/item?id=50553843) · [BBC Technology](https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss) · [Wired](https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/) · [Sifted](https://sifted.eu/articles/menlo-ventures-podcast/) · [TechCrunch AI](https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/) · [BBC Technology](https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss) · [TechCrunch AI](https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/)
+Sources: [Hacker News](http://ricapar.net/ClawDOS/) · [discussion](https://news.ycombinator.com/item?id=50586292)
 
-### 4. [Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem)
+### 4. [Restricting AI agents in mobile operating systems platforms from capturing data](https://signal.org/blog/protecting-your-privacy/)
 
-**45/100** · AI models & labs · 🆕 new
+**37/100** · AI agents & products
 
-_1 outlet: The Verge · HN 539 points, 260 comments · first seen 24h ago · topic: AI models & labs_
+_HN 556 points, 326 comments · first seen 27h ago · topic: AI agents & products_
 
-Sources: [Hacker News](https://www.anthropic.com/research/claude-black-hole-physics) · [discussion](https://news.ycombinator.com/item?id=50563148) · [The Verge](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem)
+Sources: [Hacker News](https://signal.org/blog/protecting-your-privacy/) · [discussion](https://news.ycombinator.com/item?id=50572348)
 
-### 5. [What Comes After AGI?](https://institute.deepmind.com/essays/what-comes-after-agi/)
+### 5. [US SEC's Nvidia probe is examining potential accounting issues – sources](https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627)
 
-**44/100** · AI models & labs · 🆕 new
+**36/100** · AI business & chips · 🆕 new
 
-_HN 143 points, 275 comments · first seen 15h ago · topic: AI models & labs_
+_HN 291 points, 156 comments · first seen 16h ago · topic: AI business & chips_
+
+Sources: [Hacker News](https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627) · [discussion](https://news.ycombinator.com/item?id=50581438)
+
+### 6. [What Comes After AGI?](https://institute.deepmind.com/essays/what-comes-after-agi/)
+
+**33/100** · AI models & labs
+
+_HN 167 points, 324 comments · first seen 34h ago · topic: AI models & labs_
 
 Sources: [Hacker News](https://institute.deepmind.com/essays/what-comes-after-agi/) · [discussion](https://news.ycombinator.com/item?id=50569519)
 
-### 6. [Google gives Gemini the ability to use your Mac for you](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/)
+### 7. [Gemini 4 Neon is the new #1 on the Models Engineering Index](https://git-aarvin.github.io/mei/)
 
-**43/100** · AI models & labs
+**32/100** · AI models & labs · 🆕 new
 
-_5 outlets: TechCrunch, The Verge, Engadget, ZDNet AI +1 more · HN 1.7k points, 1.2k comments · first seen 48h ago · topic: AI models & labs_
+_HN 370 points, 243 comments · first seen 37h ago · topic: AI models & labs_
 
-Sources: [ZDNet AI](https://www.zdnet.com/tech/google-wallet-iphone-ios-no-tap-to-pay/) · [Hacker News](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/) · [discussion](https://news.ycombinator.com/item?id=50551601) · [Hacker News](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/) · [discussion](https://news.ycombinator.com/item?id=50552424) · [Hacker News](https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/) · [discussion](https://news.ycombinator.com/item?id=50554374) · [Google AI Blog](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/) · [TechCrunch](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/) · [TechCrunch AI](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/) · [Hacker News](https://git-aarvin.github.io/mei/) · [discussion](https://news.ycombinator.com/item?id=50568130)
+Sources: [Hacker News](https://git-aarvin.github.io/mei/) · [discussion](https://news.ycombinator.com/item?id=50568130)
 
-### 7. [Epic Games Turns to AI Coding for the Unreal Engine](https://spectrum.ieee.org/epic-games-unreal-engine-ai)
+### 8. [A few hours ago Google DeepMind created a math horizon repo](https://github.com/google-deepmind/math-horizon)
 
-**41/100** · AI agents & products · 🆕 new
+**31/100** · AI models & labs · 🆕 new
 
-_HN 49 points, 55 comments · first seen 6h ago · topic: AI agents & products_
+_HN 44 points, 31 comments · first seen 15h ago · topic: AI models & labs_
+
+Sources: [Hacker News](https://github.com/google-deepmind/math-horizon) · [discussion](https://news.ycombinator.com/item?id=50582629)
+
+### 9. [The unfolding Jensen Huang scandal: a timeline](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)
+
+**30/100** · AI business & chips
+
+_3 outlets: TechCrunch AI, The Guardian Tech, Wired · HN 60 points, 45 comments · first seen 44h ago · topic: AI business & chips_
+
+Sources: [Hacker News](https://nypost.com/2026/11/17/business/jensen-huangs-daughter-madison-insulted-workers-reports/) · [discussion](https://news.ycombinator.com/item?id=50562319) · [TechCrunch AI](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/) · [The Guardian Tech](https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china) · [TechCrunch](https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/) · [TechCrunch](https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/) · [TechCrunch AI](https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/) · [Wired](https://www.wired.com/story/dont-bring-jensen-back/) · [Wired](https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/)
+
+### 10. [Epic Games Turns to AI Coding for the Unreal Engine](https://spectrum.ieee.org/epic-games-unreal-engine-ai)
+
+**28/100** · AI agents & products
+
+_HN 58 points, 60 comments · first seen 24h ago · topic: AI agents & products_
 
 Sources: [Hacker News](https://spectrum.ieee.org/epic-games-unreal-engine-ai) · [discussion](https://news.ycombinator.com/item?id=50573681)
 
-### 8. [The unfolding Jensen Huang scandal: a timeline](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)
-
-**38/100** · AI business & chips · 📈 rising
-
-_3 outlets: TechCrunch AI, Wired, Ars Technica · HN 59 points, 42 comments · first seen 43h ago · topic: AI business & chips · rising: 3 more outlets since yesterday_
-
-Sources: [TechCrunch AI](https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/) · [Hacker News](https://nypost.com/2026/11/17/business/jensen-huangs-daughter-madison-insulted-workers-reports/) · [discussion](https://news.ycombinator.com/item?id=50562319) · [TechCrunch](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/) · [TechCrunch AI](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/) · [Wired](https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/) · [TechCrunch](https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/) · [TechCrunch](https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/) · [Ars Technica](https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/)
-
-### 9. [Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents](https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/)
-
-**35/100** · AI agents & products
-
-_1 outlet: Wired · HN 97 points, 47 comments · first seen 26h ago · topic: AI agents & products_
-
-Sources: [Hacker News](https://blog.plover.com/tech/bug-reports.html) · [discussion](https://news.ycombinator.com/item?id=50562101) · [Wired](https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/)
-
-### 10. [Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/)
-
-**31/100** · AI agents & products
-
-_4 outlets: TechCrunch, Wired, Engadget, ZDNet AI · first seen 24h ago · topic: AI agents & products_
-
-Sources: [TechCrunch](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/) · [TechCrunch AI](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/) · [ZDNet AI](https://www.zdnet.com/tech/meta-muse-privacy-violatons-employees-report/) · [TechCrunch](https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/) · [TechCrunch AI](https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/) · [Engadget](https://www.engadget.com/2322541/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g/) · [Wired](https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/)
-
 ### 11. [Video: Grand Theft Auto VI lands in Finland](https://yle.fi/a/74-20257918?origin=rss)
 
-**30/100** · Finland & Nordic tech
+**28/100** · Finland & Nordic tech
 
-_4 outlets: Yle News, The Guardian Tech, The Verge, Wired · first seen 38h ago · topic: Finland & Nordic tech_
+_4 outlets: Yle News, The Guardian Tech, The Verge, Wired · first seen 48h ago · topic: Finland & Nordic tech_
 
-Sources: [The Guardian Tech](https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-vi-critics-response-masterpiece) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi) · [Yle News](https://yle.fi/a/74-20257918?origin=rss) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-parents-please-dont-buy-gta-6-vi-for-your-child) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters) · [Wired](https://www.wired.com/story/dudes-online-are-so-mad-that-gta-vi-makes-them-respect-women/) · [Wired](https://www.wired.com/story/gta-vi-is-finally-out-dont-rush-it/) · [The Verge](https://www.theverge.com/entertainment/1037545/gta-6-discussion)
+Sources: [Yle News](https://yle.fi/a/74-20257918?origin=rss) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-parents-please-dont-buy-gta-6-vi-for-your-child) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters) · [Wired](https://www.wired.com/story/gta-vi-is-finally-out-dont-rush-it/) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/20/grand-theft-auto-vi-players-review) · [The Verge](https://www.theverge.com/games/1036279/gta-vi-sales) · [Wired](https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/) · [The Guardian Tech](https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says)
 
-### 12. [How OpenAI’s Performance Factory keeps ChatGPT fast](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast)
+### 12. [FBI reportedly investigating apparent hack of its criminal database](https://www.bbc.com/news/articles/cvze7de86pk3o)
 
-**30/100** · AI models & labs · 🆕 new
+**27/100** · Tech & startups · 🆕 new
 
-_1 outlet: OpenAI News · HN 111 points, 35 comments · first seen 34h ago · topic: AI models & labs_
+_HN 53 points, 18 comments · first seen 2h ago · topic: Tech & startups_
 
-Sources: [OpenAI News](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast) · [Hacker News](https://www.bxfoundry.com/chatgpt_snes/) · [discussion](https://news.ycombinator.com/item?id=50568548)
+Sources: [Hacker News](https://www.bbc.com/news/articles/cvze7de86pk3o) · [discussion](https://news.ycombinator.com/item?id=50587859)
 
-### 13. [DeepMind Employees Are Unionising](https://www.gdmunion.co.uk)
+### 13. [ChatGPT for SNES](https://www.bxfoundry.com/chatgpt_snes/)
 
-**28/100** · AI models & labs
+**25/100** · AI models & labs
 
-_HN 123 points, 86 comments · first seen 33h ago · topic: AI models & labs_
+_HN 125 points, 41 comments · first seen 36h ago · topic: AI models & labs_
 
-Sources: [Hacker News](https://www.gdmunion.co.uk) · [discussion](https://news.ycombinator.com/item?id=50557885)
+Sources: [Hacker News](https://www.bxfoundry.com/chatgpt_snes/) · [discussion](https://news.ycombinator.com/item?id=50568548)
 
-### 14. [Russia reprimands Finland's deputy ambassador over entry curbs on athletes](https://yle.fi/a/74-20258049?origin=rss)
+### 14. [Chips can survive the space environment — can their financing?](https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/)
 
-**28/100** · Finland & Nordic tech · 🆕 new
+**25/100** · AI business & chips · 📈 rising
 
-_2 outlets: Yle News, Helsinki Times · first seen 11h ago · topic: Finland & Nordic tech_
+_2 outlets: TechCrunch, Ars Technica · first seen 37h ago · topic: AI business & chips · rising: 1 more outlets since yesterday_
 
-Sources: [Yle News](https://yle.fi/a/74-20258049?origin=rss) · [Helsinki Times](https://www.helsinkitimes.com/world-int/29515-russia-summons-finnish-charge-d-affaires-over-ban-on-russian-athletes.html)
-
-### 15. [Finland's bankruptcy filings reach new 21st-century high](https://www.helsinkitimes.com/finland/finland-news/domestic/29514-finland-s-bankruptcy-filings-reach-new-21st-century-high.html)
-
-**28/100** · Finland & Nordic tech · 📈 rising
-
-_2 outlets: Yle News, Helsinki Times · first seen 34h ago · topic: Finland & Nordic tech · rising: 1 more outlets since yesterday_
-
-Sources: [Yle News](https://yle.fi/a/74-20257822?origin=rss) · [Helsinki Times](https://www.helsinkitimes.com/finland/finland-news/domestic/29514-finland-s-bankruptcy-filings-reach-new-21st-century-high.html)
+Sources: [TechCrunch](https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/) · [Ars Technica](https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/) · [TechCrunch](https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/) · [TechCrunch AI](https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/)
 
 ## Source problems
 

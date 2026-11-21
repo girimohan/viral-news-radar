@@ -236,49 +236,50 @@
 "0c5a6a8108": {
 "by_day": {
 "2026-11-19": 0,
-"2026-11-20": 3
+"2026-11-20": 3,
+"2026-11-21": 3
 },
 "first_seen": "2026-11-19",
 "headline": "The unfolding Jensen Huang scandal: a timeline",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
 "jensen",
 "huang",
-"musk",
-"elon",
+"nvidia",
 "scandal",
-"timeline",
-"unfold",
-"don't",
-"spacex",
-"michael",
-"team",
-"jordan",
-"oust",
-"kick"
+"california",
+"china",
+"madison",
+"employe",
+"drove",
+"insult",
+"top",
+"away",
+"talent",
+"daughter"
 ],
 "urls": [
-"https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space",
 "https://nypost.com/2026/11/17/business/jensen-huangs-daughter-madison-insulted-workers-reports",
-"https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team",
-"https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones",
 "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
 "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear",
+"https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
 "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues",
+"https://theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
 "https://wired.com/story/dont-bring-jensen-back",
-"https://wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too"
+"https://wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation"
 ]
 },
 "0c5a6a8108x": {
 "by_day": {
-"2026-11-20": 0
+"2026-11-20": 0,
+"2026-11-21": 0
 },
 "first_seen": "2026-11-20",
 "headline": "OpenAI still has a WebRTC Problem",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
-"still",
 "openai",
+"still",
 "problem",
 "webrtc"
 ],
@@ -535,6 +536,25 @@
 "https://sifted.eu/articles/inside-the-swedish-city-building-the-future-of-food-brnd"
 ]
 },
+"161e7df650": {
+"by_day": {
+"2026-11-21": 0
+},
+"first_seen": "2026-11-21",
+"headline": "FBI reportedly investigating apparent hack of its criminal database",
+"last_seen": "2026-11-21",
+"terms": [
+"investigat",
+"fbi",
+"hack",
+"database",
+"apparent",
+"criminal"
+],
+"urls": [
+"https://bbc.com/news/articles/cvze7de86pk3o"
+]
+},
 "16b6b4df3e": {
 "by_day": {
 "2026-11-17": 1
@@ -695,25 +715,26 @@
 },
 "1c14cff742": {
 "by_day": {
-"2026-11-20": 2
+"2026-11-20": 2,
+"2026-11-21": 2
 },
 "first_seen": "2026-11-20",
 "headline": "Russia reprimands Finland's deputy ambassador over entry curbs on athletes",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
-"athlet",
 "russia",
-"deputy",
-"ambassador",
+"athlet",
 "entry",
-"curb",
-"finland",
+"deputy",
 "reprimand",
+"finland",
+"ambassador",
+"curb",
 "russian",
-"ban",
-"summon",
 "finnish",
-"diplomat"
+"diplomat",
+"summon",
+"ban"
 ],
 "urls": [
 "https://helsinkitimes.com/world-int/29515-russia-summons-finnish-charge-d-affaires-over-ban-on-russian-athletes.html",
@@ -774,19 +795,31 @@
 },
 "1f5ceb79fb": {
 "by_day": {
-"2026-11-20": 1
+"2026-11-20": 1,
+"2026-11-21": 2
 },
 "first_seen": "2026-11-20",
-"headline": "Chips can survive the space environment. Can their financing?",
-"last_seen": "2026-11-20",
+"headline": "Chips can survive the space environment — can their financing?",
+"last_seen": "2026-11-21",
 "terms": [
+"space",
+"musk",
+"elon",
+"spacex",
 "environment",
 "chip",
-"space",
 "financ",
-"survive"
+"survive",
+"dead",
+"phone",
+"eliminate",
+"plan",
+"zon",
+"cell"
 ],
 "urls": [
+"https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space",
+"https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones",
 "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing"
 ]
 },
@@ -834,6 +867,34 @@
 ],
 "urls": [
 "https://zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc"
+]
+},
+"224f84060b": {
+"by_day": {
+"2026-11-21": 2
+},
+"first_seen": "2026-11-21",
+"headline": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+"last_seen": "2026-11-21",
+"terms": [
+"back",
+"ai",
+"startup",
+"daniel",
+"researcher",
+"build",
+"fusion",
+"power",
+"they're",
+"ek",
+"exclusive",
+"stripe",
+"founder",
+"graham"
+],
+"urls": [
+"https://sifted.eu/articles/hoplite-raise-stripe-founders",
+"https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building"
 ]
 },
 "23ebc90c2b": {
@@ -914,6 +975,24 @@
 "urls": [
 "https://engadget.com/2315999/hands-on-and-off-with-mercedes-benz-mbdrive-assist-pro",
 "https://theverge.com/transportation/1034321/mercedes-benz-mb-drive-assist-pro-hands-free-highway-assist-2027"
+]
+},
+"28b0ca61ce": {
+"by_day": {
+"2026-11-21": 0
+},
+"first_seen": "2026-11-21",
+"headline": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+"last_seen": "2026-11-21",
+"terms": [
+"engineer",
+"model",
+"index",
+"gemini",
+"neon"
+],
+"urls": [
+"https://git-aarvin.github.io/mei"
 ]
 },
 "292500b972": {
@@ -1085,6 +1164,24 @@
 "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm"
 ]
 },
+"362502575e": {
+"by_day": {
+"2026-11-21": 0
+},
+"first_seen": "2026-11-21",
+"headline": "ClawDOS – An AI coding agent for DOS",
+"last_seen": "2026-11-21",
+"terms": [
+"ai",
+"dos",
+"agent",
+"cod",
+"clawdo"
+],
+"urls": [
+"https://ricapar.net/ClawDOS"
+]
+},
 "37b21e5d60": {
 "by_day": {
 "2026-11-18": 1
@@ -1147,6 +1244,27 @@
 "https://arxiv.org/abs/2607.29378"
 ]
 },
+"3a908345ce": {
+"by_day": {
+"2026-11-21": 0
+},
+"first_seen": "2026-11-21",
+"headline": "Uncontacted Indigenous people emerge from Amazon forest to ask for food",
+"last_seen": "2026-11-21",
+"terms": [
+"forest",
+"indigenou",
+"food",
+"uncontact",
+"people",
+"amazon",
+"ask",
+"emerge"
+],
+"urls": [
+"https://washingtonpost.com/world/2026/11/19/uncontacted-indigenous-people-emerge-amazon-forest-ask-food"
+]
+},
 "3b5e3c503b": {
 "by_day": {
 "2026-11-18": 1
@@ -1170,28 +1288,26 @@
 },
 "3bcf89cdf0": {
 "by_day": {
-"2026-11-20": 3
+"2026-11-20": 3,
+"2026-11-21": 2
 },
 "first_seen": "2026-11-20",
 "headline": "Apple may be developing its own AI agent that runs your Mac",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
+"mac",
+"apple",
+"run",
 "ai",
 "agent",
-"apple",
 "develop",
-"run",
-"mac",
-"confirm",
-"job",
-"post",
-"work",
-"cod",
-"task",
-"seemingly"
+"iphone",
+"ipad",
+"gta",
+"stream"
 ],
 "urls": [
-"https://engadget.com/2322586/job-posting-seemingly-confirms-apple-is-working-on-its-own-ai-agent-for-coding-and-other-tasks",
+"https://engadget.com/2323793/how-to-stream-gta-6-iphone-ipad-mac",
 "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac"
 ]
 },
@@ -1401,6 +1517,27 @@
 "https://tivi.fi/uutiset/a/9c6109c7-68dc-4fac-bdc5-74dccb7a0984"
 ]
 },
+"4a206effe4": {
+"by_day": {
+"2026-11-21": 1
+},
+"first_seen": "2026-11-21",
+"headline": "Helsinki Christmas parade returns today with extended route after last year’s crowd chaos",
+"last_seen": "2026-11-21",
+"terms": [
+"helsinki",
+"return",
+"route",
+"christma",
+"crowd",
+"chao",
+"extend",
+"parade"
+],
+"urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29519-helsinki-christmas-parade-returns-today-with-extended-route-after-last-year-s-crowd-chaos.html"
+]
+},
 "4bdc3591c5": {
 "by_day": {
 "2026-11-20": 1
@@ -1496,34 +1633,35 @@
 "by_day": {
 "2026-11-18": 9,
 "2026-11-19": 5,
-"2026-11-20": 4
+"2026-11-20": 4,
+"2026-11-21": 4
 },
 "first_seen": "2026-11-18",
 "headline": "Video: Grand Theft Auto VI lands in Finland",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
-"theft",
-"auto",
 "grand",
+"auto",
+"theft",
 "vi",
-"play",
-"virtual",
-"extraordinary",
-"critic",
-"masterpiece",
-"hail",
-"world",
-"bloodsh",
-"go",
-"easy"
+"game",
+"video",
+"finland",
+"land",
+"buy",
+"child",
+"parent",
+"please",
+"don't",
+"fan"
 ],
 "urls": [
 "https://theguardian.com/games/2026/nov/19/grand-theft-auto-parents-please-dont-buy-gta-6-vi-for-your-child",
 "https://theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
-"https://theguardian.com/games/2026/nov/19/grand-theft-auto-vi-critics-response-masterpiece",
-"https://theguardian.com/games/2026/nov/19/tips-for-playing-grand-theft-auto-vi",
-"https://theverge.com/entertainment/1037545/gta-6-discussion",
-"https://wired.com/story/dudes-online-are-so-mad-that-gta-vi-makes-them-respect-women",
+"https://theguardian.com/games/2026/nov/20/grand-theft-auto-vi-players-review",
+"https://theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says",
+"https://theverge.com/games/1036279/gta-vi-sales",
+"https://wired.com/story/cops-are-being-extremely-corny-about-gta-vi",
 "https://wired.com/story/gta-vi-is-finally-out-dont-rush-it",
 "https://yle.fi/a/74-20257918?origin=rss"
 ]
@@ -1963,19 +2101,20 @@
 },
 "686571dc93": {
 "by_day": {
-"2026-11-20": 0
+"2026-11-20": 0,
+"2026-11-21": 0
 },
 "first_seen": "2026-11-20",
 "headline": "Epic Games Turns to AI Coding for the Unreal Engine",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
 "engine",
+"epic",
 "ai",
-"cod",
 "gam",
 "turn",
 "unreal",
-"epic"
+"cod"
 ],
 "urls": [
 "https://spectrum.ieee.org/epic-games-unreal-engine-ai"
@@ -2177,6 +2316,28 @@
 "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers"
 ]
 },
+"6f716ac619": {
+"by_day": {
+"2026-11-21": 1
+},
+"first_seen": "2026-11-21",
+"headline": "Russian cargo ship on fire after drone attack, drifts into Finnish waters",
+"last_seen": "2026-11-21",
+"terms": [
+"russian",
+"attack",
+"finnish",
+"cargo",
+"drift",
+"water",
+"ship",
+"fire",
+"drone"
+],
+"urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29520-russian-cargo-ship-on-fire-after-drone-attack-drifts-into-finnish-waters.html"
+]
+},
 "70bc229da4": {
 "by_day": {
 "2026-11-19": 2
@@ -2224,6 +2385,26 @@
 ],
 "urls": [
 "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits"
+]
+},
+"71c0402a16": {
+"by_day": {
+"2026-11-21": 1
+},
+"first_seen": "2026-11-21",
+"headline": "Puolustusvoimat vahvistaa: Ukraina iski venäläiseen rahtialukseen Suomenlahdella",
+"last_seen": "2026-11-21",
+"terms": [
+"vahvistaa",
+"puolustusvoimat",
+"suomenlahdella",
+"iski",
+"ukraina",
+"rahtialukseen",
+"venäläiseen"
+],
+"urls": [
+"https://yle.fi/a/74-20258256?origin=rss"
 ]
 },
 "729e31fbf5": {
@@ -2365,21 +2546,22 @@
 "7954fb4462": {
 "by_day": {
 "2026-11-19": 1,
-"2026-11-20": 1
+"2026-11-20": 1,
+"2026-11-21": 0
 },
 "first_seen": "2026-11-19",
 "headline": "UK government forced to admit it issued Apple a secret encryption order",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
-"encryption",
-"order",
-"uk",
+"forc",
 "apple",
-"issu",
-"government",
-"secret",
+"uk",
 "admit",
-"forc"
+"encryption",
+"government",
+"issu",
+"order",
+"secret"
 ],
 "urls": [
 "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order"
@@ -2449,31 +2631,32 @@
 },
 "7e66261e56": {
 "by_day": {
-"2026-11-20": 2
+"2026-11-20": 2,
+"2026-11-21": 1
 },
 "first_seen": "2026-11-20",
 "headline": "Dutch watchdog tells people not to buy AI smart glasses",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
 "tell",
 "ai",
-"plain",
-"old",
-"outage",
-"cyberattack",
-"came",
-"us",
-"understand",
-"coder",
-"wrote",
-"yourself",
+"buy",
+"smart",
 "dutch",
-"glasse"
+"glasse",
+"watchdog",
+"people",
+"coder",
+"came",
+"understand",
+"us",
+"wrote",
+"yourself"
 ],
 "urls": [
-"https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage",
 "https://bbc.co.uk/news/articles/ckq6eyrzrzy5o",
 "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself",
+"https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
 "https://robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html"
 ]
 },
@@ -2559,21 +2742,22 @@
 },
 "83678100b2": {
 "by_day": {
-"2026-11-20": 1
+"2026-11-20": 1,
+"2026-11-21": 1
 },
 "first_seen": "2026-11-20",
 "headline": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
-"hacker",
-"secur",
-"uk",
 "fridg",
-"nationwide",
+"uk",
+"secur",
+"hacker",
+"thousand",
 "operation",
-"secret",
+"nationwide",
 "ten",
-"thousand"
+"secret"
 ],
 "urls": [
 "https://bbc.co.uk/news/articles/c6eq49zyx7p4o"
@@ -2643,14 +2827,15 @@
 },
 "8917204593": {
 "by_day": {
-"2026-11-20": 0
+"2026-11-20": 0,
+"2026-11-21": 0
 },
 "first_seen": "2026-11-20",
 "headline": "What Comes After AGI?",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
-"agi",
-"com"
+"com",
+"agi"
 ],
 "urls": [
 "https://institute.deepmind.com/essays/what-comes-after-agi"
@@ -2712,34 +2897,53 @@
 "https://sifted.eu/articles/slush-20u20-2026"
 ]
 },
+"8cca2df974": {
+"by_day": {
+"2026-11-21": 1
+},
+"first_seen": "2026-11-21",
+"headline": "Yle kutsuttiin vierailemaan entiseen kyläkouluun, joka on Suomen äärioikeiston uusi tukikohta",
+"last_seen": "2026-11-21",
+"terms": [
+"äärioikeiston",
+"kutsuttiin",
+"suomen",
+"tukikohta",
+"yle",
+"vierailemaan",
+"kyläkouluun",
+"entiseen"
+],
+"urls": [
+"https://yle.fi/a/74-20257414?origin=rss"
+]
+},
 "8d0c613735": {
 "by_day": {
 "2026-11-19": 3,
-"2026-11-20": 2
+"2026-11-20": 2,
+"2026-11-21": 2
 },
 "first_seen": "2026-11-19",
 "headline": "MP Nasima Razmyar considers legal action over MEP Tynkkynen's social media post",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
 "nasima",
 "razmyar",
-"action",
-"social",
-"mep",
-"post",
-"consider",
 "tynkkynen",
-"legal",
+"mep",
+"consider",
+"social",
+"post",
+"action",
 "media",
-"sebastian",
+"legal",
 "mp",
-"puheista",
-"tutkintapyynnön"
+"sebastian"
 ],
 "urls": [
 "https://helsinkitimes.com/finland/finland-news/politics/29512-nasima-razmyar-considers-legal-action-against-mep-sebastian-tynkkynen-over-social-media-post.html",
-"https://yle.fi/a/74-20257983?origin=rss",
-"https://yle.fi/a/74-20258206?origin=rss"
+"https://yle.fi/a/74-20257983?origin=rss"
 ]
 },
 "8d43e0c3db": {
@@ -2761,50 +2965,47 @@
 },
 "8e182986ef": {
 "by_day": {
-"2026-11-20": 1
+"2026-11-20": 1,
+"2026-11-21": 0
 },
 "first_seen": "2026-11-20",
-"headline": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-"last_seen": "2026-11-20",
+"headline": "ChatGPT for SNES",
+"last_seen": "2026-11-21",
 "terms": [
 "chatgpt",
-"keep",
-"factory",
-"openai",
-"fast",
-"performance",
 "sne"
 ],
 "urls": [
-"https://bxfoundry.com/chatgpt_snes",
-"https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+"https://bxfoundry.com/chatgpt_snes"
 ]
 },
 "8e6c78a143": {
 "by_day": {
-"2026-11-20": 1
+"2026-11-20": 1,
+"2026-11-21": 2
 },
 "first_seen": "2026-11-20",
 "headline": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
-"claude",
-"solv",
 "problem",
-"open",
-"hol",
-"physic",
-"two",
-"black",
+"solv",
+"claude",
 "anthropic",
-"claim",
-"millennium",
+"open",
+"physic",
+"black",
+"two",
+"hol",
 "mathematician",
 "prestigiou",
+"claim",
+"millennium",
 "prize"
 ],
 "urls": [
 "https://anthropic.com/research/claude-black-hole-physics",
+"https://bbc.co.uk/news/articles/c6pqr2g7w059o",
 "https://theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
 ]
 },
@@ -3283,40 +3484,38 @@
 "2026-11-17": 1,
 "2026-11-18": 4,
 "2026-11-19": 6,
-"2026-11-20": 6
+"2026-11-20": 6,
+"2026-11-21": 4
 },
 "first_seen": "2026-11-17",
 "headline": "Anthropic raises $81bn in record-breaking stock market debut",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
 "anthropic",
 "ipo",
 "ai",
-"market",
-"record-break",
-"public",
-"stock",
-"debut",
-"bubble",
 "nasdaq",
-"founder",
+"market",
+"debut",
+"stock",
+"gain",
+"erase",
+"2026",
+"record-break",
 "sell-off",
-"protester",
-"156b"
+"bubble",
+"protester"
 ],
 "urls": [
 "https://anihil.com/the-market-is-down",
-"https://anthropic.com/news/anthropic-prices-initial-public-offering",
 "https://bbc.co.uk/news/articles/c3x29ggenz12o",
 "https://bbc.co.uk/news/articles/c6742m39xgzxo",
 "https://bbc.co.uk/news/articles/c6808ym10vzgo",
-"https://bbc.co.uk/news/articles/cj4gnpzll020o",
-"https://bbc.co.uk/news/articles/cmd7159vlr85o",
-"https://engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion",
+"https://cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+"https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
 "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
 "https://sifted.eu/articles/menlo-ventures-podcast",
 "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
-"https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models",
 "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
 "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
 "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
@@ -3325,8 +3524,7 @@
 "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
 "https://theguardian.com/technology/2026/nov/19/anthropic-ipo-protests",
 "https://theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
-"https://theguardian.com/technology/2026/nov/19/who-are-anthropic-founders",
-"https://wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself"
+"https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90"
 ]
 },
 "a838ee181d": {
@@ -3448,41 +3646,43 @@
 "2026-11-16": 2,
 "2026-11-17": 4,
 "2026-11-18": 2,
-"2026-11-19": 3
+"2026-11-19": 3,
+"2026-11-21": 3
 },
 "first_seen": "2026-11-14",
-"headline": "Best Early Black Friday Phone Deals (2026)",
-"last_seen": "2026-11-19",
+"headline": "The 23 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
+"last_seen": "2026-11-21",
 "terms": [
-"best",
 "2026",
+"best",
+"deal",
 "friday",
 "black",
+"pick",
 "gift",
 "early",
-"deal",
-"tvs",
-"home",
-"ahead",
 "test",
-"harness",
-"model",
-"list"
+"sale",
+"ahead",
+"bro",
+"workout",
+"fitness"
 ],
 "urls": [
-"https://runta.com/blog/introducing-frontierharness-eval-v1-1",
-"https://theguardian.com/thefilter/2026/nov/18/best-tvs-tested-uk",
-"https://theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale",
-"https://wired.com/gallery/best-smart-bed",
-"https://wired.com/gallery/best-theragun-percussive-therapy-devices",
-"https://wired.com/story/best-early-black-friday-deals-under-100-11-18-2026",
-"https://wired.com/story/best-early-black-friday-dyson-vacuum-deals-11-19-2026",
-"https://wired.com/story/best-early-black-friday-laptop-deals-11-18-26",
-"https://wired.com/story/best-early-black-friday-phone-deals-11-18-26",
-"https://wired.com/story/best-gifts-for-travelers",
-"https://wired.com/story/best-gifts-under-25-2026",
-"https://wired.com/story/best-home-entertainment-gifts-2026",
-"https://wired.com/story/macbook-neo-deal-november-2026"
+"https://bbc.co.uk/news/articles/cw8dv4jmnle2o",
+"https://theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
+"https://theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+"https://wired.com/gallery/best-portable-chargers-power-banks",
+"https://wired.com/gallery/gifts-for-gym-bros",
+"https://wired.com/story/best-black-friday-deals-11-20-2026",
+"https://wired.com/story/best-early-black-friday-mattress-deals-11-20-2026",
+"https://wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026",
+"https://wired.com/story/best-gifts-for-women",
+"https://wired.com/story/best-laptops-for-travel",
+"https://wired.com/story/best-rei-holiday-sale-outdoor-deals-2026",
+"https://wired.com/story/best-tech-gifts-2026",
+"https://wired.com/story/pura-black-friday-2026",
+"https://wired.com/story/tineco-black-friday-sale-2026"
 ]
 },
 "ae4e62cd16": {
@@ -3579,6 +3779,29 @@
 "urls": [
 "https://sifted.eu/articles/genesis-ai-raises-500m",
 "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots"
+]
+},
+"b981c6f967": {
+"by_day": {
+"2026-11-21": 2
+},
+"first_seen": "2026-11-21",
+"headline": "Signal now blocks screenshots by default to stymie AI agents",
+"last_seen": "2026-11-21",
+"terms": [
+"ai",
+"agent",
+"screenshot",
+"signal",
+"restrict",
+"concern",
+"stymie",
+"block",
+"default"
+],
+"urls": [
+"https://engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents",
+"https://zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns"
 ]
 },
 "b9cf980e63": {
@@ -3834,20 +4057,28 @@
 },
 "c690eeb256": {
 "by_day": {
-"2026-11-20": 0
+"2026-11-20": 0,
+"2026-11-21": 0
 },
 "first_seen": "2026-11-20",
-"headline": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
-"last_seen": "2026-11-20",
+"headline": "GrapheneOS claims Google is now waging war against it, could lock Pixel bootload",
+"last_seen": "2026-11-21",
 "terms": [
-"bootloader",
-"push",
-"oem",
-"unlock",
 "google",
-"grapheneo"
+"grapheneo",
+"unlock",
+"oem",
+"push",
+"bootloader",
+"pixel",
+"lock",
+"bootload",
+"claim",
+"war",
+"wag"
 ],
 "urls": [
+"https://androidauthority.com/grapheneos-team-google-pressure-3737525",
 "https://grapheneos.social/@GrapheneOS/117645038299496084"
 ]
 },
@@ -4115,29 +4346,29 @@
 "2026-11-17": 6,
 "2026-11-18": 2,
 "2026-11-19": 4,
-"2026-11-20": 6
+"2026-11-20": 6,
+"2026-11-21": 3
 },
 "first_seen": "2026-11-17",
-"headline": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-"last_seen": "2026-11-20",
+"headline": "Meta’s new Muse Charm device may cost $300",
+"last_seen": "2026-11-21",
 "terms": [
 "muse",
 "meta",
-"charm",
 "cost",
 "300",
+"device",
+"charm",
 "ai",
 "mix",
-"expos",
-"agent",
 "conversation",
+"agent",
 "private",
+"expos",
 "data",
-"device",
 "book"
 ],
 "urls": [
-"https://engadget.com/2322541/metas-muse-charm-will-reportedly-cost-300-and-come-with-free-verizon-5g",
 "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
 "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300",
 "https://wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram",
@@ -4171,38 +4402,27 @@
 "2026-11-17": 3,
 "2026-11-18": 5,
 "2026-11-19": 5,
-"2026-11-20": 5
+"2026-11-20": 5,
+"2026-11-21": 2
 },
 "first_seen": "2026-11-17",
-"headline": "Google gives Gemini the ability to use your Mac for you",
-"last_seen": "2026-11-20",
+"headline": "Google boosts Gemini's ability to do 'repetitive tasks' on its Mac app",
+"last_seen": "2026-11-21",
 "terms": [
-"gemini",
 "google",
-"neon",
+"gemini",
 "ability",
 "mac",
-"task",
 "use",
 "giv",
-"com",
-"feature",
-"wallet",
-"without",
-"iphone",
-"assistant"
+"repetitive",
+"task",
+"boost",
+"app"
 ],
 "urls": [
-"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
-"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
-"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-"https://engadget.com/2322647/google-latest-home-page-redesign-makes-gemini-even-more-prominent",
 "https://engadget.com/2322728/google-boosts-geminis-ability-to-do-repetitive-tasks-on-its-mac-app",
-"https://git-aarvin.github.io/mei",
-"https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model",
-"https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
-"https://theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-"https://zdnet.com/tech/google-wallet-iphone-ios-no-tap-to-pay"
+"https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you"
 ]
 },
 "d715ca46cc": {
@@ -4273,6 +4493,27 @@
 ],
 "urls": [
 "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant"
+]
+},
+"dab6152987": {
+"by_day": {
+"2026-11-21": 0
+},
+"first_seen": "2026-11-21",
+"headline": "A few hours ago Google DeepMind created a math horizon repo",
+"last_seen": "2026-11-21",
+"terms": [
+"google",
+"deepmind",
+"math",
+"ago",
+"creat",
+"hour",
+"horizon",
+"repo"
+],
+"urls": [
+"https://github.com/google-deepmind/math-horizon"
 ]
 },
 "ddd32addc8": {
@@ -4403,36 +4644,39 @@
 },
 "e31085b265": {
 "by_day": {
-"2026-11-20": 2
+"2026-11-20": 2,
+"2026-11-21": 2
 },
 "first_seen": "2026-11-20",
 "headline": "Dyson Promo Codes: 25% Off in November 2026",
-"last_seen": "2026-11-20",
+"last_seen": "2026-11-21",
 "terms": [
 "november",
 "2026",
-"coupon",
-"cod",
 "promo",
+"cod",
+"coupon",
 "discount",
-"reebok",
-"code",
-"full",
-"service",
-"turbotax",
 "vimeo",
 "ancestry",
-"photo"
+"photo",
+"walgreen",
+"castlery",
+"600",
+"ebay",
+"groupon"
 ],
 "urls": [
 "https://wired.com/story/ancestry-coupon-codes",
 "https://wired.com/story/castlery-promo-code",
 "https://wired.com/story/dyson-cordless-vacuum-promo-code",
 "https://wired.com/story/ebay-coupon-code",
-"https://wired.com/story/expedia-coupon",
+"https://wired.com/story/google-workspace-promo-code",
 "https://wired.com/story/groupon-promo-code",
-"https://wired.com/story/reebok-discount-code",
-"https://wired.com/story/turbotax-coupon",
+"https://wired.com/story/mint-mobile-promo-code",
+"https://wired.com/story/nike-promo-code",
+"https://wired.com/story/therabody-promo-code",
+"https://wired.com/story/ulta-coupon",
 "https://wired.com/story/vimeo-promo-code",
 "https://wired.com/story/walgreens-photo-coupon",
 "https://yle.fi/a/74-20258181?origin=rss"
@@ -4440,25 +4684,25 @@
 },
 "e39692bc0c": {
 "by_day": {
-"2026-11-20": 1
+"2026-11-20": 1,
+"2026-11-21": 0
 },
 "first_seen": "2026-11-20",
-"headline": "Signal to restrict screenshots over AI agent concerns – again",
-"last_seen": "2026-11-20",
+"headline": "Restricting AI agents in mobile operating systems platforms from capturing data",
+"last_seen": "2026-11-21",
 "terms": [
-"signal",
-"seriou",
-"privacy",
-"protect",
-"concern",
+"mobile",
 "ai",
+"restrict",
+"system",
+"operat",
+"captur",
 "agent",
-"screenshot",
-"restrict"
+"platform",
+"data"
 ],
 "urls": [
-"https://signal.org/blog/protecting-your-privacy",
-"https://zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns"
+"https://signal.org/blog/protecting-your-privacy"
 ]
 },
 "e50bf90c61": {
@@ -4843,6 +5087,28 @@
 ],
 "urls": [
 "https://yle.fi/a/74-20257505?origin=rss"
+]
+},
+"fd20639da8": {
+"by_day": {
+"2026-11-21": 0
+},
+"first_seen": "2026-11-21",
+"headline": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+"last_seen": "2026-11-21",
+"terms": [
+"sourc",
+"nvidia",
+"account",
+"potential",
+"issu",
+"us",
+"sec",
+"examin",
+"probe"
+],
+"urls": [
+"https://marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
 ]
 },
 "fe2010c9a5": {
