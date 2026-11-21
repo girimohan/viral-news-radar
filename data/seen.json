@@ -249,17 +249,16 @@
 "scandal",
 "california",
 "china",
-"madison",
-"employe",
-"drove",
-"insult",
-"top",
-"away",
-"talent",
-"daughter"
+"unfold",
+"timeline",
+"fallout",
+"continu",
+"bring",
+"back",
+"don't",
+"alarm"
 ],
 "urls": [
-"https://nypost.com/2026/11/17/business/jensen-huangs-daughter-madison-insulted-workers-reports",
 "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
 "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear",
 "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
@@ -544,12 +543,12 @@
 "headline": "FBI reportedly investigating apparent hack of its criminal database",
 "last_seen": "2026-11-21",
 "terms": [
-"investigat",
+"criminal",
 "fbi",
-"hack",
-"database",
 "apparent",
-"criminal"
+"investigat",
+"hack",
+"database"
 ],
 "urls": [
 "https://bbc.com/news/articles/cvze7de86pk3o"
@@ -724,17 +723,17 @@
 "terms": [
 "russia",
 "athlet",
-"entry",
+"ambassador",
 "deputy",
 "reprimand",
-"finland",
-"ambassador",
 "curb",
-"russian",
+"finland",
+"entry",
+"ban",
 "finnish",
-"diplomat",
+"russian",
 "summon",
-"ban"
+"diplomat"
 ],
 "urls": [
 "https://helsinkitimes.com/world-int/29515-russia-summons-finnish-charge-d-affaires-over-ban-on-russian-athletes.html",
@@ -877,20 +876,20 @@
 "headline": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
 "last_seen": "2026-11-21",
 "terms": [
-"back",
 "ai",
+"back",
 "startup",
+"they're",
+"build",
+"power",
+"fusion",
+"ek",
 "daniel",
 "researcher",
-"build",
-"fusion",
-"power",
-"they're",
-"ek",
-"exclusive",
 "stripe",
-"founder",
-"graham"
+"hoplite",
+"swarm",
+"paul"
 ],
 "urls": [
 "https://sifted.eu/articles/hoplite-raise-stripe-founders",
@@ -985,11 +984,11 @@
 "headline": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
 "last_seen": "2026-11-21",
 "terms": [
-"engineer",
+"neon",
+"gemini",
 "model",
 "index",
-"gemini",
-"neon"
+"engineer"
 ],
 "urls": [
 "https://git-aarvin.github.io/mei"
@@ -1172,11 +1171,11 @@
 "headline": "ClawDOS – An AI coding agent for DOS",
 "last_seen": "2026-11-21",
 "terms": [
-"ai",
 "dos",
-"agent",
+"clawdo",
+"ai",
 "cod",
-"clawdo"
+"agent"
 ],
 "urls": [
 "https://ricapar.net/ClawDOS"
@@ -1252,14 +1251,14 @@
 "headline": "Uncontacted Indigenous people emerge from Amazon forest to ask for food",
 "last_seen": "2026-11-21",
 "terms": [
-"forest",
-"indigenou",
-"food",
 "uncontact",
-"people",
-"amazon",
 "ask",
-"emerge"
+"amazon",
+"food",
+"emerge",
+"indigenou",
+"people",
+"forest"
 ],
 "urls": [
 "https://washingtonpost.com/world/2026/11/19/uncontacted-indigenous-people-emerge-amazon-forest-ask-food"
@@ -1836,6 +1835,28 @@
 "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
 ]
 },
+"57c6ce4c8e": {
+"by_day": {
+"2026-11-21": 1
+},
+"first_seen": "2026-11-21",
+"headline": "‘I was shaking, crying, having trouble breathing’: the unchartered trauma of breaking up with AI companions",
+"last_seen": "2026-11-21",
+"terms": [
+"trouble",
+"cry",
+"break",
+"ai",
+"shak",
+"companion",
+"trauma",
+"breath",
+"uncharter"
+],
+"urls": [
+"https://theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions"
+]
+},
 "5848520a8d": {
 "by_day": {
 "2026-11-20": 1
@@ -1930,6 +1951,30 @@
 "urls": [
 "https://bbc.com/news/articles/cqdj1ellpd70o",
 "https://sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm"
+]
+},
+"5c871b1ea2": {
+"by_day": {
+"2026-11-21": 1
+},
+"first_seen": "2026-11-21",
+"headline": "Palava venäläisalus ankkuroitu, evakuointi käynnissä – venäläisiä pelastusaluksia odotetaan illan aikana paikalle",
+"last_seen": "2026-11-21",
+"terms": [
+"palava",
+"odotetaan",
+"pelastusaluksia",
+"aikana",
+"venäläisiä",
+"venäläisalu",
+"illan",
+"käynnissä",
+"ankkuroitu",
+"evakuointi",
+"paikalle"
+],
+"urls": [
+"https://yle.fi/a/74-20258284?origin=rss"
 ]
 },
 "5d265fa6c7": {
@@ -2108,13 +2153,13 @@
 "headline": "Epic Games Turns to AI Coding for the Unreal Engine",
 "last_seen": "2026-11-21",
 "terms": [
-"engine",
-"epic",
-"ai",
-"gam",
-"turn",
 "unreal",
-"cod"
+"engine",
+"turn",
+"ai",
+"cod",
+"epic",
+"gam"
 ],
 "urls": [
 "https://spectrum.ieee.org/epic-games-unreal-engine-ai"
@@ -2321,21 +2366,27 @@
 "2026-11-21": 1
 },
 "first_seen": "2026-11-21",
-"headline": "Russian cargo ship on fire after drone attack, drifts into Finnish waters",
+"headline": "Russian cargo ship crew evacuated as Finland investigates suspected airspace violation",
 "last_seen": "2026-11-21",
 "terms": [
-"russian",
-"attack",
-"finnish",
-"cargo",
-"drift",
-"water",
 "ship",
+"russian",
+"cargo",
 "fire",
-"drone"
+"finnish",
+"drift",
+"attack",
+"drone",
+"water",
+"suspect",
+"finland",
+"evacuat",
+"investigat",
+"violation"
 ],
 "urls": [
-"https://helsinkitimes.com/finland/finland-news/domestic/29520-russian-cargo-ship-on-fire-after-drone-attack-drifts-into-finnish-waters.html"
+"https://helsinkitimes.com/finland/finland-news/domestic/29520-russian-cargo-ship-on-fire-after-drone-attack-drifts-into-finnish-waters.html",
+"https://helsinkitimes.com/finland/finland-news/domestic/29521-russian-cargo-ship-crew-evacuated-as-finland-investigates-suspected-airspace-violation.html"
 ]
 },
 "70bc229da4": {
@@ -2635,29 +2686,21 @@
 "2026-11-21": 1
 },
 "first_seen": "2026-11-20",
-"headline": "Dutch watchdog tells people not to buy AI smart glasses",
+"headline": "Google workers tell their employer not to punish schools that don't want AI",
 "last_seen": "2026-11-21",
 "terms": [
+"google",
+"worker",
 "tell",
+"want",
+"punish",
 "ai",
-"buy",
-"smart",
-"dutch",
-"glasse",
-"watchdog",
-"people",
-"coder",
-"came",
-"understand",
-"us",
-"wrote",
-"yourself"
+"don't",
+"school",
+"employer"
 ],
 "urls": [
-"https://bbc.co.uk/news/articles/ckq6eyrzrzy5o",
-"https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself",
-"https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
-"https://robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html"
+"https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition"
 ]
 },
 "7f28626705": {
@@ -2750,14 +2793,14 @@
 "last_seen": "2026-11-21",
 "terms": [
 "fridg",
-"uk",
 "secur",
 "hacker",
-"thousand",
+"uk",
+"secret",
 "operation",
 "nationwide",
-"ten",
-"secret"
+"thousand",
+"ten"
 ],
 "urls": [
 "https://bbc.co.uk/news/articles/c6eq49zyx7p4o"
@@ -2834,8 +2877,8 @@
 "headline": "What Comes After AGI?",
 "last_seen": "2026-11-21",
 "terms": [
-"com",
-"agi"
+"agi",
+"com"
 ],
 "urls": [
 "https://institute.deepmind.com/essays/what-comes-after-agi"
@@ -2905,14 +2948,14 @@
 "headline": "Yle kutsuttiin vierailemaan entiseen kyläkouluun, joka on Suomen äärioikeiston uusi tukikohta",
 "last_seen": "2026-11-21",
 "terms": [
-"äärioikeiston",
 "kutsuttiin",
-"suomen",
-"tukikohta",
-"yle",
-"vierailemaan",
 "kyläkouluun",
-"entiseen"
+"yle",
+"äärioikeiston",
+"suomen",
+"entiseen",
+"tukikohta",
+"vierailemaan"
 ],
 "urls": [
 "https://yle.fi/a/74-20257414?origin=rss"
@@ -2972,8 +3015,8 @@
 "headline": "ChatGPT for SNES",
 "last_seen": "2026-11-21",
 "terms": [
-"chatgpt",
-"sne"
+"sne",
+"chatgpt"
 ],
 "urls": [
 "https://bxfoundry.com/chatgpt_snes"
@@ -2985,28 +3028,20 @@
 "2026-11-21": 2
 },
 "first_seen": "2026-11-20",
-"headline": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+"headline": "Claude solves two open problems in the physics of black holes",
 "last_seen": "2026-11-21",
 "terms": [
 "problem",
-"solv",
 "claude",
-"anthropic",
+"hol",
 "open",
 "physic",
 "black",
 "two",
-"hol",
-"mathematician",
-"prestigiou",
-"claim",
-"millennium",
-"prize"
+"solv"
 ],
 "urls": [
-"https://anthropic.com/research/claude-black-hole-physics",
-"https://bbc.co.uk/news/articles/c6pqr2g7w059o",
-"https://theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+"https://anthropic.com/research/claude-black-hole-physics"
 ]
 },
 "94f45cbe56": {
@@ -3200,6 +3235,28 @@
 "urls": [
 "https://claudia.gallery/fable",
 "https://contralabs.com/frontierdesign"
+]
+},
+"99b19372d1": {
+"by_day": {
+"2026-11-21": 1
+},
+"first_seen": "2026-11-21",
+"headline": "Analyysi: Ukrainan isku venäläislaivaan vaikuttaa Suomenlahdella ainakin neljällä tavalla",
+"last_seen": "2026-11-21",
+"terms": [
+"neljällä",
+"suomenlahdella",
+"tavalla",
+"analyysi",
+"ainakin",
+"vaikuttaa",
+"venäläislaivaan",
+"ukrainan",
+"isku"
+],
+"urls": [
+"https://yle.fi/a/74-20258279?origin=rss"
 ]
 },
 "99f058a9da": {
@@ -3488,42 +3545,36 @@
 "2026-11-21": 4
 },
 "first_seen": "2026-11-17",
-"headline": "Anthropic raises $81bn in record-breaking stock market debut",
+"headline": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
 "last_seen": "2026-11-21",
 "terms": [
 "anthropic",
 "ipo",
-"ai",
 "nasdaq",
-"market",
+"ai",
 "debut",
+"market",
 "stock",
-"gain",
-"erase",
-"2026",
-"record-break",
 "sell-off",
-"bubble",
-"protester"
+"protester",
+"trad",
+"public",
+"2b",
+"record-break",
+"cash"
 ],
 "urls": [
-"https://anihil.com/the-market-is-down",
 "https://bbc.co.uk/news/articles/c3x29ggenz12o",
-"https://bbc.co.uk/news/articles/c6742m39xgzxo",
 "https://bbc.co.uk/news/articles/c6808ym10vzgo",
-"https://cnbc.com/2026/11/19/stock-market-today-live-updates.html",
-"https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
 "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
-"https://sifted.eu/articles/menlo-ventures-podcast",
 "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
 "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
 "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
-"https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
-"https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
 "https://techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say",
 "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
 "https://theguardian.com/technology/2026/nov/19/anthropic-ipo-protests",
 "https://theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+"https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
 "https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90"
 ]
 },
@@ -3647,41 +3698,34 @@
 "2026-11-17": 4,
 "2026-11-18": 2,
 "2026-11-19": 3,
-"2026-11-21": 3
+"2026-11-21": 4
 },
 "first_seen": "2026-11-14",
-"headline": "The 23 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
+"headline": "Best Robot Vacuum Early Black Friday Deals from Roborock (2026)",
 "last_seen": "2026-11-21",
 "terms": [
-"2026",
-"best",
-"deal",
 "friday",
 "black",
-"pick",
-"gift",
+"2026",
+"deal",
 "early",
+"robot",
+"best",
+"pick",
 "test",
-"sale",
-"ahead",
-"bro",
-"workout",
-"fitness"
+"race",
+"slush",
+"rich",
+"inside",
+"superintelligence"
 ],
 "urls": [
 "https://bbc.co.uk/news/articles/cw8dv4jmnle2o",
-"https://theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
-"https://theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
-"https://wired.com/gallery/best-portable-chargers-power-banks",
-"https://wired.com/gallery/gifts-for-gym-bros",
+"https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence",
+"https://theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
 "https://wired.com/story/best-black-friday-deals-11-20-2026",
 "https://wired.com/story/best-early-black-friday-mattress-deals-11-20-2026",
 "https://wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026",
-"https://wired.com/story/best-gifts-for-women",
-"https://wired.com/story/best-laptops-for-travel",
-"https://wired.com/story/best-rei-holiday-sale-outdoor-deals-2026",
-"https://wired.com/story/best-tech-gifts-2026",
-"https://wired.com/story/pura-black-friday-2026",
 "https://wired.com/story/tineco-black-friday-sale-2026"
 ]
 },
@@ -3972,23 +4016,36 @@
 },
 "bfcd8f4dc9": {
 "by_day": {
-"2026-11-20": 0
+"2026-11-20": 0,
+"2026-11-21": 2
 },
 "first_seen": "2026-11-20",
-"headline": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
-"last_seen": "2026-11-20",
+"headline": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+"last_seen": "2026-11-21",
 "terms": [
-"anthropic",
-"claim",
-"general",
-"hypothesi",
-"proof",
 "riemann",
-"employee",
-"pdf"
+"hypothesi",
+"claim",
+"generaliz",
+"solution",
+"ai",
+"167-year-old",
+"human",
+"alpöge",
+"proof",
+"levent",
+"pdf",
+"singularity",
+"unforc"
 ],
 "urls": [
-"https://alpo.ge/remark.pdf"
+"https://alpo.ge/remark.pdf",
+"https://borretti.me/article/re-riemann",
+"https://leanprover-community.github.io/blog/posts/riemann-hypothesis",
+"https://scottaaronson.blog/?p=10344",
+"https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+"https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis",
+"https://theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
 ]
 },
 "c160c4f41c": {
@@ -4066,15 +4123,15 @@
 "terms": [
 "google",
 "grapheneo",
-"unlock",
 "oem",
 "push",
 "bootloader",
-"pixel",
-"lock",
-"bootload",
+"unlock",
 "claim",
+"lock",
+"pixel",
 "war",
+"bootload",
 "wag"
 ],
 "urls": [
@@ -4355,18 +4412,18 @@
 "terms": [
 "muse",
 "meta",
-"cost",
-"300",
-"device",
 "charm",
+"cost",
+"device",
+"300",
+"expos",
+"conversation",
 "ai",
 "mix",
-"conversation",
+"data",
 "agent",
 "private",
-"expos",
-"data",
-"book"
+"worst"
 ],
 "urls": [
 "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
@@ -4503,14 +4560,14 @@
 "headline": "A few hours ago Google DeepMind created a math horizon repo",
 "last_seen": "2026-11-21",
 "terms": [
-"google",
 "deepmind",
-"math",
+"google",
+"hour",
 "ago",
 "creat",
-"hour",
+"repo",
 "horizon",
-"repo"
+"math"
 ],
 "urls": [
 "https://github.com/google-deepmind/math-horizon"
@@ -4651,18 +4708,18 @@
 "headline": "Dyson Promo Codes: 25% Off in November 2026",
 "last_seen": "2026-11-21",
 "terms": [
-"november",
 "2026",
+"november",
 "promo",
 "cod",
 "coupon",
 "discount",
 "vimeo",
 "ancestry",
-"photo",
 "walgreen",
-"castlery",
+"photo",
 "600",
+"castlery",
 "ebay",
 "groupon"
 ],
@@ -4691,18 +4748,38 @@
 "headline": "Restricting AI agents in mobile operating systems platforms from capturing data",
 "last_seen": "2026-11-21",
 "terms": [
-"mobile",
 "ai",
 "restrict",
-"system",
-"operat",
-"captur",
-"agent",
 "platform",
-"data"
+"data",
+"operat",
+"agent",
+"system",
+"captur",
+"mobile"
 ],
 "urls": [
 "https://signal.org/blog/protecting-your-privacy"
+]
+},
+"e3eab35717": {
+"by_day": {
+"2026-11-21": 1
+},
+"first_seen": "2026-11-21",
+"headline": "How to use Gemini Notebook to turn your research into an interactive site",
+"last_seen": "2026-11-21",
+"terms": [
+"notebook",
+"gemini",
+"turn",
+"research",
+"use",
+"site",
+"interactive"
+],
+"urls": [
+"https://engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site"
 ]
 },
 "e50bf90c61": {
@@ -5097,15 +5174,15 @@
 "headline": "US SEC's Nvidia probe is examining potential accounting issues – sources",
 "last_seen": "2026-11-21",
 "terms": [
-"sourc",
-"nvidia",
-"account",
-"potential",
-"issu",
 "us",
-"sec",
+"potential",
+"account",
+"sourc",
+"issu",
 "examin",
-"probe"
+"probe",
+"sec",
+"nvidia"
 ],
 "urls": [
 "https://marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"

@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-21T12:37:44+00:00",
+ "generated_at": "2026-11-21T16:57:00+00:00",
  "date": "2026-11-21",
  "new_today": 5,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2885,
+  "collected": 2867,
   "undated": 0,
-  "too_old": 2540,
-  "excluded": 10,
+  "too_old": 2554,
+  "excluded": 8,
   "duplicate": 0,
-  "articles_in_window": 335,
-  "stories": 234,
-  "off_topic": 159,
-  "low_score": 61,
-  "shown": 14
+  "articles_in_window": 305,
+  "stories": 222,
+  "off_topic": 151,
+  "low_score": 59,
+  "shown": 12
  },
  "llm": {
   "enabled": false
@@ -24,16 +24,16 @@
    "name": "feeds",
    "ok": true,
    "fetched": 2781,
-   "in_stories": 5,
+   "in_stories": 3,
    "detail": "20/23 feeds read; failed: VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 104,
-   "in_stories": 12,
-   "detail": "104 stories with 40+ points",
+   "fetched": 86,
+   "in_stories": 11,
+   "detail": "86 stories with 40+ points",
    "error": ""
   },
   {
@@ -56,37 +56,37 @@
  ],
  "stories": [
   {
-   "id": "8e6c78a143",
-   "headline": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-   "first_published": "2026-11-19T17:30:44+00:00",
+   "id": "bfcd8f4dc9",
+   "headline": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+   "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+   "first_published": "2026-11-20T14:16:21+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs"
    ],
-   "score": 46.9,
+   "score": 58.7,
    "signals": {
     "coverage": 0.469,
-    "engagement": 0.875,
-    "velocity": 0.593,
-    "freshness": 0.514,
-    "age_hours": 43.1
+    "engagement": 1.0,
+    "velocity": 1.0,
+    "freshness": 0.615,
+    "age_hours": 26.7
    },
    "reasons": [
-    "2 outlets: The Verge, BBC Technology",
-    "HN 559 points, 270 comments",
-    "first seen 43h ago",
+    "2 outlets: TechCrunch, The Guardian Tech",
+    "HN 4.1k points, 2.9k comments",
+    "first seen 27h ago",
     "topic: AI models & labs",
-    "rising: 1 more outlets since yesterday"
+    "rising: 2 more outlets since yesterday"
    ],
    "first_seen": "2026-11-20",
    "status": "rising",
    "outlet_count": 2,
    "outlets": [
-    "BBC Technology",
-    "The Verge"
+    "TechCrunch",
+    "The Guardian Tech"
    ],
-   "engagement": 1099,
+   "engagement": 9909,
    "regions": [
     "International"
    ],
@@ -96,55 +96,130 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Claude solves two open problems in the physics of black holes",
-     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-     "published": "2026-11-19T17:30:44+00:00",
+     "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+     "url": "https://alpo.ge/remark.pdf",
+     "published": "2026-11-20T14:16:21+00:00",
+     "summary": "Related: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 2806,
+     "comments": 1967,
+     "discussion_url": "https://news.ycombinator.com/item?id=50574968",
+     "id": "hackernews:50574968"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+     "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+     "published": "2026-11-20T17:21:36+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 559,
-     "comments": 270,
-     "discussion_url": "https://news.ycombinator.com/item?id=50563148",
-     "id": "hackernews:50563148"
+     "points": 508,
+     "comments": 213,
+     "discussion_url": "https://news.ycombinator.com/item?id=50578358",
+     "id": "hackernews:50578358"
     },
     {
      "source": "feed",
-     "outlet": "The Verge",
-     "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-     "published": "2026-11-20T16:34:13+00:00",
-     "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic ",
+     "outlet": "TechCrunch",
+     "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+     "published": "2026-11-20T19:32:08+00:00",
+     "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:The Verge:fefc30d6bd36"
+     "id": "feed:TechCrunch:a3a654c93efd"
     },
     {
      "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
-     "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-20T23:08:57+00:00",
-     "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+     "outlet": "TechCrunch AI",
+     "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+     "published": "2026-11-20T19:32:08+00:00",
+     "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:BBC Technology:6ef44cd411c3"
+     "id": "feed:TechCrunch AI:a3a654c93efd"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+     "url": "https://scottaaronson.blog/?p=10344",
+     "published": "2026-11-20T20:03:07+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 326,
+     "comments": 298,
+     "discussion_url": "https://news.ycombinator.com/item?id=50581084",
+     "id": "hackernews:50581084"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Re: Riemann",
+     "url": "https://borretti.me/article/re-riemann",
+     "published": "2026-11-20T23:42:44+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 207,
+     "comments": 210,
+     "discussion_url": "https://news.ycombinator.com/item?id=50583982",
+     "id": "hackernews:50583982"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+     "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+     "published": "2026-11-21T14:36:45+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 276,
+     "comments": 205,
+     "discussion_url": "https://news.ycombinator.com/item?id=50589618",
+     "id": "hackernews:50589618"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
+     "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+     "published": "2026-11-21T16:39:49+00:00",
+     "summary": "Levent Alpöge says it took six weeks for him using the AI tool to solve the math problem involving prime numbers A mathematician at Anthropic is contending that the San Francisco -based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in ma",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:3500af305ed0"
     }
    ]
   },
   {
    "id": "a78fd5e070",
-   "headline": "Anthropic raises $81bn in record-breaking stock market debut",
-   "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-   "first_published": "2026-11-19T13:55:11+00:00",
+   "headline": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+   "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+   "first_published": "2026-11-19T16:59:23+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs",
@@ -152,18 +227,18 @@
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 43.5,
+   "score": 43.1,
    "signals": {
-    "coverage": 0.69,
+    "coverage": 0.695,
     "engagement": 1.0,
-    "velocity": 0.934,
-    "freshness": 0.499,
-    "age_hours": 46.7
+    "velocity": 0.925,
+    "freshness": 0.495,
+    "age_hours": 48.0
    },
    "reasons": [
-    "4 outlets: TechCrunch AI, BBC Technology, The Guardian Tech, Sifted",
-    "HN 2.0k points, 3.0k comments",
-    "first seen 47h ago",
+    "4 outlets: TechCrunch AI, The Guardian Tech, BBC Technology, The Verge",
+    "HN 1.7k points, 3.1k comments",
+    "first seen 48h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-17",
@@ -171,78 +246,17 @@
    "outlet_count": 4,
    "outlets": [
     "BBC Technology",
-    "Sifted",
     "TechCrunch AI",
-    "The Guardian Tech"
+    "The Guardian Tech",
+    "The Verge"
    ],
-   "engagement": 8090,
+   "engagement": 7904,
    "regions": [
-    "Europe",
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "Sifted",
-     "title": "Is AI in a bubble? Menlo Ventures’ Deedy Das on Anthropic’s IPO and Europe",
-     "url": "https://sifted.eu/articles/menlo-ventures-podcast/",
-     "published": "2026-11-19T13:55:11+00:00",
-     "summary": "",
-     "region": "Europe",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Sifted:7891942f2713"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-     "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-     "published": "2026-11-19T14:54:39+00:00",
-     "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:a8055ee411cb"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Anthropic raises $81bn in record-breaking stock market debut",
-     "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-19T15:58:58+00:00",
-     "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:19ea9cb6c312"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-     "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-     "published": "2026-11-19T16:19:41+00:00",
-     "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:ff72221a21f2"
-    },
     {
      "source": "feed",
      "outlet": "TechCrunch AI",
@@ -268,8 +282,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 1133,
-     "comments": 2301,
+     "points": 1136,
+     "comments": 2312,
      "discussion_url": "https://news.ycombinator.com/item?id=50562754",
      "id": "hackernews:50562754"
     },
@@ -381,21 +395,6 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "The Market Is Down",
-     "url": "https://anihil.com/the-market-is-down",
-     "published": "2026-11-20T11:37:00+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 76,
-     "comments": 58,
-     "discussion_url": "https://news.ycombinator.com/item?id=50573288",
-     "id": "hackernews:50573288"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
      "published": "2026-11-20T13:29:59+00:00",
@@ -403,25 +402,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 350,
-     "comments": 646,
+     "points": 427,
+     "comments": 761,
      "discussion_url": "https://news.ycombinator.com/item?id=50574383",
      "id": "hackernews:50574383"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Markets plunge: Nasdaq erases 2026 gains, S&P, Dow in corrections",
-     "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-     "published": "2026-11-20T17:44:01+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 193,
-     "comments": 1,
-     "discussion_url": "https://news.ycombinator.com/item?id=50578794",
-     "id": "hackernews:50578794"
     },
     {
      "source": "hackernews",
@@ -433,7 +417,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 58,
+     "points": 62,
      "comments": 5,
      "discussion_url": "https://news.ycombinator.com/item?id=50582280",
      "id": "hackernews:50582280"
@@ -454,21 +438,6 @@
      "id": "feed:The Guardian Tech:fd2811614640"
     },
     {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Nasdaq erases all 2026 gains",
-     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
-     "published": "2026-11-20T22:29:06+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 131,
-     "comments": 2,
-     "discussion_url": "https://news.ycombinator.com/item?id=50583254",
-     "id": "hackernews:50583254"
-    },
-    {
      "source": "feed",
      "outlet": "BBC Technology",
      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
@@ -482,6 +451,169 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:BBC Technology:daf74c652ec5"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Can Anthropic afford to put safety first?",
+     "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+     "published": "2026-11-21T15:00:00+00:00",
+     "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conver",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:1dd1a035b3e6"
+    }
+   ]
+  },
+  {
+   "id": "adfa8a22de",
+   "headline": "Best Robot Vacuum Early Black Friday Deals from Roborock (2026)",
+   "url": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/",
+   "first_published": "2026-11-20T05:00:44+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech",
+    "Tech & startups"
+   ],
+   "score": 38.1,
+   "signals": {
+    "coverage": 0.685,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.55,
+    "age_hours": 35.9
+   },
+   "reasons": [
+    "4 outlets: BBC Technology, The Verge, Sifted, Wired",
+    "first seen 36h ago",
+    "topic: Finland & Nordic tech",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "rising",
+   "outlet_count": 4,
+   "outlets": [
+    "BBC Technology",
+    "Sifted",
+    "The Verge",
+    "Wired"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Europe",
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Sifted",
+     "title": "Inside Slush 2026: Robots, riches and the race to superintelligence",
+     "url": "https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence/",
+     "published": "2026-11-20T05:00:44+00:00",
+     "summary": "",
+     "region": "Europe",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Sifted:347c80e37fc4"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Robot Vacuum Early Black Friday Deals from Roborock (2026)",
+     "url": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/",
+     "published": "2026-11-20T12:15:00+00:00",
+     "summary": "A few of the best robot vacuums I’ve tested from the brand are at their lowest prices ever.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:52d716ca790d"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
+     "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-20-2026/",
+     "published": "2026-11-20T13:00:00+00:00",
+     "summary": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:cc5302e41b4d"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The 23 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
+     "url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026/",
+     "published": "2026-11-20T17:01:45+00:00",
+     "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:fb6a4d48857b"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Can AI really help spot Black Friday deals? We put it to the test",
+     "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-21T00:06:11+00:00",
+     "summary": "We put four AI models to the test to see if they could save us money on a new TV.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:a888d6cfe8e9"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Our Top Tested Picks From Tineco’s Black Friday Sale (2026)",
+     "url": "https://www.wired.com/story/tineco-black-friday-sale-2026/",
+     "published": "2026-11-21T11:30:00+00:00",
+     "summary": "Get WIRED-tested vacuum cleaners, carpet cleaners, and steam mops for up to 60 percent off.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:f3bd7d61f2ea"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+     "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+     "published": "2026-11-21T16:00:00+00:00",
+     "summary": "Amazon only announced its first digital photo frame less than a month ago, but it’s already getting a sizable discount for Black Friday. You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114 ($115 off), making it a great holiday gift for anyone who loves displaying fam",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:bb0b4ab17d21"
     }
    ]
   },
@@ -494,24 +626,24 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 38.6,
+   "score": 37.2,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.615,
-    "velocity": 0.547,
-    "freshness": 0.858,
-    "age_hours": 7.0
+    "engagement": 0.667,
+    "velocity": 0.536,
+    "freshness": 0.788,
+    "age_hours": 11.3
    },
    "reasons": [
-    "HN 89 points, 24 comments",
-    "first seen 7h ago",
+    "HN 128 points, 40 comments",
+    "first seen 11h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-21",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 137,
+   "engagement": 208,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -526,8 +658,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 89,
-     "comments": 24,
+     "points": 128,
+     "comments": 40,
      "discussion_url": "https://news.ycombinator.com/item?id=50586292",
      "id": "hackernews:50586292"
     }
@@ -542,24 +674,24 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 36.6,
+   "score": 34.5,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.886,
-    "velocity": 0.692,
-    "freshness": 0.613,
-    "age_hours": 26.9
+    "engagement": 0.887,
+    "velocity": 0.668,
+    "freshness": 0.58,
+    "age_hours": 31.2
    },
    "reasons": [
-    "HN 556 points, 326 comments",
-    "first seen 27h ago",
+    "HN 560 points, 329 comments",
+    "first seen 31h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-20",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 1208,
+   "engagement": 1218,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -574,8 +706,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 556,
-     "comments": 326,
+     "points": 560,
+     "comments": 329,
      "discussion_url": "https://news.ycombinator.com/item?id=50572348",
      "id": "hackernews:50572348"
     }
@@ -590,24 +722,24 @@
    "topics": [
     "AI business & chips"
    ],
-   "score": 35.7,
+   "score": 33.0,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.8,
-    "velocity": 0.659,
-    "freshness": 0.721,
-    "age_hours": 16.3
+    "engagement": 0.802,
+    "velocity": 0.621,
+    "freshness": 0.672,
+    "age_hours": 20.6
    },
    "reasons": [
-    "HN 291 points, 156 comments",
-    "first seen 16h ago",
+    "HN 295 points, 160 comments",
+    "first seen 21h ago",
     "topic: AI business & chips"
    ],
    "first_seen": "2026-11-21",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 603,
+   "engagement": 615,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -622,8 +754,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 291,
-     "comments": 156,
+     "points": 295,
+     "comments": 160,
      "discussion_url": "https://news.ycombinator.com/item?id=50581438",
      "id": "hackernews:50581438"
     }
@@ -638,24 +770,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 33.2,
+   "score": 31.6,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.837,
-    "velocity": 0.583,
-    "freshness": 0.563,
-    "age_hours": 33.9
+    "engagement": 0.84,
+    "velocity": 0.566,
+    "freshness": 0.538,
+    "age_hours": 38.2
    },
    "reasons": [
-    "HN 167 points, 324 comments",
-    "first seen 34h ago",
+    "HN 170 points, 331 comments",
+    "first seen 38h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-20",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 815,
+   "engagement": 832,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -670,8 +802,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 167,
-     "comments": 324,
+     "points": 170,
+     "comments": 331,
      "discussion_url": "https://news.ycombinator.com/item?id=50569519",
      "id": "hackernews:50569519"
     }
@@ -686,24 +818,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 32.2,
+   "score": 30.7,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.843,
-    "velocity": 0.576,
-    "freshness": 0.544,
-    "age_hours": 37.0
+    "engagement": 0.844,
+    "velocity": 0.558,
+    "freshness": 0.522,
+    "age_hours": 41.4
    },
    "reasons": [
-    "HN 370 points, 243 comments",
-    "first seen 37h ago",
+    "HN 371 points, 244 comments",
+    "first seen 41h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-21",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 856,
+   "engagement": 859,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -718,10 +850,58 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 370,
-     "comments": 243,
+     "points": 371,
+     "comments": 244,
      "discussion_url": "https://news.ycombinator.com/item?id=50568130",
      "id": "hackernews:50568130"
+    }
+   ]
+  },
+  {
+   "id": "8e6c78a143",
+   "headline": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "first_published": "2026-11-19T17:30:44+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 30.2,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.875,
+    "velocity": 0.577,
+    "freshness": 0.497,
+    "age_hours": 47.4
+   },
+   "reasons": [
+    "HN 562 points, 271 comments",
+    "first seen 47h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 1104,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Claude solves two open problems in the physics of black holes",
+     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+     "published": "2026-11-19T17:30:44+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 562,
+     "comments": 271,
+     "discussion_url": "https://news.ycombinator.com/item?id=50563148",
+     "id": "hackernews:50563148"
     }
    ]
   },
@@ -735,24 +915,24 @@
     "AI models & labs",
     "Tech & startups"
    ],
-   "score": 31.3,
+   "score": 28.7,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.584,
-    "velocity": 0.379,
-    "freshness": 0.738,
-    "age_hours": 14.9
+    "engagement": 0.587,
+    "velocity": 0.343,
+    "freshness": 0.686,
+    "age_hours": 19.2
    },
    "reasons": [
-    "HN 44 points, 31 comments",
-    "first seen 15h ago",
+    "HN 45 points, 32 comments",
+    "first seen 19h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-21",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 106,
+   "engagement": 109,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -767,170 +947,58 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 44,
-     "comments": 31,
+     "points": 45,
+     "comments": 32,
      "discussion_url": "https://news.ycombinator.com/item?id=50582629",
      "id": "hackernews:50582629"
     }
    ]
   },
   {
-   "id": "0c5a6a8108",
-   "headline": "The unfolding Jensen Huang scandal: a timeline",
-   "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-   "first_published": "2026-11-19T16:34:02+00:00",
-   "topic": "AI business & chips",
+   "id": "161e7df650",
+   "headline": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "first_published": "2026-11-21T10:33:57+00:00",
+   "topic": "Tech & startups",
    "topics": [
-    "AI business & chips"
+    "Tech & startups"
    ],
-   "score": 30.2,
+   "score": 27.6,
    "signals": {
-    "coverage": 0.589,
-    "engagement": 0.627,
-    "velocity": 0.268,
-    "freshness": 0.51,
-    "age_hours": 44.1
+    "coverage": 0.0,
+    "engagement": 0.688,
+    "velocity": 0.665,
+    "freshness": 0.869,
+    "age_hours": 6.4
    },
    "reasons": [
-    "3 outlets: TechCrunch AI, The Guardian Tech, Wired",
-    "HN 60 points, 45 comments",
-    "first seen 44h ago",
-    "topic: AI business & chips"
+    "HN 126 points, 60 comments",
+    "first seen 6h ago",
+    "topic: Tech & startups"
    ],
-   "first_seen": "2026-11-19",
-   "status": "steady",
-   "outlet_count": 3,
-   "outlets": [
-    "TechCrunch AI",
-    "The Guardian Tech",
-    "Wired"
-   ],
-   "engagement": 150,
-   "regions": [
-    "International"
-   ],
+   "first_seen": "2026-11-21",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 246,
+   "regions": [],
    "brief": {},
    "llm_status": "",
    "articles": [
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Jensen Huang's daughter Madison insulted employees and drove top talent away",
-     "url": "https://nypost.com/2026/11/17/business/jensen-huangs-daughter-madison-insulted-workers-reports/",
-     "published": "2026-11-19T16:34:02+00:00",
+     "title": "FBI reportedly investigating apparent hack of its criminal database",
+     "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+     "published": "2026-11-21T10:33:57+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 60,
-     "comments": 45,
-     "discussion_url": "https://news.ycombinator.com/item?id=50562319",
-     "id": "hackernews:50562319"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "The unfolding Jensen Huang scandal: a timeline",
-     "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-     "published": "2026-11-19T20:18:49+00:00",
-     "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:ceb6efe66aa2"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "California investigates Nvidia over whether chip exports ended up in China",
-     "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
-     "published": "2026-11-20T09:18:30+00:00",
-     "summary": "State attorney says scandal ‘raises bright red flags’ and aims to find out if company misled investors California has served an investigative subpoena on Nvidia after a scandal that prompted the departure of co-founder and longtime chief executive Jensen Huang. Rob Bonta, the US state’s attorney gen",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:2c3757b0893a"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
-     "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-     "published": "2026-11-20T13:21:11+00:00",
-     "summary": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:e5c79a5ae719"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
-     "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
-     "published": "2026-11-20T13:25:00+00:00",
-     "summary": "Elon Musk may have been overstating it when he said Nvidia’s employees “love” the ousted Jensen Huang.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:4eb9be83aea3"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
-     "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
-     "published": "2026-11-20T14:55:44+00:00",
-     "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:7cf6c71f1f01"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Don’t Bring Jensen Back",
-     "url": "https://www.wired.com/story/dont-bring-jensen-back/",
-     "published": "2026-11-20T16:00:00+00:00",
-     "summary": "A mob of tech bros is clamoring for Nvidia to reinstate Jensen Huang as CEO. It’s a bad idea.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:0ba94f108e92"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
-     "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
-     "published": "2026-11-20T19:52:21+00:00",
-     "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:eefcdc9dc5ba"
+     "points": 126,
+     "comments": 60,
+     "discussion_url": "https://news.ycombinator.com/item?id=50587859",
+     "id": "hackernews:50587859"
     }
    ]
   },
@@ -943,17 +1011,17 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 27.7,
+   "score": 25.8,
    "signals": {
     "coverage": 0.0,
     "engagement": 0.648,
-    "velocity": 0.383,
-    "freshness": 0.635,
-    "age_hours": 24.4
+    "velocity": 0.357,
+    "freshness": 0.599,
+    "age_hours": 28.7
    },
    "reasons": [
     "HN 58 points, 60 comments",
-    "first seen 24h ago",
+    "first seen 29h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-20",
@@ -979,363 +1047,6 @@
      "comments": 60,
      "discussion_url": "https://news.ycombinator.com/item?id=50573681",
      "id": "hackernews:50573681"
-    }
-   ]
-  },
-  {
-   "id": "4e955720e0",
-   "headline": "Video: Grand Theft Auto VI lands in Finland",
-   "url": "https://yle.fi/a/74-20257918?origin=rss",
-   "first_published": "2026-11-19T12:48:18+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 27.7,
-   "signals": {
-    "coverage": 0.699,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.495,
-    "age_hours": 47.8
-   },
-   "reasons": [
-    "4 outlets: Yle News, The Guardian Tech, The Verge, Wired",
-    "first seen 48h ago",
-    "topic: Finland & Nordic tech"
-   ],
-   "first_seen": "2026-11-18",
-   "status": "steady",
-   "outlet_count": 4,
-   "outlets": [
-    "The Guardian Tech",
-    "The Verge",
-    "Wired",
-    "Yle News"
-   ],
-   "engagement": 0,
-   "regions": [
-    "Finland",
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Yle News",
-     "title": "Video: Grand Theft Auto VI lands in Finland",
-     "url": "https://yle.fi/a/74-20257918?origin=rss",
-     "published": "2026-11-19T12:48:18+00:00",
-     "summary": "Internet traffic in Finland increased by 40 percent when the game was released.",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle News:b3a76a8f360a"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Parents: please don’t buy Grand Theft Auto VI for your child",
-     "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-parents-please-dont-buy-gta-6-vi-for-your-child",
-     "published": "2026-11-19T13:00:48+00:00",
-     "summary": "Rockstar Games’ brilliant 18-rated criminal caper is stuffed with sex, drugs and violence. It is the most explicit game I’ve ever played – and it really is not for kids Tell us: are you playing Grand Theft Auto VI? I am haunted still by an interaction I had at my stepson’s ninth birthday party in 20",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:e43a8cb3f143"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Grand Theft Auto fans skip work and pull all-nighters to play new instalment",
-     "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters",
-     "published": "2026-11-19T20:07:23+00:00",
-     "summary": "Hotly anticipated Bonnie and Clyde-inspired adventure GTA VI has gamers glued to their screens around the world Grand Theft Auto fans around the world pulled all-nighters, skipped work and school, and attended overnight launch parties to vicariously embark on police chases and coordinate robberies a",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:653751b5d3ac"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "‘Grand Theft Auto 6’ Is a Perfect Game. Rushing Through It Would Be a Mistake",
-     "url": "https://www.wired.com/story/gta-vi-is-finally-out-dont-rush-it/",
-     "published": "2026-11-20T10:15:00+00:00",
-     "summary": "While strip clubs and shootouts are a big draw, the hyper-detailed world of Leonida rewards patience over chaos.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:be73449a42f3"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "‘The greatest game ever made’: readers and Guardian staff on Grand Theft Auto VI",
-     "url": "https://www.theguardian.com/games/2026/nov/20/grand-theft-auto-vi-players-review",
-     "published": "2026-11-20T18:04:15+00:00",
-     "summary": "Rockstar’s newest installment of its hit franchise still has plenty of action, along with a dose of ‘healthy masculinity’ Described as the biggest entertainment launch in history, the new Grand Theft Auto game has prompted avid fans around the world to take the day off work, stock up on snacks and c",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:e0006c8114ba"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-     "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
-     "published": "2026-11-20T19:35:06+00:00",
-     "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:b505ea906182"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
-     "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
-     "published": "2026-11-20T23:24:02+00:00",
-     "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:eacc274a7728"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first day of release, developer says",
-     "url": "https://www.theguardian.com/games/2026/nov/21/a-new-record-for-entertainment-grand-theft-auto-vi-sales-hit-38bn-on-first-day-of-release-developer-says",
-     "published": "2026-11-21T03:51:03+00:00",
-     "summary": "The announcement from Rockstar Games would mean GTA VI has already earned more than the entire box office run of the highest-grossing film of all time Grand Theft Auto VI generated $3.79bn in retail sales on its first day , publisher Rockstar Games has announced, calling it the biggest launch for an",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:1d796e9f4618"
-    }
-   ]
-  },
-  {
-   "id": "161e7df650",
-   "headline": "FBI reportedly investigating apparent hack of its criminal database",
-   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
-   "first_published": "2026-11-21T10:33:57+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 27.1,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.562,
-    "velocity": 0.685,
-    "freshness": 0.954,
-    "age_hours": 2.1
-   },
-   "reasons": [
-    "HN 53 points, 18 comments",
-    "first seen 2h ago",
-    "topic: Tech & startups"
-   ],
-   "first_seen": "2026-11-21",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 89,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "FBI reportedly investigating apparent hack of its criminal database",
-     "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
-     "published": "2026-11-21T10:33:57+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 53,
-     "comments": 18,
-     "discussion_url": "https://news.ycombinator.com/item?id=50587859",
-     "id": "hackernews:50587859"
-    }
-   ]
-  },
-  {
-   "id": "8e182986ef",
-   "headline": "ChatGPT for SNES",
-   "url": "https://www.bxfoundry.com/chatgpt_snes/",
-   "first_published": "2026-11-20T00:25:59+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 25.4,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.667,
-    "velocity": 0.345,
-    "freshness": 0.549,
-    "age_hours": 36.2
-   },
-   "reasons": [
-    "HN 125 points, 41 comments",
-    "first seen 36h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-20",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 207,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "ChatGPT for SNES",
-     "url": "https://www.bxfoundry.com/chatgpt_snes/",
-     "published": "2026-11-20T00:25:59+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 125,
-     "comments": 41,
-     "discussion_url": "https://news.ycombinator.com/item?id=50568548",
-     "id": "hackernews:50568548"
-    }
-   ]
-  },
-  {
-   "id": "1f5ceb79fb",
-   "headline": "Chips can survive the space environment — can their financing?",
-   "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-   "first_published": "2026-11-19T23:37:56+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips",
-    "Tech & startups"
-   ],
-   "score": 25.0,
-   "signals": {
-    "coverage": 0.46,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.544,
-    "age_hours": 37.0
-   },
-   "reasons": [
-    "2 outlets: TechCrunch, Ars Technica",
-    "first seen 37h ago",
-    "topic: AI business & chips",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-20",
-   "status": "rising",
-   "outlet_count": 2,
-   "outlets": [
-    "Ars Technica",
-    "TechCrunch"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
-     "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
-     "published": "2026-11-19T23:37:56+00:00",
-     "summary": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:ecaacdb29f88"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
-     "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
-     "published": "2026-11-20T14:15:21+00:00",
-     "summary": "Bondholders want SpaceX’s valuable chip collateral kept on Earth and within reach.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:8194e1cabb8a"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Chips can survive the space environment — can their financing?",
-     "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-     "published": "2026-11-20T17:40:01+00:00",
-     "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:d9b0040b8a63"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Chips can survive the space environment — can their financing?",
-     "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-     "published": "2026-11-20T17:40:01+00:00",
-     "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:d9b0040b8a63"
     }
    ]
   }
