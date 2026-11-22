@@ -1,4 +1,26 @@
 {
+"0163fd00f7": {
+"by_day": {
+"2026-11-22": 1
+},
+"first_seen": "2026-11-22",
+"headline": "Howard Lutnick has been Trump’s ally for decades. His ties to Nvidia may spell his downfall",
+"last_seen": "2026-11-22",
+"terms": [
+"howard",
+"downfall",
+"spell",
+"trump",
+"ally",
+"tie",
+"lutnick",
+"nvidia",
+"decad"
+],
+"urls": [
+"https://theguardian.com/us-news/2026/nov/22/howard-lutnick-nvidia-china"
+]
+},
 "01bcd5b6fe": {
 "by_day": {
 "2026-11-18": 0,
@@ -237,33 +259,34 @@
 "by_day": {
 "2026-11-19": 0,
 "2026-11-20": 3,
-"2026-11-21": 3
+"2026-11-21": 3,
+"2026-11-22": 2
 },
 "first_seen": "2026-11-19",
-"headline": "The unfolding Jensen Huang scandal: a timeline",
-"last_seen": "2026-11-21",
+"headline": "The fallout from Nvidia’s Jensen Huang scandal continues",
+"last_seen": "2026-11-22",
 "terms": [
-"jensen",
 "huang",
 "nvidia",
-"scandal",
-"california",
+"jensen",
+"two",
+"tale",
+"tie",
+"worri",
+"ag",
 "china",
-"unfold",
-"timeline",
-"fallout",
-"continu",
-"bring",
-"back",
-"don't",
-"alarm"
+"subpoena",
+"california",
+"behind",
+"built",
+"exit"
 ],
 "urls": [
-"https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+"https://economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
 "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear",
 "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
+"https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
 "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues",
-"https://theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
 "https://wired.com/story/dont-bring-jensen-back",
 "https://wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation"
 ]
@@ -537,21 +560,31 @@
 },
 "161e7df650": {
 "by_day": {
-"2026-11-21": 0
+"2026-11-21": 0,
+"2026-11-22": 3
 },
 "first_seen": "2026-11-21",
-"headline": "FBI reportedly investigating apparent hack of its criminal database",
-"last_seen": "2026-11-21",
+"headline": "The FBI and USDA were reportedly hacked",
+"last_seen": "2026-11-22",
 "terms": [
-"criminal",
 "fbi",
-"apparent",
-"investigat",
 "hack",
-"database"
+"database",
+"usda",
+"investigat",
+"criminal",
+"apparent",
+"good",
+"trump",
+"back-to-back",
+"target",
+"cyberattack"
 ],
 "urls": [
-"https://bbc.com/news/articles/cvze7de86pk3o"
+"https://bbc.com/news/articles/cvze7de86pk3o",
+"https://engadget.com/2324179/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks",
+"https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good",
+"https://theverge.com/tech/1039543/fbi-usda-hacked"
 ]
 },
 "16b6b4df3e": {
@@ -1165,17 +1198,18 @@
 },
 "362502575e": {
 "by_day": {
-"2026-11-21": 0
+"2026-11-21": 0,
+"2026-11-22": 0
 },
 "first_seen": "2026-11-21",
 "headline": "ClawDOS – An AI coding agent for DOS",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-22",
 "terms": [
-"dos",
+"agent",
 "clawdo",
-"ai",
 "cod",
-"agent"
+"dos",
+"ai"
 ],
 "urls": [
 "https://ricapar.net/ClawDOS"
@@ -2056,22 +2090,39 @@
 },
 "63d0df2510": {
 "by_day": {
-"2026-11-18": 1
+"2026-11-18": 1,
+"2026-11-22": 1
 },
 "first_seen": "2026-11-18",
-"headline": "More banks say customers using AI agents are on their own — even if they get hacked",
-"last_seen": "2026-11-18",
+"headline": "Banks Have Had It Up to Here With Your AI Agent",
+"last_seen": "2026-11-22",
 "terms": [
-"bank",
-"ai",
-"using",
-"hack",
-"customer",
 "agent",
-"even"
+"ai",
+"bank"
 ],
 "urls": [
-"https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
+"https://wired.com/story/banks-are-cracking-down-on-ai-agents"
+]
+},
+"63d8aefb2e": {
+"by_day": {
+"2026-11-22": 0
+},
+"first_seen": "2026-11-22",
+"headline": "Pandex – Official European Law for AI Agents, over MCP",
+"last_seen": "2026-11-22",
+"terms": [
+"agent",
+"mcp",
+"law",
+"official",
+"ai",
+"pandex",
+"european"
+],
+"urls": [
+"https://pandex.io/"
 ]
 },
 "6629217885": {
@@ -2359,6 +2410,27 @@
 ],
 "urls": [
 "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers"
+]
+},
+"6ea037f3b7": {
+"by_day": {
+"2026-11-22": 1
+},
+"first_seen": "2026-11-22",
+"headline": "Yle murskasi Temusta ostetut sähkölaitteet ja testasi niiden turvallisuuden",
+"last_seen": "2026-11-22",
+"terms": [
+"sähkölaitteet",
+"ostetut",
+"turvallisuuden",
+"niiden",
+"murskasi",
+"testasi",
+"temusta",
+"yle"
+],
+"urls": [
+"https://yle.fi/a/74-20257649?origin=rss"
 ]
 },
 "6f716ac619": {
@@ -2683,21 +2755,22 @@
 "7e66261e56": {
 "by_day": {
 "2026-11-20": 2,
-"2026-11-21": 1
+"2026-11-21": 1,
+"2026-11-22": 0
 },
 "first_seen": "2026-11-20",
 "headline": "Google workers tell their employer not to punish schools that don't want AI",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-22",
 "terms": [
-"google",
-"worker",
-"tell",
-"want",
 "punish",
-"ai",
 "don't",
 "school",
-"employer"
+"want",
+"google",
+"worker",
+"employer",
+"ai",
+"tell"
 ],
 "urls": [
 "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition"
@@ -3004,6 +3077,28 @@
 ],
 "urls": [
 "https://nitter.cf/kevinnbass/status/2099621874279817638"
+]
+},
+"8d763562a7": {
+"by_day": {
+"2026-11-22": 0
+},
+"first_seen": "2026-11-22",
+"headline": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+"last_seen": "2026-11-22",
+"terms": [
+"bust",
+"ipo",
+"wipeout",
+"anthropic",
+"wall",
+"street",
+"deepen",
+"ai",
+"4t"
+],
+"urls": [
+"https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90"
 ]
 },
 "8e182986ef": {
@@ -3517,6 +3612,25 @@
 "https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it"
 ]
 },
+"a6fab6799a": {
+"by_day": {
+"2026-11-22": 0
+},
+"first_seen": "2026-11-22",
+"headline": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+"last_seen": "2026-11-22",
+"terms": [
+"gas",
+"power",
+"anthropic",
+"coal",
+"2028",
+"come"
+],
+"urls": [
+"https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power"
+]
+},
 "a7737fc1b8": {
 "by_day": {
 "2026-11-17": 0,
@@ -3542,40 +3656,33 @@
 "2026-11-18": 4,
 "2026-11-19": 6,
 "2026-11-20": 6,
-"2026-11-21": 4
+"2026-11-21": 4,
+"2026-11-22": 2
 },
 "first_seen": "2026-11-17",
-"headline": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-"last_seen": "2026-11-21",
+"headline": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+"last_seen": "2026-11-22",
 "terms": [
-"anthropic",
-"ipo",
 "nasdaq",
-"ai",
-"debut",
-"market",
-"stock",
+"erase",
+"2026",
+"gain",
+"anthropic",
 "sell-off",
-"protester",
-"trad",
-"public",
-"2b",
-"record-break",
-"cash"
+"dampen",
+"second",
+"ai",
+"market",
+"correction",
+"dow",
+"plunge",
+"trad"
 ],
 "urls": [
-"https://bbc.co.uk/news/articles/c3x29ggenz12o",
 "https://bbc.co.uk/news/articles/c6808ym10vzgo",
-"https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
-"https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
-"https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
-"https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
-"https://techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say",
-"https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-"https://theguardian.com/technology/2026/nov/19/anthropic-ipo-protests",
-"https://theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
-"https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-"https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90"
+"https://cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+"https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+"https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
 ]
 },
 "a838ee181d": {
@@ -4554,20 +4661,21 @@
 },
 "dab6152987": {
 "by_day": {
-"2026-11-21": 0
+"2026-11-21": 0,
+"2026-11-22": 0
 },
 "first_seen": "2026-11-21",
 "headline": "A few hours ago Google DeepMind created a math horizon repo",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-22",
 "terms": [
-"deepmind",
-"google",
-"hour",
-"ago",
+"math",
 "creat",
+"hour",
 "repo",
 "horizon",
-"math"
+"google",
+"ago",
+"deepmind"
 ],
 "urls": [
 "https://github.com/google-deepmind/math-horizon"
@@ -4612,6 +4720,30 @@
 ],
 "urls": [
 "https://revscope.co/blog/search-seo-geo-2026"
+]
+},
+"e00f5b5b8c": {
+"by_day": {
+"2026-11-22": 1
+},
+"first_seen": "2026-11-22",
+"headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+"last_seen": "2026-11-22",
+"terms": [
+"problem",
+"solv",
+"ai",
+"mathematic",
+"important",
+"math",
+"crack",
+"anthropic",
+"biggest",
+"worker"
+],
+"urls": [
+"https://bbc.co.uk/news/articles/c6pqr2g7w059o",
+"https://economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics"
 ]
 },
 "e1d720a95e": {
@@ -4702,40 +4834,34 @@
 "e31085b265": {
 "by_day": {
 "2026-11-20": 2,
-"2026-11-21": 2
+"2026-11-21": 2,
+"2026-11-22": 2
 },
 "first_seen": "2026-11-20",
-"headline": "Dyson Promo Codes: 25% Off in November 2026",
-"last_seen": "2026-11-21",
+"headline": "Therabody Promo Codes: 15% Off November 2026",
+"last_seen": "2026-11-22",
 "terms": [
-"2026",
 "november",
+"2026",
 "promo",
 "cod",
-"coupon",
 "discount",
-"vimeo",
-"ancestry",
-"walgreen",
-"photo",
-"600",
-"castlery",
-"ebay",
-"groupon"
+"finland",
+"video",
+"therabody",
+"google",
+"workspace",
+"nike",
+"mobile",
+"mint",
+"ulta"
 ],
 "urls": [
-"https://wired.com/story/ancestry-coupon-codes",
-"https://wired.com/story/castlery-promo-code",
-"https://wired.com/story/dyson-cordless-vacuum-promo-code",
-"https://wired.com/story/ebay-coupon-code",
 "https://wired.com/story/google-workspace-promo-code",
-"https://wired.com/story/groupon-promo-code",
 "https://wired.com/story/mint-mobile-promo-code",
 "https://wired.com/story/nike-promo-code",
 "https://wired.com/story/therabody-promo-code",
 "https://wired.com/story/ulta-coupon",
-"https://wired.com/story/vimeo-promo-code",
-"https://wired.com/story/walgreens-photo-coupon",
 "https://yle.fi/a/74-20258181?origin=rss"
 ]
 },
@@ -5168,21 +5294,22 @@
 },
 "fd20639da8": {
 "by_day": {
-"2026-11-21": 0
+"2026-11-21": 0,
+"2026-11-22": 0
 },
 "first_seen": "2026-11-21",
 "headline": "US SEC's Nvidia probe is examining potential accounting issues – sources",
-"last_seen": "2026-11-21",
+"last_seen": "2026-11-22",
 "terms": [
-"us",
-"potential",
-"account",
-"sourc",
 "issu",
+"us",
 "examin",
+"sourc",
 "probe",
+"nvidia",
+"account",
 "sec",
-"nvidia"
+"potential"
 ],
 "urls": [
 "https://marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"
