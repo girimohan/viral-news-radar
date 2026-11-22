@@ -7,15 +7,15 @@
 "headline": "Howard Lutnick has been Trump’s ally for decades. His ties to Nvidia may spell his downfall",
 "last_seen": "2026-11-22",
 "terms": [
-"howard",
-"downfall",
-"spell",
 "trump",
-"ally",
-"tie",
-"lutnick",
+"spell",
+"howard",
 "nvidia",
-"decad"
+"downfall",
+"ally",
+"decad",
+"lutnick",
+"tie"
 ],
 "urls": [
 "https://theguardian.com/us-news/2026/nov/22/howard-lutnick-nvidia-china"
@@ -141,6 +141,29 @@
 ],
 "urls": [
 "https://yle.fi/a/74-20257542?origin=rss"
+]
+},
+"0726c47493": {
+"by_day": {
+"2026-11-22": 0
+},
+"first_seen": "2026-11-22",
+"headline": "Norway to extend proposed under-16 social media ban to games and messaging apps",
+"last_seen": "2026-11-22",
+"terms": [
+"app",
+"propos",
+"ban",
+"messag",
+"under-16",
+"media",
+"gam",
+"extend",
+"social",
+"norway"
+],
+"urls": [
+"https://euronews.com/2026/10/19/norway-to-extend-proposed-under-16-social-media-ban-to-online-games-and-messaging-apps"
 ]
 },
 "07d7d697b1": {
@@ -564,27 +587,21 @@
 "2026-11-22": 3
 },
 "first_seen": "2026-11-21",
-"headline": "The FBI and USDA were reportedly hacked",
+"headline": "Trump says reported FBI database hack is ‘not good’",
 "last_seen": "2026-11-22",
 "terms": [
-"fbi",
 "hack",
+"fbi",
 "database",
-"usda",
 "investigat",
-"criminal",
 "apparent",
-"good",
+"criminal",
 "trump",
-"back-to-back",
-"target",
-"cyberattack"
+"good"
 ],
 "urls": [
 "https://bbc.com/news/articles/cvze7de86pk3o",
-"https://engadget.com/2324179/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks",
-"https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good",
-"https://theverge.com/tech/1039543/fbi-usda-hacked"
+"https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good"
 ]
 },
 "16b6b4df3e": {
@@ -1206,10 +1223,10 @@
 "last_seen": "2026-11-22",
 "terms": [
 "agent",
-"clawdo",
 "cod",
+"ai",
 "dos",
-"ai"
+"clawdo"
 ],
 "urls": [
 "https://ricapar.net/ClawDOS"
@@ -2097,8 +2114,8 @@
 "headline": "Banks Have Had It Up to Here With Your AI Agent",
 "last_seen": "2026-11-22",
 "terms": [
-"agent",
 "ai",
+"agent",
 "bank"
 ],
 "urls": [
@@ -2114,12 +2131,12 @@
 "last_seen": "2026-11-22",
 "terms": [
 "agent",
-"mcp",
-"law",
 "official",
+"european",
+"law",
 "ai",
 "pandex",
-"european"
+"mcp"
 ],
 "urls": [
 "https://pandex.io/"
@@ -2420,14 +2437,14 @@
 "headline": "Yle murskasi Temusta ostetut sähkölaitteet ja testasi niiden turvallisuuden",
 "last_seen": "2026-11-22",
 "terms": [
+"testasi",
 "sähkölaitteet",
-"ostetut",
 "turvallisuuden",
+"temusta",
 "niiden",
 "murskasi",
-"testasi",
-"temusta",
-"yle"
+"yle",
+"ostetut"
 ],
 "urls": [
 "https://yle.fi/a/74-20257649?origin=rss"
@@ -3087,15 +3104,15 @@
 "headline": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
 "last_seen": "2026-11-22",
 "terms": [
-"bust",
-"ipo",
-"wipeout",
-"anthropic",
-"wall",
-"street",
+"4t",
 "deepen",
 "ai",
-"4t"
+"anthropic",
+"wall",
+"bust",
+"wipeout",
+"street",
+"ipo"
 ],
 "urls": [
 "https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90"
@@ -3620,11 +3637,11 @@
 "headline": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
 "last_seen": "2026-11-22",
 "terms": [
-"gas",
 "power",
-"anthropic",
-"coal",
 "2028",
+"coal",
+"gas",
+"anthropic",
 "come"
 ],
 "urls": [
@@ -3663,23 +3680,22 @@
 "headline": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
 "last_seen": "2026-11-22",
 "terms": [
-"nasdaq",
 "erase",
-"2026",
+"nasdaq",
 "gain",
-"anthropic",
-"sell-off",
-"dampen",
-"second",
-"ai",
-"market",
-"correction",
-"dow",
+"2026",
 "plunge",
-"trad"
+"market",
+"dow",
+"correction",
+"sell-off",
+"second",
+"trad",
+"ai",
+"anthropic",
+"dampen"
 ],
 "urls": [
-"https://bbc.co.uk/news/articles/c6808ym10vzgo",
 "https://cnbc.com/2026/11/19/stock-market-today-live-updates.html",
 "https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
 "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
@@ -4669,11 +4685,11 @@
 "last_seen": "2026-11-22",
 "terms": [
 "math",
+"google",
 "creat",
-"hour",
 "repo",
 "horizon",
-"google",
+"hour",
 "ago",
 "deepmind"
 ],
@@ -4730,16 +4746,16 @@
 "headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
 "last_seen": "2026-11-22",
 "terms": [
-"problem",
 "solv",
+"problem",
 "ai",
-"mathematic",
 "important",
-"math",
+"mathematic",
 "crack",
+"worker",
 "anthropic",
 "biggest",
-"worker"
+"math"
 ],
 "urls": [
 "https://bbc.co.uk/news/articles/c6pqr2g7w059o",
@@ -4956,6 +4972,29 @@
 ],
 "urls": [
 "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours"
+]
+},
+"e54a4336f2": {
+"by_day": {
+"2026-11-22": 0
+},
+"first_seen": "2026-11-22",
+"headline": "Show HN: I made a PS1 style racing game",
+"last_seen": "2026-11-22",
+"terms": [
+"hn",
+"show",
+"game",
+"rac",
+"ps1",
+"style",
+"subagent",
+"built",
+"llm"
+],
+"urls": [
+"https://github.com/gulivan/worker755",
+"https://outpostracer.com/"
 ]
 },
 "e84e229d74": {
@@ -5301,15 +5340,15 @@
 "headline": "US SEC's Nvidia probe is examining potential accounting issues – sources",
 "last_seen": "2026-11-22",
 "terms": [
-"issu",
 "us",
+"issu",
+"sec",
 "examin",
 "sourc",
 "probe",
-"nvidia",
 "account",
-"sec",
-"potential"
+"potential",
+"nvidia"
 ],
 "urls": [
 "https://marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627"

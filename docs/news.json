@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-22T12:33:47+00:00",
+ "generated_at": "2026-11-22T17:22:39+00:00",
  "date": "2026-11-22",
- "new_today": 3,
+ "new_today": 5,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2856,
+  "collected": 2851,
   "undated": 0,
-  "too_old": 2618,
+  "too_old": 2638,
   "excluded": 6,
   "duplicate": 0,
-  "articles_in_window": 232,
-  "stories": 170,
-  "off_topic": 122,
-  "low_score": 40,
+  "articles_in_window": 207,
+  "stories": 161,
+  "off_topic": 118,
+  "low_score": 35,
   "shown": 8
  },
  "llm": {
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2779,
-   "in_stories": 4,
+   "fetched": 2778,
+   "in_stories": 3,
    "detail": "20/23 feeds read; failed: VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 77,
+   "fetched": 73,
    "in_stories": 8,
-   "detail": "77 stories with 40+ points",
+   "detail": "73 stories with 40+ points",
    "error": ""
   },
   {
@@ -64,24 +64,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 59.5,
+   "score": 57.1,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.831,
-    "velocity": 0.973,
-    "freshness": 0.922,
-    "age_hours": 3.6
+    "engagement": 0.928,
+    "velocity": 0.96,
+    "freshness": 0.834,
+    "age_hours": 8.4
    },
    "reasons": [
-    "HN 201 points, 288 comments",
-    "first seen 4h ago",
+    "HN 503 points, 590 comments",
+    "first seen 8h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-22",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 777,
+   "engagement": 1683,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -96,10 +96,58 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 201,
-     "comments": 288,
+     "points": 503,
+     "comments": 590,
      "discussion_url": "https://news.ycombinator.com/item?id=50597612",
      "id": "hackernews:50597612"
+    }
+   ]
+  },
+  {
+   "id": "0726c47493",
+   "headline": "Norway to extend proposed under-16 social media ban to games and messaging apps",
+   "url": "https://www.euronews.com/2026/10/19/norway-to-extend-proposed-under-16-social-media-ban-to-online-games-and-messaging-apps",
+   "first_published": "2026-11-22T15:54:24+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech"
+   ],
+   "score": 54.5,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.67,
+    "velocity": 0.901,
+    "freshness": 0.967,
+    "age_hours": 1.5
+   },
+   "reasons": [
+    "HN 50 points, 81 comments",
+    "first seen 1h ago",
+    "topic: Finland & Nordic tech"
+   ],
+   "first_seen": "2026-11-22",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 212,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Norway to extend proposed under-16 social media ban to games and messaging apps",
+     "url": "https://www.euronews.com/2026/10/19/norway-to-extend-proposed-under-16-social-media-ban-to-online-games-and-messaging-apps",
+     "published": "2026-11-22T15:54:24+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 50,
+     "comments": 81,
+     "discussion_url": "https://news.ycombinator.com/item?id=50600789",
+     "id": "hackernews:50600789"
     }
    ]
   },
@@ -107,7 +155,7 @@
    "id": "a78fd5e070",
    "headline": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "first_published": "2026-11-20T13:29:59+00:00",
+   "first_published": "2026-11-20T17:44:01+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs",
@@ -115,49 +163,33 @@
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 39.9,
+   "score": 30.6,
    "signals": {
-    "coverage": 0.469,
-    "engagement": 0.984,
-    "velocity": 0.732,
-    "freshness": 0.498,
-    "age_hours": 47.1
+    "coverage": 0.292,
+    "engagement": 0.727,
+    "velocity": 0.378,
+    "freshness": 0.496,
+    "age_hours": 47.6
    },
    "reasons": [
-    "2 outlets: The Guardian Tech, BBC Technology",
-    "HN 843 points, 901 comments",
-    "first seen 47h ago",
+    "1 outlet: The Guardian Tech",
+    "HN 331 points, 3 comments",
+    "first seen 48h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-17",
    "status": "steady",
-   "outlet_count": 2,
+   "outlet_count": 1,
    "outlets": [
-    "BBC Technology",
     "The Guardian Tech"
    ],
-   "engagement": 2645,
+   "engagement": 337,
    "regions": [
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-     "published": "2026-11-20T13:29:59+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 514,
-     "comments": 898,
-     "discussion_url": "https://news.ycombinator.com/item?id=50574383",
-     "id": "hackernews:50574383"
-    },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
@@ -168,7 +200,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 198,
+     "points": 199,
      "comments": 1,
      "discussion_url": "https://news.ycombinator.com/item?id=50578794",
      "id": "hackernews:50578794"
@@ -198,61 +230,155 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 131,
+     "points": 132,
      "comments": 2,
      "discussion_url": "https://news.ycombinator.com/item?id=50583254",
      "id": "hackernews:50583254"
+    }
+   ]
+  },
+  {
+   "id": "e54a4336f2",
+   "headline": "Show HN: I made a PS1 style racing game",
+   "url": "https://outpostracer.com",
+   "first_published": "2026-11-21T13:47:45+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 30.5,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.709,
+    "velocity": 0.442,
+    "freshness": 0.607,
+    "age_hours": 27.6
+   },
+   "reasons": [
+    "HN 168 points, 61 comments",
+    "first seen 28h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-22",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 290,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Show HN: I made a PS1 style racing game",
+     "url": "https://outpostracer.com",
+     "published": "2026-11-21T13:47:45+00:00",
+     "summary": "Hey folks, was bored with work this week so with the help of chatgpt I built a ps1 style retro racing game.<p>Let me know what you think!",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 40,
+     "comments": 29,
+     "discussion_url": "https://news.ycombinator.com/item?id=50589184",
+     "id": "hackernews:50589184"
     },
     {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-     "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-20T22:42:47+00:00",
-     "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
-     "region": "International",
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Show HN: I built a game where you are an LLM's subagent",
+     "url": "https://github.com/gulivan/worker755",
+     "published": "2026-11-22T13:56:58+00:00",
+     "summary": "",
+     "region": "Social",
      "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:daf74c652ec5"
+     "weight": 1.0,
+     "points": 128,
+     "comments": 32,
+     "discussion_url": "https://news.ycombinator.com/item?id=50599762",
+     "id": "hackernews:50599762"
+    }
+   ]
+  },
+  {
+   "id": "63d8aefb2e",
+   "headline": "Pandex – Official European Law for AI Agents, over MCP",
+   "url": "https://www.pandex.io",
+   "first_published": "2026-11-21T20:47:41+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 30.1,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.657,
+    "velocity": 0.423,
+    "freshness": 0.672,
+    "age_hours": 20.6
+   },
+   "reasons": [
+    "HN 130 points, 31 comments",
+    "first seen 21h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-22",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 192,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Pandex – Official European Law for AI Agents, over MCP",
+     "url": "https://www.pandex.io",
+     "published": "2026-11-21T20:47:41+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 130,
+     "comments": 31,
+     "discussion_url": "https://news.ycombinator.com/item?id=50593481",
+     "id": "hackernews:50593481"
     }
    ]
   },
   {
    "id": "161e7df650",
-   "headline": "The FBI and USDA were reportedly hacked",
-   "url": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+   "headline": "Trump says reported FBI database hack is ‘not good’",
+   "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
    "first_published": "2026-11-21T10:33:57+00:00",
    "topic": "Tech & startups",
    "topics": [
     "Tech & startups"
    ],
-   "score": 35.6,
+   "score": 30.1,
    "signals": {
-    "coverage": 0.57,
+    "coverage": 0.292,
     "engagement": 0.738,
-    "velocity": 0.491,
-    "freshness": 0.62,
-    "age_hours": 26.0
+    "velocity": 0.463,
+    "freshness": 0.583,
+    "age_hours": 30.8
    },
    "reasons": [
-    "3 outlets: The Verge, TechCrunch, Engadget",
-    "HN 180 points, 93 comments",
-    "first seen 26h ago",
+    "1 outlet: TechCrunch",
+    "HN 181 points, 93 comments",
+    "first seen 31h ago",
     "topic: Tech & startups",
-    "rising: 3 more outlets since yesterday"
+    "rising: 1 more outlets since yesterday"
    ],
    "first_seen": "2026-11-21",
    "status": "rising",
-   "outlet_count": 3,
+   "outlet_count": 1,
    "outlets": [
-    "Engadget",
-    "TechCrunch",
-    "The Verge"
+    "TechCrunch"
    ],
-   "engagement": 366,
+   "engagement": 367,
    "regions": [
     "International"
    ],
@@ -269,25 +395,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 180,
+     "points": 181,
      "comments": 93,
      "discussion_url": "https://news.ycombinator.com/item?id=50587859",
      "id": "hackernews:50587859"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "The FBI and USDA were reportedly hacked",
-     "url": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
-     "published": "2026-11-21T17:42:27+00:00",
-     "summary": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state,",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:3ab0eca5e26f"
     },
     {
      "source": "feed",
@@ -303,228 +414,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch:a09000f22667"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "FBI and USDA were reportedly targeted in back-to-back cyberattacks",
-     "url": "https://www.engadget.com/2324179/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks/",
-     "published": "2026-11-21T21:51:29+00:00",
-     "summary": "It's still unclear who is responsible for the two incidents.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:e5f2e7811e34"
-    }
-   ]
-  },
-  {
-   "id": "63d8aefb2e",
-   "headline": "Pandex – Official European Law for AI Agents, over MCP",
-   "url": "https://www.pandex.io",
-   "first_published": "2026-11-21T20:47:41+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 31.8,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.632,
-    "velocity": 0.433,
-    "freshness": 0.727,
-    "age_hours": 15.8
-   },
-   "reasons": [
-    "HN 105 points, 26 comments",
-    "first seen 16h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-22",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 157,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Pandex – Official European Law for AI Agents, over MCP",
-     "url": "https://www.pandex.io",
-     "published": "2026-11-21T20:47:41+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 105,
-     "comments": 26,
-     "discussion_url": "https://news.ycombinator.com/item?id=50593481",
-     "id": "hackernews:50593481"
-    }
-   ]
-  },
-  {
-   "id": "0c5a6a8108",
-   "headline": "The fallout from Nvidia’s Jensen Huang scandal continues",
-   "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
-   "first_published": "2026-11-20T13:21:11+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips"
-   ],
-   "score": 31.3,
-   "signals": {
-    "coverage": 0.46,
-    "engagement": 0.848,
-    "velocity": 0.541,
-    "freshness": 0.497,
-    "age_hours": 47.2
-   },
-   "reasons": [
-    "2 outlets: TechCrunch, Wired",
-    "HN 170 points, 360 comments",
-    "first seen 47h ago",
-    "topic: AI business & chips"
-   ],
-   "first_seen": "2026-11-19",
-   "status": "steady",
-   "outlet_count": 2,
-   "outlets": [
-    "TechCrunch",
-    "Wired"
-   ],
-   "engagement": 890,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
-     "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-     "published": "2026-11-20T13:21:11+00:00",
-     "summary": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:e5c79a5ae719"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
-     "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
-     "published": "2026-11-20T13:25:00+00:00",
-     "summary": "Elon Musk may have been overstating it when he said Nvidia’s employees “love” the ousted Jensen Huang.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:4eb9be83aea3"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
-     "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
-     "published": "2026-11-20T14:55:44+00:00",
-     "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:7cf6c71f1f01"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Don’t Bring Jensen Back",
-     "url": "https://www.wired.com/story/dont-bring-jensen-back/",
-     "published": "2026-11-20T16:00:00+00:00",
-     "summary": "A mob of tech bros is clamoring for Nvidia to reinstate Jensen Huang as CEO. It’s a bad idea.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:0ba94f108e92"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
-     "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
-     "published": "2026-11-20T19:52:21+00:00",
-     "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:eefcdc9dc5ba"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
-     "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
-     "published": "2026-11-21T17:59:59+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 170,
-     "comments": 360,
-     "discussion_url": "https://news.ycombinator.com/item?id=50591835",
-     "id": "hackernews:50591835"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "A tale of two Nvidias",
-     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-     "published": "2026-11-21T21:07:42+00:00",
-     "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:4ce53216c0e3"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "A tale of two Nvidias",
-     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-     "published": "2026-11-21T21:07:42+00:00",
-     "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:4ce53216c0e3"
     }
    ]
   },
@@ -537,24 +426,24 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 27.2,
+   "score": 25.6,
    "signals": {
     "coverage": 0.0,
     "engagement": 0.7,
-    "velocity": 0.412,
-    "freshness": 0.582,
-    "age_hours": 30.9
+    "velocity": 0.389,
+    "freshness": 0.551,
+    "age_hours": 35.7
    },
    "reasons": [
-    "HN 166 points, 52 comments",
-    "first seen 31h ago",
+    "HN 167 points, 52 comments",
+    "first seen 36h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-21",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 270,
+   "engagement": 271,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -569,7 +458,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 166,
+     "points": 167,
      "comments": 52,
      "discussion_url": "https://news.ycombinator.com/item?id=50586292",
      "id": "hackernews:50586292"
@@ -585,18 +474,18 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 26.4,
+   "score": 25.2,
    "signals": {
     "coverage": 0.292,
     "engagement": 0.5,
-    "velocity": 0.161,
-    "freshness": 0.54,
-    "age_hours": 37.8
+    "velocity": 0.148,
+    "freshness": 0.516,
+    "age_hours": 42.6
    },
    "reasons": [
     "1 outlet: BBC Technology",
     "HN 40 points, 7 comments",
-    "first seen 38h ago",
+    "first seen 43h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-22",
@@ -641,54 +530,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:BBC Technology:6ef44cd411c3"
-    }
-   ]
-  },
-  {
-   "id": "fd20639da8",
-   "headline": "US SEC's Nvidia probe is examining potential accounting issues – sources",
-   "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
-   "first_published": "2026-11-20T20:22:41+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips"
-   ],
-   "score": 25.3,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.807,
-    "velocity": 0.512,
-    "freshness": 0.528,
-    "age_hours": 40.2
-   },
-   "reasons": [
-    "HN 303 points, 168 comments",
-    "first seen 40h ago",
-    "topic: AI business & chips"
-   ],
-   "first_seen": "2026-11-21",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 639,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
-     "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
-     "published": "2026-11-20T20:22:41+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 303,
-     "comments": 168,
-     "discussion_url": "https://news.ycombinator.com/item?id=50581438",
-     "id": "hackernews:50581438"
     }
    ]
   }
