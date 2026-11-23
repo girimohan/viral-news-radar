@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-22T17:22:39+00:00",
- "date": "2026-11-22",
- "new_today": 5,
+ "generated_at": "2026-11-23T14:35:09+00:00",
+ "date": "2026-11-23",
+ "new_today": 6,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2851,
+  "collected": 2869,
   "undated": 0,
-  "too_old": 2638,
-  "excluded": 6,
+  "too_old": 2645,
+  "excluded": 3,
   "duplicate": 0,
-  "articles_in_window": 207,
-  "stories": 161,
-  "off_topic": 118,
-  "low_score": 35,
-  "shown": 8
+  "articles_in_window": 221,
+  "stories": 179,
+  "off_topic": 124,
+  "low_score": 43,
+  "shown": 12
  },
  "llm": {
   "enabled": false
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2778,
-   "in_stories": 3,
+   "fetched": 2784,
+   "in_stories": 7,
    "detail": "20/23 feeds read; failed: VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 73,
-   "in_stories": 8,
-   "detail": "73 stories with 40+ points",
+   "fetched": 85,
+   "in_stories": 7,
+   "detail": "85 stories with 40+ points",
    "error": ""
   },
   {
@@ -56,6 +56,297 @@
  ],
  "stories": [
   {
+   "id": "0c5a6a8108",
+   "headline": "Jensen Huang is back as Nvidia’s CEO",
+   "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+   "first_published": "2026-11-21T21:07:42+00:00",
+   "topic": "AI policy & safety",
+   "topics": [
+    "AI policy & safety",
+    "AI business & chips"
+   ],
+   "score": 50.6,
+   "signals": {
+    "coverage": 0.929,
+    "engagement": 0.914,
+    "velocity": 0.655,
+    "freshness": 0.522,
+    "age_hours": 41.5
+   },
+   "reasons": [
+    "8 outlets: TechCrunch, The Verge, The Guardian Tech, Yle Uutiset +4 more",
+    "HN 638 points, 433 comments",
+    "first seen 41h ago",
+    "topic: AI policy & safety",
+    "rising: 6 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-19",
+   "status": "rising",
+   "outlet_count": 8,
+   "outlets": [
+    "Ars Technica",
+    "Engadget",
+    "TechCrunch",
+    "The Guardian Tech",
+    "The Verge",
+    "Tivi",
+    "Wired",
+    "Yle Uutiset"
+   ],
+   "engagement": 1504,
+   "regions": [
+    "Finland",
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "A tale of two Nvidias",
+     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+     "published": "2026-11-21T21:07:42+00:00",
+     "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:4ce53216c0e3"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "A tale of two Nvidias",
+     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+     "published": "2026-11-21T21:07:42+00:00",
+     "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:4ce53216c0e3"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
+     "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
+     "published": "2026-11-22T20:23:36+00:00",
+     "summary": "John Kennedy looks to Trump leaders as he asks how China evidently bypassed export controls for Nvidia’s top AI chips Invoking Greek mythology, US senator John Kennedy has characterized former Nvidia chief executive officer Jensen Huang ’s reported affair with a suspected Chinese spy as “the most ex",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:fb61cc4234e2"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Jensen Huang Reinstated as Nvidia CEO",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+     "published": "2026-11-23T14:01:23+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 638,
+     "comments": 433,
+     "discussion_url": "https://news.ycombinator.com/item?id=50611588",
+     "id": "hackernews:50611588"
+    },
+    {
+     "source": "feed",
+     "outlet": "Yle Uutiset",
+     "title": "Jensen Huang palaa Nvidian johtajaksi",
+     "url": "https://yle.fi/a/74-20258540?origin=rss",
+     "published": "2026-11-23T14:03:40+00:00",
+     "summary": "Nvidian perustaja Jensen Huang erosi 12. marraskuuta salasuhteisiin liittyneen skandaalin vuoksi.",
+     "region": "Finland",
+     "lang": "fi",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle Uutiset:fb4f540775e6"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Jensen Huang is back as Nvidia’s CEO",
+     "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+     "published": "2026-11-23T14:04:24+00:00",
+     "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NV",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:bf5983f5b3fe"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+     "published": "2026-11-23T14:10:18+00:00",
+     "summary": "Board says senior government officials confirmed Huang is \"no national security risk.\"",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:e09aa9a8dd80"
+    },
+    {
+     "source": "feed",
+     "outlet": "Tivi",
+     "title": "Jensen Huang palaa Nvidian toimitusjohtajaksi",
+     "url": "https://www.tivi.fi/uutiset/a/4b2836a1-9974-474e-ad41-5d3950dab5a5?utm_source=rss",
+     "published": "2026-11-23T14:14:02+00:00",
+     "summary": "Nvidian hallitus on päättänyt ottaa Jensen Huangin takaisin yhtiön johtoon.",
+     "region": "Finland",
+     "lang": "fi",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Tivi:20d92f19305a"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Jensen Huang reinstated as Nvidia CEO",
+     "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+     "published": "2026-11-23T14:15:27+00:00",
+     "summary": "Chipmaker reverses decision it made to remove chief executive after reports of affairs including with alleged Chinese spy Business live – latest updates Nvidia has said it is reinstating Jensen Huang as chief executive, effective immediately, just weeks after his dramatic resignation after reports o",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:f2286b4f32ed"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "NVIDIA reinstates Jensen Huang as CEO and president, effective immediately",
+     "url": "https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/",
+     "published": "2026-11-23T14:16:53+00:00",
+     "summary": "So much for the board not intending to bring him back.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:440334632af8"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+     "published": "2026-11-23T14:21:59+00:00",
+     "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:72c0025692ce"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+     "published": "2026-11-23T14:21:59+00:00",
+     "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:72c0025692ce"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Jensen Huang Is Back as Nvidia CEO",
+     "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+     "published": "2026-11-23T14:27:35+00:00",
+     "summary": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:830110fcef52"
+    }
+   ]
+  },
+  {
+   "id": "7186056d7c",
+   "headline": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "first_published": "2026-11-22T21:01:16+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 44.7,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.878,
+    "velocity": 0.757,
+    "freshness": 0.705,
+    "age_hours": 17.6
+   },
+   "reasons": [
+    "HN 619 points, 256 comments",
+    "first seen 18h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 1131,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+     "published": "2026-11-22T21:01:16+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 619,
+     "comments": 256,
+     "discussion_url": "https://news.ycombinator.com/item?id=50603845",
+     "id": "hackernews:50603845"
+    }
+   ]
+  },
+  {
    "id": "a6fab6799a",
    "headline": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
@@ -64,24 +355,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 57.1,
+   "score": 41.4,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.928,
-    "velocity": 0.96,
-    "freshness": 0.834,
-    "age_hours": 8.4
+    "engagement": 0.998,
+    "velocity": 0.834,
+    "freshness": 0.592,
+    "age_hours": 29.6
    },
    "reasons": [
-    "HN 503 points, 590 comments",
-    "first seen 8h ago",
+    "HN 994 points, 974 comments",
+    "first seen 30h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-22",
-   "status": "new",
+   "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 1683,
+   "engagement": 2942,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -96,10 +387,78 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 503,
-     "comments": 590,
+     "points": 994,
+     "comments": 974,
      "discussion_url": "https://news.ycombinator.com/item?id=50597612",
      "id": "hackernews:50597612"
+    }
+   ]
+  },
+  {
+   "id": "0aa1e123a1",
+   "headline": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "first_published": "2026-11-22T00:00:00+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 35.1,
+   "signals": {
+    "coverage": 0.185,
+    "engagement": 0.911,
+    "velocity": 0.663,
+    "freshness": 0.536,
+    "age_hours": 38.6
+   },
+   "reasons": [
+    "1 outlet: OpenAI News",
+    "HN 637 points, 415 comments",
+    "first seen 39h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 1,
+   "outlets": [
+    "OpenAI News"
+   ],
+   "engagement": 1467,
+   "regions": [
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "OpenAI News",
+     "title": "Perplexity and Intelligence",
+     "url": "https://openai.com/index/perplexity-and-intelligence",
+     "published": "2026-11-22T00:00:00+00:00",
+     "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:OpenAI News:de5cd1a6d51d"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Perplexity and Intelligence",
+     "url": "https://openai.com/index/perplexity-and-intelligence/",
+     "published": "2026-11-22T17:06:27+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 637,
+     "comments": 415,
+     "discussion_url": "https://news.ycombinator.com/item?id=50601525",
+     "id": "hackernews:50601525"
     }
    ]
   },
@@ -112,24 +471,24 @@
    "topics": [
     "Finland & Nordic tech"
    ],
-   "score": 54.5,
+   "score": 31.9,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.67,
-    "velocity": 0.901,
-    "freshness": 0.967,
-    "age_hours": 1.5
+    "engagement": 0.687,
+    "velocity": 0.446,
+    "freshness": 0.651,
+    "age_hours": 22.7
    },
    "reasons": [
-    "HN 50 points, 81 comments",
-    "first seen 1h ago",
+    "HN 58 points, 93 comments",
+    "first seen 23h ago",
     "topic: Finland & Nordic tech"
    ],
    "first_seen": "2026-11-22",
-   "status": "new",
+   "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 212,
+   "engagement": 244,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -144,126 +503,40 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 50,
-     "comments": 81,
+     "points": 58,
+     "comments": 93,
      "discussion_url": "https://news.ycombinator.com/item?id=50600789",
      "id": "hackernews:50600789"
     }
    ]
   },
   {
-   "id": "a78fd5e070",
-   "headline": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
-   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-   "first_published": "2026-11-20T17:44:01+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI agents & products",
-    "AI business & chips",
-    "Tech & startups"
-   ],
-   "score": 30.6,
-   "signals": {
-    "coverage": 0.292,
-    "engagement": 0.727,
-    "velocity": 0.378,
-    "freshness": 0.496,
-    "age_hours": 47.6
-   },
-   "reasons": [
-    "1 outlet: The Guardian Tech",
-    "HN 331 points, 3 comments",
-    "first seen 48h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-17",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "The Guardian Tech"
-   ],
-   "engagement": 337,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Markets plunge: Nasdaq erases 2026 gains, S&P, Dow in corrections",
-     "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-     "published": "2026-11-20T17:44:01+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 199,
-     "comments": 1,
-     "discussion_url": "https://news.ycombinator.com/item?id=50578794",
-     "id": "hackernews:50578794"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
-     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-     "published": "2026-11-20T21:38:17+00:00",
-     "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout Who are Anthropic’s seven co-founders, now worth $180bn? As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:fd2811614640"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Nasdaq erases all 2026 gains",
-     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
-     "published": "2026-11-20T22:29:06+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 132,
-     "comments": 2,
-     "discussion_url": "https://news.ycombinator.com/item?id=50583254",
-     "id": "hackernews:50583254"
-    }
-   ]
-  },
-  {
    "id": "e54a4336f2",
-   "headline": "Show HN: I made a PS1 style racing game",
-   "url": "https://outpostracer.com",
-   "first_published": "2026-11-21T13:47:45+00:00",
+   "headline": "Show HN: Zero C# – C# without a runtime or GC",
+   "url": "https://onurgumus.github.io/zero-csharp/index.html",
+   "first_published": "2026-11-21T15:39:09+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs"
    ],
-   "score": 30.5,
+   "score": 29.6,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.709,
-    "velocity": 0.442,
-    "freshness": 0.607,
-    "age_hours": 27.6
+    "engagement": 0.856,
+    "velocity": 0.552,
+    "freshness": 0.498,
+    "age_hours": 46.9
    },
    "reasons": [
-    "HN 168 points, 61 comments",
-    "first seen 28h ago",
+    "HN 522 points, 211 comments",
+    "first seen 47h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-22",
-   "status": "new",
+   "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 290,
+   "engagement": 944,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -271,17 +544,17 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Show HN: I made a PS1 style racing game",
-     "url": "https://outpostracer.com",
-     "published": "2026-11-21T13:47:45+00:00",
-     "summary": "Hey folks, was bored with work this week so with the help of chatgpt I built a ps1 style retro racing game.<p>Let me know what you think!",
+     "title": "Show HN: Zero C# – C# without a runtime or GC",
+     "url": "https://onurgumus.github.io/zero-csharp/index.html",
+     "published": "2026-11-21T15:39:09+00:00",
+     "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 40,
-     "comments": 29,
-     "discussion_url": "https://news.ycombinator.com/item?id=50589184",
-     "id": "hackernews:50589184"
+     "points": 178,
+     "comments": 129,
+     "discussion_url": "https://news.ycombinator.com/item?id=50590279",
+     "id": "hackernews:50590279"
     },
     {
      "source": "hackernews",
@@ -293,40 +566,108 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 128,
-     "comments": 32,
+     "points": 344,
+     "comments": 82,
      "discussion_url": "https://news.ycombinator.com/item?id=50599762",
      "id": "hackernews:50599762"
     }
    ]
   },
   {
-   "id": "63d8aefb2e",
-   "headline": "Pandex – Official European Law for AI Agents, over MCP",
-   "url": "https://www.pandex.io",
-   "first_published": "2026-11-21T20:47:41+00:00",
+   "id": "878409c8f6",
+   "headline": "Virtuaalilaseja valmistava Varjo suunnittelee listautumista pörssiin – yhtiön arvostuksesta sulanut iso osa",
+   "url": "https://yle.fi/a/74-20258399?origin=rss",
+   "first_published": "2026-11-23T07:05:40+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech"
+   ],
+   "score": 29.6,
+   "signals": {
+    "coverage": 0.435,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.85,
+    "age_hours": 7.5
+   },
+   "reasons": [
+    "2 outlets: Yle Uutiset, Tivi",
+    "first seen 7h ago",
+    "topic: Finland & Nordic tech"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "Tivi",
+    "Yle Uutiset"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Finland"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Yle Uutiset",
+     "title": "Virtuaalilaseja valmistava Varjo suunnittelee listautumista pörssiin – yhtiön arvostuksesta sulanut iso osa",
+     "url": "https://yle.fi/a/74-20258399?origin=rss",
+     "published": "2026-11-23T07:05:40+00:00",
+     "summary": "Varjon arvoksi määriteltiin vielä kaksi vuotta sitten vajaat 263 miljoonaa euroa. Nyt yhtiön suuntaa pörssiin 176 miljoonan euron arvostuksella.",
+     "region": "Finland",
+     "lang": "fi",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle Uutiset:ebb907dfe278"
+    },
+    {
+     "source": "feed",
+     "outlet": "Tivi",
+     "title": "Virtuaalilasiyhtiö Varjo kertoo olevansa menossa pörssiin",
+     "url": "https://www.tivi.fi/uutiset/a/25dd592d-8e96-463c-ab3c-5c0897b37204?utm_source=rss",
+     "published": "2026-11-23T09:14:00+00:00",
+     "summary": "Virtuaalitodellisuusyhtiö Varjo suunnittelee listautumisantia sekä listautumista Nasdaq First North Growth Market Finland -markkinapaikalle. Annissa tavoitellaan 36 miljoonan euron bruttovaroja.",
+     "region": "Finland",
+     "lang": "fi",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Tivi:55841349ebf1"
+    }
+   ]
+  },
+  {
+   "id": "170f6bde4a",
+   "headline": "Localcode, open source agentic coding on your Mac with one command",
+   "url": "https://github.com/mjwsolo/localcode",
+   "first_published": "2026-11-22T22:18:48+00:00",
    "topic": "AI agents & products",
    "topics": [
     "AI agents & products"
    ],
-   "score": 30.1,
+   "score": 28.6,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.657,
-    "velocity": 0.423,
-    "freshness": 0.672,
-    "age_hours": 20.6
+    "engagement": 0.579,
+    "velocity": 0.359,
+    "freshness": 0.721,
+    "age_hours": 16.3
    },
    "reasons": [
-    "HN 130 points, 31 comments",
-    "first seen 21h ago",
+    "HN 66 points, 18 comments",
+    "first seen 16h ago",
     "topic: AI agents & products"
    ],
-   "first_seen": "2026-11-22",
+   "first_seen": "2026-11-23",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 192,
+   "engagement": 102,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -334,202 +675,352 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Pandex – Official European Law for AI Agents, over MCP",
-     "url": "https://www.pandex.io",
-     "published": "2026-11-21T20:47:41+00:00",
+     "title": "Localcode, open source agentic coding on your Mac with one command",
+     "url": "https://github.com/mjwsolo/localcode",
+     "published": "2026-11-22T22:18:48+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 130,
-     "comments": 31,
-     "discussion_url": "https://news.ycombinator.com/item?id=50593481",
-     "id": "hackernews:50593481"
+     "points": 66,
+     "comments": 18,
+     "discussion_url": "https://news.ycombinator.com/item?id=50604540",
+     "id": "hackernews:50604540"
     }
    ]
   },
   {
-   "id": "161e7df650",
-   "headline": "Trump says reported FBI database hack is ‘not good’",
-   "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
-   "first_published": "2026-11-21T10:33:57+00:00",
-   "topic": "Tech & startups",
+   "id": "6f716ac619",
+   "headline": "Russia retrieves burning cargo ship from Gulf of Finland after drone strike",
+   "url": "https://yle.fi/a/74-20258435?origin=rss",
+   "first_published": "2026-11-21T16:47:07+00:00",
+   "topic": "Finland & Nordic tech",
    "topics": [
-    "Tech & startups"
+    "Finland & Nordic tech"
    ],
-   "score": 30.1,
+   "score": 26.2,
    "signals": {
-    "coverage": 0.292,
-    "engagement": 0.738,
-    "velocity": 0.463,
-    "freshness": 0.583,
-    "age_hours": 30.8
+    "coverage": 0.452,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.503,
+    "age_hours": 45.8
    },
    "reasons": [
-    "1 outlet: TechCrunch",
-    "HN 181 points, 93 comments",
-    "first seen 31h ago",
-    "topic: Tech & startups",
+    "2 outlets: Yle News, Helsinki Times",
+    "first seen 46h ago",
+    "topic: Finland & Nordic tech",
     "rising: 1 more outlets since yesterday"
    ],
    "first_seen": "2026-11-21",
+   "status": "rising",
+   "outlet_count": 2,
+   "outlets": [
+    "Helsinki Times",
+    "Yle News"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Finland"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Helsinki Times",
+     "title": "Russian cargo ship crew evacuated as Finland investigates suspected airspace violation",
+     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29521-russian-cargo-ship-crew-evacuated-as-finland-investigates-suspected-airspace-violation.html",
+     "published": "2026-11-21T16:47:07+00:00",
+     "summary": "The 16-member crew of a Russian cargo ship damaged in a drone attack in the Gulf of Finland was being evacuated on Saturday evening as Finnish authorities coordinated rescue operations involving vessels from Finland, Estonia and Russia. The Sparta II remained anchored in Finnish territorial waters s",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Helsinki Times:5b88e53be212"
+    },
+    {
+     "source": "feed",
+     "outlet": "Helsinki Times",
+     "title": "Firefighting efforts continue on Russian cargo ship in Finnish waters amid sinking risk",
+     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29522-firefighting-efforts-continue-on-russian-cargo-ship-in-finnish-waters-amid-sinking-risk.html",
+     "published": "2026-11-22T10:30:31+00:00",
+     "summary": "Finnish authorities continued efforts to extinguish a fire aboard the Russian cargo ship Sparta II on Sunday, after a drone attack left the vessel damaged in the Gulf of Finland. Rescue teams face the additional risk of sinking the ship as water used to fight the flames accumulates inside its hull. ",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Helsinki Times:b5dfadcb93da"
+    },
+    {
+     "source": "feed",
+     "outlet": "Yle News",
+     "title": "Russia retrieves burning cargo ship from Gulf of Finland after drone strike",
+     "url": "https://yle.fi/a/74-20258435?origin=rss",
+     "published": "2026-11-23T09:35:36+00:00",
+     "summary": "The Sparta II ship was sailing to Russia's Baltic exclave of Kaliningrad when it was struck by a drone, caught fire, and drifted into Finland's territorial waters.",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle News:fe667c37717f"
+    },
+    {
+     "source": "feed",
+     "outlet": "Helsinki Times",
+     "title": "Finland allowed sanctioned Russian ship to leave despite seizure order",
+     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29525-finland-allowed-sanctioned-russian-ship-to-leave-despite-seizure-order.html",
+     "published": "2026-11-23T10:48:50+00:00",
+     "summary": "Finnish authorities imposed a temporary seizure order on a Russian cargo ship damaged in a drone attack in the Gulf of Finland over the weekend, but allowed the vessel to be towed back to Russia because of maritime safety and environmental concerns. The Finnish National Enforcement Authority confirm",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Helsinki Times:cef21dd1765d"
+    }
+   ]
+  },
+  {
+   "id": "4abf71a5b6",
+   "headline": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
+   "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26/",
+   "first_published": "2026-11-22T07:00:21+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 25.9,
+   "signals": {
+    "coverage": 0.589,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.578,
+    "age_hours": 31.6
+   },
+   "reasons": [
+    "3 outlets: The Guardian Tech, The Verge, Wired",
+    "first seen 32h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 3,
+   "outlets": [
+    "The Guardian Tech",
+    "The Verge",
+    "Wired"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "‘A Nintendo Switch – yes, I know I’m 67’: the best gifts for every generation, picked by real people aged 2 to 103",
+     "url": "https://www.theguardian.com/thefilter/2026/nov/22/best-christmas-gifts-every-generation-uk",
+     "published": "2026-11-22T07:00:21+00:00",
+     "summary": "We asked everyone from gen Alpha preschoolers to retired boomers, celebs and Guardian writers what’s on their gift list this year – here’s what they said • The best Christmas gifts for 2026 How old are you, and what would you like for Christmas? That’s normally a question reserved for children visit",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:5c32e616b480"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
+     "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26/",
+     "published": "2026-11-22T11:30:00+00:00",
+     "summary": "Get your game on for less with these Black Friday deals on official Nintendo Switch 2 bundles and games.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:d7379a0c833e"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Early Black Friday Espresso Machine Deals (2026)",
+     "url": "https://www.wired.com/story/early-black-friday-coffee-espresso-deals-11-23-2026/",
+     "published": "2026-11-23T10:00:00+00:00",
+     "summary": "We’ve pulled shots on every machine here. These are the ones we’d buy at their early Black Friday prices.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:1af47fb5b7a6"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Meta Muse can do your Black Friday shopping at Walmart",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+     "published": "2026-11-23T11:00:00+00:00",
+     "summary": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. Tomorrow, on Tuesday November 24th, the retail giant will roll out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant p",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:ad10eb648b05"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Early Black Friday iPad Deals Already Worth Shopping (2026)",
+     "url": "https://www.wired.com/story/best-black-friday-ipad-deals-2026/",
+     "published": "2026-11-23T11:00:00+00:00",
+     "summary": "You might be tempted to wait for Black Friday proper, but some of these early iPad deals are already worth considering.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:a8e992e096d6"
+    }
+   ]
+  },
+  {
+   "id": "ef14fe40de",
+   "headline": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+   "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+   "first_published": "2026-11-23T01:25:53+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI business & chips"
+   ],
+   "score": 25.8,
+   "signals": {
+    "coverage": 0.292,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.762,
+    "age_hours": 13.2
+   },
+   "reasons": [
+    "1 outlet: TechCrunch",
+    "first seen 13h ago",
+    "topic: AI models & labs",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-14",
    "status": "rising",
    "outlet_count": 1,
    "outlets": [
     "TechCrunch"
    ],
-   "engagement": 367,
+   "engagement": 0,
    "regions": [
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "FBI reportedly investigating apparent hack of its criminal database",
-     "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
-     "published": "2026-11-21T10:33:57+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 181,
-     "comments": 93,
-     "discussion_url": "https://news.ycombinator.com/item?id=50587859",
-     "id": "hackernews:50587859"
-    },
     {
      "source": "feed",
      "outlet": "TechCrunch",
-     "title": "Trump says reported FBI database hack is ‘not good’",
-     "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
-     "published": "2026-11-21T18:44:53+00:00",
-     "summary": "The FBI is reportedly investigating a hack of the National Crime Information Center.",
+     "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+     "published": "2026-11-23T01:25:53+00:00",
+     "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:TechCrunch:a09000f22667"
-    }
-   ]
-  },
-  {
-   "id": "362502575e",
-   "headline": "ClawDOS – An AI coding agent for DOS",
-   "url": "http://ricapar.net/ClawDOS/",
-   "first_published": "2026-11-21T05:38:01+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 25.6,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.7,
-    "velocity": 0.389,
-    "freshness": 0.551,
-    "age_hours": 35.7
-   },
-   "reasons": [
-    "HN 167 points, 52 comments",
-    "first seen 36h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-21",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 271,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "ClawDOS – An AI coding agent for DOS",
-     "url": "http://ricapar.net/ClawDOS/",
-     "published": "2026-11-21T05:38:01+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 167,
-     "comments": 52,
-     "discussion_url": "https://news.ycombinator.com/item?id=50586292",
-     "id": "hackernews:50586292"
-    }
-   ]
-  },
-  {
-   "id": "e00f5b5b8c",
-   "headline": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
-   "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-   "first_published": "2026-11-20T22:46:59+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 25.2,
-   "signals": {
-    "coverage": 0.292,
-    "engagement": 0.5,
-    "velocity": 0.148,
-    "freshness": 0.516,
-    "age_hours": 42.6
-   },
-   "reasons": [
-    "1 outlet: BBC Technology",
-    "HN 40 points, 7 comments",
-    "first seen 43h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-22",
-   "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "BBC Technology"
-   ],
-   "engagement": 54,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "AI may have solved the most important problem in mathematics",
-     "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
-     "published": "2026-11-20T22:46:59+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 40,
-     "comments": 7,
-     "discussion_url": "https://news.ycombinator.com/item?id=50583445",
-     "id": "hackernews:50583445"
+     "id": "feed:TechCrunch:d10eff38fa3d"
     },
     {
      "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
-     "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-20T23:08:57+00:00",
-     "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+     "outlet": "TechCrunch AI",
+     "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+     "published": "2026-11-23T01:25:53+00:00",
+     "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:BBC Technology:6ef44cd411c3"
+     "id": "feed:TechCrunch AI:d10eff38fa3d"
+    }
+   ]
+  },
+  {
+   "id": "6abe0481fe",
+   "headline": "Senior police officer charged for pointing gun at man in Tampere",
+   "url": "https://yle.fi/a/74-20258539?origin=rss",
+   "first_published": "2026-11-23T14:22:48+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech"
+   ],
+   "score": 25.1,
+   "signals": {
+    "coverage": 0.315,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.995,
+    "age_hours": 0.2
+   },
+   "reasons": [
+    "1 outlet: Yle News",
+    "broke in the last hour",
+    "topic: Finland & Nordic tech"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 1,
+   "outlets": [
+    "Yle News"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Finland"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Yle News",
+     "title": "Senior police officer charged for pointing gun at man in Tampere",
+     "url": "https://yle.fi/a/74-20258539?origin=rss",
+     "published": "2026-11-23T14:22:48+00:00",
+     "summary": "A video of the incident, in which a man opened the door of an unmarked police car, was widely shared on social media.",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle News:cec2d9296f21"
     }
    ]
   }

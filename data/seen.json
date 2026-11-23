@@ -145,22 +145,23 @@
 },
 "0726c47493": {
 "by_day": {
-"2026-11-22": 0
+"2026-11-22": 0,
+"2026-11-23": 0
 },
 "first_seen": "2026-11-22",
 "headline": "Norway to extend proposed under-16 social media ban to games and messaging apps",
-"last_seen": "2026-11-22",
+"last_seen": "2026-11-23",
 "terms": [
-"app",
 "propos",
-"ban",
 "messag",
 "under-16",
-"media",
-"gam",
 "extend",
+"gam",
+"ban",
 "social",
-"norway"
+"app",
+"norway",
+"media"
 ],
 "urls": [
 "https://euronews.com/2026/10/19/norway-to-extend-proposed-under-16-social-media-ban-to-online-games-and-messaging-apps"
@@ -253,6 +254,21 @@
 "https://yle.fi/a/74-20257709?origin=rss"
 ]
 },
+"0aa1e123a1": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Perplexity and Intelligence",
+"last_seen": "2026-11-23",
+"terms": [
+"intelligence",
+"perplexity"
+],
+"urls": [
+"https://openai.com/index/perplexity-and-intelligence"
+]
+},
 "0c4185fc4e": {
 "by_day": {
 "2026-11-16": 1
@@ -283,35 +299,40 @@
 "2026-11-19": 0,
 "2026-11-20": 3,
 "2026-11-21": 3,
-"2026-11-22": 2
+"2026-11-22": 2,
+"2026-11-23": 8
 },
 "first_seen": "2026-11-19",
-"headline": "The fallout from Nvidia’s Jensen Huang scandal continues",
-"last_seen": "2026-11-22",
+"headline": "Jensen Huang is back as Nvidia’s CEO",
+"last_seen": "2026-11-23",
 "terms": [
+"jensen",
 "huang",
 "nvidia",
-"jensen",
-"two",
+"ceo",
+"reinstat",
+"back",
 "tale",
-"tie",
-"worri",
-"ag",
-"china",
-"subpoena",
-"california",
-"behind",
-"built",
-"exit"
+"two",
+"reverse",
+"course",
+"bring",
+"palaa",
+"nvidian",
+"chair"
 ],
 "urls": [
-"https://economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
-"https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear",
-"https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china",
+"https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
+"https://engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately",
+"https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
 "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
-"https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues",
-"https://wired.com/story/dont-bring-jensen-back",
-"https://wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation"
+"https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
+"https://theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+"https://theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
+"https://theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+"https://tivi.fi/uutiset/a/4b2836a1-9974-474e-ad41-5d3950dab5a5",
+"https://wired.com/story/jensen-huang-is-back-as-nvidia-ceo",
+"https://yle.fi/a/74-20258540?origin=rss"
 ]
 },
 "0c5a6a8108x": {
@@ -418,6 +439,27 @@
 ],
 "urls": [
 "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion"
+]
+},
+"0f65ddf265": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "HS: Sámi languages dropped from Finland's next emergency alert test",
+"last_seen": "2026-11-23",
+"terms": [
+"emergency",
+"alert",
+"test",
+"hs",
+"dropp",
+"languag",
+"finland",
+"mi"
+],
+"urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29526-hs-sami-languages-dropped-from-finland-s-next-emergency-alert-test.html"
 ]
 },
 "0f97cf24e8": {
@@ -623,6 +665,27 @@
 ],
 "urls": [
 "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists"
+]
+},
+"170f6bde4a": {
+"by_day": {
+"2026-11-23": 0
+},
+"first_seen": "2026-11-23",
+"headline": "Localcode, open source agentic coding on your Mac with one command",
+"last_seen": "2026-11-23",
+"terms": [
+"open",
+"command",
+"source",
+"cod",
+"agentic",
+"one",
+"mac",
+"localcode"
+],
+"urls": [
+"https://github.com/mjwsolo/localcode"
 ]
 },
 "1768431b7d": {
@@ -1378,6 +1441,24 @@
 "https://netmeister.org/blog/claude-delusion.html"
 ]
 },
+"3ede7495cd": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Finland struggles to keep kids fit",
+"last_seen": "2026-11-23",
+"terms": [
+"struggl",
+"kid",
+"fit",
+"keep",
+"finland"
+],
+"urls": [
+"https://yle.fi/a/74-20258406?origin=rss"
+]
+},
 "3ef39960a9": {
 "by_day": {
 "2026-11-19": 1,
@@ -1586,6 +1667,37 @@
 ],
 "urls": [
 "https://helsinkitimes.com/finland/finland-news/domestic/29519-helsinki-christmas-parade-returns-today-with-extended-route-after-last-year-s-crowd-chaos.html"
+]
+},
+"4abf71a5b6": {
+"by_day": {
+"2026-11-23": 3
+},
+"first_seen": "2026-11-23",
+"headline": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
+"last_seen": "2026-11-23",
+"terms": [
+"friday",
+"black",
+"best",
+"2026",
+"deal",
+"switch",
+"nintendo",
+"early",
+"shopp",
+"every",
+"aged",
+"yes",
+"gift",
+"people"
+],
+"urls": [
+"https://theguardian.com/thefilter/2026/nov/22/best-christmas-gifts-every-generation-uk",
+"https://theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+"https://wired.com/story/best-black-friday-ipad-deals-2026",
+"https://wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26",
+"https://wired.com/story/early-black-friday-coffee-espresso-deals-11-23-2026"
 ]
 },
 "4bdc3591c5": {
@@ -2124,19 +2236,20 @@
 },
 "63d8aefb2e": {
 "by_day": {
-"2026-11-22": 0
+"2026-11-22": 0,
+"2026-11-23": 0
 },
 "first_seen": "2026-11-22",
 "headline": "Pandex – Official European Law for AI Agents, over MCP",
-"last_seen": "2026-11-22",
+"last_seen": "2026-11-23",
 "terms": [
-"agent",
-"official",
 "european",
 "law",
-"ai",
+"mcp",
 "pandex",
-"mcp"
+"agent",
+"ai",
+"official"
 ],
 "urls": [
 "https://pandex.io/"
@@ -2185,6 +2298,28 @@
 ],
 "urls": [
 "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories"
+]
+},
+"67565aea7f": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Terttu Häkkinen putosi hyiseen Aurajokeen – Otkes selvittää Liedon siltaonnettomuutta",
+"last_seen": "2026-11-23",
+"terms": [
+"häkkinen",
+"aurajokeen",
+"siltaonnettomuutta",
+"otk",
+"terttu",
+"putosi",
+"selvittää",
+"liedon",
+"hyiseen"
+],
+"urls": [
+"https://yle.fi/a/74-20258392?origin=rss"
 ]
 },
 "67a2955d39": {
@@ -2357,6 +2492,27 @@
 "https://ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf"
 ]
 },
+"6abe0481fe": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Senior police officer charged for pointing gun at man in Tampere",
+"last_seen": "2026-11-23",
+"terms": [
+"gun",
+"senior",
+"man",
+"officer",
+"point",
+"police",
+"tampere",
+"charg"
+],
+"urls": [
+"https://yle.fi/a/74-20258539?origin=rss"
+]
+},
 "6c5116eb84": {
 "by_day": {
 "2026-11-18": 1
@@ -2450,32 +2606,58 @@
 "https://yle.fi/a/74-20257649?origin=rss"
 ]
 },
-"6f716ac619": {
+"6f51fd8468": {
 "by_day": {
-"2026-11-21": 1
+"2026-11-23": 1
 },
-"first_seen": "2026-11-21",
-"headline": "Russian cargo ship crew evacuated as Finland investigates suspected airspace violation",
-"last_seen": "2026-11-21",
+"first_seen": "2026-11-23",
+"headline": "Delta flights in and out of Atlanta delayed due to system outage",
+"last_seen": "2026-11-23",
 "terms": [
-"ship",
-"russian",
-"cargo",
-"fire",
-"finnish",
-"drift",
-"attack",
-"drone",
-"water",
-"suspect",
-"finland",
-"evacuat",
-"investigat",
-"violation"
+"flight",
+"atlanta",
+"delta",
+"delay",
+"system",
+"due",
+"outage",
+"automat",
+"falter"
 ],
 "urls": [
-"https://helsinkitimes.com/finland/finland-news/domestic/29520-russian-cargo-ship-on-fire-after-drone-attack-drifts-into-finnish-waters.html",
-"https://helsinkitimes.com/finland/finland-news/domestic/29521-russian-cargo-ship-crew-evacuated-as-finland-investigates-suspected-airspace-violation.html"
+"https://nytimes.com/2026/11/22/us/delta-flight-delays-system-outage.html",
+"https://theverge.com/transportation/1039779/delta-flights-delayed-system-outage"
+]
+},
+"6f716ac619": {
+"by_day": {
+"2026-11-21": 1,
+"2026-11-23": 2
+},
+"first_seen": "2026-11-21",
+"headline": "Russia retrieves burning cargo ship from Gulf of Finland after drone strike",
+"last_seen": "2026-11-23",
+"terms": [
+"ship",
+"cargo",
+"finland",
+"russian",
+"violation",
+"investigat",
+"airspace",
+"suspect",
+"crew",
+"evacuat",
+"effort",
+"finnish",
+"water",
+"risk"
+],
+"urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29521-russian-cargo-ship-crew-evacuated-as-finland-investigates-suspected-airspace-violation.html",
+"https://helsinkitimes.com/finland/finland-news/domestic/29522-firefighting-efforts-continue-on-russian-cargo-ship-in-finnish-waters-amid-sinking-risk.html",
+"https://helsinkitimes.com/finland/finland-news/domestic/29525-finland-allowed-sanctioned-russian-ship-to-leave-despite-seizure-order.html",
+"https://yle.fi/a/74-20258435?origin=rss"
 ]
 },
 "70bc229da4": {
@@ -2525,6 +2707,26 @@
 ],
 "urls": [
 "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits"
+]
+},
+"7186056d7c": {
+"by_day": {
+"2026-11-23": 0
+},
+"first_seen": "2026-11-23",
+"headline": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+"last_seen": "2026-11-23",
+"terms": [
+"inkl",
+"beginner",
+"ai",
+"local",
+"qwen",
+"guide",
+"unsloth"
+],
+"urls": [
+"https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
 ]
 },
 "71c0402a16": {
@@ -2663,6 +2865,22 @@
 "https://helsinkitimes.com/finland/finland-news/domestic/29517-work-based-immigration-to-finland-rises-as-student-applications-drop-by-a-third.html"
 ]
 },
+"78954195bd": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Snow arrives in Helsinki",
+"last_seen": "2026-11-23",
+"terms": [
+"snow",
+"helsinki",
+"arriv"
+],
+"urls": [
+"https://yle.fi/a/74-20258391?origin=rss"
+]
+},
 "7937c7468f": {
 "by_day": {
 "2026-11-19": 1
@@ -2746,6 +2964,24 @@
 ],
 "urls": [
 "https://yle.fi/a/74-20257871?origin=rss"
+]
+},
+"7cfd18c493": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "States Sue SpaceX Over Grok Deepfakes",
+"last_seen": "2026-11-23",
+"terms": [
+"deepfak",
+"grok",
+"stat",
+"spacex",
+"sue"
+],
+"urls": [
+"https://wired.com/story/states-sue-spacex-over-grok-deepfakes"
 ]
 },
 "7e323dabae": {
@@ -2856,6 +3092,24 @@
 "https://github.com/RunanywhereAI/trnrt"
 ]
 },
+"81e7680665": {
+"by_day": {
+"2026-11-23": 0
+},
+"first_seen": "2026-11-23",
+"headline": "Harvard CS 2881R AI Safety",
+"last_seen": "2026-11-23",
+"terms": [
+"cs",
+"ai",
+"harvard",
+"safety",
+"2881r"
+],
+"urls": [
+"https://boazbk.github.io/mltheoryseminar"
+]
+},
 "833f3b575a": {
 "by_day": {
 "2026-11-16": 1
@@ -2956,6 +3210,55 @@
 ],
 "urls": [
 "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents"
+]
+},
+"878409c8f6": {
+"by_day": {
+"2026-11-23": 2
+},
+"first_seen": "2026-11-23",
+"headline": "Virtuaalilaseja valmistava Varjo suunnittelee listautumista pörssiin – yhtiön arvostuksesta sulanut iso osa",
+"last_seen": "2026-11-23",
+"terms": [
+"varjo",
+"pörssiin",
+"virtuaalilaseja",
+"osa",
+"arvostuksesta",
+"iso",
+"suunnittelee",
+"sulanut",
+"valmistava",
+"yhtiön",
+"listautumista",
+"olevansa",
+"virtuaalilasiyhtiö",
+"menossa"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/25dd592d-8e96-463c-ab3c-5c0897b37204",
+"https://yle.fi/a/74-20258399?origin=rss"
+]
+},
+"8861f58528": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Defence startup Agon raises $70m backed by Northzone and Lakestar",
+"last_seen": "2026-11-23",
+"terms": [
+"startup",
+"northzone",
+"defence",
+"70m",
+"back",
+"agon",
+"raise",
+"lakestar"
+],
+"urls": [
+"https://sifted.eu/articles/agon-raise-northzone-lakestar-defence"
 ]
 },
 "8917204593": {
@@ -3429,6 +3732,25 @@
 "https://theverge.com/tech/1037448/elon-musk-ukraine-starlink-starshield-nyt-dealbook"
 ]
 },
+"9c5b970fae": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Cold snap brings snow and temperatures as low as -25°C",
+"last_seen": "2026-11-23",
+"terms": [
+"low",
+"snap",
+"temperatur",
+"snow",
+"cold",
+"bring"
+],
+"urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29524-finland-faces-freezing-final-week-of-november-as-temperatures-plunge-to-25-c.html"
+]
+},
 "9ca6cd203a": {
 "by_day": {
 "2026-11-14": 4,
@@ -3631,16 +3953,17 @@
 },
 "a6fab6799a": {
 "by_day": {
-"2026-11-22": 0
+"2026-11-22": 0,
+"2026-11-23": 0
 },
 "first_seen": "2026-11-22",
 "headline": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-"last_seen": "2026-11-22",
+"last_seen": "2026-11-23",
 "terms": [
 "power",
-"2028",
-"coal",
 "gas",
+"coal",
+"2028",
 "anthropic",
 "come"
 ],
@@ -3740,6 +4063,31 @@
 ],
 "urls": [
 "https://yle.fi/a/74-20257864?origin=rss"
+]
+},
+"aa6819b825": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "A Power Provider for Meta Urged Regulators to Exempt Data Center Plants From Acid Rain Rules",
+"last_seen": "2026-11-23",
+"terms": [
+"regulator",
+"acid",
+"power",
+"rul",
+"rain",
+"plant",
+"provider",
+"meta",
+"data",
+"urg",
+"exempt",
+"center"
+],
+"urls": [
+"https://wired.com/story/a-power-provider-for-meta-urged-regulators-to-exempt-data-center-plants-from-acid-rain-rules"
 ]
 },
 "aa88a5c92e": {
@@ -4188,6 +4536,23 @@
 ],
 "urls": [
 "https://yle.fi/a/74-20257532?origin=rss"
+]
+},
+"c298ed652e": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Nvidia Is Powering Brain-Computer Interfaces Now",
+"last_seen": "2026-11-23",
+"terms": [
+"interfac",
+"power",
+"brain-computer",
+"nvidia"
+],
+"urls": [
+"https://wired.com/story/nvidia-is-powering-brain-computer-interfaces-now"
 ]
 },
 "c3634f740e": {
@@ -4762,6 +5127,27 @@
 "https://economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics"
 ]
 },
+"e139352c73": {
+"by_day": {
+"2026-11-23": 0
+},
+"first_seen": "2026-11-23",
+"headline": "'It's greed': Zohran Mamdani blasts Amazon over new $5 fee hike in NYC",
+"last_seen": "2026-11-23",
+"terms": [
+"blast",
+"fee",
+"zohran",
+"amazon",
+"nyc",
+"gre",
+"mamdani",
+"hike"
+],
+"urls": [
+"https://finance.yahoo.com/economy/policy/articles/greed-zohran-mamdani-blasts-amazon-121000124.html"
+]
+},
 "e1d720a95e": {
 "by_day": {
 "2026-11-14": 7,
@@ -4976,25 +5362,27 @@
 },
 "e54a4336f2": {
 "by_day": {
-"2026-11-22": 0
+"2026-11-22": 0,
+"2026-11-23": 0
 },
 "first_seen": "2026-11-22",
-"headline": "Show HN: I made a PS1 style racing game",
-"last_seen": "2026-11-22",
+"headline": "Show HN: Zero C# – C# without a runtime or GC",
+"last_seen": "2026-11-23",
 "terms": [
 "hn",
 "show",
+"runtime",
+"without",
+"zero",
+"gc",
 "game",
-"rac",
-"ps1",
-"style",
 "subagent",
 "built",
 "llm"
 ],
 "urls": [
 "https://github.com/gulivan/worker755",
-"https://outpostracer.com/"
+"https://onurgumus.github.io/zero-csharp/index.html"
 ]
 },
 "e84e229d74": {
@@ -5124,19 +5512,47 @@
 "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips"
 ]
 },
-"ef14fe40de": {
+"ef0cb07a5f": {
 "by_day": {
-"2026-11-14": 0
+"2026-11-23": 0
 },
-"first_seen": "2026-11-14",
-"headline": "Anthropic IPO",
-"last_seen": "2026-11-14",
+"first_seen": "2026-11-23",
+"headline": "Testing Terraform with AWS Emulator",
+"last_seen": "2026-11-23",
 "terms": [
-"anthropic",
-"ipo"
+"aws",
+"test",
+"emulator",
+"terraform",
+"hear",
+"didn't",
+"outage",
+"hit"
 ],
 "urls": [
-"https://ipo.anthropic.com/us"
+"https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator",
+"https://theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511"
+]
+},
+"ef14fe40de": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-14",
+"headline": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+"last_seen": "2026-11-23",
+"terms": [
+"capital",
+"bet",
+"gifford",
+"ipo",
+"notable",
+"gic",
+"anthropic",
+"baillie"
+],
+"urls": [
+"https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo"
 ]
 },
 "ef430234f2": {
