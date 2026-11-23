@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-11-23T14:35:09+00:00",
+ "generated_at": "2026-11-23T21:39:50+00:00",
  "date": "2026-11-23",
- "new_today": 6,
+ "new_today": 8,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2869,
+  "collected": 2877,
   "undated": 0,
-  "too_old": 2645,
+  "too_old": 2615,
   "excluded": 3,
   "duplicate": 0,
-  "articles_in_window": 221,
-  "stories": 179,
-  "off_topic": 124,
-  "low_score": 43,
+  "articles_in_window": 259,
+  "stories": 194,
+  "off_topic": 134,
+  "low_score": 48,
   "shown": 12
  },
  "llm": {
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2784,
-   "in_stories": 7,
-   "detail": "20/23 feeds read; failed: VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
+   "fetched": 2789,
+   "in_stories": 5,
+   "detail": "20/23 feeds read; failed: Helsinki Times (ParseError: not well-formed (invalid token): line 1, column 141); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 85,
-   "in_stories": 7,
-   "detail": "85 stories with 40+ points",
+   "fetched": 88,
+   "in_stories": 9,
+   "detail": "88 stories with 40+ points",
    "error": ""
   },
   {
@@ -57,44 +57,47 @@
  "stories": [
   {
    "id": "0c5a6a8108",
-   "headline": "Jensen Huang is back as Nvidia’s CEO",
-   "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
-   "first_published": "2026-11-21T21:07:42+00:00",
+   "headline": "Jensen Huang Is Back as Nvidia CEO",
+   "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+   "first_published": "2026-11-22T20:23:36+00:00",
    "topic": "AI policy & safety",
    "topics": [
     "AI policy & safety",
     "AI business & chips"
    ],
-   "score": 50.6,
+   "score": 61.2,
    "signals": {
-    "coverage": 0.929,
-    "engagement": 0.914,
-    "velocity": 0.655,
-    "freshness": 0.522,
-    "age_hours": 41.5
+    "coverage": 1.0,
+    "engagement": 1.0,
+    "velocity": 1.0,
+    "freshness": 0.627,
+    "age_hours": 25.3
    },
    "reasons": [
-    "8 outlets: TechCrunch, The Verge, The Guardian Tech, Yle Uutiset +4 more",
-    "HN 638 points, 433 comments",
-    "first seen 41h ago",
+    "10 outlets: The Guardian Tech, TechCrunch, BBC Technology, The Verge +6 more",
+    "HN 3.4k points, 2.8k comments",
+    "first seen 25h ago",
     "topic: AI policy & safety",
-    "rising: 6 more outlets since yesterday"
+    "rising: 8 more outlets since yesterday"
    ],
    "first_seen": "2026-11-19",
    "status": "rising",
-   "outlet_count": 8,
+   "outlet_count": 10,
    "outlets": [
     "Ars Technica",
+    "BBC Technology",
     "Engadget",
+    "Tech.eu",
     "TechCrunch",
     "The Guardian Tech",
     "The Verge",
     "Tivi",
     "Wired",
-    "Yle Uutiset"
+    "ZDNet AI"
    ],
-   "engagement": 1504,
+   "engagement": 9060,
    "regions": [
+    "Europe",
     "Finland",
     "International"
    ],
@@ -103,41 +106,11 @@
    "articles": [
     {
      "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "A tale of two Nvidias",
-     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-     "published": "2026-11-21T21:07:42+00:00",
-     "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:4ce53216c0e3"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "A tale of two Nvidias",
-     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-     "published": "2026-11-21T21:07:42+00:00",
-     "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:4ce53216c0e3"
-    },
-    {
-     "source": "feed",
      "outlet": "The Guardian Tech",
      "title": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
      "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
      "published": "2026-11-22T20:23:36+00:00",
-     "summary": "John Kennedy looks to Trump leaders as he asks how China evidently bypassed export controls for Nvidia’s top AI chips Invoking Greek mythology, US senator John Kennedy has characterized former Nvidia chief executive officer Jensen Huang ’s reported affair with a suspected Chinese spy as “the most ex",
+     "summary": "John Kennedy looks to Trump leaders as he asks how China evidently bypassed export controls for Nvidia’s top AI chips Invoking Greek mythology, the US senator John Kennedy has characterized former Nvidia chief executive officer Jensen Huang ’s reported affair with a suspected Chinese spy as “the mos",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
@@ -149,6 +122,21 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
+     "title": "Nvidia Reinstates Jensen Huang as CEO",
+     "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+     "published": "2026-11-23T14:00:18+00:00",
+     "summary": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-j...</a><p><a href=\"https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;11",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 1671,
+     "comments": 2776,
+     "discussion_url": "https://news.ycombinator.com/item?id=50611576",
+     "id": "hackernews:50611576"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
      "title": "Jensen Huang Reinstated as Nvidia CEO",
      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
      "published": "2026-11-23T14:01:23+00:00",
@@ -156,55 +144,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 638,
-     "comments": 433,
+     "points": 1698,
+     "comments": 4,
      "discussion_url": "https://news.ycombinator.com/item?id=50611588",
      "id": "hackernews:50611588"
-    },
-    {
-     "source": "feed",
-     "outlet": "Yle Uutiset",
-     "title": "Jensen Huang palaa Nvidian johtajaksi",
-     "url": "https://yle.fi/a/74-20258540?origin=rss",
-     "published": "2026-11-23T14:03:40+00:00",
-     "summary": "Nvidian perustaja Jensen Huang erosi 12. marraskuuta salasuhteisiin liittyneen skandaalin vuoksi.",
-     "region": "Finland",
-     "lang": "fi",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle Uutiset:fb4f540775e6"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Jensen Huang is back as Nvidia’s CEO",
-     "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
-     "published": "2026-11-23T14:04:24+00:00",
-     "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NV",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:bf5983f5b3fe"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
-     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-     "published": "2026-11-23T14:10:18+00:00",
-     "summary": "Board says senior government officials confirmed Huang is \"no national security risk.\"",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:e09aa9a8dd80"
     },
     {
      "source": "feed",
@@ -220,36 +163,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Tivi:20d92f19305a"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Jensen Huang reinstated as Nvidia CEO",
-     "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
-     "published": "2026-11-23T14:15:27+00:00",
-     "summary": "Chipmaker reverses decision it made to remove chief executive after reports of affairs including with alleged Chinese spy Business live – latest updates Nvidia has said it is reinstating Jensen Huang as chief executive, effective immediately, just weeks after his dramatic resignation after reports o",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:f2286b4f32ed"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "NVIDIA reinstates Jensen Huang as CEO and president, effective immediately",
-     "url": "https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/",
-     "published": "2026-11-23T14:16:53+00:00",
-     "summary": "So much for the board not intending to bring him back.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:440334632af8"
     },
     {
      "source": "feed",
@@ -295,6 +208,426 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Wired:830110fcef52"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Nvidia CEO Jensen Huang is back after a stunning reversal",
+     "url": "https://www.zdnet.com/innovation/jensen-huang-is-back-as-nvidia-ceo-after-a-stunning-reversal/",
+     "published": "2026-11-23T14:51:37+00:00",
+     "summary": "Nvidia’s board unanimously reinstated Huang 11 days after his removal, but his troubles may not be over.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:9f80bdf881ec"
+    },
+    {
+     "source": "feed",
+     "outlet": "Tech.eu",
+     "title": "Jensen Huang reinstated as Nvidia CEO following “input” from US government",
+     "url": "https://tech.eu/2026/11/23/jensen-huang-reinstated-as-nvidia-ceo-following-input-from-us-government/",
+     "published": "2026-11-23T14:53:00+00:00",
+     "summary": "Jensen Huang has been reinstated as CEO and president of Nvidia, the Nvidia board announced today, in a shock announcement.The Nvidia board said it had voted unanimously to reinstate Huang, who resign...",
+     "region": "Europe",
+     "lang": "en",
+     "weight": 0.75,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Tech.eu:0bbb48a38567"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+     "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+     "published": "2026-11-23T15:04:01+00:00",
+     "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:9f199b02be45"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+     "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+     "published": "2026-11-23T15:04:01+00:00",
+     "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:9f199b02be45"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+     "published": "2026-11-23T15:46:18+00:00",
+     "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:e09aa9a8dd80"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "The rise and fall and rise again of Jensen Huang",
+     "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-23T15:49:52+00:00",
+     "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:cf2b46224694"
+    },
+    {
+     "source": "feed",
+     "outlet": "Tivi",
+     "title": "Trump vaatii Nvidiaa taipumaan: Jensen Huang pitää ottaa takaisin johtoon",
+     "url": "https://www.tivi.fi/uutiset/a/53e6a37e-0200-42be-9f19-0b5bdfac9a8c?utm_source=rss",
+     "published": "2026-11-23T16:00:00+00:00",
+     "summary": "Donald Trumpin mukaan Jensen Huangin johtajuus on Yhdysvalloille ratkaisevan tärkeää, jotta maa pysyy Kiinan edellä tekoälykilvassa.",
+     "region": "Finland",
+     "lang": "fi",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Tivi:4cb230c3e55c"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "How important are Nvidia and Jensen Huang to the US economy?",
+     "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-23T16:12:35+00:00",
+     "summary": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:db35af370250"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+     "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+     "published": "2026-11-23T16:39:10+00:00",
+     "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:b428c8da2f4a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+     "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+     "published": "2026-11-23T16:39:10+00:00",
+     "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:b428c8da2f4a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Jensen Huang isn’t out of the woods yet",
+     "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+     "published": "2026-11-23T16:57:40+00:00",
+     "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:c7918d03f64a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Jensen Huang isn’t out of the woods yet",
+     "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+     "published": "2026-11-23T16:57:40+00:00",
+     "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:c7918d03f64a"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Nvidia’s humiliated board should resign out of embarrassment | Nils Pratley",
+     "url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/23/nvidia-board-jensen-huang-return",
+     "published": "2026-11-23T17:37:10+00:00",
+     "summary": "Jensen Huang’s return as CEO comes despite fact board hasn’t completed investigation into reports of affair with alleged Chinese spy Jensen Huang reinstated as Nvidia CEO Business live – latest updates What was it that Nvidia’s board was saying about there being no chance of Jensen Huang coming back",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:52c0662f82f8"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
+     "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+     "published": "2026-11-23T17:52:56+00:00",
+     "summary": "Jensen Huang comes back, numbers go up. Maybe the reason behind the CEO’s return is just that simple?",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:d4c972b5dfc3"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+     "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+     "published": "2026-11-23T18:12:22+00:00",
+     "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:12244b2e677c"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+     "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+     "published": "2026-11-23T18:12:22+00:00",
+     "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:12244b2e677c"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Jensen Huang reinstated as Nvidia CEO after Trump intervenes",
+     "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+     "published": "2026-11-23T18:51:56+00:00",
+     "summary": "Chipmaker reverses decision to remove chief executive after US president ‘convinced’ its board Comment: Nvidia’s humiliated board should resign out of embarrassment US politics – live updates Timeline: fall and comeback of Jensen Huang Nvidia has reinstated Jensen Huang as chief executive after Dona",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:f2286b4f32ed"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia",
+     "url": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
+     "published": "2026-11-23T19:31:41+00:00",
+     "summary": "Politicians on both sides of the aisle seem angry, agitated, and nonplussed by the return of Jensen Huang to Nvidia leadership less than two weeks after his ousting.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:0f6d3d589421"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "NVIDIA's Jensen Huang will testify publicly before senators on December 3",
+     "url": "https://www.engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3/",
+     "published": "2026-11-23T19:47:27+00:00",
+     "summary": "It's going to be a busy few days in Washington DC for the freshly reinstated CEO.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:1b8677e4d08e"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "How Jensen Huang ended up as Nvidia CEO again",
+     "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+     "published": "2026-11-23T19:57:18+00:00",
+     "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfai",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:d45c4291fdff"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Jensen Huang says he’ll be a ‘better CEO’ as staff applauds his return",
+     "url": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
+     "published": "2026-11-23T19:58:27+00:00",
+     "summary": "Jensen Huang returned to Nvidia's office as CEO today to a crowd of applauding employees who stood and filmed the cofounder's first moments back. \"Thank you all for the second chances. I'm gonna be a better CEO the second time around,\" Huang said, as shown in a video of his return. Huang resigned as",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:28084036bab1"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Congress shreds Nvidia's 'outrageous' return of Huang: 'Failure of character'",
+     "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
+     "published": "2026-11-23T20:13:18+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 55,
+     "comments": 38,
+     "discussion_url": "https://news.ycombinator.com/item?id=50618490",
+     "id": "hackernews:50618490"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+     "published": "2026-11-23T20:38:53+00:00",
+     "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:a819248764c2"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+     "published": "2026-11-23T20:38:53+00:00",
+     "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:a819248764c2"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+     "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-23T21:23:42+00:00",
+     "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:0a76476f2e94"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a U.S. blacklist",
+     "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+     "published": "2026-11-23T21:25:42+00:00",
+     "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:7853fbaaf397"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a U.S. blacklist",
+     "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+     "published": "2026-11-23T21:25:42+00:00",
+     "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:7853fbaaf397"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "How to Win Big Betting on Jensen Huang? Listen to Trump",
+     "url": "https://www.wired.com/story/how-to-win-big-betting-on-jensen-huang-listen-to-trump/",
+     "published": "2026-11-23T21:31:08+00:00",
+     "summary": "Prediction market traders profited from the Nvidia CEO’s comeback by following the White House’s lead. “It’s 2026 and Trump is president, scandal schmandal,” says one winner.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:0c12a3a60b72"
     }
    ]
   },
@@ -307,24 +640,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 44.7,
+   "score": 40.3,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.878,
-    "velocity": 0.757,
-    "freshness": 0.705,
-    "age_hours": 17.6
+    "engagement": 0.897,
+    "velocity": 0.722,
+    "freshness": 0.632,
+    "age_hours": 24.6
    },
    "reasons": [
-    "HN 619 points, 256 comments",
-    "first seen 18h ago",
+    "HN 728 points, 291 comments",
+    "first seen 25h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-23",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 1131,
+   "engagement": 1310,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -339,8 +672,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 619,
-     "comments": 256,
+     "points": 728,
+     "comments": 291,
      "discussion_url": "https://news.ycombinator.com/item?id=50603845",
      "id": "hackernews:50603845"
     }
@@ -355,24 +688,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 41.4,
+   "score": 38.0,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.998,
-    "velocity": 0.834,
-    "freshness": 0.592,
-    "age_hours": 29.6
+    "engagement": 1.0,
+    "velocity": 0.8,
+    "freshness": 0.546,
+    "age_hours": 36.7
    },
    "reasons": [
-    "HN 994 points, 974 comments",
-    "first seen 30h ago",
+    "HN 1.0k points, 998 comments",
+    "first seen 37h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-22",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 2942,
+   "engagement": 3018,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -387,10 +720,299 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 994,
-     "comments": 974,
+     "points": 1022,
+     "comments": 998,
      "discussion_url": "https://news.ycombinator.com/item?id=50597612",
      "id": "hackernews:50597612"
+    }
+   ]
+  },
+  {
+   "id": "7cfd18c493",
+   "headline": "States Sue SpaceX Over Grok Deepfakes",
+   "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+   "first_published": "2026-11-23T11:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "Tech & startups"
+   ],
+   "score": 35.6,
+   "signals": {
+    "coverage": 0.557,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.798,
+    "age_hours": 10.7
+   },
+   "reasons": [
+    "3 outlets: Wired, Ars Technica, Engadget",
+    "first seen 11h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 3,
+   "outlets": [
+    "Ars Technica",
+    "Engadget",
+    "Wired"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "States Sue SpaceX Over Grok Deepfakes",
+     "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+     "published": "2026-11-23T11:00:00+00:00",
+     "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:df3edd720fe5"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Two states sue SpaceX over sexually explicit Grok deepfakes",
+     "url": "https://www.engadget.com/2325111/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes/",
+     "published": "2026-11-23T15:57:49+00:00",
+     "summary": "Oregon and Virginia's attorneys general said the company broke state consumer protection laws.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:6c80453d9c99"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+     "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+     "published": "2026-11-23T21:30:44+00:00",
+     "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:afbf4ed7c77a"
+    }
+   ]
+  },
+  {
+   "id": "e1a47e44c8",
+   "headline": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "first_published": "2026-11-23T13:42:38+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 35.5,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.584,
+    "velocity": 0.482,
+    "freshness": 0.842,
+    "age_hours": 8.0
+   },
+   "reasons": [
+    "HN 80 points, 13 comments",
+    "first seen 8h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 106,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+     "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+     "published": "2026-11-23T13:42:38+00:00",
+     "summary": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding.<p>To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks.<p>",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 80,
+     "comments": 13,
+     "discussion_url": "https://news.ycombinator.com/item?id=50611402",
+     "id": "hackernews:50611402"
+    }
+   ]
+  },
+  {
+   "id": "e41b2245e4",
+   "headline": "Apple removed my open-source app from EU App Stores after 9 years",
+   "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+   "first_published": "2026-11-23T18:48:10+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 34.6,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.777,
+    "velocity": 0.936,
+    "freshness": 0.937,
+    "age_hours": 2.9
+   },
+   "reasons": [
+    "HN 365 points, 68 comments",
+    "first seen 3h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 501,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Apple removed my open-source app from EU App Stores after 9 years",
+     "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+     "published": "2026-11-23T18:48:10+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 365,
+     "comments": 68,
+     "discussion_url": "https://news.ycombinator.com/item?id=50616933",
+     "id": "hackernews:50616933"
+    }
+   ]
+  },
+  {
+   "id": "e54a4336f2",
+   "headline": "Show HN: The Riemann Proof Handbook",
+   "url": "https://github.com/tamnd/riemann-handbook",
+   "first_published": "2026-11-22T03:06:35+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 34.1,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.95,
+    "velocity": 0.701,
+    "freshness": 0.517,
+    "age_hours": 42.6
+   },
+   "reasons": [
+    "HN 978 points, 514 comments",
+    "first seen 43h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-22",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 2006,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+     "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+     "published": "2026-11-22T03:06:35+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 49,
+     "comments": 18,
+     "discussion_url": "https://news.ycombinator.com/item?id=50595812",
+     "id": "hackernews:50595812"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Show HN: The Riemann Proof Handbook",
+     "url": "https://github.com/tamnd/riemann-handbook",
+     "published": "2026-11-22T05:46:30+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 89,
+     "comments": 60,
+     "discussion_url": "https://news.ycombinator.com/item?id=50596664",
+     "id": "hackernews:50596664"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Masullo on the Riemann Hypothesis",
+     "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+     "published": "2026-11-22T10:59:56+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 303,
+     "comments": 279,
+     "discussion_url": "https://news.ycombinator.com/item?id=50598441",
+     "id": "hackernews:50598441"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Show HN: I built a game where you are an LLM's subagent",
+     "url": "https://github.com/gulivan/worker755",
+     "published": "2026-11-22T13:56:58+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 356,
+     "comments": 86,
+     "discussion_url": "https://news.ycombinator.com/item?id=50599762",
+     "id": "hackernews:50599762"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Treemap of the Riemann Hypothesis Lean Proof",
+     "url": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
+     "published": "2026-11-23T01:50:23+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 181,
+     "comments": 71,
+     "discussion_url": "https://news.ycombinator.com/item?id=50606499",
+     "id": "hackernews:50606499"
     }
    ]
   },
@@ -403,18 +1025,18 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 35.1,
+   "score": 33.1,
    "signals": {
     "coverage": 0.185,
-    "engagement": 0.911,
-    "velocity": 0.663,
-    "freshness": 0.536,
-    "age_hours": 38.6
+    "engagement": 0.919,
+    "velocity": 0.645,
+    "freshness": 0.503,
+    "age_hours": 45.7
    },
    "reasons": [
     "1 outlet: OpenAI News",
-    "HN 637 points, 415 comments",
-    "first seen 39h ago",
+    "HN 688 points, 439 comments",
+    "first seen 46h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-23",
@@ -423,7 +1045,7 @@
    "outlets": [
     "OpenAI News"
    ],
-   "engagement": 1467,
+   "engagement": 1566,
    "regions": [
     "Source"
    ],
@@ -455,10 +1077,164 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 637,
-     "comments": 415,
+     "points": 688,
+     "comments": 439,
      "discussion_url": "https://news.ycombinator.com/item?id=50601525",
      "id": "hackernews:50601525"
+    }
+   ]
+  },
+  {
+   "id": "b69aa72502",
+   "headline": "Claude AI can review pull requests and ship fixes on its own now",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+   "first_published": "2026-11-23T20:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI agents & products"
+   ],
+   "score": 32.1,
+   "signals": {
+    "coverage": 0.417,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.963,
+    "age_hours": 1.7
+   },
+   "reasons": [
+    "2 outlets: The Verge, ZDNet AI",
+    "first seen 2h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "The Verge",
+    "ZDNet AI"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Claude AI can review pull requests and ship fixes on its own now",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+     "published": "2026-11-23T20:00:00+00:00",
+     "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks t",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:929c2afeb380"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Claude can ship code for you now – how to try it (if you dare)",
+     "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
+     "published": "2026-11-23T20:00:00+00:00",
+     "summary": "Would you let a few Claude agents review and ship your code for you?",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:75b220875107"
+    }
+   ]
+  },
+  {
+   "id": "6ff2c11cfa",
+   "headline": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+   "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+   "first_published": "2026-11-23T17:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "Tech & startups"
+   ],
+   "score": 28.7,
+   "signals": {
+    "coverage": 0.398,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.901,
+    "age_hours": 4.7
+   },
+   "reasons": [
+    "2 outlets: TechCrunch, Google AI Blog",
+    "first seen 5h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "Google AI Blog",
+    "TechCrunch"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International",
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Google AI Blog",
+     "title": "A more tailored Google Search that’s uniquely yours",
+     "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+     "published": "2026-11-23T17:00:00+00:00",
+     "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Google AI Blog:c5903c8754bb"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+     "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+     "published": "2026-11-23T19:14:46+00:00",
+     "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:d3b9995e141d"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+     "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+     "published": "2026-11-23T19:14:46+00:00",
+     "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:d3b9995e141d"
     }
    ]
   },
@@ -471,17 +1247,17 @@
    "topics": [
     "Finland & Nordic tech"
    ],
-   "score": 31.9,
+   "score": 28.5,
    "signals": {
     "coverage": 0.0,
     "engagement": 0.687,
-    "velocity": 0.446,
-    "freshness": 0.651,
-    "age_hours": 22.7
+    "velocity": 0.402,
+    "freshness": 0.591,
+    "age_hours": 29.8
    },
    "reasons": [
     "HN 58 points, 93 comments",
-    "first seen 23h ago",
+    "first seen 30h ago",
     "topic: Finland & Nordic tech"
    ],
    "first_seen": "2026-11-22",
@@ -511,137 +1287,6 @@
    ]
   },
   {
-   "id": "e54a4336f2",
-   "headline": "Show HN: Zero C# – C# without a runtime or GC",
-   "url": "https://onurgumus.github.io/zero-csharp/index.html",
-   "first_published": "2026-11-21T15:39:09+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 29.6,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.856,
-    "velocity": 0.552,
-    "freshness": 0.498,
-    "age_hours": 46.9
-   },
-   "reasons": [
-    "HN 522 points, 211 comments",
-    "first seen 47h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-22",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 944,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Show HN: Zero C# – C# without a runtime or GC",
-     "url": "https://onurgumus.github.io/zero-csharp/index.html",
-     "published": "2026-11-21T15:39:09+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 178,
-     "comments": 129,
-     "discussion_url": "https://news.ycombinator.com/item?id=50590279",
-     "id": "hackernews:50590279"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Show HN: I built a game where you are an LLM's subagent",
-     "url": "https://github.com/gulivan/worker755",
-     "published": "2026-11-22T13:56:58+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 344,
-     "comments": 82,
-     "discussion_url": "https://news.ycombinator.com/item?id=50599762",
-     "id": "hackernews:50599762"
-    }
-   ]
-  },
-  {
-   "id": "878409c8f6",
-   "headline": "Virtuaalilaseja valmistava Varjo suunnittelee listautumista pörssiin – yhtiön arvostuksesta sulanut iso osa",
-   "url": "https://yle.fi/a/74-20258399?origin=rss",
-   "first_published": "2026-11-23T07:05:40+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 29.6,
-   "signals": {
-    "coverage": 0.435,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.85,
-    "age_hours": 7.5
-   },
-   "reasons": [
-    "2 outlets: Yle Uutiset, Tivi",
-    "first seen 7h ago",
-    "topic: Finland & Nordic tech"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "new",
-   "outlet_count": 2,
-   "outlets": [
-    "Tivi",
-    "Yle Uutiset"
-   ],
-   "engagement": 0,
-   "regions": [
-    "Finland"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Yle Uutiset",
-     "title": "Virtuaalilaseja valmistava Varjo suunnittelee listautumista pörssiin – yhtiön arvostuksesta sulanut iso osa",
-     "url": "https://yle.fi/a/74-20258399?origin=rss",
-     "published": "2026-11-23T07:05:40+00:00",
-     "summary": "Varjon arvoksi määriteltiin vielä kaksi vuotta sitten vajaat 263 miljoonaa euroa. Nyt yhtiön suuntaa pörssiin 176 miljoonan euron arvostuksella.",
-     "region": "Finland",
-     "lang": "fi",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle Uutiset:ebb907dfe278"
-    },
-    {
-     "source": "feed",
-     "outlet": "Tivi",
-     "title": "Virtuaalilasiyhtiö Varjo kertoo olevansa menossa pörssiin",
-     "url": "https://www.tivi.fi/uutiset/a/25dd592d-8e96-463c-ab3c-5c0897b37204?utm_source=rss",
-     "published": "2026-11-23T09:14:00+00:00",
-     "summary": "Virtuaalitodellisuusyhtiö Varjo suunnittelee listautumisantia sekä listautumista Nasdaq First North Growth Market Finland -markkinapaikalle. Annissa tavoitellaan 36 miljoonan euron bruttovaroja.",
-     "region": "Finland",
-     "lang": "fi",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Tivi:55841349ebf1"
-    }
-   ]
-  },
-  {
    "id": "170f6bde4a",
    "headline": "Localcode, open source agentic coding on your Mac with one command",
    "url": "https://github.com/mjwsolo/localcode",
@@ -650,24 +1295,24 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 28.6,
+   "score": 25.4,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.579,
-    "velocity": 0.359,
-    "freshness": 0.721,
-    "age_hours": 16.3
+    "engagement": 0.59,
+    "velocity": 0.318,
+    "freshness": 0.644,
+    "age_hours": 23.4
    },
    "reasons": [
-    "HN 66 points, 18 comments",
-    "first seen 16h ago",
+    "HN 70 points, 21 comments",
+    "first seen 23h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-23",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 102,
+   "engagement": 112,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -682,345 +1327,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 66,
-     "comments": 18,
+     "points": 70,
+     "comments": 21,
      "discussion_url": "https://news.ycombinator.com/item?id=50604540",
      "id": "hackernews:50604540"
-    }
-   ]
-  },
-  {
-   "id": "6f716ac619",
-   "headline": "Russia retrieves burning cargo ship from Gulf of Finland after drone strike",
-   "url": "https://yle.fi/a/74-20258435?origin=rss",
-   "first_published": "2026-11-21T16:47:07+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 26.2,
-   "signals": {
-    "coverage": 0.452,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.503,
-    "age_hours": 45.8
-   },
-   "reasons": [
-    "2 outlets: Yle News, Helsinki Times",
-    "first seen 46h ago",
-    "topic: Finland & Nordic tech",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-21",
-   "status": "rising",
-   "outlet_count": 2,
-   "outlets": [
-    "Helsinki Times",
-    "Yle News"
-   ],
-   "engagement": 0,
-   "regions": [
-    "Finland"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Helsinki Times",
-     "title": "Russian cargo ship crew evacuated as Finland investigates suspected airspace violation",
-     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29521-russian-cargo-ship-crew-evacuated-as-finland-investigates-suspected-airspace-violation.html",
-     "published": "2026-11-21T16:47:07+00:00",
-     "summary": "The 16-member crew of a Russian cargo ship damaged in a drone attack in the Gulf of Finland was being evacuated on Saturday evening as Finnish authorities coordinated rescue operations involving vessels from Finland, Estonia and Russia. The Sparta II remained anchored in Finnish territorial waters s",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Helsinki Times:5b88e53be212"
-    },
-    {
-     "source": "feed",
-     "outlet": "Helsinki Times",
-     "title": "Firefighting efforts continue on Russian cargo ship in Finnish waters amid sinking risk",
-     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29522-firefighting-efforts-continue-on-russian-cargo-ship-in-finnish-waters-amid-sinking-risk.html",
-     "published": "2026-11-22T10:30:31+00:00",
-     "summary": "Finnish authorities continued efforts to extinguish a fire aboard the Russian cargo ship Sparta II on Sunday, after a drone attack left the vessel damaged in the Gulf of Finland. Rescue teams face the additional risk of sinking the ship as water used to fight the flames accumulates inside its hull. ",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Helsinki Times:b5dfadcb93da"
-    },
-    {
-     "source": "feed",
-     "outlet": "Yle News",
-     "title": "Russia retrieves burning cargo ship from Gulf of Finland after drone strike",
-     "url": "https://yle.fi/a/74-20258435?origin=rss",
-     "published": "2026-11-23T09:35:36+00:00",
-     "summary": "The Sparta II ship was sailing to Russia's Baltic exclave of Kaliningrad when it was struck by a drone, caught fire, and drifted into Finland's territorial waters.",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle News:fe667c37717f"
-    },
-    {
-     "source": "feed",
-     "outlet": "Helsinki Times",
-     "title": "Finland allowed sanctioned Russian ship to leave despite seizure order",
-     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29525-finland-allowed-sanctioned-russian-ship-to-leave-despite-seizure-order.html",
-     "published": "2026-11-23T10:48:50+00:00",
-     "summary": "Finnish authorities imposed a temporary seizure order on a Russian cargo ship damaged in a drone attack in the Gulf of Finland over the weekend, but allowed the vessel to be towed back to Russia because of maritime safety and environmental concerns. The Finnish National Enforcement Authority confirm",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Helsinki Times:cef21dd1765d"
-    }
-   ]
-  },
-  {
-   "id": "4abf71a5b6",
-   "headline": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
-   "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26/",
-   "first_published": "2026-11-22T07:00:21+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products",
-    "Tech & startups"
-   ],
-   "score": 25.9,
-   "signals": {
-    "coverage": 0.589,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.578,
-    "age_hours": 31.6
-   },
-   "reasons": [
-    "3 outlets: The Guardian Tech, The Verge, Wired",
-    "first seen 32h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "new",
-   "outlet_count": 3,
-   "outlets": [
-    "The Guardian Tech",
-    "The Verge",
-    "Wired"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "‘A Nintendo Switch – yes, I know I’m 67’: the best gifts for every generation, picked by real people aged 2 to 103",
-     "url": "https://www.theguardian.com/thefilter/2026/nov/22/best-christmas-gifts-every-generation-uk",
-     "published": "2026-11-22T07:00:21+00:00",
-     "summary": "We asked everyone from gen Alpha preschoolers to retired boomers, celebs and Guardian writers what’s on their gift list this year – here’s what they said • The best Christmas gifts for 2026 How old are you, and what would you like for Christmas? That’s normally a question reserved for children visit",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:5c32e616b480"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
-     "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-22-26/",
-     "published": "2026-11-22T11:30:00+00:00",
-     "summary": "Get your game on for less with these Black Friday deals on official Nintendo Switch 2 bundles and games.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:d7379a0c833e"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Early Black Friday Espresso Machine Deals (2026)",
-     "url": "https://www.wired.com/story/early-black-friday-coffee-espresso-deals-11-23-2026/",
-     "published": "2026-11-23T10:00:00+00:00",
-     "summary": "We’ve pulled shots on every machine here. These are the ones we’d buy at their early Black Friday prices.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1af47fb5b7a6"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Meta Muse can do your Black Friday shopping at Walmart",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-     "published": "2026-11-23T11:00:00+00:00",
-     "summary": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. Tomorrow, on Tuesday November 24th, the retail giant will roll out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant p",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:ad10eb648b05"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Early Black Friday iPad Deals Already Worth Shopping (2026)",
-     "url": "https://www.wired.com/story/best-black-friday-ipad-deals-2026/",
-     "published": "2026-11-23T11:00:00+00:00",
-     "summary": "You might be tempted to wait for Black Friday proper, but some of these early iPad deals are already worth considering.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:a8e992e096d6"
-    }
-   ]
-  },
-  {
-   "id": "ef14fe40de",
-   "headline": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-   "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-   "first_published": "2026-11-23T01:25:53+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI business & chips"
-   ],
-   "score": 25.8,
-   "signals": {
-    "coverage": 0.292,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.762,
-    "age_hours": 13.2
-   },
-   "reasons": [
-    "1 outlet: TechCrunch",
-    "first seen 13h ago",
-    "topic: AI models & labs",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "rising",
-   "outlet_count": 1,
-   "outlets": [
-    "TechCrunch"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-     "published": "2026-11-23T01:25:53+00:00",
-     "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:d10eff38fa3d"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-     "published": "2026-11-23T01:25:53+00:00",
-     "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:d10eff38fa3d"
-    }
-   ]
-  },
-  {
-   "id": "6abe0481fe",
-   "headline": "Senior police officer charged for pointing gun at man in Tampere",
-   "url": "https://yle.fi/a/74-20258539?origin=rss",
-   "first_published": "2026-11-23T14:22:48+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 25.1,
-   "signals": {
-    "coverage": 0.315,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.995,
-    "age_hours": 0.2
-   },
-   "reasons": [
-    "1 outlet: Yle News",
-    "broke in the last hour",
-    "topic: Finland & Nordic tech"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "Yle News"
-   ],
-   "engagement": 0,
-   "regions": [
-    "Finland"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Yle News",
-     "title": "Senior police officer charged for pointing gun at man in Tampere",
-     "url": "https://yle.fi/a/74-20258539?origin=rss",
-     "published": "2026-11-23T14:22:48+00:00",
-     "summary": "A video of the incident, in which a man opened the door of an unmarked police car, was widely shared on social media.",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle News:cec2d9296f21"
     }
    ]
   }

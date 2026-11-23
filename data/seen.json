@@ -102,6 +102,30 @@
 "https://theverge.com/tech/1036517/instagram-school-safety-program-project-gryffindor"
 ]
 },
+"054b1e167e": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+"last_seen": "2026-11-23",
+"terms": [
+"tech",
+"7.5b",
+"decart",
+"amazon",
+"ai",
+"chip",
+"trainium",
+"prepar",
+"sell",
+"snap",
+"optimization"
+],
+"urls": [
+"https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips"
+]
+},
 "05d35d3fef": {
 "by_day": {
 "2026-11-20": 1
@@ -152,16 +176,16 @@
 "headline": "Norway to extend proposed under-16 social media ban to games and messaging apps",
 "last_seen": "2026-11-23",
 "terms": [
-"propos",
-"messag",
-"under-16",
-"extend",
-"gam",
-"ban",
-"social",
-"app",
 "norway",
-"media"
+"extend",
+"propos",
+"ban",
+"messag",
+"media",
+"social",
+"gam",
+"under-16",
+"app"
 ],
 "urls": [
 "https://euronews.com/2026/10/19/norway-to-extend-proposed-under-16-social-media-ban-to-online-games-and-messaging-apps"
@@ -300,39 +324,56 @@
 "2026-11-20": 3,
 "2026-11-21": 3,
 "2026-11-22": 2,
-"2026-11-23": 8
+"2026-11-23": 10
 },
 "first_seen": "2026-11-19",
-"headline": "Jensen Huang is back as Nvidia’s CEO",
+"headline": "Jensen Huang Is Back as Nvidia CEO",
 "last_seen": "2026-11-23",
 "terms": [
-"jensen",
 "huang",
+"jensen",
 "nvidia",
 "ceo",
+"return",
+"trump",
+"us",
 "reinstat",
 "back",
-"tale",
-"two",
-"reverse",
-"course",
-"bring",
-"palaa",
-"nvidian",
-"chair"
+"board",
+"company",
+"follow",
+"testify",
+"senator"
 ],
 "urls": [
 "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
-"https://engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately",
+"https://bbc.co.uk/news/articles/c68798vdprwpo",
+"https://bbc.co.uk/news/articles/cmze750zg0jeo",
+"https://bbc.co.uk/news/articles/cq62pn6j42jko",
+"https://cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+"https://cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
+"https://engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3",
 "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-"https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
+"https://tech.eu/2026/11/23/jensen-huang-reinstated-as-nvidia-ceo-following-input-from-us-government",
+"https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
+"https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo",
+"https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist",
+"https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq",
 "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
+"https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia",
+"https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
+"https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return",
 "https://theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+"https://theguardian.com/technology/nils-pratley-on-finance/2026/nov/23/nvidia-board-jensen-huang-return",
 "https://theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
-"https://theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+"https://theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+"https://theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
 "https://tivi.fi/uutiset/a/4b2836a1-9974-474e-ad41-5d3950dab5a5",
+"https://tivi.fi/uutiset/a/53e6a37e-0200-42be-9f19-0b5bdfac9a8c",
+"https://wired.com/story/how-to-win-big-betting-on-jensen-huang-listen-to-trump",
 "https://wired.com/story/jensen-huang-is-back-as-nvidia-ceo",
-"https://yle.fi/a/74-20258540?origin=rss"
+"https://wired.com/story/jensens-back-stocks-up-what-the-hell-sure",
+"https://zdnet.com/innovation/jensen-huang-is-back-as-nvidia-ceo-after-a-stunning-reversal"
 ]
 },
 "0c5a6a8108x": {
@@ -675,14 +716,14 @@
 "headline": "Localcode, open source agentic coding on your Mac with one command",
 "last_seen": "2026-11-23",
 "terms": [
-"open",
-"command",
-"source",
 "cod",
+"localcode",
+"command",
 "agentic",
 "one",
 "mac",
-"localcode"
+"open",
+"source"
 ],
 "urls": [
 "https://github.com/mjwsolo/localcode"
@@ -1151,6 +1192,28 @@
 "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots"
 ]
 },
+"2c819f1e10": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Anthropic softens its data retention policy for Mythos and Fable model use",
+"last_seen": "2026-11-23",
+"terms": [
+"model",
+"policy",
+"mytho",
+"retention",
+"soften",
+"use",
+"anthropic",
+"fable",
+"data"
+],
+"urls": [
+"https://engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use"
+]
+},
 "2e96136fc7": {
 "by_day": {
 "2026-11-14": 2
@@ -1449,10 +1512,10 @@
 "headline": "Finland struggles to keep kids fit",
 "last_seen": "2026-11-23",
 "terms": [
+"keep",
+"fit",
 "struggl",
 "kid",
-"fit",
-"keep",
 "finland"
 ],
 "urls": [
@@ -2178,6 +2241,26 @@
 "https://wired.com/story/the-faa-nationwide-ground-stop-is-over"
 ]
 },
+"62103a7836": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+"last_seen": "2026-11-23",
+"terms": [
+"consciousness",
+"argument",
+"legendary",
+"buy",
+"anthropic",
+"philosopher",
+"isn't"
+],
+"urls": [
+"https://technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument"
+]
+},
 "625da38946": {
 "by_day": {
 "2026-11-19": 0,
@@ -2253,6 +2336,23 @@
 ],
 "urls": [
 "https://pandex.io/"
+]
+},
+"65d29539f6": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "CrowdStrike to acquire Zscaler for $44 billion",
+"last_seen": "2026-11-23",
+"terms": [
+"billion",
+"crowdstrike",
+"acquire",
+"zscaler"
+],
+"urls": [
+"https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion"
 ]
 },
 "6629217885": {
@@ -2500,14 +2600,14 @@
 "headline": "Senior police officer charged for pointing gun at man in Tampere",
 "last_seen": "2026-11-23",
 "terms": [
-"gun",
-"senior",
+"police",
 "man",
+"senior",
 "officer",
 "point",
-"police",
+"charg",
 "tampere",
-"charg"
+"gun"
 ],
 "urls": [
 "https://yle.fi/a/74-20258539?origin=rss"
@@ -2638,26 +2738,43 @@
 "headline": "Russia retrieves burning cargo ship from Gulf of Finland after drone strike",
 "last_seen": "2026-11-23",
 "terms": [
+"gulf",
+"burn",
+"drone",
+"russia",
 "ship",
+"strike",
+"retriev",
 "cargo",
-"finland",
-"russian",
-"violation",
-"investigat",
-"airspace",
-"suspect",
-"crew",
-"evacuat",
-"effort",
-"finnish",
-"water",
-"risk"
+"finland"
 ],
 "urls": [
-"https://helsinkitimes.com/finland/finland-news/domestic/29521-russian-cargo-ship-crew-evacuated-as-finland-investigates-suspected-airspace-violation.html",
-"https://helsinkitimes.com/finland/finland-news/domestic/29522-firefighting-efforts-continue-on-russian-cargo-ship-in-finnish-waters-amid-sinking-risk.html",
-"https://helsinkitimes.com/finland/finland-news/domestic/29525-finland-allowed-sanctioned-russian-ship-to-leave-despite-seizure-order.html",
 "https://yle.fi/a/74-20258435?origin=rss"
+]
+},
+"6ff2c11cfa": {
+"by_day": {
+"2026-11-23": 2
+},
+"first_seen": "2026-11-23",
+"headline": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+"last_seen": "2026-11-23",
+"terms": [
+"google",
+"search",
+"ai",
+"mode",
+"tap",
+"wallet",
+"personaliz",
+"response",
+"drive",
+"tailor",
+"uniquely"
+],
+"urls": [
+"https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+"https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses"
 ]
 },
 "70bc229da4": {
@@ -2717,13 +2834,13 @@
 "headline": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
 "last_seen": "2026-11-23",
 "terms": [
-"inkl",
-"beginner",
-"ai",
-"local",
 "qwen",
+"unsloth",
+"ai",
+"beginner",
+"inkl",
 "guide",
-"unsloth"
+"local"
 ],
 "urls": [
 "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
@@ -2865,6 +2982,47 @@
 "https://helsinkitimes.com/finland/finland-news/domestic/29517-work-based-immigration-to-finland-rises-as-student-applications-drop-by-a-third.html"
 ]
 },
+"7614c6e604": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "These underrated smart rings are more affordable than the Oura Ring 5",
+"last_seen": "2026-11-23",
+"terms": [
+"ring",
+"underrat",
+"smart",
+"affordable",
+"oura"
+],
+"urls": [
+"https://engadget.com/2320286/underrated-smart-rings-more-affordable-oura-ring-5"
+]
+},
+"77b6e13e78": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Lumi peittää koko Suomen – lapset ja hiihtäjät ottivat talven riemuiten vastaan",
+"last_seen": "2026-11-23",
+"terms": [
+"riemuiten",
+"peittää",
+"koko",
+"hiihtäjät",
+"lumi",
+"lapset",
+"talven",
+"suomen",
+"ottivat",
+"vastaan"
+],
+"urls": [
+"https://yle.fi/a/74-20258536?origin=rss"
+]
+},
 "78954195bd": {
 "by_day": {
 "2026-11-23": 1
@@ -2873,9 +3031,9 @@
 "headline": "Snow arrives in Helsinki",
 "last_seen": "2026-11-23",
 "terms": [
-"snow",
 "helsinki",
-"arriv"
+"arriv",
+"snow"
 ],
 "urls": [
 "https://yle.fi/a/74-20258391?origin=rss"
@@ -2968,19 +3126,30 @@
 },
 "7cfd18c493": {
 "by_day": {
-"2026-11-23": 1
+"2026-11-23": 3
 },
 "first_seen": "2026-11-23",
 "headline": "States Sue SpaceX Over Grok Deepfakes",
 "last_seen": "2026-11-23",
 "terms": [
-"deepfak",
-"grok",
 "stat",
 "spacex",
-"sue"
+"grok",
+"sue",
+"deepfak",
+"two",
+"explicit",
+"sexually",
+"revenge",
+"child",
+"porn",
+"sex",
+"stop",
+"generat"
 ],
 "urls": [
+"https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
+"https://engadget.com/2325111/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes",
 "https://wired.com/story/states-sue-spacex-over-grok-deepfakes"
 ]
 },
@@ -3100,10 +3269,10 @@
 "headline": "Harvard CS 2881R AI Safety",
 "last_seen": "2026-11-23",
 "terms": [
-"cs",
-"ai",
 "harvard",
 "safety",
+"cs",
+"ai",
 "2881r"
 ],
 "urls": [
@@ -3242,23 +3411,28 @@
 },
 "8861f58528": {
 "by_day": {
-"2026-11-23": 1
+"2026-11-23": 2
 },
 "first_seen": "2026-11-23",
-"headline": "Defence startup Agon raises $70m backed by Northzone and Lakestar",
+"headline": "Defence startup Agon raises $70M, with UK's SovAI and NSSIF investing",
 "last_seen": "2026-11-23",
 "terms": [
 "startup",
-"northzone",
+"raise",
 "defence",
 "70m",
-"back",
 "agon",
-"raise",
+"sovai",
+"invest",
+"uk",
+"nssif",
+"back",
+"northzone",
 "lakestar"
 ],
 "urls": [
-"https://sifted.eu/articles/agon-raise-northzone-lakestar-defence"
+"https://sifted.eu/articles/agon-raise-northzone-lakestar-defence",
+"https://tech.eu/2026/11/23/defence-startup-agon-raises-70m-with-uk-sovai-and-nssif-investing"
 ]
 },
 "8917204593": {
@@ -3960,12 +4134,12 @@
 "headline": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
 "last_seen": "2026-11-23",
 "terms": [
-"power",
-"gas",
-"coal",
 "2028",
+"coal",
+"gas",
+"come",
 "anthropic",
-"come"
+"power"
 ],
 "urls": [
 "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power"
@@ -4243,6 +4417,32 @@
 "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html"
 ]
 },
+"b2f96eb01f": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "EU:n yhteiset jäänmurtajat rakennetaan Suomessa, uskoo Jyrki Katainen: ”Maailmassa ei kovin montaa valmistajaa ole”",
+"last_seen": "2026-11-23",
+"terms": [
+"rakennetaan",
+"ole",
+"kovin",
+"montaa",
+"katainen",
+"maailmassa",
+"valmistajaa",
+"eu",
+"uskoo",
+"yhteiset",
+"jyrki",
+"jäänmurtajat",
+"suomessa"
+],
+"urls": [
+"https://yle.fi/a/74-20258088?origin=rss"
+]
+},
 "b38e766ecf": {
 "by_day": {
 "2026-11-17": 2
@@ -4269,6 +4469,30 @@
 "urls": [
 "https://sifted.eu/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z",
 "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials"
+]
+},
+"b69aa72502": {
+"by_day": {
+"2026-11-23": 2
+},
+"first_seen": "2026-11-23",
+"headline": "Claude AI can review pull requests and ship fixes on its own now",
+"last_seen": "2026-11-23",
+"terms": [
+"claude",
+"ship",
+"fix",
+"ai",
+"review",
+"request",
+"pull",
+"try",
+"dare",
+"code"
+],
+"urls": [
+"https://theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+"https://zdnet.com/innovation/claude-ship-code-how-to-try"
 ]
 },
 "b757ba4fd9": {
@@ -4970,6 +5194,34 @@
 "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you"
 ]
 },
+"d68ef5ccfb": {
+"by_day": {
+"2026-11-23": 2
+},
+"first_seen": "2026-11-23",
+"headline": "Former Monzo scam prevention team raises £1.8M for Acorda to help banks fight fraud with better data",
+"last_seen": "2026-11-23",
+"terms": [
+"1.8m",
+"monzo",
+"back",
+"eileen",
+"startup",
+"pre-se",
+"burbidge",
+"alum",
+"anti-fraud",
+"help",
+"bank",
+"data",
+"prevention",
+"acorda"
+],
+"urls": [
+"https://sifted.eu/articles/acorda-pre-seed",
+"https://tech.eu/2026/11/23/former-monzo-scam-prevention-team-raises-ps18m-for-acorda-to-help-banks-fight-fraud-with-better-data"
+]
+},
 "d715ca46cc": {
 "by_day": {
 "2026-11-14": 2
@@ -5127,6 +5379,30 @@
 "https://economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics"
 ]
 },
+"e11c2a3c73": {
+"by_day": {
+"2026-11-23": 1
+},
+"first_seen": "2026-11-23",
+"headline": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+"last_seen": "2026-11-23",
+"terms": [
+"month",
+"demand",
+"sierra",
+"within",
+"doubl",
+"ai",
+"tak",
+"valuation",
+"30b",
+"cx",
+"six"
+],
+"urls": [
+"https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off"
+]
+},
 "e139352c73": {
 "by_day": {
 "2026-11-23": 0
@@ -5135,17 +5411,35 @@
 "headline": "'It's greed': Zohran Mamdani blasts Amazon over new $5 fee hike in NYC",
 "last_seen": "2026-11-23",
 "terms": [
-"blast",
-"fee",
 "zohran",
 "amazon",
-"nyc",
 "gre",
+"blast",
+"hike",
 "mamdani",
-"hike"
+"nyc",
+"fee"
 ],
 "urls": [
 "https://finance.yahoo.com/economy/policy/articles/greed-zohran-mamdani-blasts-amazon-121000124.html"
+]
+},
+"e1a47e44c8": {
+"by_day": {
+"2026-11-23": 0
+},
+"first_seen": "2026-11-23",
+"headline": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+"last_seen": "2026-11-23",
+"terms": [
+"nariq",
+"gb",
+"bf16-level",
+"qwen3.8-27b",
+"file"
+],
+"urls": [
+"https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
 ]
 },
 "e1d720a95e": {
@@ -5310,6 +5604,25 @@
 "https://engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site"
 ]
 },
+"e41b2245e4": {
+"by_day": {
+"2026-11-23": 0
+},
+"first_seen": "2026-11-23",
+"headline": "Apple removed my open-source app from EU App Stores after 9 years",
+"last_seen": "2026-11-23",
+"terms": [
+"open-source",
+"stor",
+"app",
+"remov",
+"apple",
+"eu"
+],
+"urls": [
+"https://github.com/glushchenko/fsnotes/discussions/2056"
+]
+},
 "e50bf90c61": {
 "by_day": {
 "2026-11-16": 1
@@ -5366,23 +5679,30 @@
 "2026-11-23": 0
 },
 "first_seen": "2026-11-22",
-"headline": "Show HN: Zero C# – C# without a runtime or GC",
+"headline": "Show HN: The Riemann Proof Handbook",
 "last_seen": "2026-11-23",
 "terms": [
+"riemann",
+"hypothesi",
+"proof",
 "hn",
 "show",
-"runtime",
-"without",
-"zero",
-"gc",
-"game",
-"subagent",
-"built",
+"ai",
+"ask",
+"solv",
+"since",
+"masullo",
+"treemap",
+"lean",
+"handbook",
 "llm"
 ],
 "urls": [
 "https://github.com/gulivan/worker755",
-"https://onurgumus.github.io/zero-csharp/index.html"
+"https://github.com/tamnd/riemann-handbook",
+"https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis",
+"https://pengowray.github.io/riemann-zeta-proof-visualizer",
+"https://youtube.com/watch?v=zqzk43bSdDI"
 ]
 },
 "e84e229d74": {
@@ -5405,6 +5725,31 @@
 "urls": [
 "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
 "https://wired.com/story/13-years-of-anticipation-deserves-a-day-off-the-gta-vi-work-blackout-is-here"
+]
+},
+"e85a54e59b": {
+"by_day": {
+"2026-11-23": 2
+},
+"first_seen": "2026-11-23",
+"headline": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
+"last_seen": "2026-11-23",
+"terms": [
+"hacker",
+"releas",
+"gta",
+"happen",
+"licence",
+"let",
+"don't",
+"warn",
+"plead",
+"infamou",
+"guilty"
+],
+"urls": [
+"https://bbc.co.uk/news/articles/cqpv9kr7pxmro",
+"https://engadget.com/2325643/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty"
 ]
 },
 "e8ee1daadc": {
