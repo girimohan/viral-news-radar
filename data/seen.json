@@ -170,22 +170,23 @@
 "0726c47493": {
 "by_day": {
 "2026-11-22": 0,
-"2026-11-23": 0
+"2026-11-23": 0,
+"2026-11-24": 0
 },
 "first_seen": "2026-11-22",
 "headline": "Norway to extend proposed under-16 social media ban to games and messaging apps",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"norway",
-"extend",
-"propos",
-"ban",
 "messag",
-"media",
-"social",
+"extend",
 "gam",
+"app",
+"norway",
+"ban",
 "under-16",
-"app"
+"media",
+"propos",
+"social"
 ],
 "urls": [
 "https://euronews.com/2026/10/19/norway-to-extend-proposed-under-16-social-media-ban-to-online-games-and-messaging-apps"
@@ -280,14 +281,15 @@
 },
 "0aa1e123a1": {
 "by_day": {
-"2026-11-23": 1
+"2026-11-23": 1,
+"2026-11-24": 0
 },
 "first_seen": "2026-11-23",
 "headline": "Perplexity and Intelligence",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"intelligence",
-"perplexity"
+"perplexity",
+"intelligence"
 ],
 "urls": [
 "https://openai.com/index/perplexity-and-intelligence"
@@ -324,37 +326,42 @@
 "2026-11-20": 3,
 "2026-11-21": 3,
 "2026-11-22": 2,
-"2026-11-23": 10
+"2026-11-23": 10,
+"2026-11-24": 9
 },
 "first_seen": "2026-11-19",
 "headline": "Jensen Huang Is Back as Nvidia CEO",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
 "huang",
 "jensen",
 "nvidia",
-"ceo",
 "return",
-"trump",
+"ceo",
 "us",
-"reinstat",
+"trump",
+"scandal",
 "back",
+"reinstat",
 "board",
+"stock",
 "company",
-"follow",
-"testify",
-"senator"
+"testify"
 ],
 "urls": [
 "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
 "https://bbc.co.uk/news/articles/c68798vdprwpo",
 "https://bbc.co.uk/news/articles/cmze750zg0jeo",
 "https://bbc.co.uk/news/articles/cq62pn6j42jko",
+"https://bbc.co.uk/news/articles/cv98xpg5dg5zo",
 "https://cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
 "https://cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
+"https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia",
 "https://engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3",
+"https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal",
+"https://kadoa.com/congress/insights/trump-nvidia",
 "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-"https://tech.eu/2026/11/23/jensen-huang-reinstated-as-nvidia-ceo-following-input-from-us-government",
+"https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
 "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
 "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo",
 "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist",
@@ -363,14 +370,17 @@
 "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia",
 "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing",
 "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return",
-"https://theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+"https://techcrunch.com/2026/11/24/huang-reportedly-admitted-to-more-than-two-affairs-to-nvidias-board",
+"https://theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
+"https://theguardian.com/technology/2026/nov/24/nvidia-jensen-huang-congress",
 "https://theguardian.com/technology/nils-pratley-on-finance/2026/nov/23/nvidia-board-jensen-huang-return",
-"https://theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
-"https://theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
-"https://theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
-"https://tivi.fi/uutiset/a/4b2836a1-9974-474e-ad41-5d3950dab5a5",
-"https://tivi.fi/uutiset/a/53e6a37e-0200-42be-9f19-0b5bdfac9a8c",
+"https://theguardian.com/us-news/2026/nov/24/mamdani-nvidia-stock-market-ai",
+"https://theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+"https://theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+"https://theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+"https://tivi.fi/uutiset/a/2dcbf5e7-63c4-492c-ad69-215310aede71",
 "https://wired.com/story/how-to-win-big-betting-on-jensen-huang-listen-to-trump",
+"https://wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return",
 "https://wired.com/story/jensen-huang-is-back-as-nvidia-ceo",
 "https://wired.com/story/jensens-back-stocks-up-what-the-hell-sure",
 "https://zdnet.com/innovation/jensen-huang-is-back-as-nvidia-ceo-after-a-stunning-reversal"
@@ -710,22 +720,30 @@
 },
 "170f6bde4a": {
 "by_day": {
-"2026-11-23": 0
+"2026-11-23": 0,
+"2026-11-24": 1
 },
 "first_seen": "2026-11-23",
-"headline": "Localcode, open source agentic coding on your Mac with one command",
-"last_seen": "2026-11-23",
+"headline": "One terminal command gave my forgotten Android device a desk job",
+"last_seen": "2026-11-24",
 "terms": [
-"cod",
-"localcode",
 "command",
-"agentic",
 "one",
-"mac",
+"localcode",
 "open",
-"source"
+"cod",
+"mac",
+"source",
+"agentic",
+"terminal",
+"forgotten",
+"desk",
+"android",
+"gave",
+"job"
 ],
 "urls": [
+"https://arstechnica.com/gadgets/2026/11/one-terminal-command-gave-my-forgotten-android-device-a-desk-job",
 "https://github.com/mjwsolo/localcode"
 ]
 },
@@ -1194,24 +1212,32 @@
 },
 "2c819f1e10": {
 "by_day": {
-"2026-11-23": 1
+"2026-11-23": 1,
+"2026-11-24": 2
 },
 "first_seen": "2026-11-23",
 "headline": "Anthropic softens its data retention policy for Mythos and Fable model use",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"model",
+"data",
 "policy",
+"personal",
+"use",
+"sale",
+"customer",
+"shar",
+"backblaze",
+"worri",
 "mytho",
 "retention",
 "soften",
-"use",
-"anthropic",
 "fable",
-"data"
+"model"
 ],
 "urls": [
-"https://engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use"
+"https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more",
+"https://engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use",
+"https://neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update"
 ]
 },
 "2e96136fc7": {
@@ -1312,6 +1338,23 @@
 "urls": [
 "https://sifted.eu/articles/payhawk-series-c",
 "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation"
+]
+},
+"357954f67f": {
+"by_day": {
+"2026-11-24": 0
+},
+"first_seen": "2026-11-24",
+"headline": "Lowering Perplexity Without Scaling",
+"last_seen": "2026-11-24",
+"terms": [
+"perplexity",
+"scal",
+"without",
+"lower"
+],
+"urls": [
+"https://micjm.com/blog/lowering-perplexity-without-scaling"
 ]
 },
 "35ada50d2a": {
@@ -1711,6 +1754,27 @@
 "https://tivi.fi/uutiset/a/9c6109c7-68dc-4fac-bdc5-74dccb7a0984"
 ]
 },
+"489b69039b": {
+"by_day": {
+"2026-11-24": 0
+},
+"first_seen": "2026-11-24",
+"headline": "India's opposition storms Meta's offices to get its Instagram accounts back",
+"last_seen": "2026-11-24",
+"terms": [
+"meta",
+"instagram",
+"opposition",
+"back",
+"india",
+"storm",
+"offic",
+"account"
+],
+"urls": [
+"https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html"
+]
+},
 "4a206effe4": {
 "by_day": {
 "2026-11-21": 1
@@ -1950,6 +2014,28 @@
 "https://rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority",
 "https://reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14",
 "https://theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos"
+]
+},
+"51592d662b": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "Finland sends emergency alert to phones in second trial of FI-Alert system",
+"last_seen": "2026-11-24",
+"terms": [
+"emergency",
+"fi-alert",
+"system",
+"send",
+"phon",
+"trial",
+"finland",
+"alert",
+"second"
+],
+"urls": [
+"https://yle.fi/a/74-20258592?origin=rss"
 ]
 },
 "52fe3fa7d4": {
@@ -2732,43 +2818,51 @@
 "6f716ac619": {
 "by_day": {
 "2026-11-21": 1,
-"2026-11-23": 2
+"2026-11-23": 2,
+"2026-11-24": 2
 },
 "first_seen": "2026-11-21",
 "headline": "Russia retrieves burning cargo ship from Gulf of Finland after drone strike",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"gulf",
-"burn",
-"drone",
-"russia",
 "ship",
+"cargo",
 "strike",
 "retriev",
-"cargo",
-"finland"
+"drone",
+"gulf",
+"finland",
+"russia",
+"burn",
+"mediterranean",
+"sink",
+"baltic",
+"warship",
+"ukraine"
 ],
 "urls": [
+"https://arstechnica.com/gadgets/2026/11/ukraines-sea-drones-blow-up-russian-warship-in-benghazi-operation",
 "https://yle.fi/a/74-20258435?origin=rss"
 ]
 },
 "6ff2c11cfa": {
 "by_day": {
-"2026-11-23": 2
+"2026-11-23": 2,
+"2026-11-24": 2
 },
 "first_seen": "2026-11-23",
 "headline": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"google",
 "search",
-"ai",
+"google",
 "mode",
-"tap",
+"ai",
 "wallet",
-"personaliz",
 "response",
 "drive",
+"personaliz",
+"tap",
 "tailor",
 "uniquely"
 ],
@@ -2828,19 +2922,20 @@
 },
 "7186056d7c": {
 "by_day": {
-"2026-11-23": 0
+"2026-11-23": 0,
+"2026-11-24": 0
 },
 "first_seen": "2026-11-23",
 "headline": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
+"ai",
+"local",
+"guide",
 "qwen",
 "unsloth",
-"ai",
 "beginner",
-"inkl",
-"guide",
-"local"
+"inkl"
 ],
 "urls": [
 "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
@@ -3126,30 +3221,28 @@
 },
 "7cfd18c493": {
 "by_day": {
-"2026-11-23": 3
+"2026-11-23": 3,
+"2026-11-24": 2
 },
 "first_seen": "2026-11-23",
 "headline": "States Sue SpaceX Over Grok Deepfakes",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"stat",
 "spacex",
-"grok",
 "sue",
+"stat",
+"grok",
 "deepfak",
-"two",
-"explicit",
-"sexually",
-"revenge",
-"child",
 "porn",
-"sex",
+"imag",
+"revenge",
 "stop",
+"child",
+"sex",
 "generat"
 ],
 "urls": [
 "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
-"https://engadget.com/2325111/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes",
 "https://wired.com/story/states-sue-spacex-over-grok-deepfakes"
 ]
 },
@@ -3263,17 +3356,18 @@
 },
 "81e7680665": {
 "by_day": {
-"2026-11-23": 0
+"2026-11-23": 0,
+"2026-11-24": 0
 },
 "first_seen": "2026-11-23",
 "headline": "Harvard CS 2881R AI Safety",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"harvard",
-"safety",
-"cs",
 "ai",
-"2881r"
+"safety",
+"harvard",
+"2881r",
+"cs"
 ],
 "urls": [
 "https://boazbk.github.io/mltheoryseminar"
@@ -3633,6 +3727,46 @@
 "https://anthropic.com/research/claude-black-hole-physics"
 ]
 },
+"8e7e7eac8e": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "The Nvidia case is just the latest episode of Trump disregarding intelligence",
+"last_seen": "2026-11-24",
+"terms": [
+"disregard",
+"episode",
+"nvidia",
+"intelligence",
+"trump",
+"case"
+],
+"urls": [
+"https://theguardian.com/technology/2026/nov/24/nvidia-trump-huang-intelligence"
+]
+},
+"94e66f99b0": {
+"by_day": {
+"2026-11-24": 0
+},
+"first_seen": "2026-11-24",
+"headline": "How should an LLM see a computer?",
+"last_seen": "2026-11-24",
+"terms": [
+"llm",
+"see",
+"computer",
+"agent",
+"compani",
+"work",
+"parent"
+],
+"urls": [
+"https://greptile.com/blog/trex-computer-use",
+"https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you"
+]
+},
 "94f45cbe56": {
 "by_day": {
 "2026-11-14": 8,
@@ -3669,6 +3803,31 @@
 "https://wired.com/story/outlook-went-down-microsoft-may-owe-you-money",
 "https://wired.com/story/the-microsoft-outage-is-a-warning-for-the-world",
 "https://zdnet.com/business/microsoft-outage-outlook-teams-copilot"
+]
+},
+"980572ef90": {
+"by_day": {
+"2026-11-24": 2
+},
+"first_seen": "2026-11-24",
+"headline": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
+"last_seen": "2026-11-24",
+"terms": [
+"meta",
+"uk",
+"launch",
+"muse",
+"awkward",
+"helpful",
+"ahead",
+"ai",
+"christma",
+"shopp",
+"agent"
+],
+"urls": [
+"https://bbc.co.uk/news/articles/c9gkld2l38y6o",
+"https://theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping"
 ]
 },
 "981fa511b0": {
@@ -4057,6 +4216,26 @@
 "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds"
 ]
 },
+"a19c4f1ac5": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "Finland seeks 'cyber soldiers' for new conscript training programme",
+"last_seen": "2026-11-24",
+"terms": [
+"cyber",
+"conscript",
+"seek",
+"soldier",
+"programme",
+"train",
+"finland"
+],
+"urls": [
+"https://yle.fi/a/74-20258670?origin=rss"
+]
+},
 "a554a76fff": {
 "by_day": {
 "2026-11-16": 1,
@@ -4241,26 +4420,31 @@
 },
 "aa6819b825": {
 "by_day": {
-"2026-11-23": 1
+"2026-11-23": 1,
+"2026-11-24": 3
 },
 "first_seen": "2026-11-23",
 "headline": "A Power Provider for Meta Urged Regulators to Exempt Data Center Plants From Acid Rain Rules",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"regulator",
-"acid",
-"power",
-"rul",
-"rain",
-"plant",
-"provider",
-"meta",
 "data",
-"urg",
+"center",
+"power",
+"plant",
+"backlash",
+"tech",
+"meta",
+"rain",
+"acid",
+"rul",
 "exempt",
-"center"
+"urg",
+"provider",
+"regulator"
 ],
 "urls": [
+"https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+"https://technologyreview.com/2026/11/24/1149622/data-centers-natural-gas",
 "https://wired.com/story/a-power-provider-for-meta-urged-regulators-to-exempt-data-center-plants-from-acid-rain-rules"
 ]
 },
@@ -4395,6 +4579,27 @@
 "https://wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages"
 ]
 },
+"b0dd8683f1": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
+"last_seen": "2026-11-24",
+"terms": [
+"math",
+"ai",
+"solv",
+"understand",
+"human",
+"famou",
+"problem",
+"struggl"
+],
+"urls": [
+"https://wired.com/story/ai-solved-maths-most-famous-problem"
+]
+},
 "b248c2a655": {
 "by_day": {
 "2026-11-14": 0
@@ -4473,25 +4678,31 @@
 },
 "b69aa72502": {
 "by_day": {
-"2026-11-23": 2
+"2026-11-23": 2,
+"2026-11-24": 2
 },
 "first_seen": "2026-11-23",
-"headline": "Claude AI can review pull requests and ship fixes on its own now",
-"last_seen": "2026-11-23",
+"headline": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+"last_seen": "2026-11-24",
 "terms": [
-"claude",
 "ship",
-"fix",
+"claude",
+"code",
 "ai",
+"fix",
+"approve",
+"lett",
+"agent",
+"launch",
 "review",
-"request",
-"pull",
-"try",
+"chang",
+"anthropic",
 "dare",
-"code"
+"try"
 ],
 "urls": [
-"https://theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+"https://claude.com/resources/articles/introducing-claude-ship",
+"https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
 "https://zdnet.com/innovation/claude-ship-code-how-to-try"
 ]
 },
@@ -4562,6 +4773,28 @@
 ],
 "urls": [
 "https://isometricsf.com/"
+]
+},
+"bad8a5b201": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "OpenAI and Cisco introduce Shirudo",
+"last_seen": "2026-11-24",
+"terms": [
+"cisco",
+"openai",
+"shirudo",
+"introduce",
+"shield",
+"runtime",
+"linux",
+"open-source",
+"unpatch"
+],
+"urls": [
+"https://openai.com/index/introducing-shirudo"
 ]
 },
 "baf3f20dab": {
@@ -4707,6 +4940,27 @@
 "urls": [
 "https://arstechnica.com/cars/2026/11/tesla-will-sell-you-a-cybercab-for-30000-then-charge-299-a-month-to-use-it",
 "https://wired.com/story/tesla-cybercab-is-the-subscription-hell-they-told-you-not-to-worry-about"
+]
+},
+"bfbdb4aeaa": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "Meyer Turku siirtyy pilveen – Muutoksessa tukena SAP ja IBM",
+"last_seen": "2026-11-24",
+"terms": [
+"muutoksessa",
+"tukena",
+"turku",
+"meyer",
+"pilveen",
+"ibm",
+"sap",
+"siirtyy"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/b9d075a9-e17e-4d48-91a1-3955c7bd4cb0"
 ]
 },
 "bfcd8f4dc9": {
@@ -5292,6 +5546,27 @@
 "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant"
 ]
 },
+"d901a18b83": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "Trump, Nvidia and power: could we be nearing the end of tech’s Gilded Age?",
+"last_seen": "2026-11-24",
+"terms": [
+"gild",
+"power",
+"nvidia",
+"age",
+"trump",
+"end",
+"tech",
+"near"
+],
+"urls": [
+"https://theguardian.com/technology/2026/nov/24/trump-nvidia-gilded-age"
+]
+},
 "dab6152987": {
 "by_day": {
 "2026-11-21": 0,
@@ -5426,17 +5701,18 @@
 },
 "e1a47e44c8": {
 "by_day": {
-"2026-11-23": 0
+"2026-11-23": 0,
+"2026-11-24": 0
 },
 "first_seen": "2026-11-23",
 "headline": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"nariq",
-"gb",
 "bf16-level",
-"qwen3.8-27b",
-"file"
+"gb",
+"file",
+"nariq",
+"qwen3.8-27b"
 ],
 "urls": [
 "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
@@ -5606,18 +5882,19 @@
 },
 "e41b2245e4": {
 "by_day": {
-"2026-11-23": 0
+"2026-11-23": 0,
+"2026-11-24": 0
 },
 "first_seen": "2026-11-23",
 "headline": "Apple removed my open-source app from EU App Stores after 9 years",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"open-source",
-"stor",
+"eu",
 "app",
 "remov",
 "apple",
-"eu"
+"stor",
+"open-source"
 ],
 "urls": [
 "https://github.com/glushchenko/fsnotes/discussions/2056"
@@ -5729,27 +6006,79 @@
 },
 "e85a54e59b": {
 "by_day": {
-"2026-11-23": 2
+"2026-11-23": 2,
+"2026-11-24": 4
 },
 "first_seen": "2026-11-23",
-"headline": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
-"last_seen": "2026-11-23",
+"headline": "The hacker behind early GTA VI leaks has been sentenced — and released",
+"last_seen": "2026-11-24",
 "terms": [
-"hacker",
-"releas",
 "gta",
-"happen",
-"licence",
+"vi",
+"releas",
+"hacker",
+"auto",
+"theft",
 "let",
-"don't",
 "warn",
-"plead",
-"infamou",
-"guilty"
+"licence",
+"happen",
+"don't",
+"leak",
+"behind",
+"early"
 ],
 "urls": [
 "https://bbc.co.uk/news/articles/cqpv9kr7pxmro",
-"https://engadget.com/2325643/the-infamous-gta-6-hacker-has-been-released-after-pleading-guilty"
+"https://engadget.com/2325713/grand-theft-auto",
+"https://theguardian.com/games/2026/nov/24/gta-vi-streaming-numbers-charts",
+"https://theguardian.com/games/2026/nov/24/man-theft-auto-why-did-so-few-women-review-gta-vi-the-biggest-video-game-of-the-decade",
+"https://theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released"
+]
+},
+"e88486ade4": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "OpenAI employee who secretly recorded meetings allegedly affiliated with the Saudi government",
+"last_seen": "2026-11-24",
+"terms": [
+"government",
+"allegedly",
+"record",
+"secretly",
+"affiliat",
+"openai",
+"saudi",
+"employee",
+"meeting"
+],
+"urls": [
+"https://engadget.com/2326288/openai-employee-recorded-meetings-allegedly-affiliated-saudi-government"
+]
+},
+"e8aadd2d2f": {
+"by_day": {
+"2026-11-24": 1
+},
+"first_seen": "2026-11-24",
+"headline": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+"last_seen": "2026-11-24",
+"terms": [
+"input",
+"amazon",
+"ai",
+"agent",
+"found",
+"hacker",
+"exploit",
+"human",
+"little",
+"0-day"
+],
+"urls": [
+"https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input"
 ]
 },
 "e8ee1daadc": {
@@ -5836,6 +6165,24 @@
 "https://tivi.fi/uutiset/a/a3150073-25fe-4ce5-988b-b389e39daf60"
 ]
 },
+"ed5c23b21d": {
+"by_day": {
+"2026-11-24": 0
+},
+"first_seen": "2026-11-24",
+"headline": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+"last_seen": "2026-11-24",
+"terms": [
+"exchange",
+"drop-in",
+"replacement",
+"stalwart",
+"microsoft"
+],
+"urls": [
+"https://stalw.art/blog/microsoft-exchange-replacement"
+]
+},
 "eecb58ba6e": {
 "by_day": {
 "2026-11-16": 1
@@ -5881,22 +6228,28 @@
 },
 "ef14fe40de": {
 "by_day": {
-"2026-11-23": 1
+"2026-11-23": 1,
+"2026-11-24": 1
 },
 "first_seen": "2026-11-14",
 "headline": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-"last_seen": "2026-11-23",
+"last_seen": "2026-11-24",
 "terms": [
-"capital",
-"bet",
-"gifford",
+"anthropic",
 "ipo",
+"capital",
 "notable",
 "gic",
-"anthropic",
-"baillie"
+"baillie",
+"bet",
+"gifford",
+"break",
+"trad",
+"premarket",
+"price"
 ],
 "urls": [
+"https://bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
 "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo"
 ]
 },
