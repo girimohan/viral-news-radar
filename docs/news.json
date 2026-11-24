@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-24T14:50:53+00:00",
+ "generated_at": "2026-11-24T20:20:52+00:00",
  "date": "2026-11-24",
- "new_today": 5,
+ "new_today": 10,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2868,
+  "collected": 2895,
   "undated": 0,
-  "too_old": 2546,
+  "too_old": 2529,
   "excluded": 8,
   "duplicate": 0,
-  "articles_in_window": 314,
-  "stories": 222,
-  "off_topic": 153,
-  "low_score": 54,
-  "shown": 15
+  "articles_in_window": 358,
+  "stories": 244,
+  "off_topic": 166,
+  "low_score": 60,
+  "shown": 18
  },
  "llm": {
   "enabled": false
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2760,
+   "fetched": 2782,
    "in_stories": 9,
-   "detail": "18/23 feeds read; failed: Helsinki Times (ParseError: not well-formed (invalid token): line 1, column 141); ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
+   "detail": "19/23 feeds read; failed: Helsinki Times (ParseError: not well-formed (invalid token): line 1, column 141); ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 108,
-   "in_stories": 12,
-   "detail": "108 stories with 40+ points",
+   "fetched": 113,
+   "in_stories": 16,
+   "detail": "113 stories with 40+ points",
    "error": ""
   },
   {
@@ -56,27 +56,261 @@
  ],
  "stories": [
   {
-   "id": "0c5a6a8108",
-   "headline": "Jensen Huang Is Back as Nvidia CEO",
-   "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
-   "first_published": "2026-11-23T14:00:18+00:00",
-   "topic": "AI business & chips",
+   "id": "ef14fe40de",
+   "headline": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+   "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+   "first_published": "2026-11-24T13:23:47+00:00",
+   "topic": "AI models & labs",
    "topics": [
-    "AI business & chips"
+    "AI models & labs",
+    "AI agents & products",
+    "AI business & chips",
+    "Tech & startups"
    ],
-   "score": 50.1,
+   "score": 63.9,
    "signals": {
-    "coverage": 0.963,
-    "engagement": 1.0,
-    "velocity": 1.0,
-    "freshness": 0.631,
-    "age_hours": 24.8
+    "coverage": 0.292,
+    "engagement": 0.89,
+    "velocity": 0.939,
+    "freshness": 0.859,
+    "age_hours": 7.0
    },
    "reasons": [
-    "9 outlets: TechCrunch, BBC Technology, The Guardian Tech, The Verge +5 more",
-    "HN 5.4k points, 4.2k comments",
-    "first seen 25h ago",
-    "topic: AI business & chips"
+    "1 outlet: TechCrunch",
+    "HN 335 points, 453 comments",
+    "first seen 7h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-14",
+   "status": "steady",
+   "outlet_count": 1,
+   "outlets": [
+    "TechCrunch"
+   ],
+   "engagement": 1241,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Anthropic breaks below $83 IPO price",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+     "published": "2026-11-24T13:23:47+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 207,
+     "comments": 450,
+     "discussion_url": "https://news.ycombinator.com/item?id=50627836",
+     "id": "hackernews:50627836"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Anthropic is below its IPO price",
+     "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+     "published": "2026-11-24T14:41:15+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 128,
+     "comments": 3,
+     "discussion_url": "https://news.ycombinator.com/item?id=50628932",
+     "id": "hackernews:50628932"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+     "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+     "published": "2026-11-24T18:30:42+00:00",
+     "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:6648f75526f6"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+     "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+     "published": "2026-11-24T18:30:42+00:00",
+     "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:6648f75526f6"
+    }
+   ]
+  },
+  {
+   "id": "489b69039b",
+   "headline": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "first_published": "2026-11-24T06:28:04+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 56.9,
+   "signals": {
+    "coverage": 0.674,
+    "engagement": 0.76,
+    "velocity": 0.63,
+    "freshness": 0.752,
+    "age_hours": 13.9
+   },
+   "reasons": [
+    "4 outlets: BBC Technology, The Guardian Tech, TechCrunch, Engadget",
+    "HN 226 points, 106 comments",
+    "first seen 14h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "new",
+   "outlet_count": 4,
+   "outlets": [
+    "BBC Technology",
+    "Engadget",
+    "TechCrunch",
+    "The Guardian Tech"
+   ],
+   "engagement": 438,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
+     "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
+     "published": "2026-11-24T06:28:04+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 226,
+     "comments": 106,
+     "discussion_url": "https://news.ycombinator.com/item?id=50624487",
+     "id": "hackernews:50624487"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
+     "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-24T09:33:00+00:00",
+     "summary": "Meta wants Muse to do for AI what WhatsApp did for messaging - here's what the BBC's technology editor found when she used it.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:8b95df26cc85"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Meta launches Muse in UK – the AI agent that can do your Christmas shopping",
+     "url": "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping",
+     "published": "2026-11-24T14:36:32+00:00",
+     "summary": "Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Have you downloaded Meta’s AI assistant Muse or do you plan to? Want to avoid the Christmas shopping hordes? Then let your AI agent do the shopping for you. Mark Zuckerberg’s Meta is launching its ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:24384649709a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+     "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+     "published": "2026-11-24T17:00:00+00:00",
+     "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:499fbc0b51a8"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+     "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+     "published": "2026-11-24T17:00:00+00:00",
+     "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:499fbc0b51a8"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Meta is bringing Muse to Instagram",
+     "url": "https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/",
+     "published": "2026-11-24T17:00:00+00:00",
+     "summary": "Instagram will prompt people to use the agent to sort through their saved content.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:a11f32d676a4"
+    }
+   ]
+  },
+  {
+   "id": "0c5a6a8108",
+   "headline": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+   "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+   "first_published": "2026-11-23T14:00:18+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI business & chips"
+   ],
+   "score": 54.9,
+   "signals": {
+    "coverage": 0.966,
+    "engagement": 1.0,
+    "velocity": 1.0,
+    "freshness": 0.587,
+    "age_hours": 30.3
+   },
+   "reasons": [
+    "9 outlets: TechCrunch AI, BBC Technology, The Guardian Tech, The Verge +5 more",
+    "HN 5.4k points, 4.3k comments",
+    "first seen 30h ago",
+    "topic: AI models & labs"
    ],
    "first_seen": "2026-11-19",
    "status": "steady",
@@ -85,16 +319,16 @@
     "Ars Technica",
     "BBC Technology",
     "Engadget",
-    "TechCrunch",
+    "Tech.eu",
+    "TechCrunch AI",
     "The Guardian Tech",
     "The Verge",
-    "Tivi",
     "Wired",
     "ZDNet AI"
    ],
-   "engagement": 13726,
+   "engagement": 14018,
    "regions": [
-    "Finland",
+    "Europe",
     "International"
    ],
    "brief": {},
@@ -110,8 +344,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 2697,
-     "comments": 3550,
+     "points": 2776,
+     "comments": 3645,
      "discussion_url": "https://news.ycombinator.com/item?id=50611576",
      "id": "hackernews:50611576"
     },
@@ -125,25 +359,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 1708,
+     "points": 1709,
      "comments": 4,
      "discussion_url": "https://news.ycombinator.com/item?id=50611588",
      "id": "hackernews:50611588"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-     "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-     "published": "2026-11-23T14:21:59+00:00",
-     "summary": "The stunning reversal was supported by senior officials in the U.S. government.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:72c0025692ce"
     },
     {
      "source": "feed",
@@ -192,18 +411,18 @@
     },
     {
      "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
-     "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
-     "published": "2026-11-23T15:04:01+00:00",
-     "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
-     "region": "International",
+     "outlet": "Tech.eu",
+     "title": "Jensen Huang reinstated as Nvidia CEO following “input” from US government",
+     "url": "https://tech.eu/2026/11/23/jensen-huang-reinstated-as-nvidia-ceo-following-input-from-us-government/",
+     "published": "2026-11-23T14:53:00+00:00",
+     "summary": "Jensen Huang has been reinstated as CEO and president of Nvidia, the Nvidia board announced today, in a shock announcement.The Nvidia board said it had voted unanimously to reinstate Huang, who resign...",
+     "region": "Europe",
      "lang": "en",
-     "weight": 0.9,
+     "weight": 0.75,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:TechCrunch:9f199b02be45"
+     "id": "feed:Tech.eu:0bbb48a38567"
     },
     {
      "source": "feed",
@@ -219,21 +438,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:9f199b02be45"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
-     "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
-     "published": "2026-11-23T15:46:18+00:00",
-     "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:e09aa9a8dd80"
     },
     {
      "source": "feed",
@@ -267,21 +471,6 @@
     },
     {
      "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
-     "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
-     "published": "2026-11-23T16:39:10+00:00",
-     "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:b428c8da2f4a"
-    },
-    {
-     "source": "feed",
      "outlet": "TechCrunch AI",
      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
@@ -294,21 +483,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:b428c8da2f4a"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Jensen Huang isn’t out of the woods yet",
-     "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
-     "published": "2026-11-23T16:57:40+00:00",
-     "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:c7918d03f64a"
     },
     {
      "source": "feed",
@@ -401,21 +575,6 @@
      "id": "feed:TechCrunch:0f6d3d589421"
     },
     {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "NVIDIA's Jensen Huang will testify publicly before senators on December 3",
-     "url": "https://www.engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3/",
-     "published": "2026-11-23T19:47:27+00:00",
-     "summary": "It's going to be a busy few days in Washington DC for the freshly reinstated CEO.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:1b8677e4d08e"
-    },
-    {
      "source": "hackernews",
      "outlet": "Hacker News",
      "title": "Congress shreds Nvidia's 'outrageous' return of Huang: 'Failure of character'",
@@ -426,7 +585,7 @@
      "lang": "en",
      "weight": 1.0,
      "points": 69,
-     "comments": 57,
+     "comments": 56,
      "discussion_url": "https://news.ycombinator.com/item?id=50618490",
      "id": "hackernews:50618490"
     },
@@ -551,51 +710,6 @@
      "id": "feed:TechCrunch AI:e05b611a819c"
     },
     {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Welcome to elite impunity, Jensen Huang",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
-     "published": "2026-11-23T22:09:26+00:00",
-     "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on what a \"free market\" is ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:c5e6ebdc9aed"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-     "published": "2026-11-23T22:10:32+00:00",
-     "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia execu",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:4359994ebd1e"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Trump engineered a risky comeback for Jensen Huang",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
-     "published": "2026-11-23T22:25:12+00:00",
-     "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Hua",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:e08c20c2b193"
-    },
-    {
      "source": "hackernews",
      "outlet": "Hacker News",
      "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
@@ -605,8 +719,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 317,
-     "comments": 245,
+     "points": 333,
+     "comments": 255,
      "discussion_url": "https://news.ycombinator.com/item?id=50620822",
      "id": "hackernews:50620822"
     },
@@ -627,21 +741,6 @@
     },
     {
      "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap",
-     "url": "https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
-     "published": "2026-11-24T01:34:39+00:00",
-     "summary": "Huang receives hero’s welcome at firm’s Silicon Valley headquarters as return cements role as key AI figure Comment: Nvidia’s humiliated board should resign out of embarrassment Business live – latest updates Jensen Huang made his return to Nvidia’s headquarters with a hero’s welcome on Monday. Hour",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:9b0b258cccd7"
-    },
-    {
-     "source": "feed",
      "outlet": "Wired",
      "title": "Inside Nvidia, Not Everyone Is Celebrating Jensen Huang’s Return",
      "url": "https://www.wired.com/story/inside-nvidia-not-everyone-is-celebrating-jensen-huangs-return/",
@@ -656,36 +755,6 @@
      "id": "feed:Wired:89a2b26e3e4f"
     },
     {
-     "source": "feed",
-     "outlet": "Tivi",
-     "title": "Jensen Huang kommentoi paluutaan Nvidian peräsimeen",
-     "url": "https://www.tivi.fi/uutiset/a/2dcbf5e7-63c4-492c-ad69-215310aede71?utm_source=rss",
-     "published": "2026-11-24T06:15:00+00:00",
-     "summary": "Nvidian hallitus kertoi vakuuttuneensa Huangin suoraselkäisyydestä ja kyvystä johtaa yhtiötä.",
-     "region": "Finland",
-     "lang": "fi",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Tivi:7f72356dc0ca"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "US lawmakers vow to investigate Jensen Huang and Trump over Nvidia scandal",
-     "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-jensen-huang-congress",
-     "published": "2026-11-24T10:00:14+00:00",
-     "summary": "Lawmakers from both parties outraged over Nvidia CEO’s reinstatement and the administration’s handling of national security risks Jensen Huang’s reinstatement as Nvidia’s chief executive is “exhibit A” of the “political corruption and rot at the heart of the Trump administration’s big tech and AI po",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:bba4c0d44abe"
-    },
-    {
      "source": "hackernews",
      "outlet": "Hacker News",
      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
@@ -695,25 +764,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 434,
-     "comments": 250,
+     "points": 459,
+     "comments": 266,
      "discussion_url": "https://news.ycombinator.com/item?id=50626578",
      "id": "hackernews:50626578"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Who in Washington owns and trades Nvidia stock",
-     "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
-     "published": "2026-11-24T11:51:05+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 159,
-     "comments": 65,
-     "discussion_url": "https://news.ycombinator.com/item?id=50626861",
-     "id": "hackernews:50626861"
     },
     {
      "source": "feed",
@@ -744,6 +798,423 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:The Guardian Tech:17f5857e2ae6"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Chinese media hail Huang’s Nvidia return with warning over ‘witch-hunts’",
+     "url": "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
+     "published": "2026-11-24T14:45:03+00:00",
+     "summary": "State-run Global Times says reports about CEO’s affair with alleged Chinese spy were ‘malicious’ Trump made up to $15m on Nvidia stock after Huang’s return Nvidia staff: what do you think of Jensen Huang’s return as chief executive? Chinese media have reacted with glee to the dramatic reinstatement ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:deb41e4f828d"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+     "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+     "published": "2026-11-24T14:56:50+00:00",
+     "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:2f75382e1552"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Jimmy Kimmel on Jensen Huang’s return to Nvidia: ‘What a profoundly stupid time to be alive’",
+     "url": "https://www.theguardian.com/culture/2026/nov/24/jimmy-kimmel-jensen-huang-nvidia-trump",
+     "published": "2026-11-24T15:51:00+00:00",
+     "summary": "Late-night hosts discussed disgraced Nvidia CEO’s quick return to his role after pressure from shareholder Trump Late-night hosts reacted to the reinstatement of Jensen Huang as CEO of Nvidia under political pressure from Donald Trump . Continue reading...",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:650a4c882481"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+     "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
+     "published": "2026-11-24T16:08:29+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 102,
+     "comments": 59,
+     "discussion_url": "https://news.ycombinator.com/item?id=50630245",
+     "id": "hackernews:50630245"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Commerce Department adds Megaspeed to trade blacklist",
+     "url": "https://www.engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist/",
+     "published": "2026-11-24T16:11:17+00:00",
+     "summary": "No American company, including NVIDIA, can sell technologies to Megaspeed without a license from the federal government.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:0f36c410d0bb"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
+     "url": "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
+     "published": "2026-11-24T16:27:41+00:00",
+     "summary": "Tech sector’s campaign to reinstate Nvidia boss began soon after ousting over affair with alleged Chinese spy The tech billionaires could hardly contain their delight. “Jensen!” exclaimed OpenAI’s chief executive, Sam Altman, in a one-word post on X. “Thanksgiving”, said Travis Kalanick, the Uber fo",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:a80b129c6839"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Jensen Huang deepfakes are the hot new AI slop",
+     "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+     "published": "2026-11-24T16:30:00+00:00",
+     "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive an",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:2c16cb107e3c"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Mamdani questions AI economy as Jensen Huang returns to Nvidia – video",
+     "url": "https://www.theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video",
+     "published": "2026-11-24T16:30:07+00:00",
+     "summary": "New York City mayor Zohran Mamdani weighed in on the corporate turbulence surrounding Nvidia and the chipmaker’s chief executive officer, Jensen Huang, saying he does not think working Americans 'signed up for their pensions being tied to the question of Huang’s fidelity to his marriage'. The mayor ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:065b16dad3fd"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+     "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+     "published": "2026-11-24T16:37:03+00:00",
+     "summary": "As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump administration, the Department of Commerce has added Megaspeed to its Entity List, which blocks trade with the company, citing national security risks. As reported earlier by Semafor, Commerce Secretary Howard Lutnick ha",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:01e9e65c5758"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
+     "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+     "published": "2026-11-24T17:44:53+00:00",
+     "summary": "The Nvidia CEO opened up about his personal life, defended his reinstatement, and acknowledged that his intense management style had hurt his staff.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:cdbba97256f8"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides",
+     "url": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+     "published": "2026-11-24T18:00:24+00:00",
+     "summary": "Sell-off signals investors are bracing for further volatility in key AI sector driving economic growth worldwide Technology shares led a market retreat Tuesday as caution returned after Jensen Huang’s extraordinary return to Nvidia days after he was forced to resign, with investors bracing for furth",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:e298585cdf4b"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "US attorney general dodges questions about Nvidia investigation",
+     "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-24T18:55:59+00:00",
+     "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:4708b2ad009b"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
+     "url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia/",
+     "published": "2026-11-24T19:33:23+00:00",
+     "summary": "The newly reinstated CEO discussed his daily therapy sessions, his reputation as a “tech bro,” his disdain for succession planning, and his relationship with President Trump.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:ca8cfbe170cc"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+     "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+     "published": "2026-11-24T20:02:03+00:00",
+     "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbaske",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:2f2194dae986"
+    }
+   ]
+  },
+  {
+   "id": "4e62e09bb8",
+   "headline": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+   "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+   "first_published": "2026-11-24T17:10:45+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 54.5,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.737,
+    "velocity": 0.86,
+    "freshness": 0.931,
+    "age_hours": 3.2
+   },
+   "reasons": [
+    "HN 175 points, 94 comments",
+    "first seen 3h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 363,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+     "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+     "published": "2026-11-24T17:10:45+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 175,
+     "comments": 94,
+     "discussion_url": "https://news.ycombinator.com/item?id=50631210",
+     "id": "hackernews:50631210"
+    }
+   ]
+  },
+  {
+   "id": "658038c0d7",
+   "headline": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+   "url": "https://news.ycombinator.com/item?id=50630809",
+   "first_published": "2026-11-24T16:45:44+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 52.7,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.721,
+    "velocity": 0.815,
+    "freshness": 0.923,
+    "age_hours": 3.6
+   },
+   "reasons": [
+    "HN 141 points, 90 comments",
+    "first seen 4h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 321,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+     "url": "https://news.ycombinator.com/item?id=50630809",
+     "published": "2026-11-24T16:45:44+00:00",
+     "summary": "Basically the title.<p>Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models.<p>Our only usage which I think could get us flagged is automated regression benchmarks whenever we change some AI settings. But this is not against their po",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 141,
+     "comments": 90,
+     "discussion_url": "https://news.ycombinator.com/item?id=50630809",
+     "id": "hackernews:50630809"
+    }
+   ]
+  },
+  {
+   "id": "499733ed95",
+   "headline": "Who in Washington owns and trades Nvidia stock",
+   "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
+   "first_published": "2026-11-24T11:51:05+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips"
+   ],
+   "score": 42.4,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.797,
+    "velocity": 0.77,
+    "freshness": 0.833,
+    "age_hours": 8.5
+   },
+   "reasons": [
+    "HN 275 points, 158 comments",
+    "first seen 8h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 591,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Who in Washington owns and trades Nvidia stock",
+     "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
+     "published": "2026-11-24T11:51:05+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 275,
+     "comments": 158,
+     "discussion_url": "https://news.ycombinator.com/item?id=50626861",
+     "id": "hackernews:50626861"
+    }
+   ]
+  },
+  {
+   "id": "42f9804cae",
+   "headline": "VP ≠ VNP over Every Field",
+   "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+   "first_published": "2026-11-23T22:09:10+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 41.6,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.889,
+    "velocity": 0.73,
+    "freshness": 0.655,
+    "age_hours": 22.2
+   },
+   "reasons": [
+    "HN 430 points, 399 comments",
+    "first seen 22h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 1228,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "VP ≠ VNP over Every Field",
+     "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+     "published": "2026-11-23T22:09:10+00:00",
+     "summary": "Paper: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;anthropics&#x2F;formal-math&#x2F;blob&#x2F;11b6c7e3c927df2658f513b6b68ea7f8929c62c5&#x2F;vp-vnp&#x2F;paper.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;anthropics&#x2F;formal-math&#x2F;blob&#x2F;11b6c7e3c927d...</a>",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 353,
+     "comments": 321,
+     "discussion_url": "https://news.ycombinator.com/item?id=50620102",
+     "id": "hackernews:50620102"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+     "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+     "published": "2026-11-24T18:55:12+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 77,
+     "comments": 78,
+     "discussion_url": "https://news.ycombinator.com/item?id=50632756",
+     "id": "hackernews:50632756"
     }
    ]
   },
@@ -757,18 +1228,18 @@
     "AI models & labs",
     "AI agents & products"
    ],
-   "score": 42.9,
+   "score": 39.9,
    "signals": {
     "coverage": 0.417,
-    "engagement": 0.604,
-    "velocity": 0.368,
-    "freshness": 0.69,
-    "age_hours": 18.8
+    "engagement": 0.625,
+    "velocity": 0.354,
+    "freshness": 0.635,
+    "age_hours": 24.3
    },
    "reasons": [
     "2 outlets: TechCrunch, ZDNet AI",
-    "HN 73 points, 26 comments",
-    "first seen 19h ago",
+    "HN 86 points, 31 comments",
+    "first seen 24h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-23",
@@ -778,7 +1249,7 @@
     "TechCrunch",
     "ZDNet AI"
    ],
-   "engagement": 125,
+   "engagement": 148,
    "regions": [
     "International"
    ],
@@ -810,8 +1281,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 73,
-     "comments": 26,
+     "points": 86,
+     "comments": 31,
      "discussion_url": "https://news.ycombinator.com/item?id=50618513",
      "id": "hackernews:50618513"
     },
@@ -848,91 +1319,6 @@
    ]
   },
   {
-   "id": "2c819f1e10",
-   "headline": "Anthropic softens its data retention policy for Mythos and Fable model use",
-   "url": "https://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use/",
-   "first_published": "2026-11-22T15:16:02+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 41.0,
-   "signals": {
-    "coverage": 0.426,
-    "engagement": 0.717,
-    "velocity": 0.365,
-    "freshness": 0.496,
-    "age_hours": 47.6
-   },
-   "reasons": [
-    "2 outlets: Ars Technica, Engadget",
-    "HN 178 points, 66 comments",
-    "first seen 48h ago",
-    "topic: AI models & labs",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "rising",
-   "outlet_count": 2,
-   "outlets": [
-    "Ars Technica",
-    "Engadget"
-   ],
-   "engagement": 310,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Backblaze customers worried of personal data sale/sharing after policy update",
-     "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
-     "published": "2026-11-22T15:16:02+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 178,
-     "comments": 66,
-     "discussion_url": "https://news.ycombinator.com/item?id=50600435",
-     "id": "hackernews:50600435"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "Anthropic softens its data retention policy for Mythos and Fable model use",
-     "url": "https://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use/",
-     "published": "2026-11-23T20:02:30+00:00",
-     "summary": "Enterprise customers can now keep prompts and responses on their own servers.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:8166e4cb3268"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Surveillance pricing uses our personal data to make us pay more",
-     "url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
-     "published": "2026-11-23T20:11:43+00:00",
-     "summary": "Personalized pricing can mean unfair, and even biased, prices.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:88c939963f0d"
-    }
-   ]
-  },
-  {
    "id": "94e66f99b0",
    "headline": "How should an LLM see a computer?",
    "url": "https://www.greptile.com/blog/trex-computer-use",
@@ -942,24 +1328,24 @@
     "AI models & labs",
     "AI agents & products"
    ],
-   "score": 38.5,
+   "score": 39.7,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.81,
-    "velocity": 0.624,
-    "freshness": 0.662,
-    "age_hours": 21.5
+    "engagement": 0.916,
+    "velocity": 0.733,
+    "freshness": 0.612,
+    "age_hours": 27.0
    },
    "reasons": [
-    "HN 382 points, 136 comments",
-    "first seen 22h ago",
+    "HN 829 points, 349 comments",
+    "first seen 27h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-24",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 654,
+   "engagement": 1527,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -974,7 +1360,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 57,
+     "points": 58,
      "comments": 25,
      "discussion_url": "https://news.ycombinator.com/item?id=50615520",
      "id": "hackernews:50615520"
@@ -989,43 +1375,129 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 325,
-     "comments": 111,
+     "points": 771,
+     "comments": 324,
      "discussion_url": "https://news.ycombinator.com/item?id=50627340",
      "id": "hackernews:50627340"
     }
    ]
   },
   {
-   "id": "bad8a5b201",
-   "headline": "OpenAI and Cisco introduce Shirudo",
-   "url": "https://openai.com/index/introducing-shirudo",
-   "first_published": "2026-11-23T21:20:00+00:00",
+   "id": "aa6819b825",
+   "headline": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+   "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+   "first_published": "2026-11-24T11:00:00+00:00",
    "topic": "AI models & labs",
    "topics": [
-    "AI models & labs"
+    "AI models & labs",
+    "AI business & chips"
    ],
-   "score": 36.7,
+   "score": 38.7,
    "signals": {
-    "coverage": 0.185,
-    "engagement": 0.606,
-    "velocity": 0.382,
-    "freshness": 0.706,
-    "age_hours": 17.5
+    "coverage": 0.469,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.819,
+    "age_hours": 9.3
    },
    "reasons": [
-    "1 outlet: OpenAI News",
-    "HN 79 points, 24 comments",
-    "first seen 18h ago",
+    "2 outlets: MIT Technology Review, TechCrunch",
+    "first seen 9h ago",
+    "topic: AI models & labs",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "rising",
+   "outlet_count": 2,
+   "outlets": [
+    "MIT Technology Review",
+    "TechCrunch"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "MIT Technology Review",
+     "title": "Data centers are getting their own natural gas power plants",
+     "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+     "published": "2026-11-24T11:00:00+00:00",
+     "summary": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI b",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:MIT Technology Review:164ccb0d6a73"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+     "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+     "published": "2026-11-24T16:10:00+00:00",
+     "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:10ac4032d91a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+     "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+     "published": "2026-11-24T16:10:00+00:00",
+     "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:10ac4032d91a"
+    }
+   ]
+  },
+  {
+   "id": "6b9132afbe",
+   "headline": "How Gemini is changing the game for Golden State's organization and fans.",
+   "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+   "first_published": "2026-11-23T20:59:12+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "Tech & startups"
+   ],
+   "score": 35.5,
+   "signals": {
+    "coverage": 0.185,
+    "engagement": 0.666,
+    "velocity": 0.413,
+    "freshness": 0.644,
+    "age_hours": 23.4
+   },
+   "reasons": [
+    "1 outlet: Google AI Blog",
+    "HN 74 points, 66 comments",
+    "first seen 23h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-24",
    "status": "new",
    "outlet_count": 1,
    "outlets": [
-    "OpenAI News"
+    "Google AI Blog"
    ],
-   "engagement": 127,
+   "engagement": 206,
    "regions": [
     "Source"
    ],
@@ -1033,34 +1505,34 @@
    "llm_status": "",
    "articles": [
     {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "The horse made the state",
+     "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
+     "published": "2026-11-23T20:59:12+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 74,
+     "comments": 66,
+     "discussion_url": "https://news.ycombinator.com/item?id=50619186",
+     "id": "hackernews:50619186"
+    },
+    {
      "source": "feed",
-     "outlet": "OpenAI News",
-     "title": "OpenAI and Cisco introduce Shirudo",
-     "url": "https://openai.com/index/introducing-shirudo",
-     "published": "2026-11-23T21:20:00+00:00",
-     "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+     "outlet": "Google AI Blog",
+     "title": "How Gemini is changing the game for Golden State's organization and fans.",
+     "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+     "published": "2026-11-24T16:00:00+00:00",
+     "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
      "region": "Source",
      "lang": "en",
      "weight": 0.5,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:OpenAI News:1d0c151fefed"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
-     "url": "https://openai.com/index/introducing-shirudo/",
-     "published": "2026-11-23T21:30:41+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 79,
-     "comments": 24,
-     "discussion_url": "https://news.ycombinator.com/item?id=50619630",
-     "id": "hackernews:50619630"
+     "id": "feed:Google AI Blog:8d6c7c64bc85"
     }
    ]
   },
@@ -1073,18 +1545,18 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 34.9,
+   "score": 33.5,
    "signals": {
     "coverage": 0.28,
     "engagement": 0.595,
-    "velocity": 0.245,
-    "freshness": 0.526,
-    "age_hours": 40.5
+    "velocity": 0.228,
+    "freshness": 0.502,
+    "age_hours": 46.0
    },
    "reasons": [
     "1 outlet: Ars Technica",
     "HN 74 points, 21 comments",
-    "first seen 41h ago",
+    "first seen 46h ago",
     "topic: AI agents & products",
     "rising: 1 more outlets since yesterday"
    ],
@@ -1134,71 +1606,220 @@
    ]
   },
   {
-   "id": "ef14fe40de",
-   "headline": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-   "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-   "first_published": "2026-11-23T01:25:53+00:00",
+   "id": "bad8a5b201",
+   "headline": "OpenAI and Cisco introduce Shirudo",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "first_published": "2026-11-23T21:20:00+00:00",
    "topic": "AI models & labs",
    "topics": [
-    "AI models & labs",
-    "AI business & chips"
+    "AI models & labs"
    ],
-   "score": 34.6,
+   "score": 33.4,
    "signals": {
-    "coverage": 0.292,
-    "engagement": 0.754,
-    "velocity": 0.453,
-    "freshness": 0.542,
-    "age_hours": 37.4
+    "coverage": 0.185,
+    "engagement": 0.612,
+    "velocity": 0.346,
+    "freshness": 0.647,
+    "age_hours": 23.0
    },
    "reasons": [
-    "1 outlet: TechCrunch AI",
-    "HN 113 points, 153 comments",
-    "first seen 37h ago",
+    "1 outlet: OpenAI News",
+    "HN 83 points, 25 comments",
+    "first seen 23h ago",
     "topic: AI models & labs"
    ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
+   "first_seen": "2026-11-24",
+   "status": "new",
    "outlet_count": 1,
    "outlets": [
-    "TechCrunch AI"
+    "OpenAI News"
    ],
-   "engagement": 419,
+   "engagement": 133,
    "regions": [
-    "International"
+    "Source"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
     {
      "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-     "published": "2026-11-23T01:25:53+00:00",
-     "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+     "outlet": "OpenAI News",
+     "title": "OpenAI and Cisco introduce Shirudo",
+     "url": "https://openai.com/index/introducing-shirudo",
+     "published": "2026-11-23T21:20:00+00:00",
+     "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:OpenAI News:1d0c151fefed"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+     "url": "https://openai.com/index/introducing-shirudo/",
+     "published": "2026-11-23T21:30:41+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 83,
+     "comments": 25,
+     "discussion_url": "https://news.ycombinator.com/item?id=50619630",
+     "id": "hackernews:50619630"
+    }
+   ]
+  },
+  {
+   "id": "6ff2c11cfa",
+   "headline": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+   "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+   "first_published": "2026-11-23T17:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "Tech & startups"
+   ],
+   "score": 33.1,
+   "signals": {
+    "coverage": 0.515,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.609,
+    "age_hours": 27.3
+   },
+   "reasons": [
+    "3 outlets: TechCrunch, Engadget, Google AI Blog",
+    "first seen 27h ago",
+    "topic: AI models & labs",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "rising",
+   "outlet_count": 3,
+   "outlets": [
+    "Engadget",
+    "Google AI Blog",
+    "TechCrunch"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International",
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Google AI Blog",
+     "title": "A more tailored Google Search that’s uniquely yours",
+     "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+     "published": "2026-11-23T17:00:00+00:00",
+     "summary": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.5,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Google AI Blog:c5903c8754bb"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+     "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+     "published": "2026-11-23T19:14:46+00:00",
+     "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:TechCrunch AI:d10eff38fa3d"
+     "id": "feed:TechCrunch:d3b9995e141d"
     },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+     "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+     "published": "2026-11-23T19:14:46+00:00",
+     "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:d3b9995e141d"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Google Maps' Dark Mode is getting even darker",
+     "url": "https://www.engadget.com/2326681/google-maps-dark-mode-is-getting-even-darker/",
+     "published": "2026-11-24T16:33:28+00:00",
+     "summary": "This is part of a forthcoming update that adds new high-visibility options.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:b40c1b889e5a"
+    }
+   ]
+  },
+  {
+   "id": "c701aa99e7",
+   "headline": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+   "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+   "first_published": "2026-11-24T17:07:41+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 32.0,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.718,
+    "velocity": 0.83,
+    "freshness": 0.93,
+    "age_hours": 3.2
+   },
+   "reasons": [
+    "HN 119 points, 97 comments",
+    "first seen 3h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 313,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-     "published": "2026-11-24T13:23:47+00:00",
+     "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+     "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+     "published": "2026-11-24T17:07:41+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 113,
-     "comments": 153,
-     "discussion_url": "https://news.ycombinator.com/item?id=50627836",
-     "id": "hackernews:50627836"
+     "points": 119,
+     "comments": 97,
+     "discussion_url": "https://news.ycombinator.com/item?id=50631157",
+     "id": "hackernews:50631157"
     }
    ]
   },
@@ -1211,24 +1832,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 32.8,
+   "score": 31.2,
    "signals": {
     "coverage": 0.0,
     "engagement": 0.904,
-    "velocity": 0.639,
-    "freshness": 0.52,
-    "age_hours": 41.8
+    "velocity": 0.618,
+    "freshness": 0.497,
+    "age_hours": 47.3
    },
    "reasons": [
-    "HN 766 points, 312 comments",
-    "first seen 42h ago",
+    "HN 769 points, 312 comments",
+    "first seen 47h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-23",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 1390,
+   "engagement": 1393,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1243,214 +1864,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 766,
+     "points": 769,
      "comments": 312,
      "discussion_url": "https://news.ycombinator.com/item?id=50603845",
      "id": "hackernews:50603845"
-    }
-   ]
-  },
-  {
-   "id": "aa6819b825",
-   "headline": "A Power Provider for Meta Urged Regulators to Exempt Data Center Plants From Acid Rain Rules",
-   "url": "https://www.wired.com/story/a-power-provider-for-meta-urged-regulators-to-exempt-data-center-plants-from-acid-rain-rules/",
-   "first_published": "2026-11-22T18:08:43+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI business & chips",
-    "Tech & startups"
-   ],
-   "score": 31.9,
-   "signals": {
-    "coverage": 0.589,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.507,
-    "age_hours": 44.7
-   },
-   "reasons": [
-    "3 outlets: TechCrunch AI, MIT Technology Review, Wired",
-    "first seen 45h ago",
-    "topic: AI models & labs",
-    "rising: 2 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "rising",
-   "outlet_count": 3,
-   "outlets": [
-    "MIT Technology Review",
-    "TechCrunch AI",
-    "Wired"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Why data centers are at the center of the Big Tech backlash",
-     "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
-     "published": "2026-11-22T18:08:43+00:00",
-     "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:6b2696c7cf3e"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "A Power Provider for Meta Urged Regulators to Exempt Data Center Plants From Acid Rain Rules",
-     "url": "https://www.wired.com/story/a-power-provider-for-meta-urged-regulators-to-exempt-data-center-plants-from-acid-rain-rules/",
-     "published": "2026-11-23T10:15:00+00:00",
-     "summary": "Before the EPA recommended waiving acid rain regulations for certain data-center power plants, it met with industry players—including Williams, a gas power provider for Meta data centers.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:34c053eeecd3"
-    },
-    {
-     "source": "feed",
-     "outlet": "MIT Technology Review",
-     "title": "Data centers are getting their own natural gas power plants",
-     "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
-     "published": "2026-11-24T11:00:00+00:00",
-     "summary": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI b",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:MIT Technology Review:164ccb0d6a73"
-    }
-   ]
-  },
-  {
-   "id": "980572ef90",
-   "headline": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
-   "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
-   "first_published": "2026-11-24T09:33:00+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products",
-    "Tech & startups"
-   ],
-   "score": 31.7,
-   "signals": {
-    "coverage": 0.469,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.889,
-    "age_hours": 5.3
-   },
-   "reasons": [
-    "2 outlets: BBC Technology, The Guardian Tech",
-    "first seen 5h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "new",
-   "outlet_count": 2,
-   "outlets": [
-    "BBC Technology",
-    "The Guardian Tech"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
-     "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-24T09:33:00+00:00",
-     "summary": "Meta wants Muse to do for AI what WhatsApp did for messaging - here's what the BBC's technology editor found when she used it.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:8b95df26cc85"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Meta launches Muse in UK – the AI agent that can do your Christmas shopping",
-     "url": "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping",
-     "published": "2026-11-24T14:36:32+00:00",
-     "summary": "Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Have you downloaded Meta’s AI assistant Muse or do you plan to? Want to avoid the Christmas shopping hordes? Then let your AI agent do the shopping for you. Mark Zuckerberg’s Meta is launching its ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:24384649709a"
-    }
-   ]
-  },
-  {
-   "id": "0aa1e123a1",
-   "headline": "Perplexity and Intelligence",
-   "url": "https://openai.com/index/perplexity-and-intelligence/",
-   "first_published": "2026-11-22T17:06:27+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 30.6,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.922,
-    "velocity": 0.649,
-    "freshness": 0.503,
-    "age_hours": 45.7
-   },
-   "reasons": [
-    "HN 713 points, 447 comments",
-    "first seen 46h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1607,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Perplexity and Intelligence",
-     "url": "https://openai.com/index/perplexity-and-intelligence/",
-     "published": "2026-11-22T17:06:27+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 713,
-     "comments": 447,
-     "discussion_url": "https://news.ycombinator.com/item?id=50601525",
-     "id": "hackernews:50601525"
     }
    ]
   },
@@ -1463,24 +1880,24 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 29.3,
+   "score": 27.1,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.691,
-    "velocity": 0.434,
-    "freshness": 0.628,
-    "age_hours": 25.1
+    "engagement": 0.696,
+    "velocity": 0.408,
+    "freshness": 0.584,
+    "age_hours": 30.6
    },
    "reasons": [
-    "HN 181 points, 35 comments",
-    "first seen 25h ago",
+    "HN 190 points, 36 comments",
+    "first seen 31h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-23",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 251,
+   "engagement": 262,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1495,174 +1912,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 181,
-     "comments": 35,
+     "points": 190,
+     "comments": 36,
      "discussion_url": "https://news.ycombinator.com/item?id=50611402",
      "id": "hackernews:50611402"
-    }
-   ]
-  },
-  {
-   "id": "489b69039b",
-   "headline": "India's opposition storms Meta's offices to get its Instagram accounts back",
-   "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
-   "first_published": "2026-11-24T06:28:04+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 28.4,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.751,
-    "velocity": 0.706,
-    "freshness": 0.835,
-    "age_hours": 8.4
-   },
-   "reasons": [
-    "HN 215 points, 96 comments",
-    "first seen 8h ago",
-    "topic: Tech & startups"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 407,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "India's opposition storms Meta's offices to get its Instagram accounts back",
-     "url": "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html",
-     "published": "2026-11-24T06:28:04+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 215,
-     "comments": 96,
-     "discussion_url": "https://news.ycombinator.com/item?id=50624487",
-     "id": "hackernews:50624487"
-    }
-   ]
-  },
-  {
-   "id": "e85a54e59b",
-   "headline": "The hacker behind early GTA VI leaks has been sentenced — and released",
-   "url": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
-   "first_published": "2026-11-23T14:08:50+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 28.4,
-   "signals": {
-    "coverage": 0.674,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.632,
-    "age_hours": 24.7
-   },
-   "reasons": [
-    "4 outlets: BBC Technology, The Verge, The Guardian Tech, Engadget",
-    "first seen 25h ago",
-    "topic: Tech & startups",
-    "rising: 2 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "rising",
-   "outlet_count": 4,
-   "outlets": [
-    "BBC Technology",
-    "Engadget",
-    "The Guardian Tech",
-    "The Verge"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
-     "url": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-23T14:08:50+00:00",
-     "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:10722a83e2c2"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "Grand Theft Auto 6 is really about the death of the American Dream",
-     "url": "https://www.engadget.com/2325713/grand-theft-auto/",
-     "published": "2026-11-23T20:16:10+00:00",
-     "summary": "The struggle in GTA6 is both real and virtual.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:6dfcdac33b39"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
-     "url": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
-     "published": "2026-11-23T23:25:01+00:00",
-     "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, year",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:07e45d860613"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Man Theft Auto – why did so few women review GTA VI, the biggest video game of the decade?",
-     "url": "https://www.theguardian.com/games/2026/nov/24/man-theft-auto-why-did-so-few-women-review-gta-vi-the-biggest-video-game-of-the-decade",
-     "published": "2026-11-24T11:00:43+00:00",
-     "summary": "Given that this is the first Grand Theft Auto in 30 years with a female protagonist, you might have expected to hear from female critics. But you would have expected mostly in vain Grand Theft Auto VI is now the biggest video game launch of all time, and is likely to become the biggest video game of",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:cc80af5e3936"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "GTA VI’s jaw-dropping success: in figures",
-     "url": "https://www.theguardian.com/games/2026/nov/24/gta-vi-streaming-numbers-charts",
-     "published": "2026-11-24T13:00:46+00:00",
-     "summary": "Content creators have produced hundreds of millions of hours of video game since its launch Grand Theft Auto ( GTA) VI became the largest video game release of all time last week and while it is hard to say exactly how many people are playing the game (current estimates say at least 30 million), the",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:e106444c633e"
     }
    ]
   },
@@ -1675,24 +1928,24 @@
    "topics": [
     "Tech & startups"
    ],
-   "score": 27.6,
+   "score": 25.4,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.883,
-    "velocity": 0.777,
-    "freshness": 0.72,
-    "age_hours": 16.3
+    "engagement": 0.9,
+    "velocity": 0.749,
+    "freshness": 0.659,
+    "age_hours": 21.8
    },
    "reasons": [
-    "HN 571 points, 302 comments",
-    "first seen 16h ago",
+    "HN 677 points, 334 comments",
+    "first seen 22h ago",
     "topic: Tech & startups"
    ],
    "first_seen": "2026-11-24",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 1175,
+   "engagement": 1345,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1707,8 +1960,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 571,
-     "comments": 302,
+     "points": 677,
+     "comments": 334,
      "discussion_url": "https://news.ycombinator.com/item?id=50620349",
      "id": "hackernews:50620349"
     }
