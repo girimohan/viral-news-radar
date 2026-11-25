@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-25T14:18:42+00:00",
+ "generated_at": "2026-11-25T19:35:09+00:00",
  "date": "2026-11-25",
- "new_today": 7,
+ "new_today": 9,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2890,
+  "collected": 2894,
   "undated": 0,
-  "too_old": 2535,
-  "excluded": 10,
+  "too_old": 2539,
+  "excluded": 9,
   "duplicate": 0,
-  "articles_in_window": 345,
-  "stories": 237,
-  "off_topic": 165,
-  "low_score": 51,
-  "shown": 21
+  "articles_in_window": 346,
+  "stories": 239,
+  "off_topic": 172,
+  "low_score": 45,
+  "shown": 22
  },
  "llm": {
   "enabled": false
@@ -24,16 +24,16 @@
    "name": "feeds",
    "ok": true,
    "fetched": 2782,
-   "in_stories": 10,
+   "in_stories": 12,
    "detail": "19/23 feeds read; failed: ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 108,
-   "in_stories": 18,
-   "detail": "108 stories with 40+ points",
+   "fetched": 112,
+   "in_stories": 16,
+   "detail": "112 stories with 40+ points",
    "error": ""
   },
   {
@@ -67,18 +67,18 @@
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 47.5,
+   "score": 44.2,
    "signals": {
     "coverage": 0.292,
-    "engagement": 0.96,
-    "velocity": 0.811,
-    "freshness": 0.63,
-    "age_hours": 24.9
+    "engagement": 0.962,
+    "velocity": 0.779,
+    "freshness": 0.588,
+    "age_hours": 30.2
    },
    "reasons": [
     "1 outlet: TechCrunch",
-    "HN 587 points, 793 comments",
-    "first seen 25h ago",
+    "HN 598 points, 806 comments",
+    "first seen 30h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-14",
@@ -87,7 +87,7 @@
    "outlets": [
     "TechCrunch"
    ],
-   "engagement": 2173,
+   "engagement": 2210,
    "regions": [
     "International"
    ],
@@ -104,8 +104,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 410,
-     "comments": 775,
+     "points": 418,
+     "comments": 788,
      "discussion_url": "https://news.ycombinator.com/item?id=50627836",
      "id": "hackernews:50627836"
     },
@@ -164,7 +164,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 48,
+     "points": 51,
      "comments": 15,
      "discussion_url": "https://news.ycombinator.com/item?id=50635706",
      "id": "hackernews:50635706"
@@ -172,90 +172,40 @@
    ]
   },
   {
-   "id": "19c38d00ba",
-   "headline": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-   "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-   "first_published": "2026-11-25T04:03:33+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 46.3,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.772,
-    "velocity": 0.7,
-    "freshness": 0.804,
-    "age_hours": 10.3
-   },
-   "reasons": [
-    "HN 193 points, 144 comments",
-    "first seen 10h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 481,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-     "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-     "published": "2026-11-25T04:03:33+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 193,
-     "comments": 144,
-     "discussion_url": "https://news.ycombinator.com/item?id=50638320",
-     "id": "hackernews:50638320"
-    }
-   ]
-  },
-  {
    "id": "0c5a6a8108",
-   "headline": "How important are Nvidia and Jensen Huang to the US economy?",
-   "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-   "first_published": "2026-11-23T14:51:37+00:00",
+   "headline": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
+   "first_published": "2026-11-23T20:13:18+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs",
     "AI business & chips"
    ],
-   "score": 44.8,
+   "score": 43.6,
    "signals": {
-    "coverage": 0.866,
-    "engagement": 0.983,
-    "velocity": 0.73,
+    "coverage": 0.755,
+    "engagement": 1.0,
+    "velocity": 0.765,
     "freshness": 0.497,
-    "age_hours": 47.5
+    "age_hours": 47.4
    },
    "reasons": [
-    "7 outlets: BBC Technology, The Guardian Tech, TechCrunch AI, Ars Technica +3 more",
-    "HN 1.2k points, 735 comments",
+    "5 outlets: BBC Technology, The Guardian Tech, TechCrunch, Wired +1 more",
+    "HN 1.4k points, 901 comments",
     "first seen 47h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-19",
    "status": "steady",
-   "outlet_count": 7,
+   "outlet_count": 5,
    "outlets": [
-    "Ars Technica",
     "BBC Technology",
     "Helsinki Times",
-    "TechCrunch AI",
+    "TechCrunch",
     "The Guardian Tech",
-    "Wired",
-    "ZDNet AI"
+    "Wired"
    ],
-   "engagement": 2627,
+   "engagement": 3200,
    "regions": [
     "Finland",
     "International"
@@ -263,96 +213,6 @@
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "ZDNet AI",
-     "title": "Nvidia CEO Jensen Huang is back after a stunning reversal",
-     "url": "https://www.zdnet.com/innovation/jensen-huang-is-back-as-nvidia-ceo-after-a-stunning-reversal/",
-     "published": "2026-11-23T14:51:37+00:00",
-     "summary": "Nvidia’s board unanimously reinstated Huang 11 days after his removal, but his troubles may not be over.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.6,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:ZDNet AI:9f80bdf881ec"
-    },
-    {
-     "source": "feed",
-     "outlet": "Helsinki Times",
-     "title": "Nvidia brings back Jensen Huang as CEO, shares jump",
-     "url": "https://www.helsinkitimes.com/business/29527-nvidia-brings-back-jensen-huang-as-ceo-shares-jump.html",
-     "published": "2026-11-23T15:13:08+00:00",
-     "summary": "Nvidia has reinstated Jensen Huang as chief executive less than two weeks after his resignation over revelations of extramarital affairs, including a relationship with a woman suspected of links to Chinese intelligence. The US chipmaker announced that its board had unanimously voted to restore Huang",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Helsinki Times:35a3baee45c5"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "The rise and fall and rise again of Jensen Huang",
-     "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-23T15:49:52+00:00",
-     "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:cf2b46224694"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "How important are Nvidia and Jensen Huang to the US economy?",
-     "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-23T16:12:35+00:00",
-     "summary": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:db35af370250"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Nvidia’s humiliated board should resign out of embarrassment | Nils Pratley",
-     "url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/23/nvidia-board-jensen-huang-return",
-     "published": "2026-11-23T17:37:10+00:00",
-     "summary": "Jensen Huang’s return as CEO comes despite fact board hasn’t completed investigation into reports of affair with alleged Chinese spy Jensen Huang reinstated as Nvidia CEO What was it that Nvidia’s board was saying about there being no chance of Jensen Huang coming back? The position – a mere six day",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:52c0662f82f8"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Two \"suspicious clusters\" on Polymarket Made Over $340k on Huang Comeback",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq",
-     "published": "2026-11-23T19:25:21+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 59,
-     "comments": 7,
-     "discussion_url": "https://news.ycombinator.com/item?id=50617640",
-     "id": "hackernews:50617640"
-    },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
@@ -370,21 +230,6 @@
     },
     {
      "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
-     "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
-     "published": "2026-11-23T20:38:53+00:00",
-     "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:a819248764c2"
-    },
-    {
-     "source": "feed",
      "outlet": "BBC Technology",
      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
      "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
@@ -399,36 +244,6 @@
      "id": "feed:BBC Technology:0a76476f2e94"
     },
     {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
-     "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
-     "published": "2026-11-23T21:25:42+00:00",
-     "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:7853fbaaf397"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
-     "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
-     "published": "2026-11-23T21:47:41+00:00",
-     "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:e05b611a819c"
-    },
-    {
      "source": "hackernews",
      "outlet": "Hacker News",
      "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
@@ -438,7 +253,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 345,
+     "points": 347,
      "comments": 261,
      "discussion_url": "https://news.ycombinator.com/item?id=50620822",
      "id": "hackernews:50620822"
@@ -459,6 +274,21 @@
      "id": "feed:BBC Technology:53ae7331145a"
     },
     {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Trump, Nvidia and power: could we be nearing the end of tech’s Gilded Age?",
+     "url": "https://www.theguardian.com/technology/2026/nov/24/trump-nvidia-gilded-age",
+     "published": "2026-11-24T08:00:11+00:00",
+     "summary": "Oligarchs believe they’re untouchable – the blue wave offers hope that the rampant corruption of the Trump era may soon be over Nvidia staff: what do you think of Jensen Huang’s return as chief executive? One can imagine high-fives all around Nvidia’s boardroom after the board reinstated Jensen Huan",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:530eaa08afbc"
+    },
+    {
      "source": "hackernews",
      "outlet": "Hacker News",
      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
@@ -468,10 +298,25 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 476,
-     "comments": 272,
+     "points": 478,
+     "comments": 274,
      "discussion_url": "https://news.ycombinator.com/item?id=50626578",
      "id": "hackernews:50626578"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Who in Washington owns and trades Nvidia stock",
+     "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
+     "published": "2026-11-24T11:51:05+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 289,
+     "comments": 166,
+     "discussion_url": "https://news.ycombinator.com/item?id=50626861",
+     "id": "hackernews:50626861"
     },
     {
      "source": "feed",
@@ -504,21 +349,6 @@
      "id": "feed:The Guardian Tech:deb41e4f828d"
     },
     {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
-     "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
-     "published": "2026-11-24T14:56:50+00:00",
-     "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:2f75382e1552"
-    },
-    {
      "source": "hackernews",
      "outlet": "Hacker News",
      "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
@@ -528,8 +358,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 41,
-     "comments": 17,
+     "points": 42,
+     "comments": 18,
      "discussion_url": "https://news.ycombinator.com/item?id=50629620",
      "id": "hackernews:50629620"
     },
@@ -547,21 +377,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:The Guardian Tech:a80b129c6839"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Mamdani questions AI economy as Jensen Huang returns to Nvidia – video",
-     "url": "https://www.theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video",
-     "published": "2026-11-24T16:30:07+00:00",
-     "summary": "New York City mayor Zohran Mamdani weighed in on the corporate turbulence surrounding Nvidia and the chipmaker’s chief executive officer, Jensen Huang, saying he does not think working Americans 'signed up for their pensions being tied to the question of Huang’s fidelity to his marriage'. The mayor ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:065b16dad3fd"
     },
     {
      "source": "feed",
@@ -588,8 +403,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 42,
-     "comments": 19,
+     "points": 43,
+     "comments": 20,
      "discussion_url": "https://news.ycombinator.com/item?id=50632308",
      "id": "hackernews:50632308"
     },
@@ -633,7 +448,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 67,
+     "points": 70,
      "comments": 28,
      "discussion_url": "https://news.ycombinator.com/item?id=50634780",
      "id": "hackernews:50634780"
@@ -667,21 +482,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:34e6b9d9badb"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides",
-     "url": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
-     "published": "2026-11-24T22:05:21+00:00",
-     "summary": "Sell-off signals investors are bracing for further volatility in key AI sector driving economic growth worldwide Technology shares led a market retreat on Tuesday as caution returned after Jensen Huang’s extraordinary return to Nvidia days after he was forced to resign, with investors bracing for fu",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:e298585cdf4b"
     },
     {
      "source": "feed",
@@ -723,8 +523,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 58,
-     "comments": 75,
+     "points": 60,
+     "comments": 78,
      "discussion_url": "https://news.ycombinator.com/item?id=50635941",
      "id": "hackernews:50635941"
     },
@@ -824,7 +624,7 @@
      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
      "published": "2026-11-25T13:00:00+00:00",
-     "summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+     "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
@@ -839,7 +639,7 @@
      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
      "published": "2026-11-25T13:00:00+00:00",
-     "summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+     "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
@@ -847,6 +647,133 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:23ab5a8d86d8"
+    }
+   ]
+  },
+  {
+   "id": "19c38d00ba",
+   "headline": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+   "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+   "first_published": "2026-11-25T04:03:33+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 41.8,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.784,
+    "velocity": 0.645,
+    "freshness": 0.73,
+    "age_hours": 15.5
+   },
+   "reasons": [
+    "HN 209 points, 162 comments",
+    "first seen 16h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-25",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 533,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+     "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+     "published": "2026-11-25T04:03:33+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 209,
+     "comments": 162,
+     "discussion_url": "https://news.ycombinator.com/item?id=50638320",
+     "id": "hackernews:50638320"
+    }
+   ]
+  },
+  {
+   "id": "94e66f99b0",
+   "headline": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "first_published": "2026-11-24T12:40:15+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI agents & products"
+   ],
+   "score": 39.4,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.963,
+    "velocity": 0.776,
+    "freshness": 0.582,
+    "age_hours": 30.9
+   },
+   "reasons": [
+    "HN 1.1k points, 548 comments",
+    "first seen 31h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 2225,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "LLM agents work for their parent companies, not for you",
+     "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+     "published": "2026-11-24T12:40:15+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 996,
+     "comments": 409,
+     "discussion_url": "https://news.ycombinator.com/item?id=50627340",
+     "id": "hackernews:50627340"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Working with AI",
+     "url": "https://www.anthropic.com/research/working-with-ai",
+     "published": "2026-11-24T21:07:38+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 83,
+     "comments": 74,
+     "discussion_url": "https://news.ycombinator.com/item?id=50634734",
+     "id": "hackernews:50634734"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Why aren't we working 2-days a week?",
+     "url": "https://anihil.com/why-arent-we-working-2-days-a-week",
+     "published": "2026-11-25T17:37:17+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 50,
+     "comments": 65,
+     "discussion_url": "https://news.ycombinator.com/item?id=50645010",
+     "id": "hackernews:50645010"
     }
    ]
   },
@@ -859,24 +786,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 40.6,
+   "score": 38.0,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.855,
-    "velocity": 0.687,
-    "freshness": 0.662,
-    "age_hours": 21.5
+    "engagement": 0.872,
+    "velocity": 0.672,
+    "freshness": 0.614,
+    "age_hours": 26.8
    },
    "reasons": [
-    "HN 366 points, 286 comments",
-    "first seen 22h ago",
+    "HN 429 points, 323 comments",
+    "first seen 27h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-24",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 938,
+   "engagement": 1075,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -891,187 +818,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 366,
-     "comments": 286,
+     "points": 429,
+     "comments": 323,
      "discussion_url": "https://news.ycombinator.com/item?id=50630809",
      "id": "hackernews:50630809"
-    }
-   ]
-  },
-  {
-   "id": "980572ef90",
-   "headline": "Meta brings its Muse AI assistant directly into Instagram DMs",
-   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-   "first_published": "2026-11-24T09:33:00+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products",
-    "Tech & startups"
-   ],
-   "score": 39.6,
-   "signals": {
-    "coverage": 0.695,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.598,
-    "age_hours": 28.8
-   },
-   "reasons": [
-    "4 outlets: BBC Technology, The Guardian Tech, TechCrunch, The Verge",
-    "first seen 29h ago",
-    "topic: AI agents & products",
-    "rising: 2 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "rising",
-   "outlet_count": 4,
-   "outlets": [
-    "BBC Technology",
-    "TechCrunch",
-    "The Guardian Tech",
-    "The Verge"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
-     "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-24T09:33:00+00:00",
-     "summary": "Meta wants Muse to do for AI what WhatsApp did for messaging - here's what the BBC's technology editor found when she used it.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:8b95df26cc85"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Meta launches Muse in UK – the AI agent that can do your Christmas shopping",
-     "url": "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping",
-     "published": "2026-11-24T14:36:32+00:00",
-     "summary": "Users can give agents tasks such as booking travel or buying presents, but glitches have been reported Have you downloaded Meta’s AI assistant Muse or do you plan to? Want to avoid the Christmas shopping hordes? Then let your AI agent do the shopping for you. Mark Zuckerberg’s Meta is launching its ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:24384649709a"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-     "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-     "published": "2026-11-24T17:00:00+00:00",
-     "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:499fbc0b51a8"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-     "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-     "published": "2026-11-24T17:00:00+00:00",
-     "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:499fbc0b51a8"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-     "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-     "published": "2026-11-24T21:32:38+00:00",
-     "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:7fc7303ba991"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-     "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-     "published": "2026-11-24T21:32:38+00:00",
-     "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:7fc7303ba991"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-     "published": "2026-11-25T14:10:18+00:00",
-     "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:baeebb37d1eb"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-     "published": "2026-11-25T14:10:18+00:00",
-     "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:baeebb37d1eb"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Amazon is reportedly in talks to end Muse AI shopping block",
-     "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
-     "published": "2026-11-25T14:12:33+00:00",
-     "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's a",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:36c016fa62e8"
     }
    ]
   },
@@ -1084,18 +834,18 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 38.7,
+   "score": 36.2,
    "signals": {
     "coverage": 0.185,
-    "engagement": 0.772,
-    "velocity": 0.543,
-    "freshness": 0.626,
-    "age_hours": 25.3
+    "engagement": 0.784,
+    "velocity": 0.526,
+    "freshness": 0.585,
+    "age_hours": 30.6
    },
    "reasons": [
     "1 outlet: OpenAI News",
-    "HN 304 points, 90 comments",
-    "first seen 25h ago",
+    "HN 342 points, 94 comments",
+    "first seen 31h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-25",
@@ -1104,7 +854,7 @@
    "outlets": [
     "OpenAI News"
    ],
-   "engagement": 484,
+   "engagement": 530,
    "regions": [
     "Source"
    ],
@@ -1136,8 +886,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 304,
-     "comments": 90,
+     "points": 342,
+     "comments": 94,
      "discussion_url": "https://news.ycombinator.com/item?id=50634658",
      "id": "hackernews:50634658"
     }
@@ -1152,24 +902,24 @@
    "topics": [
     "AI business & chips"
    ],
-   "score": 37.2,
+   "score": 34.7,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.718,
-    "velocity": 0.633,
-    "freshness": 0.812,
-    "age_hours": 9.8
+    "engagement": 0.758,
+    "velocity": 0.613,
+    "freshness": 0.736,
+    "age_hours": 15.1
    },
    "reasons": [
-    "HN 220 points, 47 comments",
-    "first seen 10h ago",
+    "HN 297 points, 67 comments",
+    "first seen 15h ago",
     "topic: AI business & chips"
    ],
    "first_seen": "2026-11-25",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 314,
+   "engagement": 431,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1184,8 +934,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 220,
-     "comments": 47,
+     "points": 297,
+     "comments": 67,
      "discussion_url": "https://news.ycombinator.com/item?id=50638503",
      "id": "hackernews:50638503"
     }
@@ -1200,24 +950,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 37.0,
+   "score": 34.3,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.631,
-    "velocity": 0.487,
-    "freshness": 0.789,
-    "age_hours": 11.3
+    "engagement": 0.658,
+    "velocity": 0.459,
+    "freshness": 0.717,
+    "age_hours": 16.6
    },
    "reasons": [
-    "HN 75 points, 40 comments",
-    "first seen 11h ago",
+    "HN 97 points, 48 comments",
+    "first seen 17h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-25",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 155,
+   "engagement": 193,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1232,700 +982,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 75,
-     "comments": 40,
+     "points": 97,
+     "comments": 48,
      "discussion_url": "https://news.ycombinator.com/item?id=50637871",
      "id": "hackernews:50637871"
-    }
-   ]
-  },
-  {
-   "id": "4e62e09bb8",
-   "headline": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
-   "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
-   "first_published": "2026-11-24T17:10:45+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 36.8,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.767,
-    "velocity": 0.567,
-    "freshness": 0.666,
-    "age_hours": 21.1
-   },
-   "reasons": [
-    "HN 219 points, 123 comments",
-    "first seen 21h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 465,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
-     "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
-     "published": "2026-11-24T17:10:45+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 219,
-     "comments": 123,
-     "discussion_url": "https://news.ycombinator.com/item?id=50631210",
-     "id": "hackernews:50631210"
-    }
-   ]
-  },
-  {
-   "id": "738652d873",
-   "headline": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
-   "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
-   "first_published": "2026-11-25T03:28:06+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 35.8,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.605,
-    "velocity": 0.459,
-    "freshness": 0.795,
-    "age_hours": 10.8
-   },
-   "reasons": [
-    "HN 98 points, 14 comments",
-    "first seen 11h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 126,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
-     "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
-     "published": "2026-11-25T03:28:06+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 98,
-     "comments": 14,
-     "discussion_url": "https://news.ycombinator.com/item?id=50638070",
-     "id": "hackernews:50638070"
-    }
-   ]
-  },
-  {
-   "id": "94e66f99b0",
-   "headline": "How should an LLM see a computer?",
-   "url": "https://www.greptile.com/blog/trex-computer-use",
-   "first_published": "2026-11-23T17:19:25+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI agents & products"
-   ],
-   "score": 33.1,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.943,
-    "velocity": 0.682,
-    "freshness": 0.506,
-    "age_hours": 45.0
-   },
-   "reasons": [
-    "HN 1.0k points, 429 comments",
-    "first seen 45h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1900,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "How should an LLM see a computer?",
-     "url": "https://www.greptile.com/blog/trex-computer-use",
-     "published": "2026-11-23T17:19:25+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 58,
-     "comments": 25,
-     "discussion_url": "https://news.ycombinator.com/item?id=50615520",
-     "id": "hackernews:50615520"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "LLM agents work for their parent companies, not for you",
-     "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-     "published": "2026-11-24T12:40:15+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 984,
-     "comments": 404,
-     "discussion_url": "https://news.ycombinator.com/item?id=50627340",
-     "id": "hackernews:50627340"
-    }
-   ]
-  },
-  {
-   "id": "ed5c23b21d",
-   "headline": "Microsoft declares ‘Code Red’ after huge Outlook outage",
-   "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
-   "first_published": "2026-11-23T22:32:29+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 33.1,
-   "signals": {
-    "coverage": 0.46,
-    "engagement": 0.956,
-    "velocity": 0.722,
-    "freshness": 0.53,
-    "age_hours": 39.8
-   },
-   "reasons": [
-    "2 outlets: The Verge, Ars Technica",
-    "HN 950 points, 582 comments",
-    "first seen 40h ago",
-    "topic: Tech & startups",
-    "rising: 2 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "rising",
-   "outlet_count": 2,
-   "outlets": [
-    "Ars Technica",
-    "The Verge"
-   ],
-   "engagement": 2114,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-     "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-     "published": "2026-11-23T22:32:29+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 702,
-     "comments": 346,
-     "discussion_url": "https://news.ycombinator.com/item?id=50620349",
-     "id": "hackernews:50620349"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
-     "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
-     "published": "2026-11-24T17:07:41+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 248,
-     "comments": 236,
-     "discussion_url": "https://news.ycombinator.com/item?id=50631157",
-     "id": "hackernews:50631157"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
-     "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
-     "published": "2026-11-24T22:36:28+00:00",
-     "summary": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:5ce3ed5a9fcd"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
-     "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
-     "published": "2026-11-25T11:12:42+00:00",
-     "summary": "This month's Exchange Online and Microsoft Outlook outage has prompted the software giant to declare an unusual \"Code Red\" internally, Reuters reports. The nearly 24-hour outage took down email for millions of customers, and was triggered by a bug that had been sitting on Microsoft 365 networking ga",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:fb5f03ab1f41"
-    }
-   ]
-  },
-  {
-   "id": "42f9804cae",
-   "headline": "VP ≠ VNP over Every Field",
-   "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-   "first_published": "2026-11-23T22:09:10+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 33.0,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.896,
-    "velocity": 0.636,
-    "freshness": 0.528,
-    "age_hours": 40.2
-   },
-   "reasons": [
-    "HN 460 points, 424 comments",
-    "first seen 40h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1308,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "VP ≠ VNP over Every Field",
-     "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-     "published": "2026-11-23T22:09:10+00:00",
-     "summary": "Paper: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;anthropics&#x2F;formal-math&#x2F;blob&#x2F;11b6c7e3c927df2658f513b6b68ea7f8929c62c5&#x2F;vp-vnp&#x2F;paper.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;anthropics&#x2F;formal-math&#x2F;blob&#x2F;11b6c7e3c927d...</a>",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 365,
-     "comments": 331,
-     "discussion_url": "https://news.ycombinator.com/item?id=50620102",
-     "id": "hackernews:50620102"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
-     "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
-     "published": "2026-11-24T18:55:12+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 95,
-     "comments": 93,
-     "discussion_url": "https://news.ycombinator.com/item?id=50632756",
-     "id": "hackernews:50632756"
-    }
-   ]
-  },
-  {
-   "id": "b69aa72502",
-   "headline": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-   "first_published": "2026-11-23T20:00:00+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI agents & products"
-   ],
-   "score": 32.1,
-   "signals": {
-    "coverage": 0.417,
-    "engagement": 0.632,
-    "velocity": 0.28,
-    "freshness": 0.518,
-    "age_hours": 42.3
-   },
-   "reasons": [
-    "2 outlets: TechCrunch AI, ZDNet AI",
-    "HN 88 points, 34 comments",
-    "first seen 42h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "steady",
-   "outlet_count": 2,
-   "outlets": [
-    "TechCrunch AI",
-    "ZDNet AI"
-   ],
-   "engagement": 156,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "ZDNet AI",
-     "title": "Claude can ship code for you now – how to try it (if you dare)",
-     "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
-     "published": "2026-11-23T20:00:00+00:00",
-     "summary": "Would you let a few Claude agents review and ship your code for you?",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.6,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:ZDNet AI:75b220875107"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Claude Ship",
-     "url": "https://claude.com/resources/articles/introducing-claude-ship",
-     "published": "2026-11-23T20:14:18+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 88,
-     "comments": 34,
-     "discussion_url": "https://news.ycombinator.com/item?id=50618513",
-     "id": "hackernews:50618513"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-     "published": "2026-11-23T22:05:50+00:00",
-     "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:7fdb8f748811"
-    }
-   ]
-  },
-  {
-   "id": "499733ed95",
-   "headline": "Who in Washington owns and trades Nvidia stock",
-   "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
-   "first_published": "2026-11-24T11:51:05+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips"
-   ],
-   "score": 30.0,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.803,
-    "velocity": 0.578,
-    "freshness": 0.617,
-    "age_hours": 26.5
-   },
-   "reasons": [
-    "HN 286 points, 166 comments",
-    "first seen 26h ago",
-    "topic: AI business & chips"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 618,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Who in Washington owns and trades Nvidia stock",
-     "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
-     "published": "2026-11-24T11:51:05+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 286,
-     "comments": 166,
-     "discussion_url": "https://news.ycombinator.com/item?id=50626861",
-     "id": "hackernews:50626861"
-    }
-   ]
-  },
-  {
-   "id": "51592d662b",
-   "headline": "Finland’s second emergency alert test succeeds despite lingering technical problems",
-   "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29534-finland-s-second-emergency-alert-test-reaches-more-phones-but-technical-issues-persist.html",
-   "first_published": "2026-11-24T06:26:00+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech"
-   ],
-   "score": 28.8,
-   "signals": {
-    "coverage": 0.452,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.576,
-    "age_hours": 31.9
-   },
-   "reasons": [
-    "2 outlets: Yle News, Helsinki Times",
-    "first seen 32h ago",
-    "topic: Finland & Nordic tech",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "rising",
-   "outlet_count": 2,
-   "outlets": [
-    "Helsinki Times",
-    "Yle News"
-   ],
-   "engagement": 0,
-   "regions": [
-    "Finland"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Yle News",
-     "title": "Finland sends emergency alert to phones in second trial of FI-Alert system",
-     "url": "https://yle.fi/a/74-20258592?origin=rss",
-     "published": "2026-11-24T06:26:00+00:00",
-     "summary": "The only way to avoid the 10-second alarm is to switch off the phone.",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Yle News:5be2109bb97d"
-    },
-    {
-     "source": "feed",
-     "outlet": "Helsinki Times",
-     "title": "Finland’s second emergency alert test succeeds despite lingering technical problems",
-     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29534-finland-s-second-emergency-alert-test-reaches-more-phones-but-technical-issues-persist.html",
-     "published": "2026-11-24T14:48:40+00:00",
-     "summary": "Finland’s second nationwide test of its FI-Alert emergency warning system reached more mobile phones on Tuesday than last week’s troubled trial, but some devices still failed to receive notifications. Others displayed warnings labelled “presidential alert” or prompted users to download a Filipino la",
-     "region": "Finland",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Helsinki Times:b81c1f7de861"
-    }
-   ]
-  },
-  {
-   "id": "8a4468d8de",
-   "headline": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
-   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-   "first_published": "2026-11-25T13:33:07+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 28.4,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.538,
-    "velocity": 0.779,
-    "freshness": 0.983,
-    "age_hours": 0.8
-   },
-   "reasons": [
-    "HN 49 points, 12 comments",
-    "broke in the last hour",
-    "topic: Tech & startups"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 73,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
-     "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-     "published": "2026-11-25T13:33:07+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 49,
-     "comments": 12,
-     "discussion_url": "https://news.ycombinator.com/item?id=50642086",
-     "id": "hackernews:50642086"
-    }
-   ]
-  },
-  {
-   "id": "6b9132afbe",
-   "headline": "How Gemini is changing the game for Golden State's organization and fans.",
-   "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-   "first_published": "2026-11-23T20:59:12+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "Tech & startups"
-   ],
-   "score": 28.2,
-   "signals": {
-    "coverage": 0.185,
-    "engagement": 0.669,
-    "velocity": 0.327,
-    "freshness": 0.522,
-    "age_hours": 41.3
-   },
-   "reasons": [
-    "1 outlet: Google AI Blog",
-    "HN 77 points, 67 comments",
-    "first seen 41h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "Google AI Blog"
-   ],
-   "engagement": 211,
-   "regions": [
-    "Source"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "The horse made the state",
-     "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
-     "published": "2026-11-23T20:59:12+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 77,
-     "comments": 67,
-     "discussion_url": "https://news.ycombinator.com/item?id=50619186",
-     "id": "hackernews:50619186"
-    },
-    {
-     "source": "feed",
-     "outlet": "Google AI Blog",
-     "title": "How Gemini is changing the game for Golden State's organization and fans.",
-     "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
-     "published": "2026-11-24T16:00:00+00:00",
-     "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
-     "region": "Source",
-     "lang": "en",
-     "weight": 0.5,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Google AI Blog:8d6c7c64bc85"
-    }
-   ]
-  },
-  {
-   "id": "372fba2c83",
-   "headline": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
-   "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
-   "first_published": "2026-11-24T16:08:29+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips"
-   ],
-   "score": 27.8,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.696,
-    "velocity": 0.462,
-    "freshness": 0.655,
-    "age_hours": 22.2
-   },
-   "reasons": [
-    "HN 124 points, 69 comments",
-    "first seen 22h ago",
-    "topic: AI business & chips"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 262,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
-     "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
-     "published": "2026-11-24T16:08:29+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 124,
-     "comments": 69,
-     "discussion_url": "https://news.ycombinator.com/item?id=50630245",
-     "id": "hackernews:50630245"
     }
    ]
   },
@@ -1934,22 +994,23 @@
    "headline": "The Best Early Black Friday MacBook Deals (2026)",
    "url": "https://www.wired.com/story/best-black-friday-macbook-deals-2026/",
    "first_published": "2026-11-24T11:15:00+00:00",
-   "topic": "Tech & startups",
+   "topic": "AI business & chips",
    "topics": [
+    "AI business & chips",
     "Tech & startups"
    ],
-   "score": 27.6,
+   "score": 34.1,
    "signals": {
     "coverage": 0.669,
     "engagement": 0.0,
     "velocity": 0.0,
-    "freshness": 0.612,
-    "age_hours": 27.1
+    "freshness": 0.573,
+    "age_hours": 32.3
    },
    "reasons": [
     "4 outlets: The Guardian Tech, The Verge, Wired, Engadget",
-    "first seen 27h ago",
-    "topic: Tech & startups",
+    "first seen 32h ago",
+    "topic: AI business & chips",
     "rising: 1 more outlets since yesterday"
    ],
    "first_seen": "2026-11-23",
@@ -2049,7 +1110,7 @@
      "title": "Looking for a new laptop? The best Black Friday laptop deals in the UK, from Macbooks to budget Windows",
      "url": "https://www.theguardian.com/thefilter/2026/nov/24/best-black-friday-laptop-deals-uk",
      "published": "2026-11-24T20:00:54+00:00",
-     "summary": "With RAM prices climbing, now is the perfect time to nab a discount. Here are the best so far on Acer, Chromebooks, gaming laptops and more • The best Black Friday deals Looking for a new laptop this Black Friday? If you’re overdue an upgrade, there are some very real reasons to take advantage of th",
+     "summary": "With RAM prices climbing, now is the perfect time to nab a discount. Here are the best so far on Acer, Chromebooks, gaming laptops and more • The best Black Friday deals • The best Black Friday deals under £50 Looking for a new laptop this Black Friday? If you’re overdue an upgrade, there are some v",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
@@ -2102,6 +1163,942 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Engadget:ad4f6ac70abf"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The 30 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
+     "url": "https://www.wired.com/story/best-black-friday-deals-11-25-2026/",
+     "published": "2026-11-25T15:03:16+00:00",
+     "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:fb6a4d48857b"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "This $1,900 Alienware Aurora is one of the best early Black Friday PC deals",
+     "url": "https://www.engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals/",
+     "published": "2026-11-25T17:54:07+00:00",
+     "summary": "If you purchased them separately, just the price of its CPU, GPU and RAM goes for around $1,750.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:1227a4612fc6"
+    }
+   ]
+  },
+  {
+   "id": "4e62e09bb8",
+   "headline": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+   "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+   "first_published": "2026-11-24T17:10:45+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 34.0,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.773,
+    "velocity": 0.537,
+    "freshness": 0.617,
+    "age_hours": 26.4
+   },
+   "reasons": [
+    "HN 222 points, 133 comments",
+    "first seen 26h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 488,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+     "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+     "published": "2026-11-24T17:10:45+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 222,
+     "comments": 133,
+     "discussion_url": "https://news.ycombinator.com/item?id=50631210",
+     "id": "hackernews:50631210"
+    }
+   ]
+  },
+  {
+   "id": "8a4468d8de",
+   "headline": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "first_published": "2026-11-25T13:33:07+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 33.8,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.849,
+    "velocity": 0.907,
+    "freshness": 0.876,
+    "age_hours": 6.0
+   },
+   "reasons": [
+    "HN 360 points, 269 comments",
+    "first seen 6h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-25",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 898,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+     "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+     "published": "2026-11-25T13:33:07+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 360,
+     "comments": 269,
+     "discussion_url": "https://news.ycombinator.com/item?id=50642086",
+     "id": "hackernews:50642086"
+    }
+   ]
+  },
+  {
+   "id": "980572ef90",
+   "headline": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+   "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+   "first_published": "2026-11-24T09:33:00+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "Tech & startups"
+   ],
+   "score": 33.4,
+   "signals": {
+    "coverage": 0.595,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.562,
+    "age_hours": 34.0
+   },
+   "reasons": [
+    "3 outlets: BBC Technology, TechCrunch AI, The Verge",
+    "first seen 34h ago",
+    "topic: AI agents & products",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "rising",
+   "outlet_count": 3,
+   "outlets": [
+    "BBC Technology",
+    "TechCrunch AI",
+    "The Verge"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
+     "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-24T09:33:00+00:00",
+     "summary": "Meta wants Muse to do for AI what WhatsApp did for messaging - here's what the BBC's technology editor found when she used it.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:8b95df26cc85"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+     "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+     "published": "2026-11-24T17:00:00+00:00",
+     "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:499fbc0b51a8"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+     "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+     "published": "2026-11-24T21:32:38+00:00",
+     "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:7fc7303ba991"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+     "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+     "published": "2026-11-24T21:32:38+00:00",
+     "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:7fc7303ba991"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+     "published": "2026-11-25T14:10:18+00:00",
+     "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:baeebb37d1eb"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+     "published": "2026-11-25T14:10:18+00:00",
+     "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:baeebb37d1eb"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+     "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+     "published": "2026-11-25T14:12:33+00:00",
+     "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's a",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:36c016fa62e8"
+    }
+   ]
+  },
+  {
+   "id": "738652d873",
+   "headline": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+   "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+   "first_published": "2026-11-25T03:28:06+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 33.4,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.636,
+    "velocity": 0.435,
+    "freshness": 0.723,
+    "age_hours": 16.1
+   },
+   "reasons": [
+    "HN 126 points, 18 comments",
+    "first seen 16h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-25",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 162,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+     "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+     "published": "2026-11-25T03:28:06+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 126,
+     "comments": 18,
+     "discussion_url": "https://news.ycombinator.com/item?id=50638070",
+     "id": "hackernews:50638070"
+    }
+   ]
+  },
+  {
+   "id": "c701aa99e7",
+   "headline": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+   "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+   "first_published": "2026-11-24T17:07:41+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 33.1,
+   "signals": {
+    "coverage": 0.28,
+    "engagement": 0.825,
+    "velocity": 0.609,
+    "freshness": 0.617,
+    "age_hours": 26.5
+   },
+   "reasons": [
+    "1 outlet: Ars Technica",
+    "HN 251 points, 243 comments",
+    "first seen 26h ago",
+    "topic: Tech & startups",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "rising",
+   "outlet_count": 1,
+   "outlets": [
+    "Ars Technica"
+   ],
+   "engagement": 737,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+     "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+     "published": "2026-11-24T17:07:41+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 251,
+     "comments": 243,
+     "discussion_url": "https://news.ycombinator.com/item?id=50631157",
+     "id": "hackernews:50631157"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+     "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+     "published": "2026-11-24T22:36:28+00:00",
+     "summary": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:5ce3ed5a9fcd"
+    }
+   ]
+  },
+  {
+   "id": "30a3772095",
+   "headline": "Want to buy your kid an AI toy this Christmas? Not in New York",
+   "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+   "first_published": "2026-11-25T15:29:21+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 32.5,
+   "signals": {
+    "coverage": 0.469,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.912,
+    "age_hours": 4.1
+   },
+   "reasons": [
+    "2 outlets: The Guardian Tech, TechCrunch",
+    "first seen 4h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-25",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "TechCrunch",
+    "The Guardian Tech"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "New York bans AI toys, including those using internet to talk to children",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+     "published": "2026-11-25T15:29:21+00:00",
+     "summary": "The state attorney general says she would ‘not hesitate to enforce’ the five-year ban signed by Governor Kathy Hochul The New York governor, Kathy Hochul , signed legislation on Wednesday that places a five-year ban on the manufacture and sale of toys powered by AI chatbots, including talking stuffe",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:16e4a7d7fbb2"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+     "published": "2026-11-25T18:11:46+00:00",
+     "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:4c29da3e02ad"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+     "published": "2026-11-25T18:11:46+00:00",
+     "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:4c29da3e02ad"
+    }
+   ]
+  },
+  {
+   "id": "42f9804cae",
+   "headline": "VP ≠ VNP over Every Field",
+   "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+   "first_published": "2026-11-23T22:09:10+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 31.5,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.898,
+    "velocity": 0.616,
+    "freshness": 0.504,
+    "age_hours": 45.4
+   },
+   "reasons": [
+    "HN 464 points, 428 comments",
+    "first seen 45h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 1320,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "VP ≠ VNP over Every Field",
+     "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+     "published": "2026-11-23T22:09:10+00:00",
+     "summary": "Paper: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;anthropics&#x2F;formal-math&#x2F;blob&#x2F;11b6c7e3c927df2658f513b6b68ea7f8929c62c5&#x2F;vp-vnp&#x2F;paper.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;anthropics&#x2F;formal-math&#x2F;blob&#x2F;11b6c7e3c927d...</a>",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 366,
+     "comments": 333,
+     "discussion_url": "https://news.ycombinator.com/item?id=50620102",
+     "id": "hackernews:50620102"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+     "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+     "published": "2026-11-24T18:55:12+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 98,
+     "comments": 95,
+     "discussion_url": "https://news.ycombinator.com/item?id=50632756",
+     "id": "hackernews:50632756"
+    }
+   ]
+  },
+  {
+   "id": "b69aa72502",
+   "headline": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+   "first_published": "2026-11-23T20:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI agents & products"
+   ],
+   "score": 30.7,
+   "signals": {
+    "coverage": 0.417,
+    "engagement": 0.633,
+    "velocity": 0.265,
+    "freshness": 0.496,
+    "age_hours": 47.6
+   },
+   "reasons": [
+    "2 outlets: TechCrunch AI, ZDNet AI",
+    "HN 88 points, 35 comments",
+    "first seen 48h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "steady",
+   "outlet_count": 2,
+   "outlets": [
+    "TechCrunch AI",
+    "ZDNet AI"
+   ],
+   "engagement": 158,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "Claude can ship code for you now – how to try it (if you dare)",
+     "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
+     "published": "2026-11-23T20:00:00+00:00",
+     "summary": "Would you let a few Claude agents review and ship your code for you?",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:75b220875107"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Claude Ship",
+     "url": "https://claude.com/resources/articles/introducing-claude-ship",
+     "published": "2026-11-23T20:14:18+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 88,
+     "comments": 35,
+     "discussion_url": "https://news.ycombinator.com/item?id=50618513",
+     "id": "hackernews:50618513"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+     "published": "2026-11-23T22:05:50+00:00",
+     "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:7fdb8f748811"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "You can turn Claude artifacts into Windows and Mac apps now – here’s how",
+     "url": "https://www.zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows/",
+     "published": "2026-11-25T18:54:05+00:00",
+     "summary": "Anthropic’s new ‘install as app’ feature makes it easy to turn your Claude artifacts into desktop apps on your computer – with some limitations.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:b77610bb76e2"
+    }
+   ]
+  },
+  {
+   "id": "7fe24197b0",
+   "headline": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "first_published": "2026-11-25T17:44:51+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips",
+    "Tech & startups"
+   ],
+   "score": 30.0,
+   "signals": {
+    "coverage": 0.46,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.959,
+    "age_hours": 1.8
+   },
+   "reasons": [
+    "2 outlets: The Verge, Ars Technica",
+    "first seen 2h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-25",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "Ars Technica",
+    "The Verge"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+     "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+     "published": "2026-11-25T17:44:51+00:00",
+     "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, t",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:18183c9633d3"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+     "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+     "published": "2026-11-25T18:22:38+00:00",
+     "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:8540e8010e35"
+    }
+   ]
+  },
+  {
+   "id": "51592d662b",
+   "headline": "Finland’s second emergency alert test succeeds despite lingering technical problems",
+   "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29534-finland-s-second-emergency-alert-test-reaches-more-phones-but-technical-issues-persist.html",
+   "first_published": "2026-11-24T06:26:00+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech"
+   ],
+   "score": 27.7,
+   "signals": {
+    "coverage": 0.452,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.543,
+    "age_hours": 37.2
+   },
+   "reasons": [
+    "2 outlets: Yle News, Helsinki Times",
+    "first seen 37h ago",
+    "topic: Finland & Nordic tech",
+    "rising: 1 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "rising",
+   "outlet_count": 2,
+   "outlets": [
+    "Helsinki Times",
+    "Yle News"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Finland"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Yle News",
+     "title": "Finland sends emergency alert to phones in second trial of FI-Alert system",
+     "url": "https://yle.fi/a/74-20258592?origin=rss",
+     "published": "2026-11-24T06:26:00+00:00",
+     "summary": "The only way to avoid the 10-second alarm is to switch off the phone.",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle News:5be2109bb97d"
+    },
+    {
+     "source": "feed",
+     "outlet": "Helsinki Times",
+     "title": "Finland’s second emergency alert test succeeds despite lingering technical problems",
+     "url": "https://www.helsinkitimes.com/finland/finland-news/domestic/29534-finland-s-second-emergency-alert-test-reaches-more-phones-but-technical-issues-persist.html",
+     "published": "2026-11-24T14:48:40+00:00",
+     "summary": "Finland’s second nationwide test of its FI-Alert emergency warning system reached more mobile phones on Tuesday than last week’s troubled trial, but some devices still failed to receive notifications. Others displayed warnings labelled “presidential alert” or prompted users to download a Filipino la",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Helsinki Times:b81c1f7de861"
+    }
+   ]
+  },
+  {
+   "id": "aa6819b825",
+   "headline": "Data centers are getting their own natural gas power plants",
+   "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+   "first_published": "2026-11-24T11:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI business & chips"
+   ],
+   "score": 26.9,
+   "signals": {
+    "coverage": 0.589,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.571,
+    "age_hours": 32.6
+   },
+   "reasons": [
+    "3 outlets: MIT Technology Review, TechCrunch AI, Ars Technica",
+    "first seen 33h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "steady",
+   "outlet_count": 3,
+   "outlets": [
+    "Ars Technica",
+    "MIT Technology Review",
+    "TechCrunch AI"
+   ],
+   "engagement": 0,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "MIT Technology Review",
+     "title": "Data centers are getting their own natural gas power plants",
+     "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+     "published": "2026-11-24T11:00:00+00:00",
+     "summary": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI b",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:MIT Technology Review:164ccb0d6a73"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+     "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+     "published": "2026-11-24T16:10:00+00:00",
+     "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:10ac4032d91a"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+     "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+     "published": "2026-11-25T15:41:43+00:00",
+     "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lall",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:ec657af376d0"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+     "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+     "published": "2026-11-25T16:47:14+00:00",
+     "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:148a75b422c2"
+    },
+    {
+     "source": "feed",
+     "outlet": "MIT Technology Review",
+     "title": "How data centers are driving a US natural-gas boom",
+     "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+     "published": "2026-11-25T17:00:00+00:00",
+     "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other powe",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:MIT Technology Review:399ba62471a4"
+    }
+   ]
+  },
+  {
+   "id": "372fba2c83",
+   "headline": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+   "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
+   "first_published": "2026-11-24T16:08:29+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips"
+   ],
+   "score": 25.5,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.697,
+    "velocity": 0.428,
+    "freshness": 0.609,
+    "age_hours": 27.4
+   },
+   "reasons": [
+    "HN 127 points, 69 comments",
+    "first seen 27h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-25",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 265,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
+     "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
+     "published": "2026-11-24T16:08:29+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 127,
+     "comments": 69,
+     "discussion_url": "https://news.ycombinator.com/item?id=50630245",
+     "id": "hackernews:50630245"
     }
    ]
   },
@@ -2114,18 +2111,18 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 26.5,
+   "score": 25.3,
    "signals": {
     "coverage": 0.185,
-    "engagement": 0.617,
-    "velocity": 0.268,
-    "freshness": 0.524,
-    "age_hours": 41.0
+    "engagement": 0.62,
+    "velocity": 0.254,
+    "freshness": 0.501,
+    "age_hours": 46.3
    },
    "reasons": [
     "1 outlet: OpenAI News",
-    "HN 85 points, 27 comments",
-    "first seen 41h ago",
+    "HN 86 points, 28 comments",
+    "first seen 46h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-24",
@@ -2134,7 +2131,7 @@
    "outlets": [
     "OpenAI News"
    ],
-   "engagement": 139,
+   "engagement": 142,
    "regions": [
     "Source"
    ],
@@ -2166,8 +2163,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 85,
-     "comments": 27,
+     "points": 86,
+     "comments": 28,
      "discussion_url": "https://news.ycombinator.com/item?id=50619630",
      "id": "hackernews:50619630"
     }

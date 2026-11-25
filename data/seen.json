@@ -344,15 +344,15 @@
 "headline": "Launch HN: Versine (YC F26) – MCP to send and receive money",
 "last_seen": "2026-11-25",
 "terms": [
-"f26",
-"mcp",
-"send",
-"yc",
-"receive",
 "launch",
-"money",
 "hn",
-"versine"
+"yc",
+"send",
+"f26",
+"receive",
+"money",
+"versine",
+"mcp"
 ],
 "urls": [
 "https://news.ycombinator.com/item?id=50634426"
@@ -394,29 +394,26 @@
 "2026-11-25": 7
 },
 "first_seen": "2026-11-19",
-"headline": "How important are Nvidia and Jensen Huang to the US economy?",
+"headline": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
 "last_seen": "2026-11-25",
 "terms": [
 "huang",
 "jensen",
 "nvidia",
 "return",
-"us",
-"ceo",
-"back",
-"scandal",
-"question",
 "all-hand",
+"us",
 "still",
+"trump",
 "megaspe",
-"board",
-"trump"
+"question",
+"reinstatement",
+"tech",
+"stock",
+"trad"
 ],
 "urls": [
-"https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
 "https://bbc.co.uk/news/articles/c3rrgqj2zx5yo",
-"https://bbc.co.uk/news/articles/c68798vdprwpo",
-"https://bbc.co.uk/news/articles/cmze750zg0jeo",
 "https://bbc.co.uk/news/articles/cq62pn6j42jko",
 "https://bbc.co.uk/news/articles/crpdw1qx7jgxo",
 "https://bbc.co.uk/news/articles/cv98xpg5dg5zo",
@@ -424,30 +421,23 @@
 "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia",
 "https://forbes.com/sites/siladityaray/2026/11/24/nvidia-ceo-jensen-huang-disclosed-more-affairs-to-board-before-reinstatement-report-says",
 "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal",
-"https://helsinkitimes.com/business/29527-nvidia-brings-back-jensen-huang-as-ceo-shares-jump.html",
 "https://helsinkitimes.com/business/29529-trump-faces-scrutiny-over-15m-potential-gain-from-nvidia-ceo-s-reinstatement.html",
+"https://kadoa.com/congress/insights/trump-nvidia",
 "https://kenklippenstein.com/p/jensen-huang-spy-story-is-a-hoax",
 "https://reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24",
-"https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
-"https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist",
-"https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq",
 "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy",
 "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy",
 "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary",
 "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion",
 "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
 "https://techdirt.com/2026/11/24/ive-been-under-a-rock-why-is-tiktok-a-national-security-threat-but-jensen-huang-is-fine",
-"https://theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
 "https://theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
 "https://theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
 "https://theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
-"https://theguardian.com/technology/nils-pratley-on-finance/2026/nov/23/nvidia-board-jensen-huang-return",
-"https://theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video",
+"https://theguardian.com/technology/2026/nov/24/trump-nvidia-gilded-age",
 "https://wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia",
 "https://wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return",
-"https://wired.com/story/jensen-huang-nvidia-us-national-security-risks",
-"https://wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq",
-"https://zdnet.com/innovation/jensen-huang-is-back-as-nvidia-ceo-after-a-stunning-reversal"
+"https://wired.com/story/jensen-huang-nvidia-us-national-security-risks"
 ]
 },
 "0c5a6a8108x": {
@@ -514,15 +504,15 @@
 "headline": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
 "last_seen": "2026-11-25",
 "terms": [
-"nvidia",
-"ati",
 "demo",
 "show",
-"tech",
-"browser",
-"runn",
 "hn",
-"old"
+"ati",
+"browser",
+"tech",
+"old",
+"nvidia",
+"runn"
 ],
 "urls": [
 "https://gpu-demo-gallery.pages.dev/"
@@ -719,6 +709,28 @@
 "https://theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
 ]
 },
+"140a893cc0": {
+"by_day": {
+"2026-11-25": 1
+},
+"first_seen": "2026-11-25",
+"headline": "Rahansa menettäneet sijoittajat suuttuivat Samppa Lajuselle: vaativat poliisia tutkimaan",
+"last_seen": "2026-11-25",
+"terms": [
+"samppa",
+"poliisia",
+"rahansa",
+"menettäneet",
+"sijoittajat",
+"suuttuivat",
+"lajuselle",
+"vaativat",
+"tutkimaan"
+],
+"urls": [
+"https://yle.fi/a/74-20244158?origin=rss"
+]
+},
 "148a343513": {
 "by_day": {
 "2026-11-15": 0,
@@ -908,13 +920,13 @@
 "headline": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
 "last_seen": "2026-11-25",
 "terms": [
-"give",
-"refus",
 "twinkle",
-"lyric",
+"gemini",
+"give",
 "little",
 "star",
-"gemini"
+"refus",
+"lyric"
 ],
 "urls": [
 "https://comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F"
@@ -1002,16 +1014,16 @@
 "headline": "Finland and six other EU states want faster visa ban on Russian athletes",
 "last_seen": "2026-11-25",
 "terms": [
-"eu",
+"ban",
+"six",
+"stat",
 "finland",
 "faster",
-"ban",
-"russian",
-"stat",
-"six",
 "athlet",
+"want",
 "visa",
-"want"
+"eu",
+"russian"
 ],
 "urls": [
 "https://yle.fi/a/74-20258826?origin=rss"
@@ -1508,26 +1520,47 @@
 "https://theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human"
 ]
 },
+"30a3772095": {
+"by_day": {
+"2026-11-25": 2
+},
+"first_seen": "2026-11-25",
+"headline": "Want to buy your kid an AI toy this Christmas? Not in New York",
+"last_seen": "2026-11-25",
+"terms": [
+"toy",
+"york",
+"ai",
+"buy",
+"christma",
+"kid",
+"want",
+"ban",
+"children",
+"internet",
+"includ",
+"using",
+"talk"
+],
+"urls": [
+"https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+"https://theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys"
+]
+},
 "329a40fe9e": {
 "by_day": {
 "2026-11-25": 2
 },
 "first_seen": "2026-11-25",
-"headline": "How much does it cost to replace an out-of-warranty Tesla battery?",
+"headline": "How much do you know about your AI agents?",
 "last_seen": "2026-11-25",
 "terms": [
-"much",
-"battery",
-"replace",
-"out-of-warranty",
-"cost",
-"tesla",
 "know",
+"agent",
 "ai",
-"agent"
+"much"
 ],
 "urls": [
-"https://engadget.com/2321241/how-much-replace-tesla-battery-out-of-warranty",
 "https://sifted.eu/articles/how-much-do-you-know-about-your-ai-agents-brnd"
 ]
 },
@@ -1656,15 +1689,15 @@
 "headline": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
 "last_seen": "2026-11-25",
 "terms": [
+"ban",
+"department",
 "partner",
 "megaspe",
-"department",
-"ban",
-"u.s",
-"ex-nvidia",
+"hit",
 "commerce",
+"u.s",
 "export",
-"hit"
+"ex-nvidia"
 ],
 "urls": [
 "https://upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063"
@@ -1963,11 +1996,11 @@
 "terms": [
 "vnp",
 "vp",
-"every",
 "field",
+"every",
+"solv",
 "reveal",
 "openai",
-"solv",
 "anthropic"
 ],
 "urls": [
@@ -2079,10 +2112,10 @@
 "terms": [
 "problem",
 "rank",
-"llm-assess",
-"top",
-"mathematic",
 "open",
+"top",
+"llm-assess",
+"mathematic",
 "importance"
 ],
 "urls": [
@@ -2098,14 +2131,14 @@
 "headline": "India's opposition storms Meta's offices to get its Instagram accounts back",
 "last_seen": "2026-11-25",
 "terms": [
-"instagram",
 "india",
 "storm",
-"offic",
-"meta",
-"account",
 "opposition",
-"back"
+"account",
+"meta",
+"back",
+"offic",
+"instagram"
 ],
 "urls": [
 "https://korben.info/en/india-opposition-storms-meta-offices-instagram-accounts.html"
@@ -2119,14 +2152,14 @@
 "headline": "Finland's oldest man is last surviving male Winter War veteran",
 "last_seen": "2026-11-25",
 "terms": [
-"oldest",
 "surviv",
-"finland",
-"war",
-"veteran",
 "male",
+"man",
+"finland",
+"veteran",
+"oldest",
 "winter",
-"man"
+"war"
 ],
 "urls": [
 "https://yle.fi/a/74-20258938?origin=rss"
@@ -2183,24 +2216,26 @@
 "terms": [
 "friday",
 "black",
-"2026",
 "deal",
 "best",
-"macbook",
+"2026",
 "early",
+"macbook",
+"collar",
+"fi",
 "less",
-"sale",
 "gps",
 "dog",
-"fi",
-"collar",
+"sale",
 "airpod"
 ],
 "urls": [
 "https://engadget.com/2327916/five-solar-generators-going-for-deep-discounts-on-black-friday",
+"https://engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals",
 "https://theguardian.com/thefilter/2026/nov/24/best-black-friday-laptop-deals-uk",
 "https://theverge.com/gadgets/1040178/xteink-x4-classic-e-reader-black-friday-2026-deal-sale",
 "https://wired.com/story/amazon-black-friday-deals-11-24-2026",
+"https://wired.com/story/best-black-friday-deals-11-25-2026",
 "https://wired.com/story/best-black-friday-headphone-deals-11-24-26",
 "https://wired.com/story/best-black-friday-macbook-deals-2026",
 "https://wired.com/story/best-black-friday-nintendo-switch-deals-11-24-26",
@@ -2216,13 +2251,13 @@
 "headline": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
 "last_seen": "2026-11-25",
 "terms": [
+"ipo",
+"kalyan",
+"flipkart",
+"krishnamurthy",
 "step",
 "ceo",
-"flipkart",
-"kalyan",
-"krishnamurthy",
-"uncertainty",
-"ipo"
+"uncertainty"
 ],
 "urls": [
 "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty"
@@ -2328,15 +2363,15 @@
 "headline": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
 "last_seen": "2026-11-25",
 "terms": [
-"world",
-"talk",
+"openly",
 "tak",
 "tegmark",
-"max",
 "claim",
 "anthropic",
-"staff",
-"openly"
+"world",
+"max",
+"talk",
+"staff"
 ],
 "urls": [
 "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist"
@@ -2449,19 +2484,19 @@
 "headline": "Finland’s second emergency alert test succeeds despite lingering technical problems",
 "last_seen": "2026-11-25",
 "terms": [
-"finland",
 "alert",
+"finland",
 "emergency",
 "second",
-"send",
-"trial",
-"phon",
 "fi-alert",
+"trial",
 "system",
-"problem",
+"send",
+"phon",
 "linger",
 "test",
 "technical",
+"problem",
 "despite"
 ],
 "urls": [
@@ -2780,6 +2815,34 @@
 "https://wired.com/story/the-faa-nationwide-ground-stop-is-over"
 ]
 },
+"5e5f4baeac": {
+"by_day": {
+"2026-11-25": 2
+},
+"first_seen": "2026-11-25",
+"headline": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+"last_seen": "2026-11-25",
+"terms": [
+"20m",
+"raise",
+"supertake",
+"agent",
+"market",
+"turn",
+"ai",
+"let",
+"stock",
+"portfolio",
+"prediction",
+"robotic",
+"startup",
+"learn"
+],
+"urls": [
+"https://sifted.eu/articles/polyais-ex-machine-learning-chief-raises-20m-for-new-robotics-startup",
+"https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios"
+]
+},
 "5eb847c90a": {
 "by_day": {
 "2026-11-24": 1
@@ -2905,14 +2968,14 @@
 "headline": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
 "last_seen": "2026-11-25",
 "terms": [
-"company",
-"distill",
-"accus",
-"ask",
-"prove",
 "i'm",
+"accus",
 "hn",
-"anthropic"
+"prove",
+"ask",
+"anthropic",
+"distill",
+"company"
 ],
 "urls": [
 "https://news.ycombinator.com/item?id=50630809"
@@ -3540,12 +3603,12 @@
 "terms": [
 "fun",
 "serv",
-"lambda",
-"qwen",
-"aws",
-"profit",
 "80x",
-"negative"
+"profit",
+"negative",
+"aws",
+"qwen",
+"lambda"
 ],
 "urls": [
 "https://noahbuilt.it/writing/qwen-on-5600-lambdas"
@@ -3617,6 +3680,31 @@
 ],
 "urls": [
 "https://helsinkitimes.com/finland/finland-news/domestic/29517-work-based-immigration-to-finland-rises-as-student-applications-drop-by-a-third.html"
+]
+},
+"75d4e3d348": {
+"by_day": {
+"2026-11-25": 1
+},
+"first_seen": "2026-11-25",
+"headline": "Tuhansia saunoja testannut on yllättynyt Suomen tasosta: ”Ei pitäisi olla rakettitiedettä, mutta silti ollaan hukassa”",
+"last_seen": "2026-11-25",
+"terms": [
+"suomen",
+"tuhansia",
+"tasosta",
+"pitäisi",
+"olla",
+"rakettitiedettä",
+"silti",
+"yllättynyt",
+"saunoja",
+"ollaan",
+"hukassa",
+"testannut"
+],
+"urls": [
+"https://yle.fi/a/74-20257481?origin=rss"
 ]
 },
 "7614c6e604": {
@@ -3852,6 +3940,32 @@
 "https://news.ycombinator.com/item?id=50513451"
 ]
 },
+"7fe24197b0": {
+"by_day": {
+"2026-11-25": 2
+},
+"first_seen": "2026-11-25",
+"headline": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+"last_seen": "2026-11-25",
+"terms": [
+"million",
+"fcc",
+"spacex",
+"satellit",
+"sign",
+"put",
+"center",
+"plan",
+"data",
+"space",
+"authoriz",
+"deploy"
+],
+"urls": [
+"https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites",
+"https://theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+]
+},
 "80b032530c": {
 "by_day": {
 "2026-11-14": 0,
@@ -4017,6 +4131,28 @@
 "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents"
 ]
 },
+"8575a11f1f": {
+"by_day": {
+"2026-11-25": 1
+},
+"first_seen": "2026-11-25",
+"headline": "Electricity prices in Finland nearly double on Thursday due to Olkiluoto 3 outage",
+"last_seen": "2026-11-25",
+"terms": [
+"electricity",
+"outage",
+"double",
+"finland",
+"nearly",
+"olkiluoto",
+"pric",
+"thursday",
+"due"
+],
+"urls": [
+"https://helsinkitimes.com/finland/finland-news/domestic/29536-electricity-prices-in-finland-nearly-double-on-thursday-due-to-olkiluoto-3-outage.html"
+]
+},
 "860f486e8c": {
 "by_day": {
 "2026-11-24": 1
@@ -4106,6 +4242,30 @@
 "https://institute.deepmind.com/essays/what-comes-after-agi"
 ]
 },
+"898b47c966": {
+"by_day": {
+"2026-11-25": 1
+},
+"first_seen": "2026-11-25",
+"headline": "GTA 6 ei kaatanut internettiä vaikka se rohmusi yli kolmanneksen Suomen verkkoliikenteestä – Tässä syy",
+"last_seen": "2026-11-25",
+"terms": [
+"verkkoliikenteestä",
+"internettiä",
+"suomen",
+"kolmanneksen",
+"syy",
+"vaikka",
+"yli",
+"rohmusi",
+"tässä",
+"gta",
+"kaatanut"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/25b4dca3-ebdc-47c2-bb01-75c8b475e0cd"
+]
+},
 "89b0c4b2e3": {
 "by_day": {
 "2026-11-17": 1,
@@ -4129,17 +4289,17 @@
 "2026-11-25": 0
 },
 "first_seen": "2026-11-25",
-"headline": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+"headline": "Google releases Cogentic papers on integer factorization, discrete logs and more",
 "last_seen": "2026-11-25",
 "terms": [
-"cogentic",
-"factorization",
-"google",
-"paper",
-"release",
-"integer",
 "log",
-"discrete"
+"google",
+"discrete",
+"release",
+"cogentic",
+"integer",
+"factorization",
+"paper"
 ],
 "urls": [
 "https://github.com/google-research/google-research/tree/master/cogentic_research_papers"
@@ -4350,25 +4510,48 @@
 "https://yle.fi/a/74-20246765?origin=rss"
 ]
 },
+"934c73cf2a": {
+"by_day": {
+"2026-11-25": 1
+},
+"first_seen": "2026-11-25",
+"headline": "Oletko ottanut käyttöön Suomi.fi-viestit? Älä tee tätä virhettä",
+"last_seen": "2026-11-25",
+"terms": [
+"älä",
+"suomi.fi-viestit",
+"ottanut",
+"käyttöön",
+"tätä",
+"tee",
+"virhettä",
+"oletko"
+],
+"urls": [
+"https://tivi.fi/uutiset/a/aa18b959-038d-4288-a9d0-7fac254c6108"
+]
+},
 "94e66f99b0": {
 "by_day": {
 "2026-11-24": 0,
 "2026-11-25": 0
 },
 "first_seen": "2026-11-24",
-"headline": "How should an LLM see a computer?",
+"headline": "LLM agents work for their parent companies, not for you",
 "last_seen": "2026-11-25",
 "terms": [
-"llm",
-"see",
-"computer",
+"work",
 "compani",
-"parent",
 "agent",
-"work"
+"parent",
+"llm",
+"ai",
+"aren't",
+"2-day"
 ],
 "urls": [
-"https://greptile.com/blog/trex-computer-use",
+"https://anihil.com/why-arent-we-working-2-days-a-week",
+"https://anthropic.com/research/working-with-ai",
 "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you"
 ]
 },
@@ -4416,7 +4599,7 @@
 "2026-11-25": 4
 },
 "first_seen": "2026-11-24",
-"headline": "Meta brings its Muse AI assistant directly into Instagram DMs",
+"headline": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
 "last_seen": "2026-11-25",
 "terms": [
 "muse",
@@ -4424,22 +4607,21 @@
 "ai",
 "agent",
 "bring",
-"talk",
 "amazon",
-"uk",
-"launch",
-"shopp",
-"instagram",
-"assistant",
-"dms",
-"directly"
+"talk",
+"friday",
+"black",
+"walmart",
+"team",
+"deal",
+"lift",
+"blockade"
 ],
 "urls": [
 "https://bbc.co.uk/news/articles/c9gkld2l38y6o",
 "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
 "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
 "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse",
-"https://theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping",
 "https://theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
 ]
 },
@@ -5035,30 +5217,33 @@
 "by_day": {
 "2026-11-23": 1,
 "2026-11-24": 3,
-"2026-11-25": 2
+"2026-11-25": 3
 },
 "first_seen": "2026-11-23",
-"headline": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+"headline": "Data centers are getting their own natural gas power plants",
 "last_seen": "2026-11-25",
 "terms": [
 "center",
-"power",
 "data",
-"bett",
-"investor",
+"power",
 "ai",
-"batteri",
-"crusoe",
-"future",
-"solar",
 "gas",
 "gett",
+"plant",
 "natural",
-"plant"
+"batteri",
+"solar",
+"investor",
+"crusoe",
+"bett",
+"future"
 ],
 "urls": [
+"https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop",
 "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
-"https://technologyreview.com/2026/11/24/1149622/data-centers-natural-gas"
+"https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it",
+"https://technologyreview.com/2026/11/24/1149622/data-centers-natural-gas",
+"https://technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants"
 ]
 },
 "aa88a5c92e": {
@@ -5319,24 +5504,25 @@
 "headline": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
 "last_seen": "2026-11-25",
 "terms": [
-"ship",
 "claude",
+"ship",
 "code",
 "dare",
 "try",
-"ai",
-"chang",
-"approve",
-"lett",
-"fix",
-"review",
 "launch",
+"chang",
+"agent",
+"review",
+"ai",
+"approve",
 "anthropic",
-"agent"
+"fix",
+"lett"
 ],
 "urls": [
 "https://claude.com/resources/articles/introducing-claude-ship",
 "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+"https://zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows",
 "https://zdnet.com/innovation/claude-ship-code-how-to-try"
 ]
 },
@@ -5367,13 +5553,13 @@
 "headline": "Lahti school breaks Finnish law with 8-hour day for seventh-graders",
 "last_seen": "2026-11-25",
 "terms": [
-"break",
-"law",
 "lahti",
-"finnish",
 "8-hour",
+"school",
+"break",
 "seventh-grader",
-"school"
+"finnish",
+"law"
 ],
 "urls": [
 "https://yle.fi/a/74-20258850?origin=rss"
@@ -5461,11 +5647,11 @@
 "cisco",
 "openai",
 "introduce",
-"linux",
+"unpatch",
 "shield",
 "runtime",
-"unpatch",
-"open-source"
+"open-source",
+"linux"
 ],
 "urls": [
 "https://openai.com/index/introducing-shirudo"
@@ -5743,11 +5929,11 @@
 "last_seen": "2026-11-25",
 "terms": [
 "polar",
-"finland",
-"begin",
 "northernmost",
-"night",
-"municipality"
+"municipality",
+"begin",
+"finland",
+"night"
 ],
 "urls": [
 "https://yle.fi/a/74-20258879?origin=rss"
@@ -5800,23 +5986,30 @@
 },
 "c701aa99e7": {
 "by_day": {
-"2026-11-24": 0
+"2026-11-24": 0,
+"2026-11-25": 1
 },
 "first_seen": "2026-11-24",
-"headline": "Microsoft declares 'Code Red' after historic outage, internal memos show",
-"last_seen": "2026-11-24",
+"headline": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+"last_seen": "2026-11-25",
 "terms": [
 "outage",
-"code",
-"memo",
-"red",
+"historic",
 "microsoft",
 "internal",
 "show",
 "declar",
-"historic"
+"code",
+"memo",
+"red",
+"engineer",
+"expos",
+"fog",
+"cloud",
+"war"
 ],
 "urls": [
+"https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war",
 "https://reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24"
 ]
 },
@@ -6293,13 +6486,13 @@
 "last_seen": "2026-11-25",
 "terms": [
 "join",
-"english-language",
+"president",
 "read",
 "finland",
+"english-language",
 "marathon",
-"president",
-"spouse",
-"moomin"
+"moomin",
+"spouse"
 ],
 "urls": [
 "https://yle.fi/a/74-20258943?origin=rss"
@@ -6952,29 +7145,17 @@
 "2026-11-25": 2
 },
 "first_seen": "2026-11-24",
-"headline": "Microsoft declares ‘Code Red’ after huge Outlook outage",
+"headline": "Stalwart is now a drop-in replacement for Microsoft Exchange",
 "last_seen": "2026-11-25",
 "terms": [
-"microsoft",
-"outage",
-"historic",
-"red",
-"code",
-"declar",
+"replacement",
+"exchange",
 "stalwart",
 "drop-in",
-"exchange",
-"replacement",
-"memo",
-"show",
-"internal",
-"engineer"
+"microsoft"
 ],
 "urls": [
-"https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war",
-"https://reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24",
-"https://stalw.art/blog/microsoft-exchange-replacement",
-"https://theverge.com/news/1042025/microsoft-code-red-outlook-outage"
+"https://stalw.art/blog/microsoft-exchange-replacement"
 ]
 },
 "edf747d0d2": {
@@ -6982,23 +7163,29 @@
 "2026-11-25": 2
 },
 "first_seen": "2026-11-25",
-"headline": "One in four boys in Finland overweight or obese, THL reports",
+"headline": "Report: Median monthly salary in Finland is €3,700 — but gender gap remains wide",
 "last_seen": "2026-11-25",
 "terms": [
 "finland",
+"remain",
+"monthly",
+"median",
+"salary",
+"overweight",
 "obese",
-"four",
 "one",
+"four",
 "thl",
 "boy",
-"overweight",
 "rate",
-"remain",
-"unemployment"
+"unemployment",
+"700"
 ],
 "urls": [
 "https://helsinkitimes.com/finland/finland-news/domestic/29528-one-in-four-boys-in-finland-overweight-or-obese-thl-reports.html",
-"https://yle.fi/a/74-20258745?origin=rss"
+"https://helsinkitimes.com/finland/finland-news/domestic/29537-finland-s-median-salary-was-3-739-in-2025-with-earnings-highest-among-45-49-year-olds.html",
+"https://yle.fi/a/74-20258745?origin=rss",
+"https://yle.fi/a/74-20258904?origin=rss"
 ]
 },
 "eecb58ba6e": {
@@ -7054,20 +7241,20 @@
 "headline": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
 "last_seen": "2026-11-25",
 "terms": [
-"anthropic",
 "ipo",
+"anthropic",
 "price",
 "sign",
-"worry",
-"ai",
 "startup",
 "fall",
+"ai",
+"worry",
 "shar",
 "break",
-"dario",
-"stock",
-"ceo",
-"daniela"
+"sister",
+"sold",
+"561m",
+"dario"
 ],
 "urls": [
 "https://bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
@@ -7273,12 +7460,12 @@
 "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
 "last_seen": "2026-11-25",
 "terms": [
+"model",
 "demonstrate",
-"protein-design",
-"capabiliti",
 "intrinsic",
+"capabiliti",
 "gpt-6",
-"model"
+"protein-design"
 ],
 "urls": [
 "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
