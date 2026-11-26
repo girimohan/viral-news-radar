@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-26T13:52:25+00:00",
+ "generated_at": "2026-11-26T19:17:10+00:00",
  "date": "2026-11-26",
- "new_today": 3,
+ "new_today": 6,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2884,
+  "collected": 2861,
   "undated": 0,
-  "too_old": 2541,
-  "excluded": 13,
+  "too_old": 2550,
+  "excluded": 11,
   "duplicate": 0,
-  "articles_in_window": 330,
-  "stories": 231,
-  "off_topic": 159,
-  "low_score": 55,
-  "shown": 17
+  "articles_in_window": 300,
+  "stories": 213,
+  "off_topic": 155,
+  "low_score": 44,
+  "shown": 14
  },
  "llm": {
   "enabled": false
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2783,
-   "in_stories": 8,
-   "detail": "19/23 feeds read; failed: ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
+   "fetched": 2767,
+   "in_stories": 9,
+   "detail": "18/23 feeds read; failed: Helsinki Times (ParseError: not well-formed (invalid token): line 1, column 141); ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 101,
-   "in_stories": 16,
-   "detail": "101 stories with 40+ points",
+   "fetched": 94,
+   "in_stories": 12,
+   "detail": "94 stories with 40+ points",
    "error": ""
   },
   {
@@ -59,59 +59,43 @@
    "id": "7fe24197b0",
    "headline": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
    "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
-   "first_published": "2026-11-25T17:00:00+00:00",
+   "first_published": "2026-11-25T17:22:07+00:00",
    "topic": "AI business & chips",
    "topics": [
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 54.7,
+   "score": 49.8,
    "signals": {
-    "coverage": 0.755,
-    "engagement": 0.767,
-    "velocity": 0.569,
-    "freshness": 0.669,
-    "age_hours": 20.9
+    "coverage": 0.669,
+    "engagement": 0.775,
+    "velocity": 0.543,
+    "freshness": 0.621,
+    "age_hours": 25.9
    },
    "reasons": [
-    "5 outlets: MIT Technology Review, TechCrunch, BBC Technology, Ars Technica +1 more",
-    "HN 117 points, 173 comments",
-    "first seen 21h ago",
+    "4 outlets: TechCrunch, BBC Technology, Ars Technica, Engadget",
+    "HN 120 points, 187 comments",
+    "first seen 26h ago",
     "topic: AI business & chips",
-    "rising: 3 more outlets since yesterday"
+    "rising: 2 more outlets since yesterday"
    ],
    "first_seen": "2026-11-25",
    "status": "rising",
-   "outlet_count": 5,
+   "outlet_count": 4,
    "outlets": [
     "Ars Technica",
     "BBC Technology",
     "Engadget",
-    "MIT Technology Review",
     "TechCrunch"
    ],
-   "engagement": 463,
+   "engagement": 494,
    "regions": [
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "MIT Technology Review",
-     "title": "How data centers are driving a US natural-gas boom",
-     "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
-     "published": "2026-11-25T17:00:00+00:00",
-     "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other powe",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:MIT Technology Review:399ba62471a4"
-    },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
@@ -152,8 +136,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 72,
-     "comments": 138,
+     "points": 75,
+     "comments": 152,
      "discussion_url": "https://news.ycombinator.com/item?id=50645978",
      "id": "hackernews:50645978"
     },
@@ -205,6 +189,122 @@
    ]
   },
   {
+   "id": "e16d36447a",
+   "headline": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+   "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+   "first_published": "2026-11-26T16:55:15+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 48.2,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.614,
+    "velocity": 0.736,
+    "freshness": 0.948,
+    "age_hours": 2.4
+   },
+   "reasons": [
+    "HN 52 points, 42 comments",
+    "first seen 2h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-26",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 136,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+     "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+     "published": "2026-11-26T16:55:15+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 52,
+     "comments": 42,
+     "discussion_url": "https://news.ycombinator.com/item?id=50657110",
+     "id": "hackernews:50657110"
+    }
+   ]
+  },
+  {
+   "id": "22c200d76e",
+   "headline": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "first_published": "2026-11-26T11:37:17+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 46.9,
+   "signals": {
+    "coverage": 0.153,
+    "engagement": 0.644,
+    "velocity": 0.571,
+    "freshness": 0.847,
+    "age_hours": 7.7
+   },
+   "reasons": [
+    "1 outlet: Hugging Face Blog",
+    "HN 110 points, 31 comments",
+    "first seen 8h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-26",
+   "status": "new",
+   "outlet_count": 1,
+   "outlets": [
+    "Hugging Face Blog"
+   ],
+   "engagement": 172,
+   "regions": [
+    "Source"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Hugging Face Blog",
+     "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+     "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+     "published": "2026-11-26T11:37:17+00:00",
+     "summary": "",
+     "region": "Source",
+     "lang": "en",
+     "weight": 0.4,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Hugging Face Blog:02a088434703"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "AMD Specific Patches for Llama.cpp",
+     "url": "https://devnull.land/amd-specific-llama-cpp",
+     "published": "2026-11-26T17:11:29+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 110,
+     "comments": 31,
+     "discussion_url": "https://news.ycombinator.com/item?id=50657265",
+     "id": "hackernews:50657265"
+    }
+   ]
+  },
+  {
    "id": "30a3772095",
    "headline": "Want to buy your kid an AI toy this Christmas? Not in New York",
    "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
@@ -213,18 +313,18 @@
    "topics": [
     "AI agents & products"
    ],
-   "score": 49.3,
+   "score": 46.1,
    "signals": {
     "coverage": 0.57,
-    "engagement": 0.547,
-    "velocity": 0.273,
-    "freshness": 0.653,
-    "age_hours": 22.4
+    "engagement": 0.55,
+    "velocity": 0.247,
+    "freshness": 0.606,
+    "age_hours": 27.8
    },
    "reasons": [
     "3 outlets: The Guardian Tech, TechCrunch, Engadget",
-    "HN 53 points, 13 comments",
-    "first seen 22h ago",
+    "HN 55 points, 13 comments",
+    "first seen 28h ago",
     "topic: AI agents & products",
     "rising: 1 more outlets since yesterday"
    ],
@@ -236,7 +336,7 @@
     "TechCrunch",
     "The Guardian Tech"
    ],
-   "engagement": 79,
+   "engagement": 81,
    "regions": [
     "International"
    ],
@@ -268,7 +368,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 53,
+     "points": 55,
      "comments": 13,
      "discussion_url": "https://news.ycombinator.com/item?id=50644909",
      "id": "hackernews:50644909"
@@ -329,18 +429,18 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 48.5,
+   "score": 45.3,
    "signals": {
     "coverage": 0.292,
-    "engagement": 0.824,
-    "velocity": 0.677,
-    "freshness": 0.702,
-    "age_hours": 17.8
+    "engagement": 0.853,
+    "velocity": 0.671,
+    "freshness": 0.645,
+    "age_hours": 23.2
    },
    "reasons": [
     "1 outlet: TechCrunch",
-    "HN 348 points, 192 comments",
-    "first seen 18h ago",
+    "HN 435 points, 245 comments",
+    "first seen 23h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-26",
@@ -349,7 +449,7 @@
    "outlets": [
     "TechCrunch"
    ],
-   "engagement": 732,
+   "engagement": 925,
    "regions": [
     "International"
    ],
@@ -396,8 +496,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 348,
-     "comments": 192,
+     "points": 435,
+     "comments": 245,
      "discussion_url": "https://news.ycombinator.com/item?id=50651117",
      "id": "hackernews:50651117"
     }
@@ -412,24 +512,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 45.6,
+   "score": 42.0,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.87,
-    "velocity": 0.76,
-    "freshness": 0.723,
-    "age_hours": 16.1
+    "engagement": 0.885,
+    "velocity": 0.731,
+    "freshness": 0.662,
+    "age_hours": 21.5
    },
    "reasons": [
-    "HN 489 points, 283 comments",
-    "first seen 16h ago",
+    "HN 524 points, 336 comments",
+    "first seen 21h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-26",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 1055,
+   "engagement": 1196,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -444,10 +544,462 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 489,
-     "comments": 283,
+     "points": 524,
+     "comments": 336,
      "discussion_url": "https://news.ycombinator.com/item?id=50648050",
      "id": "hackernews:50648050"
+    }
+   ]
+  },
+  {
+   "id": "980572ef90",
+   "headline": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
+   "url": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
+   "first_published": "2026-11-24T21:32:38+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products",
+    "AI business & chips",
+    "Tech & startups"
+   ],
+   "score": 41.1,
+   "signals": {
+    "coverage": 0.866,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.503,
+    "age_hours": 45.7
+   },
+   "reasons": [
+    "7 outlets: TechCrunch AI, The Verge, The Guardian Tech, Wired +3 more",
+    "first seen 46h ago",
+    "topic: AI agents & products",
+    "rising: 3 more outlets since yesterday"
+   ],
+   "first_seen": "2026-11-24",
+   "status": "rising",
+   "outlet_count": 7,
+   "outlets": [
+    "Engadget",
+    "Sifted",
+    "TechCrunch AI",
+    "The Guardian Tech",
+    "The Verge",
+    "Wired",
+    "ZDNet AI"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Europe",
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+     "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+     "published": "2026-11-24T21:32:38+00:00",
+     "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:7fc7303ba991"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
+     "url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26/",
+     "published": "2026-11-24T22:22:20+00:00",
+     "summary": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:9be79ef9881a"
+    },
+    {
+     "source": "feed",
+     "outlet": "Sifted",
+     "title": "The best Christmas gifts for founders",
+     "url": "https://sifted.eu/articles/the-best-christmas-gifts-for-founders/",
+     "published": "2026-11-25T10:40:53+00:00",
+     "summary": "",
+     "region": "Europe",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Sifted:27f3b2183085"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Best iPhone Duo Cases and Accessories (2026)",
+     "url": "https://www.wired.com/story/best-iphone-duo-cases-and-accessories/",
+     "published": "2026-11-25T10:45:00+00:00",
+     "summary": "Protect and enhance your iPhone Duo with one of our favorite cases or accessories.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:d5d86242a37d"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Best TVs We’ve Tested (2026): Samsung, LG, TCL, Sony, and More.",
+     "url": "https://www.wired.com/story/best-tvs/",
+     "published": "2026-11-25T11:30:00+00:00",
+     "summary": "Affordable QLEDs, glorious RGB, premium OLEDs—these are our favorite televisions across every category.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:404b88dc67de"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The 36 Best Gifts for Dads (2026)",
+     "url": "https://www.wired.com/story/best-gifts-for-dads-2026/",
+     "published": "2026-11-25T11:49:00+00:00",
+     "summary": "Dads are typically tough to shop for. Let me help with these WIRED-tested gift ideas.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:f45b9875794f"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+     "published": "2026-11-25T14:10:18+00:00",
+     "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:baeebb37d1eb"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+     "published": "2026-11-25T14:10:18+00:00",
+     "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:baeebb37d1eb"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Five solar generators going for deep discounts on Black Friday",
+     "url": "https://www.engadget.com/2327916/five-solar-generators-going-for-deep-discounts-on-black-friday/",
+     "published": "2026-11-25T14:15:20+00:00",
+     "summary": "Save 20 to 40 percent on models from Anker, EcoFlow and more.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:ad4f6ac70abf"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "This $1,900 Alienware Aurora is one of the best early Black Friday PC deals",
+     "url": "https://www.engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals/",
+     "published": "2026-11-25T17:54:07+00:00",
+     "summary": "If you purchased them separately, just the price of its CPU, GPU and RAM goes for around $1,750.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:1227a4612fc6"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Which gaming headsets are worth the cost? I put 20 to the test – here are the best for 2026",
+     "url": "https://www.theguardian.com/thefilter/2026/nov/25/best-gaming-headsets-tested-uk",
+     "published": "2026-11-25T20:00:35+00:00",
+     "summary": "Wired, wireless, noise cancelling and budget … here are the headphones to level up your PC and console gaming • The best gaming chairs We talk a lot about graphics in video games; we know how important it is to play on a decent screen so we can see what we’re shooting at … or running away from. But ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:1702a56181d8"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "We reviewed these 10 gadgets, and they're now on sale for Black Friday",
+     "url": "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
+     "published": "2026-11-25T23:36:46+00:00",
+     "summary": "Multiple gadgets from Engadget's Best of 2026 list are already on sale, including Samsung's flagship foldable and Apple's ultra-popular entry-level laptop.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:269f1d53a7b8"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Best Bed Frames, Tested in Our Own Rooms (2026)",
+     "url": "https://www.wired.com/story/best-bed-frames/",
+     "published": "2026-11-26T10:19:00+00:00",
+     "summary": "Looking for the best bed frame? Our top recommendation is the Classic Bed from Thuma, but we’ve got options for all budgets and tastes.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:eb93d0e4dab5"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Robot Vacuum of 2026: Shark, Eufy, Roborock",
+     "url": "https://www.wired.com/story/best-robot-vacuum/",
+     "published": "2026-11-26T10:44:00+00:00",
+     "summary": "My hands-on tests reveal which models can scrub stains, reach difficult corners, and navigate a chaotic home.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:0f188dfe44a8"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+     "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+     "published": "2026-11-26T10:51:27+00:00",
+     "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:8b79d200abdc"
+    },
+    {
+     "source": "feed",
+     "outlet": "ZDNet AI",
+     "title": "ZDNET’s best headphones of 2026: These two pairs left us impressed",
+     "url": "https://www.zdnet.com/tech/zdnet-best-headphones-of-2026/",
+     "published": "2026-11-26T11:00:00+00:00",
+     "summary": "We tested dozens of Bluetooth headphones in 2026, but two stood out. Here’s our top picks.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.6,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:ZDNet AI:e5effa725a93"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Thuma Dupes: Japanese Joinery Bed Frames That Stack Up (2026)",
+     "url": "https://www.wired.com/gallery/japanese-joinery-bed-frames/",
+     "published": "2026-11-26T11:15:00+00:00",
+     "summary": "Everyone loves Thuma bed frames for their Japanese-style joinery, but they’re pricey. We tested six less expensive frames with similar quality and performance.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:6205e421bf2d"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Gaming Mouse (2026): My Picks After Testing Dozens of Mice",
+     "url": "https://www.wired.com/gallery/best-gaming-mouse/",
+     "published": "2026-11-26T11:30:00+00:00",
+     "summary": "From ergonomic to ultralight, we’ve tested dozens of the best gaming mice to find the absolute best for the style of gaming you prefer.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:9cf671077c3c"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "8 Best Keyboards (2026): My Honest Picks After Testing Dozens",
+     "url": "https://www.wired.com/gallery/best-keyboards/",
+     "published": "2026-11-26T12:00:00+00:00",
+     "summary": "As a professional keyboard nerd, I’ve tested dozens and dozens of models. One of these eight picks should suit your needs—no matter your budget.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:925319ca88ed"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Best MagSafe Wallets for Your Everyday Carry (2026)",
+     "url": "https://www.wired.com/gallery/best-magsafe-wallets/",
+     "published": "2026-11-26T12:15:00+00:00",
+     "summary": "The slim, convenient magnetic wallets you’ll actually want to stick to the back of your iPhone.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:1a6bd8899fa3"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "10 Best Office Chairs of 2026—We Tested 70 to Pick Them",
+     "url": "https://www.wired.com/gallery/best-office-chairs/",
+     "published": "2026-11-26T12:35:00+00:00",
+     "summary": "Upgrade your WFH setup and work in style with these comfy, WIRED-tested seats.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:1bc422c229c0"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "10 Best Meal Delivery Services, Tested by an Ex-Restaurant Critic",
+     "url": "https://www.wired.com/gallery/best-meal-kit-services-1/",
+     "published": "2026-11-26T13:00:00+00:00",
+     "summary": "Here are the best delivery services and meal kits in 2026, including the Martha Stewart meal service, a GLP-1–supportive plan, and a budget-friendly option.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:ebfab5b558bf"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
+     "url": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
+     "published": "2026-11-26T16:00:00+00:00",
+     "summary": "Black Friday isn’t just a good time to save on a new TV but also a chance to spend less on what you watch on it. The shopping holiday often brings steep streaming discounts, and this year is no exception, with some streamers offering more than 50 percent off. HBO Max, Apple TV, and Hulu […]",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:0aeb3ba3a764"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "The best Black Friday deals we’ve already found",
+     "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+     "published": "2026-11-26T16:55:00+00:00",
+     "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:38d6726022c3"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "A month with the iPhone Duo has changed how I use my phone",
+     "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
+     "published": "2026-11-26T17:00:00+00:00",
+     "summary": "From reading more books to breaking mindless scrolling habits, Apple's foldable has changed my daily routines in ways I didn't anticipate.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:8e39dc38673a"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
+     "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+     "published": "2026-11-26T17:07:00+00:00",
+     "summary": "If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is […]",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:17c8ae9ed453"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
+     "url": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
+     "published": "2026-11-26T18:49:47+00:00",
+     "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:fb6a4d48857b"
     }
    ]
   },
@@ -461,18 +1013,18 @@
     "AI agents & products",
     "Tech & startups"
    ],
-   "score": 41.8,
+   "score": 38.9,
    "signals": {
     "coverage": 0.28,
-    "engagement": 0.697,
-    "velocity": 0.508,
-    "freshness": 0.713,
-    "age_hours": 16.9
+    "engagement": 0.724,
+    "velocity": 0.498,
+    "freshness": 0.654,
+    "age_hours": 22.3
    },
    "reasons": [
     "1 outlet: Ars Technica",
-    "HN 82 points, 91 comments",
-    "first seen 17h ago",
+    "HN 99 points, 114 comments",
+    "first seen 22h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-26",
@@ -481,7 +1033,7 @@
    "outlets": [
     "Ars Technica"
    ],
-   "engagement": 264,
+   "engagement": 327,
    "regions": [
     "International"
    ],
@@ -513,8 +1065,8 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 82,
-     "comments": 91,
+     "points": 99,
+     "comments": 114,
      "discussion_url": "https://news.ycombinator.com/item?id=50653477",
      "id": "hackernews:50653477"
     }
@@ -524,103 +1076,43 @@
    "id": "0c5a6a8108",
    "headline": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
    "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-   "first_published": "2026-11-24T15:28:23+00:00",
-   "topic": "AI models & labs",
+   "first_published": "2026-11-24T19:33:23+00:00",
+   "topic": "AI business & chips",
    "topics": [
-    "AI models & labs",
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 39.8,
+   "score": 33.9,
    "signals": {
-    "coverage": 0.69,
-    "engagement": 0.782,
-    "velocity": 0.453,
-    "freshness": 0.5,
-    "age_hours": 46.4
+    "coverage": 0.755,
+    "engagement": 0.735,
+    "velocity": 0.388,
+    "freshness": 0.495,
+    "age_hours": 47.7
    },
    "reasons": [
-    "4 outlets: The Guardian Tech, TechCrunch AI, BBC Technology, Wired",
-    "HN 218 points, 152 comments",
-    "first seen 46h ago",
-    "topic: AI models & labs"
+    "5 outlets: The Guardian Tech, TechCrunch AI, BBC Technology, Wired +1 more",
+    "HN 133 points, 113 comments",
+    "first seen 48h ago",
+    "topic: AI business & chips"
    ],
    "first_seen": "2026-11-19",
    "status": "steady",
-   "outlet_count": 4,
+   "outlet_count": 5,
    "outlets": [
     "BBC Technology",
+    "Engadget",
     "TechCrunch AI",
     "The Guardian Tech",
     "Wired"
    ],
-   "engagement": 522,
+   "engagement": 359,
    "regions": [
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
-     "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
-     "published": "2026-11-24T15:28:23+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 43,
-     "comments": 19,
-     "discussion_url": "https://news.ycombinator.com/item?id=50629620",
-     "id": "hackernews:50629620"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
-     "url": "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
-     "published": "2026-11-24T16:27:41+00:00",
-     "summary": "Tech sector’s campaign to reinstate Nvidia boss began soon after ousting over affair with alleged Chinese spy The tech billionaires could hardly contain their delight. “Jensen!” exclaimed OpenAI’s chief executive, Sam Altman, in a one-word post on X. “Thanksgiving”, said Travis Kalanick, the Uber fo",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:a80b129c6839"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
-     "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
-     "published": "2026-11-24T17:44:53+00:00",
-     "summary": "The Nvidia CEO opened up about his personal life, defended his reinstatement, and acknowledged that his intense management style had hurt his staff.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:cdbba97256f8"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Jensen Huang Disclosed More Affairs to Board Before Reinstatement, Report Says",
-     "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/nvidia-ceo-jensen-huang-disclosed-more-affairs-to-board-before-reinstatement-report-says/",
-     "published": "2026-11-24T18:26:29+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 43,
-     "comments": 20,
-     "discussion_url": "https://news.ycombinator.com/item?id=50632308",
-     "id": "hackernews:50632308"
-    },
     {
      "source": "feed",
      "outlet": "Wired",
@@ -661,7 +1153,7 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 71,
+     "points": 72,
      "comments": 28,
      "discussion_url": "https://news.ycombinator.com/item?id=50634780",
      "id": "hackernews:50634780"
@@ -680,21 +1172,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:34e6b9d9badb"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-     "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-     "published": "2026-11-24T22:27:52+00:00",
-     "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:294bd8c556cb"
     },
     {
      "source": "feed",
@@ -740,21 +1217,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Wired:9c4024fd060d"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
-     "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
-     "published": "2026-11-25T00:10:27+00:00",
-     "summary": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelligence who previously worked for a company that has been accused of illegally diverting Nvidia chips to China.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:6a31402249f9"
     },
     {
      "source": "feed",
@@ -890,46 +1352,57 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:The Guardian Tech:140a281c412e"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
+     "url": "https://www.engadget.com/2329200/nvidia-reportedly-halts-chip-shipments-to-southeast-asia/",
+     "published": "2026-11-26T18:09:18+00:00",
+     "summary": "In the same week that NVIDIA reinstated Jensen Huang as its CEO, the company has reportedly also blocked shipments to Southeast Asia.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:8c1fc49ea098"
     }
    ]
   },
   {
-   "id": "4abf71a5b6",
-   "headline": "The 24 Very Best Amazon Black Friday Deals to Get Now (2026)",
-   "url": "https://www.wired.com/story/amazon-black-friday-deals-11-24-2026/",
-   "first_published": "2026-11-24T16:44:25+00:00",
-   "topic": "AI business & chips",
+   "id": "7fad6041bc",
+   "headline": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+   "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+   "first_published": "2026-11-25T15:00:28+00:00",
+   "topic": "AI models & labs",
    "topics": [
-    "AI business & chips",
-    "Tech & startups"
+    "AI models & labs"
    ],
-   "score": 32.9,
+   "score": 32.5,
    "signals": {
-    "coverage": 0.723,
+    "coverage": 0.674,
     "engagement": 0.0,
     "velocity": 0.0,
-    "freshness": 0.506,
-    "age_hours": 45.1
+    "freshness": 0.602,
+    "age_hours": 28.3
    },
    "reasons": [
-    "5 outlets: The Guardian Tech, Wired, Sifted, Engadget +1 more",
-    "first seen 45h ago",
-    "topic: AI business & chips",
-    "rising: 1 more outlets since yesterday"
+    "4 outlets: The Guardian Tech, TechCrunch, The Verge, Engadget",
+    "first seen 28h ago",
+    "topic: AI models & labs"
    ],
-   "first_seen": "2026-11-23",
-   "status": "rising",
-   "outlet_count": 5,
+   "first_seen": "2026-11-26",
+   "status": "new",
+   "outlet_count": 4,
    "outlets": [
     "Engadget",
-    "Sifted",
+    "TechCrunch",
     "The Guardian Tech",
-    "Wired",
-    "ZDNet AI"
+    "The Verge"
    ],
    "engagement": 0,
    "regions": [
-    "Europe",
     "International"
    ],
    "brief": {},
@@ -937,318 +1410,93 @@
    "articles": [
     {
      "source": "feed",
-     "outlet": "Wired",
-     "title": "The 24 Very Best Amazon Black Friday Deals to Get Now (2026)",
-     "url": "https://www.wired.com/story/amazon-black-friday-deals-11-24-2026/",
-     "published": "2026-11-24T16:44:25+00:00",
-     "summary": "For die-hard Amazon shoppers, the retailer’s “Black Friday Week” sale is now live. Grab these deals on our favorite (and tested) products through November 30.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1026a1bec81f"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
-     "url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26/",
-     "published": "2026-11-24T22:22:20+00:00",
-     "summary": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:9be79ef9881a"
-    },
-    {
-     "source": "feed",
      "outlet": "The Guardian Tech",
-     "title": "‘A godsend’: the best hair straighteners in the UK for foolproof styling",
-     "url": "https://www.theguardian.com/thefilter/2025/mar/18/best-hair-straighteners",
-     "published": "2026-11-25T10:00:03+00:00",
-     "summary": "Whether you want cordless designs or a budget buy, we’ve tested the top hair straighteners for every hair type • The best hair dryers, tested Straighteners are here to stay – but thankfully, heat styling has come a long way since GHD’s first ceramic straighteners ushered in an era of poker-straight ",
+     "title": "The unexpected joy hiding in Grand Theft Auto VI’s chaos? A little routine",
+     "url": "https://www.theguardian.com/games/2026/nov/25/the-secret-to-grand-theft-auto-vi-routine-rockstar-games",
+     "published": "2026-11-25T15:00:28+00:00",
+     "summary": "Rockstar’s latest blockbuster makes the everyday business of shopping, working out and taking care of a pet snake as compelling as its shootouts and car chases I knew I’d need many skills during the opening hours of Grand Theft Auto VI, but effective time management was not one of them. From playing",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:The Guardian Tech:d2926690090a"
+     "id": "feed:The Guardian Tech:2b2d0872452c"
     },
     {
      "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Red-Light Therapy for Hair Growth and Restoration (2026)",
-     "url": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
-     "published": "2026-11-25T10:01:00+00:00",
-     "summary": "Don’t fly to Turkey just yet. Our WIRED testers saw visible hair regrowth with these red-light therapy devices.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:769b185dccfc"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The 6 Best Latte Machines for Automatic Espresso Drinks (2026)",
-     "url": "https://www.wired.com/story/best-latte-and-cappuccino-machines/",
-     "published": "2026-11-25T10:17:00+00:00",
-     "summary": "Whether you want a cappuccino at the push of a button or an iced latte with cold foam, we found a machine that makes it easy.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:48583d6eea94"
-    },
-    {
-     "source": "feed",
-     "outlet": "Sifted",
-     "title": "The best Christmas gifts for founders",
-     "url": "https://sifted.eu/articles/the-best-christmas-gifts-for-founders/",
-     "published": "2026-11-25T10:40:53+00:00",
-     "summary": "",
-     "region": "Europe",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Sifted:27f3b2183085"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Best iPhone Duo Cases and Accessories (2026)",
-     "url": "https://www.wired.com/story/best-iphone-duo-cases-and-accessories/",
-     "published": "2026-11-25T10:45:00+00:00",
-     "summary": "Protect and enhance your iPhone Duo with one of our favorite cases or accessories.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:d5d86242a37d"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Best TVs We’ve Tested (2026): Samsung, LG, TCL, Sony, and More.",
-     "url": "https://www.wired.com/story/best-tvs/",
-     "published": "2026-11-25T11:30:00+00:00",
-     "summary": "Affordable QLEDs, glorious RGB, premium OLEDs—these are our favorite televisions across every category.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:404b88dc67de"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The 36 Best Gifts for Dads (2026)",
-     "url": "https://www.wired.com/story/best-gifts-for-dads-2026/",
-     "published": "2026-11-25T11:49:00+00:00",
-     "summary": "Dads are typically tough to shop for. Let me help with these WIRED-tested gift ideas.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:f45b9875794f"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The 30 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
-     "url": "https://www.wired.com/story/best-black-friday-deals-11-25-2026/",
-     "published": "2026-11-25T15:03:16+00:00",
-     "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:fb6a4d48857b"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "This $1,900 Alienware Aurora is one of the best early Black Friday PC deals",
-     "url": "https://www.engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals/",
-     "published": "2026-11-25T17:54:07+00:00",
-     "summary": "If you purchased them separately, just the price of its CPU, GPU and RAM goes for around $1,750.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:1227a4612fc6"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Which gaming headsets are worth the cost? I put 20 to the test – here are the best for 2026",
-     "url": "https://www.theguardian.com/thefilter/2026/nov/25/best-gaming-headsets-tested-uk",
-     "published": "2026-11-25T20:00:35+00:00",
-     "summary": "Wired, wireless, noise cancelling and budget … here are the headphones to level up your PC and console gaming • The best gaming chairs We talk a lot about graphics in video games; we know how important it is to play on a decent screen so we can see what we’re shooting at … or running away from. But ",
+     "outlet": "The Verge",
+     "title": "Why GTA VI’s version of Florida feels so real",
+     "url": "https://www.theverge.com/entertainment/1042629/gta-6-city-design",
+     "published": "2026-11-26T15:00:00+00:00",
+     "summary": "There are plenty of reasons why Grand Theft Auto VI is so popular: the 13 years of anticipation, the relatable lead characters and romantic storyline, the sheer level of depth. But another major factor is the sense of place. The GTA series is unmatched when it comes to re-creating the feeling of a b",
      "region": "International",
      "lang": "en",
      "weight": 0.9,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:The Guardian Tech:1702a56181d8"
+     "id": "feed:The Verge:63609df06d1f"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "GTA VI developers vote against unionization",
+     "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
+     "published": "2026-11-26T15:55:24+00:00",
+     "summary": "Workers at Grand Theft Auto VI developer Rockstar Games won't unionize, after the vote for a formal recognition agreement failed, with only 25 percent of votes in favor of unionization. The Independent Workers Union of Great Britain (IWGB) said that Rockstar workers in the union will continue organi",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:2b07b17c5b87"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+     "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+     "published": "2026-11-26T16:00:00+00:00",
+     "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:bb1e1a989e9b"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+     "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+     "published": "2026-11-26T16:00:00+00:00",
+     "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:bb1e1a989e9b"
     },
     {
      "source": "feed",
      "outlet": "Engadget",
-     "title": "We reviewed these 10 gadgets, and they're now on sale for Black Friday",
-     "url": "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
-     "published": "2026-11-25T23:36:46+00:00",
-     "summary": "Multiple gadgets from Engadget's Best of 2026 list are already on sale, including Samsung's flagship foldable and Apple's ultra-popular entry-level laptop.",
+     "title": "Workers at GTA 6 studio Rockstar Games vote overwhelmingly against union recognition",
+     "url": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/",
+     "published": "2026-11-26T16:53:58+00:00",
+     "summary": "The IWGB Rockstar Game Workers Union will continue to organize after only a quarter of workers voted in favor of a formal deal with the studio.",
      "region": "International",
      "lang": "en",
      "weight": 0.7,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:Engadget:269f1d53a7b8"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Best Bed Frames, Tested in Our Own Rooms (2026)",
-     "url": "https://www.wired.com/story/best-bed-frames/",
-     "published": "2026-11-26T10:19:00+00:00",
-     "summary": "Looking for the best bed frame? Our top recommendation is the Classic Bed from Thuma, but we’ve got options for all budgets and tastes.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:eb93d0e4dab5"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Robot Vacuum of 2026: Shark, Eufy, Roborock",
-     "url": "https://www.wired.com/story/best-robot-vacuum/",
-     "published": "2026-11-26T10:44:00+00:00",
-     "summary": "My hands-on tests reveal which models can scrub stains, reach difficult corners, and navigate a chaotic home.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:0f188dfe44a8"
-    },
-    {
-     "source": "feed",
-     "outlet": "ZDNet AI",
-     "title": "ZDNET’s best headphones of 2026: These two pairs left us impressed",
-     "url": "https://www.zdnet.com/tech/zdnet-best-headphones-of-2026/",
-     "published": "2026-11-26T11:00:00+00:00",
-     "summary": "We tested dozens of Bluetooth headphones in 2026, but two stood out. Here’s our top picks.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.6,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:ZDNet AI:e5effa725a93"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Gaming Mouse (2026): My Picks After Testing Dozens of Mice",
-     "url": "https://www.wired.com/gallery/best-gaming-mouse/",
-     "published": "2026-11-26T11:30:00+00:00",
-     "summary": "From ergonomic to ultralight, we’ve tested dozens of the best gaming mice to find the absolute best for the style of gaming you prefer.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:9cf671077c3c"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "8 Best Keyboards (2026): My Honest Picks After Testing Dozens",
-     "url": "https://www.wired.com/gallery/best-keyboards/",
-     "published": "2026-11-26T12:00:00+00:00",
-     "summary": "As a professional keyboard nerd, I’ve tested dozens and dozens of models. One of these eight picks should suit your needs—no matter your budget.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:925319ca88ed"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Best MagSafe Wallets for Your Everyday Carry (2026)",
-     "url": "https://www.wired.com/gallery/best-magsafe-wallets/",
-     "published": "2026-11-26T12:15:00+00:00",
-     "summary": "The slim, convenient magnetic wallets you’ll actually want to stick to the back of your iPhone.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1a6bd8899fa3"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "10 Best Office Chairs of 2026—We Tested 70 to Pick Them",
-     "url": "https://www.wired.com/gallery/best-office-chairs/",
-     "published": "2026-11-26T12:35:00+00:00",
-     "summary": "Upgrade your WFH setup and work in style with these comfy, WIRED-tested seats.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1bc422c229c0"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "10 Best Meal Delivery Services, Tested by an Ex-Restaurant Critic",
-     "url": "https://www.wired.com/gallery/best-meal-kit-services-1/",
-     "published": "2026-11-26T13:00:00+00:00",
-     "summary": "Here are the best delivery services and meal kits in 2026, including the Martha Stewart meal service, a GLP-1–supportive plan, and a budget-friendly option.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:ebfab5b558bf"
+     "id": "feed:Engadget:8ec3c12ec105"
     }
    ]
   },
@@ -1261,24 +1509,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 31.3,
+   "score": 29.5,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.791,
-    "velocity": 0.519,
-    "freshness": 0.563,
-    "age_hours": 33.8
+    "engagement": 0.792,
+    "velocity": 0.496,
+    "freshness": 0.532,
+    "age_hours": 39.2
    },
    "reasons": [
-    "HN 218 points, 172 comments",
-    "first seen 34h ago",
+    "HN 219 points, 174 comments",
+    "first seen 39h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-25",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 562,
+   "engagement": 567,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1293,173 +1541,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 218,
-     "comments": 172,
+     "points": 219,
+     "comments": 174,
      "discussion_url": "https://news.ycombinator.com/item?id=50638320",
      "id": "hackernews:50638320"
-    }
-   ]
-  },
-  {
-   "id": "658038c0d7",
-   "headline": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-   "url": "https://news.ycombinator.com/item?id=50630809",
-   "first_published": "2026-11-24T16:45:44+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 31.0,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.881,
-    "velocity": 0.594,
-    "freshness": 0.506,
-    "age_hours": 45.1
-   },
-   "reasons": [
-    "HN 455 points, 351 comments",
-    "first seen 45h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1157,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-     "url": "https://news.ycombinator.com/item?id=50630809",
-     "published": "2026-11-24T16:45:44+00:00",
-     "summary": "Basically the title.<p>Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models.<p>Our only usage which I think could get us flagged is automated regression benchmarks whenever we change some AI settings. But this is not against their po",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 455,
-     "comments": 351,
-     "discussion_url": "https://news.ycombinator.com/item?id=50630809",
-     "id": "hackernews:50630809"
-    }
-   ]
-  },
-  {
-   "id": "94e66f99b0",
-   "headline": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-   "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-   "first_published": "2026-11-24T21:07:38+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 30.4,
-   "signals": {
-    "coverage": 0.435,
-    "engagement": 0.796,
-    "velocity": 0.494,
-    "freshness": 0.525,
-    "age_hours": 40.7
-   },
-   "reasons": [
-    "2 outlets: The Verge, Engadget",
-    "HN 234 points, 175 comments",
-    "first seen 41h ago",
-    "topic: Tech & startups",
-    "rising: 2 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "rising",
-   "outlet_count": 2,
-   "outlets": [
-    "Engadget",
-    "The Verge"
-   ],
-   "engagement": 584,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Working with AI",
-     "url": "https://www.anthropic.com/research/working-with-ai",
-     "published": "2026-11-24T21:07:38+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 89,
-     "comments": 76,
-     "discussion_url": "https://news.ycombinator.com/item?id=50634734",
-     "id": "hackernews:50634734"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "This helpful Apple Watch feature works seamlessly with Apple CarPlay",
-     "url": "https://www.engadget.com/2321253/haptic-navigation-helpful-apple-watch-feature-works-seamlessly-carplay/",
-     "published": "2026-11-25T00:30:00+00:00",
-     "summary": "Long drives call for every trick you can get. See how your Apple Watch and CarPlay team up to keep you on course and a little more alert behind the wheel.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:10f7bdb4a886"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "How did pinwheel calculators work?",
-     "url": "https://blog.coredump.cx/p/how-did-pinwheel-calculators-work",
-     "published": "2026-11-25T02:00:08+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 81,
-     "comments": 8,
-     "discussion_url": "https://news.ycombinator.com/item?id=50637448",
-     "id": "hackernews:50637448"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Why aren't we working 2-days a week?",
-     "url": "https://anihil.com/why-arent-we-working-2-days-a-week",
-     "published": "2026-11-25T17:37:17+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 64,
-     "comments": 91,
-     "discussion_url": "https://news.ycombinator.com/item?id=50645010",
-     "id": "hackernews:50645010"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-     "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-     "published": "2026-11-26T00:04:34+00:00",
-     "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. Howeve",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:55df42fd5dff"
     }
    ]
   },
@@ -1472,24 +1557,24 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 29.8,
+   "score": 28.7,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.759,
+    "engagement": 0.777,
     "velocity": 0.473,
-    "freshness": 0.559,
-    "age_hours": 34.4
+    "freshness": 0.529,
+    "age_hours": 39.8
    },
    "reasons": [
-    "HN 316 points, 60 comments",
-    "first seen 34h ago",
+    "HN 356 points, 74 comments",
+    "first seen 40h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-25",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 436,
+   "engagement": 504,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1519,10 +1604,58 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 184,
-     "comments": 40,
+     "points": 224,
+     "comments": 54,
      "discussion_url": "https://news.ycombinator.com/item?id=50648365",
      "id": "hackernews:50648365"
+    }
+   ]
+  },
+  {
+   "id": "f983701b35",
+   "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "first_published": "2026-11-24T21:02:22+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 27.4,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.788,
+    "velocity": 0.462,
+    "freshness": 0.501,
+    "age_hours": 46.2
+   },
+   "reasons": [
+    "HN 355 points, 97 comments",
+    "first seen 46h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-25",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 549,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+     "published": "2026-11-24T21:02:22+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 355,
+     "comments": 97,
+     "discussion_url": "https://news.ycombinator.com/item?id=50634658",
+     "id": "hackernews:50634658"
     }
    ]
   },
@@ -1530,71 +1663,39 @@
    "id": "ef14fe40de",
    "headline": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
    "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-   "first_published": "2026-11-24T14:41:15+00:00",
+   "first_published": "2026-11-24T22:27:19+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs",
-    "AI agents & products",
-    "AI business & chips",
-    "Tech & startups"
+    "AI business & chips"
    ],
-   "score": 29.2,
+   "score": 26.2,
    "signals": {
     "coverage": 0.292,
-    "engagement": 0.673,
-    "velocity": 0.312,
-    "freshness": 0.498,
-    "age_hours": 47.2
+    "engagement": 0.552,
+    "velocity": 0.188,
+    "freshness": 0.507,
+    "age_hours": 44.8
    },
    "reasons": [
-    "1 outlet: TechCrunch AI",
-    "HN 182 points, 18 comments",
-    "first seen 47h ago",
+    "1 outlet: TechCrunch",
+    "HN 52 points, 15 comments",
+    "first seen 45h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-14",
    "status": "steady",
    "outlet_count": 1,
    "outlets": [
-    "TechCrunch AI"
+    "TechCrunch"
    ],
-   "engagement": 218,
+   "engagement": 82,
    "regions": [
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Anthropic is below its IPO price",
-     "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
-     "published": "2026-11-24T14:41:15+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 130,
-     "comments": 3,
-     "discussion_url": "https://news.ycombinator.com/item?id=50628932",
-     "id": "hackernews:50628932"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-     "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-     "published": "2026-11-24T18:30:42+00:00",
-     "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:6648f75526f6"
-    },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
@@ -1639,246 +1740,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:TechCrunch AI:f3fec56e71e8"
-    }
-   ]
-  },
-  {
-   "id": "f983701b35",
-   "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "first_published": "2026-11-24T21:02:22+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 28.8,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.788,
-    "velocity": 0.483,
-    "freshness": 0.525,
-    "age_hours": 40.8
-   },
-   "reasons": [
-    "HN 354 points, 97 comments",
-    "first seen 41h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 548,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-     "published": "2026-11-24T21:02:22+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 354,
-     "comments": 97,
-     "discussion_url": "https://news.ycombinator.com/item?id=50634658",
-     "id": "hackernews:50634658"
-    }
-   ]
-  },
-  {
-   "id": "4e62e09bb8",
-   "headline": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
-   "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
-   "first_published": "2026-11-24T17:10:45+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 27.3,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.777,
-    "velocity": 0.454,
-    "freshness": 0.507,
-    "age_hours": 44.7
-   },
-   "reasons": [
-    "HN 223 points, 140 comments",
-    "first seen 45h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 503,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
-     "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
-     "published": "2026-11-24T17:10:45+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 223,
-     "comments": 140,
-     "discussion_url": "https://news.ycombinator.com/item?id=50631210",
-     "id": "hackernews:50631210"
-    }
-   ]
-  },
-  {
-   "id": "0dd121b5fd",
-   "headline": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
-   "url": "https://gpu-demo-gallery.pages.dev/",
-   "first_published": "2026-11-25T04:31:48+00:00",
-   "topic": "AI business & chips",
-   "topics": [
-    "AI business & chips"
-   ],
-   "score": 26.4,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.779,
-    "velocity": 0.505,
-    "freshness": 0.566,
-    "age_hours": 33.3
-   },
-   "reasons": [
-    "HN 351 points, 80 comments",
-    "first seen 33h ago",
-    "topic: AI business & chips"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 511,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
-     "url": "https://gpu-demo-gallery.pages.dev/",
-     "published": "2026-11-25T04:31:48+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 351,
-     "comments": 80,
-     "discussion_url": "https://news.ycombinator.com/item?id=50638503",
-     "id": "hackernews:50638503"
-    }
-   ]
-  },
-  {
-   "id": "47b0e09d34",
-   "headline": "Top open problems in mathematics ranked by LLM-assessed importance",
-   "url": "https://www.proofatlas.ai/open-problems/",
-   "first_published": "2026-11-25T03:01:36+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 25.9,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.668,
-    "velocity": 0.353,
-    "freshness": 0.557,
-    "age_hours": 34.8
-   },
-   "reasons": [
-    "HN 104 points, 53 comments",
-    "first seen 35h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 210,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Top open problems in mathematics ranked by LLM-assessed importance",
-     "url": "https://www.proofatlas.ai/open-problems/",
-     "published": "2026-11-25T03:01:36+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 104,
-     "comments": 53,
-     "discussion_url": "https://news.ycombinator.com/item?id=50637871",
-     "id": "hackernews:50637871"
-    }
-   ]
-  },
-  {
-   "id": "42f9804cae",
-   "headline": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
-   "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
-   "first_published": "2026-11-24T18:55:12+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 25.2,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.71,
-    "velocity": 0.372,
-    "freshness": 0.515,
-    "age_hours": 43.0
-   },
-   "reasons": [
-    "HN 99 points, 97 comments",
-    "first seen 43h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-24",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 293,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
-     "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
-     "published": "2026-11-24T18:55:12+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 99,
-     "comments": 97,
-     "discussion_url": "https://news.ycombinator.com/item?id=50632756",
-     "id": "hackernews:50632756"
     }
    ]
   }
