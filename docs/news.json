@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-26T19:17:10+00:00",
- "date": "2026-11-26",
- "new_today": 6,
+ "generated_at": "2026-11-27T13:50:12+00:00",
+ "date": "2026-11-27",
+ "new_today": 5,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2861,
+  "collected": 2879,
   "undated": 0,
-  "too_old": 2550,
-  "excluded": 11,
+  "too_old": 2574,
+  "excluded": 4,
   "duplicate": 0,
-  "articles_in_window": 300,
-  "stories": 213,
-  "off_topic": 155,
-  "low_score": 44,
-  "shown": 14
+  "articles_in_window": 301,
+  "stories": 203,
+  "off_topic": 144,
+  "low_score": 41,
+  "shown": 18
  },
  "llm": {
   "enabled": false
@@ -23,17 +23,17 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2767,
-   "in_stories": 9,
-   "detail": "18/23 feeds read; failed: Helsinki Times (ParseError: not well-formed (invalid token): line 1, column 141); ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
+   "fetched": 2783,
+   "in_stories": 10,
+   "detail": "19/23 feeds read; failed: ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
   {
    "name": "hackernews",
    "ok": true,
-   "fetched": 94,
-   "in_stories": 12,
-   "detail": "94 stories with 40+ points",
+   "fetched": 96,
+   "in_stories": 16,
+   "detail": "96 stories with 40+ points",
    "error": ""
   },
   {
@@ -56,165 +56,32 @@
  ],
  "stories": [
   {
-   "id": "7fe24197b0",
-   "headline": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
-   "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
-   "first_published": "2026-11-25T17:22:07+00:00",
-   "topic": "AI business & chips",
+   "id": "df26e3f9bf",
+   "headline": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+   "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+   "first_published": "2026-11-27T08:11:46+00:00",
+   "topic": "AI policy & safety",
    "topics": [
-    "AI business & chips",
-    "Tech & startups"
+    "AI policy & safety"
    ],
-   "score": 49.8,
-   "signals": {
-    "coverage": 0.669,
-    "engagement": 0.775,
-    "velocity": 0.543,
-    "freshness": 0.621,
-    "age_hours": 25.9
-   },
-   "reasons": [
-    "4 outlets: TechCrunch, BBC Technology, Ars Technica, Engadget",
-    "HN 120 points, 187 comments",
-    "first seen 26h ago",
-    "topic: AI business & chips",
-    "rising: 2 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "rising",
-   "outlet_count": 4,
-   "outlets": [
-    "Ars Technica",
-    "BBC Technology",
-    "Engadget",
-    "TechCrunch"
-   ],
-   "engagement": 494,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "US authorizes SpaceX to deploy 1M satellites for data centers in space",
-     "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/",
-     "published": "2026-11-25T17:22:07+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 45,
-     "comments": 35,
-     "discussion_url": "https://news.ycombinator.com/item?id=50644856",
-     "id": "hackernews:50644856"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
-     "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
-     "published": "2026-11-25T18:22:38+00:00",
-     "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:8540e8010e35"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "SpaceX wins FCC approval to deploy 1M orbital data center satellites",
-     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
-     "published": "2026-11-25T18:59:43+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 75,
-     "comments": 152,
-     "discussion_url": "https://news.ycombinator.com/item?id=50645978",
-     "id": "hackernews:50645978"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "FCC approves SpaceX plan to put AI data centers in space",
-     "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
-     "published": "2026-11-25T20:56:44+00:00",
-     "summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:d2bbc968868a"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Musk's plan to send a million SpaceX data satellites into space approved",
-     "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-26T09:27:44+00:00",
-     "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:341907319899"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
-     "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
-     "published": "2026-11-26T11:01:32+00:00",
-     "summary": "The FCC has granted SpaceX's request to deploy 1 million satellites to build an AI data center in orbit.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:1a5476265547"
-    }
-   ]
-  },
-  {
-   "id": "e16d36447a",
-   "headline": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
-   "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
-   "first_published": "2026-11-26T16:55:15+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 48.2,
+   "score": 44.2,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.614,
-    "velocity": 0.736,
-    "freshness": 0.948,
-    "age_hours": 2.4
+    "engagement": 0.72,
+    "velocity": 0.732,
+    "freshness": 0.883,
+    "age_hours": 5.6
    },
    "reasons": [
-    "HN 52 points, 42 comments",
-    "first seen 2h ago",
-    "topic: AI models & labs"
+    "HN 135 points, 91 comments",
+    "first seen 6h ago",
+    "topic: AI policy & safety"
    ],
-   "first_seen": "2026-11-26",
+   "first_seen": "2026-11-27",
    "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 136,
+   "engagement": 317,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -222,515 +89,64 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
-     "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
-     "published": "2026-11-26T16:55:15+00:00",
+     "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+     "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+     "published": "2026-11-27T08:11:46+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 52,
-     "comments": 42,
-     "discussion_url": "https://news.ycombinator.com/item?id=50657110",
-     "id": "hackernews:50657110"
+     "points": 135,
+     "comments": 91,
+     "discussion_url": "https://news.ycombinator.com/item?id=50664191",
+     "id": "hackernews:50664191"
     }
    ]
   },
   {
-   "id": "22c200d76e",
-   "headline": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-   "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-   "first_published": "2026-11-26T11:37:17+00:00",
-   "topic": "AI models & labs",
+   "id": "4abf71a5b6",
+   "headline": "22 Best Black Friday Deals Under $100 (2026)",
+   "url": "https://www.wired.com/story/best-black-friday-deals-under-100-11-27-2026/",
+   "first_published": "2026-11-25T17:54:07+00:00",
+   "topic": "Finland & Nordic tech",
    "topics": [
-    "AI models & labs"
-   ],
-   "score": 46.9,
-   "signals": {
-    "coverage": 0.153,
-    "engagement": 0.644,
-    "velocity": 0.571,
-    "freshness": 0.847,
-    "age_hours": 7.7
-   },
-   "reasons": [
-    "1 outlet: Hugging Face Blog",
-    "HN 110 points, 31 comments",
-    "first seen 8h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "Hugging Face Blog"
-   ],
-   "engagement": 172,
-   "regions": [
-    "Source"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Hugging Face Blog",
-     "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-     "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-     "published": "2026-11-26T11:37:17+00:00",
-     "summary": "",
-     "region": "Source",
-     "lang": "en",
-     "weight": 0.4,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Hugging Face Blog:02a088434703"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "AMD Specific Patches for Llama.cpp",
-     "url": "https://devnull.land/amd-specific-llama-cpp",
-     "published": "2026-11-26T17:11:29+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 110,
-     "comments": 31,
-     "discussion_url": "https://news.ycombinator.com/item?id=50657265",
-     "id": "hackernews:50657265"
-    }
-   ]
-  },
-  {
-   "id": "30a3772095",
-   "headline": "Want to buy your kid an AI toy this Christmas? Not in New York",
-   "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-   "first_published": "2026-11-25T15:29:21+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products"
-   ],
-   "score": 46.1,
-   "signals": {
-    "coverage": 0.57,
-    "engagement": 0.55,
-    "velocity": 0.247,
-    "freshness": 0.606,
-    "age_hours": 27.8
-   },
-   "reasons": [
-    "3 outlets: The Guardian Tech, TechCrunch, Engadget",
-    "HN 55 points, 13 comments",
-    "first seen 28h ago",
-    "topic: AI agents & products",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "rising",
-   "outlet_count": 3,
-   "outlets": [
-    "Engadget",
-    "TechCrunch",
-    "The Guardian Tech"
-   ],
-   "engagement": 81,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "New York bans AI toys, including those using internet to talk to children",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
-     "published": "2026-11-25T15:29:21+00:00",
-     "summary": "The state attorney general says she would ‘not hesitate to enforce’ the five-year ban signed by Governor Kathy Hochul The New York governor, Kathy Hochul , signed legislation on Wednesday that places a five-year ban on the manufacture and sale of toys powered by AI chatbots, including talking stuffe",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:16e4a7d7fbb2"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "New York bans AI toys, including those using internet to talk to children",
-     "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
-     "published": "2026-11-25T17:27:05+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 55,
-     "comments": 13,
-     "discussion_url": "https://news.ycombinator.com/item?id=50644909",
-     "id": "hackernews:50644909"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-     "published": "2026-11-25T18:11:46+00:00",
-     "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:4c29da3e02ad"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-     "published": "2026-11-25T18:11:46+00:00",
-     "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:4c29da3e02ad"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "New York state bans AI chatbot toys for kids",
-     "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
-     "published": "2026-11-26T06:02:48+00:00",
-     "summary": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:db5c6ce981c2"
-    }
-   ]
-  },
-  {
-   "id": "c39b692787",
-   "headline": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-   "first_published": "2026-11-25T20:03:27+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 45.3,
-   "signals": {
-    "coverage": 0.292,
-    "engagement": 0.853,
-    "velocity": 0.671,
-    "freshness": 0.645,
-    "age_hours": 23.2
-   },
-   "reasons": [
-    "1 outlet: TechCrunch",
-    "HN 435 points, 245 comments",
-    "first seen 23h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "TechCrunch"
-   ],
-   "engagement": 925,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-     "published": "2026-11-25T20:03:27+00:00",
-     "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:8b36302dca31"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-     "published": "2026-11-25T20:03:27+00:00",
-     "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:8b36302dca31"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-     "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-     "published": "2026-11-26T03:36:58+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 435,
-     "comments": 245,
-     "discussion_url": "https://news.ycombinator.com/item?id=50651117",
-     "id": "hackernews:50651117"
-    }
-   ]
-  },
-  {
-   "id": "657cb6a91c",
-   "headline": "Much shorter version of GRH Lean verification from Anthropic",
-   "url": "https://github.com/lsernau/grh-lean",
-   "first_published": "2026-11-25T21:48:10+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 42.0,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.885,
-    "velocity": 0.731,
-    "freshness": 0.662,
-    "age_hours": 21.5
-   },
-   "reasons": [
-    "HN 524 points, 336 comments",
-    "first seen 21h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1196,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Much shorter version of GRH Lean verification from Anthropic",
-     "url": "https://github.com/lsernau/grh-lean",
-     "published": "2026-11-25T21:48:10+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 524,
-     "comments": 336,
-     "discussion_url": "https://news.ycombinator.com/item?id=50648050",
-     "id": "hackernews:50648050"
-    }
-   ]
-  },
-  {
-   "id": "980572ef90",
-   "headline": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
-   "url": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
-   "first_published": "2026-11-24T21:32:38+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products",
+    "Finland & Nordic tech",
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 41.1,
+   "score": 40.8,
    "signals": {
-    "coverage": 0.866,
+    "coverage": 0.804,
     "engagement": 0.0,
     "velocity": 0.0,
-    "freshness": 0.503,
-    "age_hours": 45.7
+    "freshness": 0.511,
+    "age_hours": 43.9
    },
    "reasons": [
-    "7 outlets: TechCrunch AI, The Verge, The Guardian Tech, Wired +3 more",
-    "first seen 46h ago",
-    "topic: AI agents & products",
-    "rising: 3 more outlets since yesterday"
+    "6 outlets: The Verge, The Guardian Tech, Yle Uutiset, Wired +2 more",
+    "first seen 44h ago",
+    "topic: Finland & Nordic tech",
+    "rising: 1 more outlets since yesterday"
    ],
-   "first_seen": "2026-11-24",
+   "first_seen": "2026-11-23",
    "status": "rising",
-   "outlet_count": 7,
+   "outlet_count": 6,
    "outlets": [
     "Engadget",
-    "Sifted",
-    "TechCrunch AI",
     "The Guardian Tech",
     "The Verge",
     "Wired",
+    "Yle Uutiset",
     "ZDNet AI"
    ],
    "engagement": 0,
    "regions": [
-    "Europe",
+    "Finland",
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-     "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-     "published": "2026-11-24T21:32:38+00:00",
-     "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:7fc7303ba991"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
-     "url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-24-26/",
-     "published": "2026-11-24T22:22:20+00:00",
-     "summary": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:9be79ef9881a"
-    },
-    {
-     "source": "feed",
-     "outlet": "Sifted",
-     "title": "The best Christmas gifts for founders",
-     "url": "https://sifted.eu/articles/the-best-christmas-gifts-for-founders/",
-     "published": "2026-11-25T10:40:53+00:00",
-     "summary": "",
-     "region": "Europe",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Sifted:27f3b2183085"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Best iPhone Duo Cases and Accessories (2026)",
-     "url": "https://www.wired.com/story/best-iphone-duo-cases-and-accessories/",
-     "published": "2026-11-25T10:45:00+00:00",
-     "summary": "Protect and enhance your iPhone Duo with one of our favorite cases or accessories.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:d5d86242a37d"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Best TVs We’ve Tested (2026): Samsung, LG, TCL, Sony, and More.",
-     "url": "https://www.wired.com/story/best-tvs/",
-     "published": "2026-11-25T11:30:00+00:00",
-     "summary": "Affordable QLEDs, glorious RGB, premium OLEDs—these are our favorite televisions across every category.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:404b88dc67de"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The 36 Best Gifts for Dads (2026)",
-     "url": "https://www.wired.com/story/best-gifts-for-dads-2026/",
-     "published": "2026-11-25T11:49:00+00:00",
-     "summary": "Dads are typically tough to shop for. Let me help with these WIRED-tested gift ideas.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:f45b9875794f"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-     "published": "2026-11-25T14:10:18+00:00",
-     "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:baeebb37d1eb"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-     "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-     "published": "2026-11-25T14:10:18+00:00",
-     "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:baeebb37d1eb"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "Five solar generators going for deep discounts on Black Friday",
-     "url": "https://www.engadget.com/2327916/five-solar-generators-going-for-deep-discounts-on-black-friday/",
-     "published": "2026-11-25T14:15:20+00:00",
-     "summary": "Save 20 to 40 percent on models from Anker, EcoFlow and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:ad4f6ac70abf"
-    },
     {
      "source": "feed",
      "outlet": "Engadget",
@@ -808,21 +224,6 @@
     },
     {
      "source": "feed",
-     "outlet": "Wired",
-     "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
-     "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
-     "published": "2026-11-26T10:51:27+00:00",
-     "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:8b79d200abdc"
-    },
-    {
-     "source": "feed",
      "outlet": "ZDNet AI",
      "title": "ZDNET’s best headphones of 2026: These two pairs left us impressed",
      "url": "https://www.zdnet.com/tech/zdnet-best-headphones-of-2026/",
@@ -884,21 +285,6 @@
     {
      "source": "feed",
      "outlet": "Wired",
-     "title": "The Best MagSafe Wallets for Your Everyday Carry (2026)",
-     "url": "https://www.wired.com/gallery/best-magsafe-wallets/",
-     "published": "2026-11-26T12:15:00+00:00",
-     "summary": "The slim, convenient magnetic wallets you’ll actually want to stick to the back of your iPhone.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1a6bd8899fa3"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
      "title": "10 Best Office Chairs of 2026—We Tested 70 to Pick Them",
      "url": "https://www.wired.com/gallery/best-office-chairs/",
      "published": "2026-11-26T12:35:00+00:00",
@@ -929,51 +315,6 @@
     {
      "source": "feed",
      "outlet": "The Verge",
-     "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
-     "url": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
-     "published": "2026-11-26T16:00:00+00:00",
-     "summary": "Black Friday isn’t just a good time to save on a new TV but also a chance to spend less on what you watch on it. The shopping holiday often brings steep streaming discounts, and this year is no exception, with some streamers offering more than 50 percent off. HBO Max, Apple TV, and Hulu […]",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:0aeb3ba3a764"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "The best Black Friday deals we’ve already found",
-     "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-     "published": "2026-11-26T16:55:00+00:00",
-     "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:38d6726022c3"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "A month with the iPhone Duo has changed how I use my phone",
-     "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/",
-     "published": "2026-11-26T17:00:00+00:00",
-     "summary": "From reading more books to breaking mindless scrolling habits, Apple's foldable has changed my daily routines in ways I didn't anticipate.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:8e39dc38673a"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
      "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
      "published": "2026-11-26T17:07:00+00:00",
@@ -988,11 +329,371 @@
     },
     {
      "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Slow internet? The best wifi extenders and mesh systems to boost your home network – tested",
+     "url": "https://www.theguardian.com/thefilter/2026/nov/26/best-wifi-extender-repeater-uk",
+     "published": "2026-11-26T20:00:43+00:00",
+     "summary": "We put 11 range extenders and mesh systems to the test to find the fastest and most reliable for streaming, gaming and working from home • The best office chairs Fast fibre broadband is fantastic – if the wifi signal reaches the part of your home where you need it. Most of us use the router provided",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:78edf621e9cf"
+    },
+    {
+     "source": "feed",
      "outlet": "Wired",
-     "title": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
-     "url": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
-     "published": "2026-11-26T18:49:47+00:00",
-     "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
+     "title": "22 Best Black Friday Deals Under $100 (2026)",
+     "url": "https://www.wired.com/story/best-black-friday-deals-under-100-11-27-2026/",
+     "published": "2026-11-27T09:40:33+00:00",
+     "summary": "Here are the best Black Friday discounts we’ve found so far on WIRED-tested gear.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:b9289e7e3cc3"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "I Found the Best Black Friday Deals on Phones (2026): iPhone, Pixel, and Moto Up to 50% Off",
+     "url": "https://www.wired.com/story/best-black-friday-phone-deals-11-27-26/",
+     "published": "2026-11-27T09:42:19+00:00",
+     "summary": "If you're due for an upgrade, you need to check out these tempting Black Friday phone deals.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:1f424614133a"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "I Found the 20 Best Black Friday Tech Deals, Up to 50% Off (2026)",
+     "url": "https://www.wired.com/story/best-black-friday-tech-deals-11-27-26/",
+     "published": "2026-11-27T09:53:31+00:00",
+     "summary": "Why pay more? The best Black Friday tech deals offer deep discounts on great WIRED-tested gear.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:163af4e61fc3"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The 10 Best Black Friday TV Deals (2026): Save Up to 53% Off",
+     "url": "https://www.wired.com/story/early-black-friday-tv-deals-11-27-2026/",
+     "published": "2026-11-27T09:55:09+00:00",
+     "summary": "The best Black Friday TV deals are here. Snag up to 53 percent off some of the best WIRED-tested TVs from TCL, Samsung, Hisense, and more ahead of the holidays.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:dc6af2edbf5f"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "I Found the Best Black Friday Streaming Deals (2026): Apple TV, Disney, and Paramount Over Half Off",
+     "url": "https://www.wired.com/story/black-friday-streaming-deals-11-27-2026/",
+     "published": "2026-11-27T10:04:47+00:00",
+     "summary": "Streaming apps are offering their biggest subscription deals of the year. Here’s how to take advantage.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:19fe49a0f403"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Our favorite headphones and earbuds are cheaper than ever for Black Friday",
+     "url": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026",
+     "published": "2026-11-27T10:30:00+00:00",
+     "summary": "If you haven’t already caved and bought a fresh set of wireless earbuds, over-ear headphones, or bone conduction headphones this year, Black Friday is rewarding you with a colossal amount of deals, including discounts on the best models available. Apple, Beats, Soundcore, Sony, Nothing, and other ma",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:77d6e6c43e06"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Black Friday Toy Deals (2026): Up to 50% Off Lego, Board Games, and Toys",
+     "url": "https://www.wired.com/story/best-black-friday-toy-deals-11-27-26/",
+     "published": "2026-11-27T10:44:38+00:00",
+     "summary": "Bag some gifts for your kids or unleash your inner child with the best Black Friday toy deals on Lego, STEM toys, and board games.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:1bf3ce44f5ac"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Best Black Friday iPad Deals On the Latest 2026 Models: Get $100 Off",
+     "url": "https://www.wired.com/story/best-black-friday-ipad-deals-11-27-2026/",
+     "published": "2026-11-27T11:03:21+00:00",
+     "summary": "Many of Apple's best iPads are discounted for Black Friday, including $100 off on the latest iPad Mini.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:a8e992e096d6"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Kindle and E-Reader Black Friday Deals (2026): Up to $180 Off",
+     "url": "https://www.wired.com/story/best-kindle-ereader-black-friday-deals-11-2026/",
+     "published": "2026-11-27T11:05:59+00:00",
+     "summary": "Whether you’re shopping for a new Kindle or looking to break free from Amazon’s ecosystem, Black Friday is one of the best times to shop for a new e-reader.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:91d0e02bfa57"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Black Friday Google Pixel Deals (2026): Up to $400 Off",
+     "url": "https://www.wired.com/story/best-google-pixel-black-friday-deals-11-27-2026/",
+     "published": "2026-11-27T11:24:04+00:00",
+     "summary": "Upgrade to the smartest Android smartphones. Google’s latest Pixel 11 phones are all on sale at their lowest prices to date for Black Friday.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:6740ad846bb6"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The 6 Best Black Friday Deals on Expert-Tested Laptops (2026): Up to $470 Off",
+     "url": "https://www.wired.com/story/black-friday-laptop-deals-11-27-2026/",
+     "published": "2026-11-27T11:28:15+00:00",
+     "summary": "These deals on WIRED’s recommended laptops of the year have dropped to new low prices for Black Friday.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:e54f3ddffe42"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "The SE 3 is the Apple Watch most people should buy on Black Friday",
+     "url": "https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale",
+     "published": "2026-11-27T11:30:00+00:00",
+     "summary": "During Black Friday, the Apple Watch SE 3 is on sale in the 40mm / GPS configuration at Amazon, Walmart, and Target starting around $179 ($70 off), $20 less than its previous lowest price. The 44mm variant, meanwhile, is on sale at Amazon, Walmart, and Target starting at around $209 (also $70 off), ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:c4283fcb5f40"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "15 Best Buy Black Friday Deals on Hot Tech (2026): Up to 65% Off",
+     "url": "https://www.wired.com/story/black-friday-best-buy-deals-11-27-2026/",
+     "published": "2026-11-27T11:32:17+00:00",
+     "summary": "Score deals on WIRED-tested headphones, laptops, and soundbars.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:0005b199420e"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
+     "url": "https://www.wired.com/story/black-friday-headphone-deals-11-27-26/",
+     "published": "2026-11-27T11:38:34+00:00",
+     "summary": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:9be79ef9881a"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "The absolute best Black Friday deals we’ve found (so far)",
+     "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+     "published": "2026-11-27T11:52:34+00:00",
+     "summary": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, e-readers, robot vacuums, and so much more. We can’",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:28a3c5acb9fb"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
+     "url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-27-2026/",
+     "published": "2026-11-27T11:58:32+00:00",
+     "summary": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:890879f21351"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Dyson Vacuum Black Friday Deals for 2026: Up to $400 Off",
+     "url": "https://www.wired.com/story/best-black-friday-dyson-vacuum-deals-11-27-2026/",
+     "published": "2026-11-27T12:05:59+00:00",
+     "summary": "If a Dyson vacuum is on yours (or a loved one’s) Christmas list, Black Friday is the best time to shop.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:f3adeafc29d2"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "Small price tag, big upgrade: the best Black Friday deals under $50",
+     "url": "https://www.theguardian.com/thefilter-us/2026/nov/27/best-black-friday-sales-deals-50",
+     "published": "2026-11-27T12:15:11+00:00",
+     "summary": "We scoured hundreds of sales for the best deals below $50 on heated blankets, packing cubes, sleep masks and more Black Friday deals aren’t reserved for pricey vacuum cleaners and huge TVs. While many of us gravitate toward big-ticket items with steep discounts, it is also worth searching for sales ",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:ab90b7aec958"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Up to $50 Off Bundles, Games, Accessories",
+     "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-27-2026/",
+     "published": "2026-11-27T12:15:27+00:00",
+     "summary": "Get your game on for less with these Black Friday deals on official Nintendo Switch 2 bundles and games.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:d7379a0c833e"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday",
+     "url": "https://www.theverge.com/gadgets/1042744/best-black-friday-tv-deals-2026",
+     "published": "2026-11-27T12:30:00+00:00",
+     "summary": "Most of us spend a lot of time with our TVs, be it watching movies, TV shows, the news, or playing games. It’s part of being a fan of technology. And while they’re big purchases, they can last for years. But eventually, the time comes when we need a new one. Has that time come […]",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:96804c56916b"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Our Favorite Merino Wool is 30% Off During the Unbound Merino Black Friday Sale (2026)",
+     "url": "https://www.wired.com/story/unbound-merino-black-friday-sale-2026/",
+     "published": "2026-11-27T13:10:54+00:00",
+     "summary": "WIRED’s pick for the best travel T-shirt is on sale for Black Friday. Expand your merino wardrobe with these deals. Hurry though, the sale ends tonight.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:847d08624b58"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "The Oura Ring 5 just got its biggest discount ever for Black Friday",
+     "url": "https://www.theverge.com/gadgets/1041299/oura-ring-5-black-friday-2026-deal-sale",
+     "published": "2026-11-27T13:30:00+00:00",
+     "summary": "If you’ve been curious about smart rings but have been put off by their high price tags, Black Friday is a good time to consider giving one a try. That’s because the Oura Ring 5, which we consider the best smart ring you can buy, has dropped to an all-time low of $299 ($100 off) […]",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:5b395467e0b8"
+    },
+    {
+     "source": "feed",
+     "outlet": "Yle Uutiset",
+     "title": "Black friday todistaa: ”temuttamisen” suosio laskee",
+     "url": "https://yle.fi/a/74-20258458?origin=rss",
+     "published": "2026-11-27T13:30:52+00:00",
+     "summary": "Kodin tekniikkaa ja elektroniikkaa myydään marraskuussa enemmän kuin joulukuussa.",
+     "region": "Finland",
+     "lang": "fi",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle Uutiset:bf815ef8b26c"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "131 Best Black Friday Deals Now Live: Our Expert Picks for 2026",
+     "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/",
+     "published": "2026-11-27T13:36:48+00:00",
+     "summary": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
      "region": "International",
      "lang": "en",
      "weight": 0.85,
@@ -1000,6 +701,435 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Wired:fb6a4d48857b"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "The Best Black Friday Sonos Deals (2026): Up to 34% Off",
+     "url": "https://www.wired.com/story/best-black-friday-sonos-deals-11-27-26/",
+     "published": "2026-11-27T13:42:44+00:00",
+     "summary": "Always wanted a Sonos speaker but scared off by the price? Black Friday is one of the best times to shop the brand.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:72d9b78e8781"
+    }
+   ]
+  },
+  {
+   "id": "e31085b265",
+   "headline": "Chewy Promo Codes: 50% Off November 2026",
+   "url": "https://www.wired.com/story/chewy-promo-code/",
+   "first_published": "2026-11-26T06:00:00+00:00",
+   "topic": "Finland & Nordic tech",
+   "topics": [
+    "Finland & Nordic tech"
+   ],
+   "score": 39.5,
+   "signals": {
+    "coverage": 0.477,
+    "engagement": 0.701,
+    "velocity": 0.408,
+    "freshness": 0.576,
+    "age_hours": 31.8
+   },
+   "reasons": [
+    "2 outlets: Yle News, Wired",
+    "HN 186 points, 43 comments",
+    "first seen 32h ago",
+    "topic: Finland & Nordic tech"
+   ],
+   "first_seen": "2026-11-20",
+   "status": "steady",
+   "outlet_count": 2,
+   "outlets": [
+    "Wired",
+    "Yle News"
+   ],
+   "engagement": 272,
+   "regions": [
+    "Finland",
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Chewy Promo Codes: 50% Off November 2026",
+     "url": "https://www.wired.com/story/chewy-promo-code/",
+     "published": "2026-11-26T06:00:00+00:00",
+     "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order of $49, 50% off pet food, and more November 2026 discounts.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:dbbbaf8f48b0"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Office Depot Coupons: $20 Off November 2026",
+     "url": "https://www.wired.com/story/office-depot-promo-codes/",
+     "published": "2026-11-26T06:00:00+00:00",
+     "summary": "From furniture and ink to professional printing services, use an Office Depot discount code to maximize your savings on every workspace essential.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:f131c8553e1e"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Buy Nothing Day – Friday November 27th 2026",
+     "url": "https://www.buynothingday.co.uk/",
+     "published": "2026-11-27T05:52:42+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 186,
+     "comments": 43,
+     "discussion_url": "https://news.ycombinator.com/item?id=50663261",
+     "id": "hackernews:50663261"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Ulta Promo Codes: Up to 20% Off in November 2026",
+     "url": "https://www.wired.com/story/ulta-coupon/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:fa803d2ba6d3"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Home Depot Promo Codes: 30% Off in November 2026",
+     "url": "https://www.wired.com/story/home-depot-promo-code/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Save up to 30% today with the latest Home Depot promo codes for appliances, power tools, and more this November.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:fd83ac84a012"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Peacock Promo Codes: 40% Off November 2026",
+     "url": "https://www.wired.com/story/peacock-promo-code/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:6072c4f07874"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Nike Promo Codes and Discounts: 30% for November 2026",
+     "url": "https://www.wired.com/story/nike-promo-code/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Check out our deals for Nike this November 2026, including 15% off select purchases.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:ec76ca9e53ff"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "eBay Coupons: 20% Off in November 2026",
+     "url": "https://www.wired.com/story/ebay-coupon-code/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:a7f68f8353c2"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Newegg Promo Codes and Coupons for November 2026",
+     "url": "https://www.wired.com/story/newegg-promo-code/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:8cd12c337f61"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Whoop Promo Codes: 20% Off This November 2026",
+     "url": "https://www.wired.com/story/whoop-promo-code/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Whether you're looking for a Whoop free trial, student discount, or military savings, our guide to Whoop promo codes will help you maximize your membership benefits. Stay on top of your fitness goals for less.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:fd415b366778"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Squarespace Promo Codes: 55% Off in November 2026",
+     "url": "https://www.wired.com/story/squarespace-promo-code/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:0f711bbeda0f"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Dyson Promo Codes: 25% Off in November 2026",
+     "url": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
+     "published": "2026-11-27T06:00:00+00:00",
+     "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:f49ed22fa5c7"
+    },
+    {
+     "source": "feed",
+     "outlet": "Yle News",
+     "title": "This Week in Finland, 27 November 2026",
+     "url": "https://yle.fi/a/74-20259428?origin=rss",
+     "published": "2026-11-27T13:39:53+00:00",
+     "summary": "Finland's last remaining Winter War veteran, the gender pay gap and overburdened seventh graders were all in the headlines this week.",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Yle News:7bdff63423d2"
+    }
+   ]
+  },
+  {
+   "id": "22c200d76e",
+   "headline": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "first_published": "2026-11-26T17:11:29+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 38.5,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.797,
+    "velocity": 0.612,
+    "freshness": 0.671,
+    "age_hours": 20.6
+   },
+   "reasons": [
+    "HN 396 points, 96 comments",
+    "first seen 21h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-26",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 588,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "AMD-specific fork of llama.cpp",
+     "url": "https://devnull.land/amd-specific-llama-cpp",
+     "published": "2026-11-26T17:11:29+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 396,
+     "comments": 96,
+     "discussion_url": "https://news.ycombinator.com/item?id=50657265",
+     "id": "hackernews:50657265"
+    }
+   ]
+  },
+  {
+   "id": "c39b692787",
+   "headline": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "first_published": "2026-11-25T20:03:27+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 36.3,
+   "signals": {
+    "coverage": 0.292,
+    "engagement": 0.867,
+    "velocity": 0.588,
+    "freshness": 0.52,
+    "age_hours": 41.8
+   },
+   "reasons": [
+    "1 outlet: TechCrunch",
+    "HN 495 points, 269 comments",
+    "first seen 42h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-26",
+   "status": "steady",
+   "outlet_count": 1,
+   "outlets": [
+    "TechCrunch"
+   ],
+   "engagement": 1033,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+     "published": "2026-11-25T20:03:27+00:00",
+     "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:8b36302dca31"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+     "published": "2026-11-25T20:03:27+00:00",
+     "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:8b36302dca31"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+     "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+     "published": "2026-11-26T03:36:58+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 495,
+     "comments": 269,
+     "discussion_url": "https://news.ycombinator.com/item?id=50651117",
+     "id": "hackernews:50651117"
+    }
+   ]
+  },
+  {
+   "id": "ced73b8545",
+   "headline": "OpenAI may be in cost control mode",
+   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+   "first_published": "2026-11-26T07:33:12+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 36.0,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.867,
+    "velocity": 0.645,
+    "freshness": 0.587,
+    "age_hours": 30.3
+   },
+   "reasons": [
+    "HN 340 points, 348 comments",
+    "first seen 30h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-27",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 1036,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "OpenAI may be in cost control mode",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+     "published": "2026-11-26T07:33:12+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 340,
+     "comments": 348,
+     "discussion_url": "https://news.ycombinator.com/item?id=50652527",
+     "id": "hackernews:50652527"
     }
    ]
   },
@@ -1013,27 +1143,27 @@
     "AI agents & products",
     "Tech & startups"
    ],
-   "score": 38.9,
+   "score": 34.4,
    "signals": {
     "coverage": 0.28,
-    "engagement": 0.724,
-    "velocity": 0.498,
-    "freshness": 0.654,
-    "age_hours": 22.3
+    "engagement": 0.86,
+    "velocity": 0.583,
+    "freshness": 0.524,
+    "age_hours": 40.9
    },
    "reasons": [
     "1 outlet: Ars Technica",
-    "HN 99 points, 114 comments",
-    "first seen 22h ago",
+    "HN 363 points, 309 comments",
+    "first seen 41h ago",
     "topic: AI agents & products"
    ],
    "first_seen": "2026-11-26",
-   "status": "new",
+   "status": "steady",
    "outlet_count": 1,
    "outlets": [
     "Ars Technica"
    ],
-   "engagement": 327,
+   "engagement": 981,
    "regions": [
     "International"
    ],
@@ -1065,48 +1195,176 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 99,
-     "comments": 114,
+     "points": 363,
+     "comments": 309,
      "discussion_url": "https://news.ycombinator.com/item?id=50653477",
      "id": "hackernews:50653477"
     }
    ]
   },
   {
-   "id": "0c5a6a8108",
-   "headline": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-   "first_published": "2026-11-24T19:33:23+00:00",
+   "id": "7fe24197b0",
+   "headline": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
+   "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+   "first_published": "2026-11-25T17:22:07+00:00",
    "topic": "AI business & chips",
    "topics": [
     "AI business & chips",
     "Tech & startups"
    ],
-   "score": 33.9,
+   "score": 34.0,
    "signals": {
-    "coverage": 0.755,
-    "engagement": 0.735,
-    "velocity": 0.388,
-    "freshness": 0.495,
-    "age_hours": 47.7
+    "coverage": 0.669,
+    "engagement": 0.783,
+    "velocity": 0.462,
+    "freshness": 0.508,
+    "age_hours": 44.5
    },
    "reasons": [
-    "5 outlets: The Guardian Tech, TechCrunch AI, BBC Technology, Wired +1 more",
-    "HN 133 points, 113 comments",
-    "first seen 48h ago",
+    "4 outlets: TechCrunch, BBC Technology, Ars Technica, Engadget",
+    "HN 124 points, 202 comments",
+    "first seen 44h ago",
     "topic: AI business & chips"
    ],
-   "first_seen": "2026-11-19",
+   "first_seen": "2026-11-25",
    "status": "steady",
-   "outlet_count": 5,
+   "outlet_count": 4,
    "outlets": [
+    "Ars Technica",
     "BBC Technology",
     "Engadget",
-    "TechCrunch AI",
-    "The Guardian Tech",
+    "TechCrunch"
+   ],
+   "engagement": 528,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "US authorizes SpaceX to deploy 1M satellites for data centers in space",
+     "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/",
+     "published": "2026-11-25T17:22:07+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 46,
+     "comments": 40,
+     "discussion_url": "https://news.ycombinator.com/item?id=50644856",
+     "id": "hackernews:50644856"
+    },
+    {
+     "source": "feed",
+     "outlet": "Ars Technica",
+     "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+     "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+     "published": "2026-11-25T18:22:38+00:00",
+     "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Ars Technica:8540e8010e35"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "SpaceX wins FCC approval to deploy 1M orbital data center satellites",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+     "published": "2026-11-25T18:59:43+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 78,
+     "comments": 162,
+     "discussion_url": "https://news.ycombinator.com/item?id=50645978",
+     "id": "hackernews:50645978"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "FCC approves SpaceX plan to put AI data centers in space",
+     "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+     "published": "2026-11-25T20:56:44+00:00",
+     "summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:d2bbc968868a"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+     "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-26T09:27:44+00:00",
+     "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:341907319899"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "SpaceX gets FCC approval to deploy 1 million satellites for its AI orbital data center",
+     "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+     "published": "2026-11-26T11:01:32+00:00",
+     "summary": "The FCC has granted SpaceX's request to deploy 1 million satellites to build an AI data center in orbit.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:1a5476265547"
+    }
+   ]
+  },
+  {
+   "id": "4dc51137d9",
+   "headline": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
+   "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
+   "first_published": "2026-11-26T12:00:00+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "AI agents & products"
+   ],
+   "score": 33.7,
+   "signals": {
+    "coverage": 0.28,
+    "engagement": 0.587,
+    "velocity": 0.299,
+    "freshness": 0.622,
+    "age_hours": 25.8
+   },
+   "reasons": [
+    "1 outlet: Wired",
+    "HN 55 points, 27 comments",
+    "first seen 26h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-26",
+   "status": "steady",
+   "outlet_count": 1,
+   "outlets": [
     "Wired"
    ],
-   "engagement": 359,
+   "engagement": 109,
    "regions": [
     "International"
    ],
@@ -1116,198 +1374,201 @@
     {
      "source": "feed",
      "outlet": "Wired",
-     "title": "11 Things Jensen Huang Actually Said at His First All-Hands Back at Nvidia",
-     "url": "https://www.wired.com/story/11-things-jensen-huang-actually-said-at-his-first-all-hands-back-at-nvidia/",
-     "published": "2026-11-24T19:33:23+00:00",
-     "summary": "The newly reinstated CEO discussed his daily therapy sessions, his reputation as a “tech bro,” his disdain for succession planning, and his relationship with President Trump.",
+     "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
+     "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
+     "published": "2026-11-26T12:00:00+00:00",
+     "summary": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way.",
      "region": "International",
      "lang": "en",
      "weight": 0.85,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:Wired:ca8cfbe170cc"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
-     "url": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
-     "published": "2026-11-24T20:32:02+00:00",
-     "summary": "Huang acknowledges he violated code of conduct by having affairs, but denied Trump was instrumental in his return Jensen Huang apologized to staff on Tuesday for the tumult he has caused at Nvidia. The company’s CEO acknowledged he violated the code of conduct for having extramarital affairs, but pu",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:2cb7a4b8fd45"
+     "id": "feed:Wired:863c11be95c0"
     },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Why Is TikTok a National Security Threat, but Jensen Huang Is Fine?",
-     "url": "https://www.techdirt.com/2026/11/24/ive-been-under-a-rock-why-is-tiktok-a-national-security-threat-but-jensen-huang-is-fine/",
-     "published": "2026-11-24T21:10:55+00:00",
+     "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+     "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+     "published": "2026-11-27T00:03:18+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 72,
-     "comments": 28,
-     "discussion_url": "https://news.ycombinator.com/item?id=50634780",
-     "id": "hackernews:50634780"
-    },
+     "points": 55,
+     "comments": 27,
+     "discussion_url": "https://news.ycombinator.com/item?id=50661218",
+     "id": "hackernews:50661218"
+    }
+   ]
+  },
+  {
+   "id": "657cb6a91c",
+   "headline": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://github.com/lsernau/grh-lean",
+   "first_published": "2026-11-25T21:48:10+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 33.0,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.893,
+    "velocity": 0.631,
+    "freshness": 0.528,
+    "age_hours": 40.0
+   },
+   "reasons": [
+    "HN 558 points, 356 comments",
+    "first seen 40h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-26",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 1270,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
     {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-     "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-     "published": "2026-11-24T21:48:27+00:00",
-     "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
-     "region": "International",
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Much shorter version of GRH Lean verification from Anthropic",
+     "url": "https://github.com/lsernau/grh-lean",
+     "published": "2026-11-25T21:48:10+00:00",
+     "summary": "",
+     "region": "Social",
      "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:34e6b9d9badb"
-    },
+     "weight": 1.0,
+     "points": 558,
+     "comments": 356,
+     "discussion_url": "https://news.ycombinator.com/item?id=50648050",
+     "id": "hackernews:50648050"
+    }
+   ]
+  },
+  {
+   "id": "408c688068",
+   "headline": "Claude tries to sabotage research work at every stage",
+   "url": "https://twitter.com/skirano/status/2125371115979641188",
+   "first_published": "2026-11-26T04:49:21+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 32.9,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.822,
+    "velocity": 0.566,
+    "freshness": 0.568,
+    "age_hours": 33.0
+   },
+   "reasons": [
+    "HN 326 points, 198 comments",
+    "first seen 33h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-27",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 722,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
     {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-     "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-     "published": "2026-11-24T22:27:52+00:00",
-     "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
-     "region": "International",
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Claude tries to sabotage research work at every stage",
+     "url": "https://twitter.com/skirano/status/2125371115979641188",
+     "published": "2026-11-26T04:49:21+00:00",
+     "summary": "",
+     "region": "Social",
      "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:294bd8c556cb"
+     "weight": 1.0,
+     "points": 65,
+     "comments": 17,
+     "discussion_url": "https://news.ycombinator.com/item?id=50651552",
+     "id": "hackernews:50651552"
     },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Jensen Huang Spy Story Is a Hoax",
-     "url": "https://www.kenklippenstein.com/p/jensen-huang-spy-story-is-a-hoax",
-     "published": "2026-11-24T22:52:16+00:00",
+     "title": "\"What's Claude's Fursona?\" and Other Questions",
+     "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+     "published": "2026-11-27T04:56:18+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 61,
-     "comments": 85,
-     "discussion_url": "https://news.ycombinator.com/item?id=50635941",
-     "id": "hackernews:50635941"
+     "points": 101,
+     "comments": 79,
+     "discussion_url": "https://news.ycombinator.com/item?id=50662933",
+     "id": "hackernews:50662933"
     },
     {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
-     "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
-     "published": "2026-11-24T23:39:04+00:00",
-     "summary": "Nvidia’s place at the center of the US economy may have outweighed concerns about its CEO’s ties to a suspected Chinese intelligence asset, national security and foreign policy experts say.",
-     "region": "International",
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Claude sabotaging SOTA ML research tasks",
+     "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+     "published": "2026-11-27T08:28:08+00:00",
+     "summary": "",
+     "region": "Social",
      "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:9c4024fd060d"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-     "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-     "published": "2026-11-25T00:12:02+00:00",
-     "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:b78749659896"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-     "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-     "published": "2026-11-25T00:12:02+00:00",
-     "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:b78749659896"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "US attorney general dodges questions about Nvidia investigation",
-     "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-25T03:44:07+00:00",
-     "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:4708b2ad009b"
-    },
-    {
-     "source": "feed",
-     "outlet": "BBC Technology",
-     "title": "Zoe Kleinman: Nobody is irreplaceable - unless you're Jensen Huang",
-     "url": "https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo?at_medium=RSS&at_campaign=rss",
-     "published": "2026-11-25T10:03:12+00:00",
-     "summary": "The BBC's technology and AI editor on how Nvidia's boss made himself impossible to fire.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:BBC Technology:846033a5a4c1"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-     "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-     "published": "2026-11-25T13:00:00+00:00",
-     "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:23ab5a8d86d8"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-     "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-     "published": "2026-11-25T13:00:00+00:00",
-     "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:23ab5a8d86d8"
-    },
+     "weight": 1.0,
+     "points": 160,
+     "comments": 102,
+     "discussion_url": "https://news.ycombinator.com/item?id=50664325",
+     "id": "hackernews:50664325"
+    }
+   ]
+  },
+  {
+   "id": "0c5a6a8108",
+   "headline": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+   "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+   "first_published": "2026-11-25T19:54:57+00:00",
+   "topic": "AI business & chips",
+   "topics": [
+    "AI business & chips",
+    "Tech & startups"
+   ],
+   "score": 32.0,
+   "signals": {
+    "coverage": 0.674,
+    "engagement": 0.596,
+    "velocity": 0.241,
+    "freshness": 0.519,
+    "age_hours": 41.9
+   },
+   "reasons": [
+    "4 outlets: TechCrunch, BBC Technology, The Guardian Tech, Engadget",
+    "HN 43 points, 37 comments",
+    "first seen 42h ago",
+    "topic: AI business & chips"
+   ],
+   "first_seen": "2026-11-19",
+   "status": "steady",
+   "outlet_count": 4,
+   "outlets": [
+    "BBC Technology",
+    "Engadget",
+    "TechCrunch",
+    "The Guardian Tech"
+   ],
+   "engagement": 117,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
     {
      "source": "feed",
      "outlet": "TechCrunch",
@@ -1367,6 +1628,312 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Engadget:8c1fc49ea098"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Is Alice Huang a spy or not?",
+     "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
+     "published": "2026-11-26T20:00:00+00:00",
+     "summary": "The central, still-unproven claim in the Nvidia scandal is that Alice Huang, the former Megaspeed exec with whom Nvidia CEO Jensen Huang had an extramarital affair, is a Chinese spy.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:a347d516383f"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+     "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+     "published": "2026-11-26T20:03:54+00:00",
+     "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:ea747614e56e"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+     "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+     "published": "2026-11-26T20:03:54+00:00",
+     "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:ea747614e56e"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Nvidia was right to bring back Jensen Huang, writes Sarah Guo",
+     "url": "https://www.economist.com/by-invitation/2026/11/25/nvidia-was-right-to-bring-back-jensen-huang-writes-sarah-guo",
+     "published": "2026-11-26T20:39:05+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 43,
+     "comments": 37,
+     "discussion_url": "https://news.ycombinator.com/item?id=50659532",
+     "id": "hackernews:50659532"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "Asia made a big AI bet on Nvidia. What happens now?",
+     "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-26T23:08:12+00:00",
+     "summary": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:55ca6f3c080c"
+    }
+   ]
+  },
+  {
+   "id": "e16d36447a",
+   "headline": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+   "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+   "first_published": "2026-11-26T16:55:15+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 30.1,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.632,
+    "velocity": 0.386,
+    "freshness": 0.668,
+    "age_hours": 20.9
+   },
+   "reasons": [
+    "HN 60 points, 48 comments",
+    "first seen 21h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-26",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 156,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+     "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+     "published": "2026-11-26T16:55:15+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 60,
+     "comments": 48,
+     "discussion_url": "https://news.ycombinator.com/item?id=50657110",
+     "id": "hackernews:50657110"
+    }
+   ]
+  },
+  {
+   "id": "30a3772095",
+   "headline": "Want to buy your kid an AI toy this Christmas? Not in New York",
+   "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+   "first_published": "2026-11-25T17:27:05+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 28.5,
+   "signals": {
+    "coverage": 0.435,
+    "engagement": 0.555,
+    "velocity": 0.192,
+    "freshness": 0.509,
+    "age_hours": 44.4
+   },
+   "reasons": [
+    "2 outlets: TechCrunch, Engadget",
+    "HN 56 points, 14 comments",
+    "first seen 44h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-25",
+   "status": "steady",
+   "outlet_count": 2,
+   "outlets": [
+    "Engadget",
+    "TechCrunch"
+   ],
+   "engagement": 84,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "New York bans AI toys, including those using internet to talk to children",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+     "published": "2026-11-25T17:27:05+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 56,
+     "comments": 14,
+     "discussion_url": "https://news.ycombinator.com/item?id=50644909",
+     "id": "hackernews:50644909"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch",
+     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+     "published": "2026-11-25T18:11:46+00:00",
+     "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch:4c29da3e02ad"
+    },
+    {
+     "source": "feed",
+     "outlet": "TechCrunch AI",
+     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+     "published": "2026-11-25T18:11:46+00:00",
+     "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:TechCrunch AI:4c29da3e02ad"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "New York state bans AI chatbot toys for kids",
+     "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/",
+     "published": "2026-11-26T06:02:48+00:00",
+     "summary": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:db5c6ce981c2"
+    }
+   ]
+  },
+  {
+   "id": "c03592763c",
+   "headline": "Android app developers will soon have to share their address publicly",
+   "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+   "first_published": "2026-11-26T17:06:24+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 27.7,
+   "signals": {
+    "coverage": 0.435,
+    "engagement": 0.727,
+    "velocity": 0.515,
+    "freshness": 0.67,
+    "age_hours": 20.7
+   },
+   "reasons": [
+    "2 outlets: The Verge, Engadget",
+    "HN 160 points, 88 comments",
+    "first seen 21h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-27",
+   "status": "new",
+   "outlet_count": 2,
+   "outlets": [
+    "Engadget",
+    "The Verge"
+   ],
+   "engagement": 336,
+   "regions": [
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Android app developers will soon have to share their address publicly",
+     "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+     "published": "2026-11-26T17:06:24+00:00",
+     "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says c",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:287a8d3d122f"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Google will show solo Android developers' phone numbers and addresses",
+     "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+     "published": "2026-11-27T03:11:41+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 160,
+     "comments": 88,
+     "discussion_url": "https://news.ycombinator.com/item?id=50662322",
+     "id": "hackernews:50662322"
+    },
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "Google will soon share Android developers' addresses publicly",
+     "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
+     "published": "2026-11-27T09:38:33+00:00",
+     "summary": "Google is getting flak for its decision to publish Android developers' identifying information around the world to comply with European laws.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:09df04752000"
     }
    ]
   },
@@ -1379,27 +1946,27 @@
    "topics": [
     "AI models & labs"
    ],
-   "score": 32.5,
+   "score": 27.5,
    "signals": {
-    "coverage": 0.674,
+    "coverage": 0.69,
     "engagement": 0.0,
     "velocity": 0.0,
-    "freshness": 0.602,
-    "age_hours": 28.3
+    "freshness": 0.499,
+    "age_hours": 46.8
    },
    "reasons": [
-    "4 outlets: The Guardian Tech, TechCrunch, The Verge, Engadget",
-    "first seen 28h ago",
+    "4 outlets: The Guardian Tech, TechCrunch, The Verge, Wired",
+    "first seen 47h ago",
     "topic: AI models & labs"
    ],
    "first_seen": "2026-11-26",
-   "status": "new",
+   "status": "steady",
    "outlet_count": 4,
    "outlets": [
-    "Engadget",
     "TechCrunch",
     "The Guardian Tech",
-    "The Verge"
+    "The Verge",
+    "Wired"
    ],
    "engagement": 0,
    "regions": [
@@ -1422,36 +1989,6 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:The Guardian Tech:2b2d0872452c"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Why GTA VI’s version of Florida feels so real",
-     "url": "https://www.theverge.com/entertainment/1042629/gta-6-city-design",
-     "published": "2026-11-26T15:00:00+00:00",
-     "summary": "There are plenty of reasons why Grand Theft Auto VI is so popular: the 13 years of anticipation, the relatable lead characters and romantic storyline, the sheer level of depth. But another major factor is the sense of place. The GTA series is unmatched when it comes to re-creating the feeling of a b",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:63609df06d1f"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "GTA VI developers vote against unionization",
-     "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
-     "published": "2026-11-26T15:55:24+00:00",
-     "summary": "Workers at Grand Theft Auto VI developer Rockstar Games won't unionize, after the vote for a formal recognition agreement failed, with only 25 percent of votes in favor of unionization. The Independent Workers Union of Great Britain (IWGB) said that Rockstar workers in the union will continue organi",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:2b07b17c5b87"
     },
     {
      "source": "feed",
@@ -1485,88 +2022,55 @@
     },
     {
      "source": "feed",
-     "outlet": "Engadget",
-     "title": "Workers at GTA 6 studio Rockstar Games vote overwhelmingly against union recognition",
-     "url": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/",
-     "published": "2026-11-26T16:53:58+00:00",
-     "summary": "The IWGB Rockstar Game Workers Union will continue to organize after only a quarter of workers voted in favor of a formal deal with the studio.",
+     "outlet": "Wired",
+     "title": "Scientists Use ‘Grand Theft Auto’ to Model the Effects of Climate Change",
+     "url": "https://www.wired.com/story/scientists-use-grand-theft-auto-to-model-the-effects-of-climate-change/",
+     "published": "2026-11-27T10:30:00+00:00",
+     "summary": "The game’s high-resolution 3D maps based on real locations can be used to simulate the effects of rising sea levels and coastal flooding.",
      "region": "International",
      "lang": "en",
-     "weight": 0.7,
+     "weight": 0.85,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:Engadget:8ec3c12ec105"
-    }
-   ]
-  },
-  {
-   "id": "19c38d00ba",
-   "headline": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-   "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-   "first_published": "2026-11-25T04:03:33+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 29.5,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.792,
-    "velocity": 0.496,
-    "freshness": 0.532,
-    "age_hours": 39.2
-   },
-   "reasons": [
-    "HN 219 points, 174 comments",
-    "first seen 39h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-25",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 567,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
+     "id": "feed:Wired:944bdede36fa"
+    },
     {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-     "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-     "published": "2026-11-25T04:03:33+00:00",
-     "summary": "",
-     "region": "Social",
+     "source": "feed",
+     "outlet": "The Verge",
+     "title": "Grand Theft Auto VI is a different kind of GTA — so it needed a different kind of ending",
+     "url": "https://www.theverge.com/entertainment/1043362/grand-theft-auto-6-ending",
+     "published": "2026-11-27T13:00:00+00:00",
+     "summary": "In most Grand Theft Auto games, and most open-world games for that matter, the world is left open for you to explore once the credits roll. It could be Los Santos or a twisted take on Manhattan, but the idea is that the main story is just one part of the experience. After that's done, […]",
+     "region": "International",
      "lang": "en",
-     "weight": 1.0,
-     "points": 219,
-     "comments": 174,
-     "discussion_url": "https://news.ycombinator.com/item?id=50638320",
-     "id": "hackernews:50638320"
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Verge:7f790611b43e"
     }
    ]
   },
   {
    "id": "738652d873",
-   "headline": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
-   "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
-   "first_published": "2026-11-25T03:28:06+00:00",
+   "headline": "Bare Metal Qwen",
+   "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+   "first_published": "2026-11-25T22:15:34+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs"
    ],
-   "score": 28.7,
+   "score": 27.0,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.777,
-    "velocity": 0.473,
-    "freshness": 0.529,
-    "age_hours": 39.8
+    "engagement": 0.733,
+    "velocity": 0.415,
+    "freshness": 0.531,
+    "age_hours": 39.6
    },
    "reasons": [
-    "HN 356 points, 74 comments",
+    "HN 233 points, 60 comments",
     "first seen 40h ago",
     "topic: AI models & labs"
    ],
@@ -1574,26 +2078,11 @@
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 504,
+   "engagement": 353,
    "regions": [],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
-     "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
-     "published": "2026-11-25T03:28:06+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 132,
-     "comments": 20,
-     "discussion_url": "https://news.ycombinator.com/item?id=50638070",
-     "id": "hackernews:50638070"
-    },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
@@ -1604,40 +2093,40 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 224,
-     "comments": 54,
+     "points": 233,
+     "comments": 60,
      "discussion_url": "https://news.ycombinator.com/item?id=50648365",
      "id": "hackernews:50648365"
     }
    ]
   },
   {
-   "id": "f983701b35",
-   "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-   "first_published": "2026-11-24T21:02:22+00:00",
+   "id": "b288c8c0ba",
+   "headline": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
+   "url": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/",
+   "first_published": "2026-11-25T19:57:08+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs"
    ],
-   "score": 27.4,
+   "score": 25.1,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.788,
-    "velocity": 0.462,
-    "freshness": 0.501,
-    "age_hours": 46.2
+    "engagement": 0.699,
+    "velocity": 0.363,
+    "freshness": 0.52,
+    "age_hours": 41.9
    },
    "reasons": [
-    "HN 355 points, 97 comments",
-    "first seen 46h ago",
+    "HN 101 points, 84 comments",
+    "first seen 42h ago",
     "topic: AI models & labs"
    ],
-   "first_seen": "2026-11-25",
-   "status": "steady",
+   "first_seen": "2026-11-27",
+   "status": "new",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 549,
+   "engagement": 269,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1645,101 +2134,32 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-     "published": "2026-11-24T21:02:22+00:00",
+     "title": "Spending 35B Opus 5.5 Tokens to Write a Symphony",
+     "url": "https://danprice.ai/blog/opus-symphony",
+     "published": "2026-11-25T19:57:08+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 355,
-     "comments": 97,
-     "discussion_url": "https://news.ycombinator.com/item?id=50634658",
-     "id": "hackernews:50634658"
-    }
-   ]
-  },
-  {
-   "id": "ef14fe40de",
-   "headline": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-   "first_published": "2026-11-24T22:27:19+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI business & chips"
-   ],
-   "score": 26.2,
-   "signals": {
-    "coverage": 0.292,
-    "engagement": 0.552,
-    "velocity": 0.188,
-    "freshness": 0.507,
-    "age_hours": 44.8
-   },
-   "reasons": [
-    "1 outlet: TechCrunch",
-    "HN 52 points, 15 comments",
-    "first seen 45h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-14",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "TechCrunch"
-   ],
-   "engagement": 82,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
+     "points": 57,
+     "comments": 69,
+     "discussion_url": "https://news.ycombinator.com/item?id=50646662",
+     "id": "hackernews:50646662"
+    },
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO",
-     "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/",
-     "published": "2026-11-24T22:27:19+00:00",
+     "title": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
+     "url": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/",
+     "published": "2026-11-26T14:38:57+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 52,
+     "points": 44,
      "comments": 15,
-     "discussion_url": "https://news.ycombinator.com/item?id=50635706",
-     "id": "hackernews:50635706"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-     "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-     "published": "2026-11-25T19:44:24+00:00",
-     "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:f3fec56e71e8"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-     "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-     "published": "2026-11-25T19:44:24+00:00",
-     "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:f3fec56e71e8"
+     "discussion_url": "https://news.ycombinator.com/item?id=50655798",
+     "id": "hackernews:50655798"
     }
    ]
   }
