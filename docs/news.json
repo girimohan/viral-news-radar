@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-27T19:10:56+00:00",
- "date": "2026-11-27",
+ "generated_at": "2026-11-28T12:57:41+00:00",
+ "date": "2026-11-28",
  "new_today": 4,
  "first_run": false,
  "lookback_hours": 48,
  "funnel": {
-  "collected": 2874,
+  "collected": 2875,
   "undated": 0,
-  "too_old": 2596,
-  "excluded": 2,
+  "too_old": 2625,
+  "excluded": 4,
   "duplicate": 0,
-  "articles_in_window": 276,
-  "stories": 190,
+  "articles_in_window": 246,
+  "stories": 175,
   "off_topic": 131,
-  "low_score": 44,
-  "shown": 15
+  "low_score": 33,
+  "shown": 11
  },
  "llm": {
   "enabled": false
@@ -23,8 +23,8 @@
   {
    "name": "feeds",
    "ok": true,
-   "fetched": 2783,
-   "in_stories": 7,
+   "fetched": 2784,
+   "in_stories": 3,
    "detail": "19/23 feeds read; failed: ArcticStartup (FetchError: HTTP 403 for https://arcticstartup.com/feed/); VentureBeat AI (FetchError: HTTP 429 for https://venturebeat.com/category/ai/feed/); Tech.eu (FetchError: HTTP 403 for https://tech.eu/feed/); Euractiv Tech (FetchError: HTTP 403 for https://www.euractiv.com/sections/tech/feed/)",
    "error": ""
   },
@@ -32,7 +32,7 @@
    "name": "hackernews",
    "ok": true,
    "fetched": 91,
-   "in_stories": 14,
+   "in_stories": 10,
    "detail": "91 stories with 40+ points",
    "error": ""
   },
@@ -56,26 +56,123 @@
  ],
  "stories": [
   {
+   "id": "7cfd18c493",
+   "headline": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+   "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+   "first_published": "2026-11-27T19:42:25+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "Tech & startups"
+   ],
+   "score": 43.9,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.856,
+    "velocity": 0.728,
+    "freshness": 0.709,
+    "age_hours": 17.3
+   },
+   "reasons": [
+    "HN 410 points, 268 comments",
+    "first seen 17h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-23",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 946,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+     "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+     "published": "2026-11-27T19:42:25+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 410,
+     "comments": 268,
+     "discussion_url": "https://news.ycombinator.com/item?id=50670855",
+     "id": "hackernews:50670855"
+    }
+   ]
+  },
+  {
+   "id": "f6ba12dcc9",
+   "headline": "Woman evicted after landlord's AI assistant told her she could delay rent",
+   "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+   "first_published": "2026-11-28T01:32:56+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 42.6,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.768,
+    "velocity": 0.676,
+    "freshness": 0.787,
+    "age_hours": 11.4
+   },
+   "reasons": [
+    "HN 191 points, 138 comments",
+    "first seen 11h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-28",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 467,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+     "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+     "published": "2026-11-28T01:32:56+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 191,
+     "comments": 138,
+     "discussion_url": "https://news.ycombinator.com/item?id=50673521",
+     "id": "hackernews:50673521"
+    }
+   ]
+  },
+  {
    "id": "e31085b265",
-   "headline": "Ulta Promo Codes: Up to 20% Off in November 2026",
-   "url": "https://www.wired.com/story/ulta-coupon/",
+   "headline": "Walmart Promo Codes: 20% Off for November 2026",
+   "url": "https://www.wired.com/story/top-walmart-promo-codes/",
    "first_published": "2026-11-27T05:52:42+00:00",
    "topic": "Finland & Nordic tech",
    "topics": [
     "Finland & Nordic tech"
    ],
-   "score": 56.0,
+   "score": 42.4,
    "signals": {
     "coverage": 0.477,
-    "engagement": 0.781,
-    "velocity": 0.667,
-    "freshness": 0.759,
-    "age_hours": 13.3
+    "engagement": 0.796,
+    "velocity": 0.54,
+    "freshness": 0.581,
+    "age_hours": 31.1
    },
    "reasons": [
     "2 outlets: Yle News, Wired",
-    "HN 314 points, 102 comments",
-    "first seen 13h ago",
+    "HN 355 points, 114 comments",
+    "first seen 31h ago",
     "topic: Finland & Nordic tech"
    ],
    "first_seen": "2026-11-20",
@@ -85,7 +182,7 @@
     "Wired",
     "Yle News"
    ],
-   "engagement": 518,
+   "engagement": 583,
    "regions": [
     "Finland",
     "International"
@@ -103,145 +200,10 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 314,
-     "comments": 102,
+     "points": 355,
+     "comments": 114,
      "discussion_url": "https://news.ycombinator.com/item?id=50663261",
      "id": "hackernews:50663261"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Ulta Promo Codes: Up to 20% Off in November 2026",
-     "url": "https://www.wired.com/story/ulta-coupon/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:fa803d2ba6d3"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Home Depot Promo Codes: 30% Off in November 2026",
-     "url": "https://www.wired.com/story/home-depot-promo-code/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Save up to 30% today with the latest Home Depot promo codes for appliances, power tools, and more this November.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:fd83ac84a012"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Peacock Promo Codes: 40% Off November 2026",
-     "url": "https://www.wired.com/story/peacock-promo-code/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:6072c4f07874"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Nike Promo Codes and Discounts: 30% for November 2026",
-     "url": "https://www.wired.com/story/nike-promo-code/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Check out our deals for Nike this November 2026, including 15% off select purchases.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:ec76ca9e53ff"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "eBay Coupons: 20% Off in November 2026",
-     "url": "https://www.wired.com/story/ebay-coupon-code/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:a7f68f8353c2"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Newegg Promo Codes and Coupons for November 2026",
-     "url": "https://www.wired.com/story/newegg-promo-code/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:8cd12c337f61"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Whoop Promo Codes: 20% Off This November 2026",
-     "url": "https://www.wired.com/story/whoop-promo-code/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Whether you're looking for a Whoop free trial, student discount, or military savings, our guide to Whoop promo codes will help you maximize your membership benefits. Stay on top of your fitness goals for less.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:fd415b366778"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Squarespace Promo Codes: 55% Off in November 2026",
-     "url": "https://www.wired.com/story/squarespace-promo-code/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:0f711bbeda0f"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Dyson Promo Codes: 25% Off in November 2026",
-     "url": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
-     "published": "2026-11-27T06:00:00+00:00",
-     "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:f49ed22fa5c7"
     },
     {
      "source": "feed",
@@ -257,36 +219,111 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:Yle News:7bdff63423d2"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Walmart Promo Codes: 20% Off for November 2026",
+     "url": "https://www.wired.com/story/top-walmart-promo-codes/",
+     "published": "2026-11-28T06:00:00+00:00",
+     "summary": "Score $10 off with our Walmart promo codes and coupon, and shop flash deals up to 65% off today.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:b5062e5ef66e"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Corsair Discount Code: Up to 50% Off for November 2026",
+     "url": "https://www.wired.com/story/corsair-coupon/",
+     "published": "2026-11-28T06:00:00+00:00",
+     "summary": "Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:01f2d2925d3d"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Ray-Ban Promo Codes: Save 50% in November 2026",
+     "url": "https://www.wired.com/story/ray-ban-promo-code/",
+     "published": "2026-11-28T06:00:00+00:00",
+     "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:8de89689fee7"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Altra Running Promo Codes: 10% Off November 2026",
+     "url": "https://www.wired.com/story/altra-promo-code/",
+     "published": "2026-11-28T06:00:00+00:00",
+     "summary": "Score big savings on Altra Running shoes with up to 50% off sale styles, 20% off select models, 10% off your first order when you sign up, plus free standard delivery on every purchase.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:ba7902756dab"
+    },
+    {
+     "source": "feed",
+     "outlet": "Wired",
+     "title": "Shark Promo Codes for November 2026",
+     "url": "https://www.wired.com/story/shark-promo-code/",
+     "published": "2026-11-28T06:00:00+00:00",
+     "summary": "Shark makes some seriously powerful vacuums, from handheld vacs to steam mops. Don’t miss $100 off, 10% off, and more limited-time coupons from WIRED.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.85,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Wired:d5ec145fa2b4"
     }
    ]
   },
   {
-   "id": "7e323dabae",
-   "headline": "GPT 6.2 Astra Solves a Historical Mystery",
-   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-   "first_published": "2026-11-27T15:03:17+00:00",
+   "id": "408c688068",
+   "headline": "Claude sabotaging ML research tasks?",
+   "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "first_published": "2026-11-27T04:56:18+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs"
    ],
-   "score": 50.0,
+   "score": 38.2,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.695,
-    "velocity": 0.753,
-    "freshness": 0.912,
-    "age_hours": 4.1
+    "engagement": 0.946,
+    "velocity": 0.747,
+    "freshness": 0.575,
+    "age_hours": 32.0
    },
    "reasons": [
-    "HN 140 points, 60 comments",
-    "first seen 4h ago",
+    "HN 927 points, 512 comments",
+    "first seen 32h ago",
     "topic: AI models & labs"
    ],
-   "first_seen": "2026-11-17",
+   "first_seen": "2026-11-27",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 260,
+   "engagement": 1951,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -294,15 +331,228 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "GPT 6.2 Astra Solves a Historical Mystery",
+     "title": "\"What's Claude's fursona?\" and other questions",
+     "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+     "published": "2026-11-27T04:56:18+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 203,
+     "comments": 193,
+     "discussion_url": "https://news.ycombinator.com/item?id=50662933",
+     "id": "hackernews:50662933"
+    },
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Claude sabotaging ML research tasks?",
+     "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+     "published": "2026-11-27T08:28:08+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 724,
+     "comments": 319,
+     "discussion_url": "https://news.ycombinator.com/item?id=50664325",
+     "id": "hackernews:50664325"
+    }
+   ]
+  },
+  {
+   "id": "a2a8e47ca2",
+   "headline": "OpenAI countersues Apple for allegedly stealing trade secrets",
+   "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+   "first_published": "2026-11-27T19:44:38+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs",
+    "Tech & startups"
+   ],
+   "score": 37.1,
+   "signals": {
+    "coverage": 0.653,
+    "engagement": 0.0,
+    "velocity": 0.0,
+    "freshness": 0.709,
+    "age_hours": 17.2
+   },
+   "reasons": [
+    "4 outlets: The Guardian Tech, BBC Technology, Engadget, Helsinki Times",
+    "first seen 17h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-28",
+   "status": "new",
+   "outlet_count": 4,
+   "outlets": [
+    "BBC Technology",
+    "Engadget",
+    "Helsinki Times",
+    "The Guardian Tech"
+   ],
+   "engagement": 0,
+   "regions": [
+    "Finland",
+    "International"
+   ],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "feed",
+     "outlet": "Engadget",
+     "title": "OpenAI countersues Apple and accuses it of stealing trade secrets",
+     "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
+     "published": "2026-11-27T19:44:38+00:00",
+     "summary": "The suit suggests that the iPhone maker is trying to \"compete unfairly by any means available.\"",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Engadget:4def842d2af0"
+    },
+    {
+     "source": "feed",
+     "outlet": "The Guardian Tech",
+     "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
+     "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+     "published": "2026-11-27T23:28:50+00:00",
+     "summary": "Lawsuit also alleging pressure on hardware suppliers comes after Apple sued OpenAI for allegedly poaching employees OpenAI sued Apple on Friday, accusing the company of ⁠stealing its trade secrets ​and discouraging hardware suppliers from working on future OpenAI devices. The suit, filed in northern",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:The Guardian Tech:cbc33bf5ffa4"
+    },
+    {
+     "source": "feed",
+     "outlet": "Helsinki Times",
+     "title": "OpenAI countersues Apple over trade secrets and AI hardware competition",
+     "url": "https://www.helsinkitimes.com/business/29545-openai-countersues-apple-over-trade-secrets-and-ai-hardware-competition.html",
+     "published": "2026-11-28T10:58:43+00:00",
+     "summary": "OpenAI has escalated its legal dispute with Apple, accusing the iPhone maker of obtaining confidential information about its unreleased artificial intelligence devices, interfering with manufacturing partnerships and monitoring former employees who join rival technology companies. The counterclaims,",
+     "region": "Finland",
+     "lang": "en",
+     "weight": 0.7,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:Helsinki Times:efd731a7de7c"
+    },
+    {
+     "source": "feed",
+     "outlet": "BBC Technology",
+     "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+     "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+     "published": "2026-11-28T11:35:34+00:00",
+     "summary": "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee.",
+     "region": "International",
+     "lang": "en",
+     "weight": 0.9,
+     "points": 0,
+     "comments": 0,
+     "discussion_url": "",
+     "id": "feed:BBC Technology:4af2d6cea277"
+    }
+   ]
+  },
+  {
+   "id": "ee781264cf",
+   "headline": "Prospero: Bloat-free, native AI coding harness with ImGui",
+   "url": "https://github.com/skeeto/prospero",
+   "first_published": "2026-11-27T20:23:14+00:00",
+   "topic": "AI agents & products",
+   "topics": [
+    "AI agents & products"
+   ],
+   "score": 30.9,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.626,
+    "velocity": 0.417,
+    "freshness": 0.717,
+    "age_hours": 16.6
+   },
+   "reasons": [
+    "HN 81 points, 34 comments",
+    "first seen 17h ago",
+    "topic: AI agents & products"
+   ],
+   "first_seen": "2026-11-28",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 149,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+     "url": "https://github.com/skeeto/prospero",
+     "published": "2026-11-27T20:23:14+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 81,
+     "comments": 34,
+     "discussion_url": "https://news.ycombinator.com/item?id=50671275",
+     "id": "hackernews:50671275"
+    }
+   ]
+  },
+  {
+   "id": "7e323dabae",
+   "headline": "GPT 6.2 Astra solves a historical mystery",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "first_published": "2026-11-27T15:03:17+00:00",
+   "topic": "AI models & labs",
+   "topics": [
+    "AI models & labs"
+   ],
+   "score": 30.1,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.641,
+    "velocity": 0.392,
+    "freshness": 0.658,
+    "age_hours": 21.9
+   },
+   "reasons": [
+    "HN 167 points, 1 comments",
+    "first seen 22h ago",
+    "topic: AI models & labs"
+   ],
+   "first_seen": "2026-11-17",
+   "status": "steady",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 169,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "GPT 6.2 Astra solves a historical mystery",
      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
      "published": "2026-11-27T15:03:17+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 140,
-     "comments": 60,
+     "points": 167,
+     "comments": 1,
      "discussion_url": "https://news.ycombinator.com/item?id=50667744",
      "id": "hackernews:50667744"
     }
@@ -317,24 +567,24 @@
    "topics": [
     "AI policy & safety"
    ],
-   "score": 40.9,
+   "score": 29.9,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.771,
-    "velocity": 0.687,
-    "freshness": 0.793,
-    "age_hours": 11.0
+    "engagement": 0.783,
+    "velocity": 0.536,
+    "freshness": 0.598,
+    "age_hours": 28.8
    },
    "reasons": [
-    "HN 163 points, 158 comments",
-    "first seen 11h ago",
+    "HN 171 points, 178 comments",
+    "first seen 29h ago",
     "topic: AI policy & safety"
    ],
    "first_seen": "2026-11-27",
-   "status": "new",
+   "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 479,
+   "engagement": 527,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -349,1215 +599,51 @@
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 163,
-     "comments": 158,
+     "points": 171,
+     "comments": 178,
      "discussion_url": "https://news.ycombinator.com/item?id=50664191",
      "id": "hackernews:50664191"
     }
    ]
   },
   {
-   "id": "4abf71a5b6",
-   "headline": "22 Best Black Friday Deals Under $100 (2026)",
-   "url": "https://www.wired.com/story/best-black-friday-deals-under-100-11-27-2026/",
-   "first_published": "2026-11-25T23:36:46+00:00",
-   "topic": "Finland & Nordic tech",
-   "topics": [
-    "Finland & Nordic tech",
-    "Tech & startups"
-   ],
-   "score": 40.8,
-   "signals": {
-    "coverage": 0.8,
-    "engagement": 0.0,
-    "velocity": 0.0,
-    "freshness": 0.512,
-    "age_hours": 43.6
-   },
-   "reasons": [
-    "6 outlets: The Guardian Tech, The Verge, Wired, Ars Technica +2 more",
-    "first seen 44h ago",
-    "topic: Finland & Nordic tech",
-    "rising: 1 more outlets since yesterday"
-   ],
-   "first_seen": "2026-11-23",
-   "status": "rising",
-   "outlet_count": 6,
-   "outlets": [
-    "Ars Technica",
-    "Engadget",
-    "The Guardian Tech",
-    "The Verge",
-    "Wired",
-    "ZDNet AI"
-   ],
-   "engagement": 0,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "We reviewed these 10 gadgets, and they're now on sale for Black Friday",
-     "url": "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
-     "published": "2026-11-25T23:36:46+00:00",
-     "summary": "Multiple gadgets from Engadget's Best of 2026 list are already on sale, including Samsung's flagship foldable and Apple's ultra-popular entry-level laptop.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:269f1d53a7b8"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Robot Vacuum of 2026: Shark, Eufy, Roborock",
-     "url": "https://www.wired.com/story/best-robot-vacuum/",
-     "published": "2026-11-26T10:44:00+00:00",
-     "summary": "My hands-on tests reveal which models can scrub stains, reach difficult corners, and navigate a chaotic home.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:0f188dfe44a8"
-    },
-    {
-     "source": "feed",
-     "outlet": "ZDNet AI",
-     "title": "ZDNET’s best headphones of 2026: These two pairs left us impressed",
-     "url": "https://www.zdnet.com/tech/zdnet-best-headphones-of-2026/",
-     "published": "2026-11-26T11:00:00+00:00",
-     "summary": "We tested dozens of Bluetooth headphones in 2026, but two stood out. Here’s our top picks.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.6,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:ZDNet AI:e5effa725a93"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Gaming Mouse (2026): My Picks After Testing Dozens of Mice",
-     "url": "https://www.wired.com/gallery/best-gaming-mouse/",
-     "published": "2026-11-26T11:30:00+00:00",
-     "summary": "From ergonomic to ultralight, we’ve tested dozens of the best gaming mice to find the absolute best for the style of gaming you prefer.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:9cf671077c3c"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "8 Best Keyboards (2026): My Honest Picks After Testing Dozens",
-     "url": "https://www.wired.com/gallery/best-keyboards/",
-     "published": "2026-11-26T12:00:00+00:00",
-     "summary": "As a professional keyboard nerd, I’ve tested dozens and dozens of models. One of these eight picks should suit your needs—no matter your budget.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:925319ca88ed"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "10 Best Office Chairs of 2026—We Tested 70 to Pick Them",
-     "url": "https://www.wired.com/gallery/best-office-chairs/",
-     "published": "2026-11-26T12:35:00+00:00",
-     "summary": "Upgrade your WFH setup and work in style with these comfy, WIRED-tested seats.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1bc422c229c0"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "Slow internet? The best wifi extenders and mesh systems to boost your home network – tested",
-     "url": "https://www.theguardian.com/thefilter/2026/nov/26/best-wifi-extender-repeater-uk",
-     "published": "2026-11-26T20:00:43+00:00",
-     "summary": "We put 11 range extenders and mesh systems to the test to find the fastest and most reliable for streaming, gaming and working from home • The best office chairs Fast fibre broadband is fantastic – if the wifi signal reaches the part of your home where you need it. Most of us use the router provided",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:78edf621e9cf"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "22 Best Black Friday Deals Under $100 (2026)",
-     "url": "https://www.wired.com/story/best-black-friday-deals-under-100-11-27-2026/",
-     "published": "2026-11-27T09:40:33+00:00",
-     "summary": "Here are the best Black Friday discounts we’ve found so far on WIRED-tested gear.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:b9289e7e3cc3"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "I Found the Best Black Friday Deals on Phones (2026): iPhone, Pixel, and Moto Up to 50% Off",
-     "url": "https://www.wired.com/story/best-black-friday-phone-deals-11-27-26/",
-     "published": "2026-11-27T09:42:19+00:00",
-     "summary": "If you're due for an upgrade, you need to check out these tempting Black Friday phone deals.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1f424614133a"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "I Found the 20 Best Black Friday Tech Deals, Up to 50% Off (2026)",
-     "url": "https://www.wired.com/story/best-black-friday-tech-deals-11-27-26/",
-     "published": "2026-11-27T09:53:31+00:00",
-     "summary": "Why pay more? The best Black Friday tech deals offer deep discounts on great WIRED-tested gear.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:163af4e61fc3"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The 10 Best Black Friday TV Deals (2026): Save Up to 53% Off",
-     "url": "https://www.wired.com/story/early-black-friday-tv-deals-11-27-2026/",
-     "published": "2026-11-27T09:55:09+00:00",
-     "summary": "The best Black Friday TV deals are here. Snag up to 53 percent off some of the best WIRED-tested TVs from TCL, Samsung, Hisense, and more ahead of the holidays.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:dc6af2edbf5f"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "I Found the Best Black Friday Streaming Deals (2026): Apple TV, Disney, and Paramount Over Half Off",
-     "url": "https://www.wired.com/story/black-friday-streaming-deals-11-27-2026/",
-     "published": "2026-11-27T10:04:47+00:00",
-     "summary": "Streaming apps are offering their biggest subscription deals of the year. Here’s how to take advantage.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:19fe49a0f403"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Black Friday Toy Deals (2026): Up to 50% Off Lego, Board Games, and Toys",
-     "url": "https://www.wired.com/story/best-black-friday-toy-deals-11-27-26/",
-     "published": "2026-11-27T10:44:38+00:00",
-     "summary": "Bag some gifts for your kids or unleash your inner child with the best Black Friday toy deals on Lego, STEM toys, and board games.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1bf3ce44f5ac"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Kitchen Gifts for Home Cooks (2026)",
-     "url": "https://www.wired.com/story/the-best-gifts-for-cooks-who-love-cooking/",
-     "published": "2026-11-27T11:00:00+00:00",
-     "summary": "Give them a sourdough starter they can keep alive, fresh basil in December, or a cutting board handsome enough to leave out.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:d5d207bc9c39"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Best Black Friday iPad Deals On the Latest 2026 Models: Get $100 Off",
-     "url": "https://www.wired.com/story/best-black-friday-ipad-deals-11-27-2026/",
-     "published": "2026-11-27T11:03:21+00:00",
-     "summary": "Many of Apple's best iPads are discounted for Black Friday, including $100 off on the latest iPad Mini.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:a8e992e096d6"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Kindle and E-Reader Black Friday Deals (2026): Up to $180 Off",
-     "url": "https://www.wired.com/story/best-kindle-ereader-black-friday-deals-11-2026/",
-     "published": "2026-11-27T11:05:59+00:00",
-     "summary": "Whether you’re shopping for a new Kindle or looking to break free from Amazon’s ecosystem, Black Friday is one of the best times to shop for a new e-reader.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:91d0e02bfa57"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Black Friday Google Pixel Deals (2026): Up to $400 Off",
-     "url": "https://www.wired.com/story/best-google-pixel-black-friday-deals-11-27-2026/",
-     "published": "2026-11-27T11:24:04+00:00",
-     "summary": "Upgrade to the smartest Android smartphones. Google’s latest Pixel 11 phones are all on sale at their lowest prices to date for Black Friday.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:6740ad846bb6"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The 6 Best Black Friday Deals on Expert-Tested Laptops (2026): Up to $470 Off",
-     "url": "https://www.wired.com/story/black-friday-laptop-deals-11-27-2026/",
-     "published": "2026-11-27T11:28:15+00:00",
-     "summary": "These deals on WIRED’s recommended laptops of the year have dropped to new low prices for Black Friday.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:e54f3ddffe42"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "15 Best Buy Black Friday Deals on Hot Tech (2026): Up to 65% Off",
-     "url": "https://www.wired.com/story/black-friday-best-buy-deals-11-27-2026/",
-     "published": "2026-11-27T11:32:17+00:00",
-     "summary": "Score deals on WIRED-tested headphones, laptops, and soundbars.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:0005b199420e"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
-     "url": "https://www.wired.com/story/black-friday-headphone-deals-11-27-26/",
-     "published": "2026-11-27T11:38:34+00:00",
-     "summary": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:9be79ef9881a"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
-     "url": "https://www.wired.com/story/best-black-friday-headphone-deals-11-27-2026/",
-     "published": "2026-11-27T11:58:32+00:00",
-     "summary": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:890879f21351"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Dyson Vacuum Black Friday Deals for 2026: Up to $400 Off",
-     "url": "https://www.wired.com/story/best-black-friday-dyson-vacuum-deals-11-27-2026/",
-     "published": "2026-11-27T12:05:59+00:00",
-     "summary": "If a Dyson vacuum is on yours (or a loved one’s) Christmas list, Black Friday is the best time to shop.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:f3adeafc29d2"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "18 cheap US Black Friday deals: the best sales on heated blankets, packing cubes, sleep masks and more",
-     "url": "https://www.theguardian.com/thefilter-us/2026/nov/27/best-black-friday-sales-deals-50",
-     "published": "2026-11-27T12:15:11+00:00",
-     "summary": "We scoured hundreds of sales for the best deals below $50 on heated blankets, packing cubes, sleep masks and more The 100+ best Black Friday deals Black Friday deals aren’t reserved for pricey vacuum cleaners and huge TVs. While many of us gravitate toward big-ticket items with steep discounts, it i",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:ab90b7aec958"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Up to $50 Off Bundles, Games, Accessories",
-     "url": "https://www.wired.com/story/best-black-friday-nintendo-switch-deals-11-27-2026/",
-     "published": "2026-11-27T12:15:27+00:00",
-     "summary": "Get your game on for less with these Black Friday deals on official Nintendo Switch 2 bundles and games.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:d7379a0c833e"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Our Favorite Merino Wool is 30% Off During the Unbound Merino Black Friday Sale (2026)",
-     "url": "https://www.wired.com/story/unbound-merino-black-friday-sale-2026/",
-     "published": "2026-11-27T13:10:54+00:00",
-     "summary": "WIRED’s pick for the best travel T-shirt is on sale for Black Friday. Expand your merino wardrobe with these deals. Hurry though, the sale ends tonight.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:847d08624b58"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "The Oura Ring 5 just got its biggest discount ever for Black Friday",
-     "url": "https://www.theverge.com/gadgets/1041299/oura-ring-5-black-friday-2026-deal-sale",
-     "published": "2026-11-27T13:30:00+00:00",
-     "summary": "If you’ve been curious about smart rings but have been put off by their high price tags, Black Friday is a good time to consider giving one a try. That’s because the Oura Ring 5, which we consider the best smart ring you can buy, has dropped to an all-time low of $299 ($100 off) […]",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:5b395467e0b8"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The Best Black Friday Sonos Deals (2026): Up to 34% Off",
-     "url": "https://www.wired.com/story/best-black-friday-sonos-deals-11-27-26/",
-     "published": "2026-11-27T13:42:44+00:00",
-     "summary": "Always wanted a Sonos speaker but scared off by the price? Black Friday is one of the best times to shop the brand.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:72d9b78e8781"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Black Friday Robot Vacuum Deals from Roborock (2026): Up to $700 Off",
-     "url": "https://www.wired.com/story/black-friday-robot-vacuum-deals-11-27-2026/",
-     "published": "2026-11-27T14:07:09+00:00",
-     "summary": "A few of the best robot vacuums I’ve tested from the brand are at their lowest prices ever.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:52d716ca790d"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Buying a laptop right now is rough, but these Black Friday deals help",
-     "url": "https://www.theverge.com/gadgets/1042512/best-black-friday-laptop-notebook-deals-2026",
-     "published": "2026-11-27T14:30:00+00:00",
-     "summary": "Laptop prices have been a hot-button topic all year long thanks to RAMageddon. We’ve seen existing models get more expensive and new models arrive at higher prices than last-gen — sometimes with lower specs, too. 2026 in general has been a bad time to buy a computer. But thankfully, Black Friday can",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:f4014e2d8db7"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "The 24 Very Best Amazon Black Friday Deals (2026): Up to 60% Off",
-     "url": "https://www.wired.com/story/amazon-black-friday-deals-11-27-2026/",
-     "published": "2026-11-27T14:37:40+00:00",
-     "summary": "For die-hard Amazon shoppers, the retailer’s “Black Friday Week” sale is still ongoing. Score discounts on our favorite (and tested) products through November 30.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1026a1bec81f"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Apple’s AirPods Pro 3 are a whopping $100 off for Black Friday",
-     "url": "https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale",
-     "published": "2026-11-27T15:15:28+00:00",
-     "summary": "The AirPods Pro 3 are cheaper than ever. Despite receiving an early discount last week, Apple’s latest flagship wireless earbuds are still on sale for just $149 at Amazon, Best Buy, and Walmart. They originally sold for $249, but are commonly available for $199 outside major deal events. The best pr",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:1f086b8dec4b"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Walking Pad Deals to Shop This Black Friday (2026)",
-     "url": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-27-26/",
-     "published": "2026-11-27T15:43:33+00:00",
-     "summary": "Don’t let cold weather stop you from getting your steps in. These under-desk treadmills are on sale.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:de90746d0b7c"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Apple Black Friday Deals (2026): AirPods, iPads, MacBooks, and More",
-     "url": "https://www.wired.com/story/black-friday-apple-deals-11-27-2026/",
-     "published": "2026-11-27T16:24:22+00:00",
-     "summary": "Save on AirPods, iPads, MacBooks, and tons of accessories for Black Friday.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:d1932cf6338e"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "The best Black Friday deals on AirPods, MacBooks, and other Apple gear",
-     "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
-     "published": "2026-11-27T16:30:37+00:00",
-     "summary": "Black Friday is one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised the cost of some of its most popular gear. Some […]",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:f72e17eefb92"
-    },
-    {
-     "source": "feed",
-     "outlet": "Engadget",
-     "title": "5 Costco Electronics With Deep Discounts For Black Friday 2026",
-     "url": "https://www.engadget.com/2329581/costco-electronics-deep-discounts-black-friday-2026/",
-     "published": "2026-11-27T16:51:43+00:00",
-     "summary": "Costco members can get some pretty great deals this weekend.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.7,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Engadget:070322aed86e"
-    },
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "The best Black Friday deals Ars could find",
-     "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
-     "published": "2026-11-27T17:05:37+00:00",
-     "summary": "Perhaps some commerce, to help all the Turkey Day leftovers go down easier?",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:a3a64e2095da"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best CurrentBody Black Friday Deals (2026): 20% Off LED Masks and More",
-     "url": "https://www.wired.com/story/currentbody-black-friday-deals-11-27-2026/",
-     "published": "2026-11-27T17:14:52+00:00",
-     "summary": "Glazed donut skin days are ahead. Save on select LED masks and devices through December 8.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:e4f85d2054c7"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "The best cordless vacuum cleaners for a spotless home: 10 tried and tested favourites",
-     "url": "https://www.theguardian.com/thefilter/2025/mar/28/best-cordless-vacuum-cleaners-uk",
-     "published": "2026-11-27T17:27:25+00:00",
-     "summary": "Stick vacuums are a convenient alternative to corded designs, but which model wins for overall cleaning prowess? Our expert reveals all • The best robot vacuums • How to make your vacuum last longer Choosing a cordless vacuum is a big decision. Whichever model you go for, you’re likely to use it for",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:d00616698c47"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "Here are the best Black Friday deals you can grab for $30 or less",
-     "url": "https://www.theverge.com/gadgets/1039645/black-friday-best-cheap-tech-deals-under-30-2026",
-     "published": "2026-11-27T17:30:00+00:00",
-     "summary": "What can you get for $30 these days? When it comes to tech, you might be surprised. Even as gadgets get more expensive, $30 can still go a long way, especially on Black Friday. For just $8, for instance, TP-Link’s Tapo smart plug will let you control the Christmas tree lights from your phone. You […",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:993800b66f1b"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Best Black Friday Espresso Machine Deals: Up to 38% Off (2026)",
-     "url": "https://www.wired.com/story/black-friday-coffee-espresso-deals-11-27-2026/",
-     "published": "2026-11-27T18:08:37+00:00",
-     "summary": "A Nespresso under $100, $250 off a slim De’Longhi, and more deals on machines we’d make room for on our own counters.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:1af47fb5b7a6"
-    },
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM",
-     "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/",
-     "published": "2026-11-27T18:51:57+00:00",
-     "summary": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:fb6a4d48857b"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Verge",
-     "title": "The absolute best Black Friday deals we’ve found (so far)",
-     "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
-     "published": "2026-11-27T18:59:19+00:00",
-     "summary": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, e-readers, robot vacuums, and so much more. We can’",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Verge:28a3c5acb9fb"
-    }
-   ]
-  },
-  {
-   "id": "22c200d76e",
-   "headline": "AMD-specific fork of llama.cpp",
-   "url": "https://devnull.land/amd-specific-llama-cpp",
-   "first_published": "2026-11-26T17:11:29+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 35.6,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.806,
-    "velocity": 0.585,
-    "freshness": 0.621,
-    "age_hours": 26.0
-   },
-   "reasons": [
-    "HN 426 points, 103 comments",
-    "first seen 26h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 632,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "AMD-specific fork of llama.cpp",
-     "url": "https://devnull.land/amd-specific-llama-cpp",
-     "published": "2026-11-26T17:11:29+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 426,
-     "comments": 103,
-     "discussion_url": "https://news.ycombinator.com/item?id=50657265",
-     "id": "hackernews:50657265"
-    }
-   ]
-  },
-  {
-   "id": "c39b692787",
-   "headline": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-   "first_published": "2026-11-25T20:03:27+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 34.6,
-   "signals": {
-    "coverage": 0.292,
-    "engagement": 0.869,
-    "velocity": 0.569,
-    "freshness": 0.498,
-    "age_hours": 47.1
-   },
-   "reasons": [
-    "1 outlet: TechCrunch",
-    "HN 504 points, 272 comments",
-    "first seen 47h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "TechCrunch"
-   ],
-   "engagement": 1048,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-     "published": "2026-11-25T20:03:27+00:00",
-     "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:8b36302dca31"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-     "published": "2026-11-25T20:03:27+00:00",
-     "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:8b36302dca31"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-     "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-     "published": "2026-11-26T03:36:58+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 504,
-     "comments": 272,
-     "discussion_url": "https://news.ycombinator.com/item?id=50651117",
-     "id": "hackernews:50651117"
-    }
-   ]
-  },
-  {
-   "id": "ced73b8545",
-   "headline": "OpenAI may be in cost control mode",
-   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-   "first_published": "2026-11-26T07:33:12+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 33.7,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.87,
-    "velocity": 0.621,
-    "freshness": 0.552,
-    "age_hours": 35.6
-   },
-   "reasons": [
-    "HN 353 points, 355 comments",
-    "first seen 36h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-27",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1063,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "OpenAI may be in cost control mode",
-     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-     "published": "2026-11-26T07:33:12+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 353,
-     "comments": 355,
-     "discussion_url": "https://news.ycombinator.com/item?id=50652527",
-     "id": "hackernews:50652527"
-    }
-   ]
-  },
-  {
-   "id": "408c688068",
-   "headline": "Claude tries to sabotage research work at every stage",
-   "url": "https://twitter.com/skirano/status/2125371115979641188",
-   "first_published": "2026-11-26T04:49:21+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 33.5,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.892,
-    "velocity": 0.638,
-    "freshness": 0.537,
-    "age_hours": 38.4
-   },
-   "reasons": [
-    "HN 625 points, 320 comments",
-    "first seen 38h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-27",
-   "status": "new",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1265,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Claude tries to sabotage research work at every stage",
-     "url": "https://twitter.com/skirano/status/2125371115979641188",
-     "published": "2026-11-26T04:49:21+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 88,
-     "comments": 20,
-     "discussion_url": "https://news.ycombinator.com/item?id=50651552",
-     "id": "hackernews:50651552"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "\"What's Claude's fursona?\" and other questions",
-     "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
-     "published": "2026-11-27T04:56:18+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 135,
-     "comments": 100,
-     "discussion_url": "https://news.ycombinator.com/item?id=50662933",
-     "id": "hackernews:50662933"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Claude sabotaging ML research tasks?",
-     "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-     "published": "2026-11-27T08:28:08+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 402,
-     "comments": 200,
-     "discussion_url": "https://news.ycombinator.com/item?id=50664325",
-     "id": "hackernews:50664325"
-    }
-   ]
-  },
-  {
-   "id": "a0906909c3",
-   "headline": "Google search alternative Kagi launches Gmail rival",
-   "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
-   "first_published": "2026-11-25T20:57:09+00:00",
-   "topic": "AI agents & products",
-   "topics": [
-    "AI agents & products",
-    "Tech & startups"
-   ],
-   "score": 33.0,
-   "signals": {
-    "coverage": 0.28,
-    "engagement": 0.871,
-    "velocity": 0.576,
-    "freshness": 0.501,
-    "age_hours": 46.2
-   },
-   "reasons": [
-    "1 outlet: Ars Technica",
-    "HN 411 points, 328 comments",
-    "first seen 46h ago",
-    "topic: AI agents & products"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "Ars Technica"
-   ],
-   "engagement": 1067,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Ars Technica",
-     "title": "Google search alternative Kagi launches Gmail rival",
-     "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
-     "published": "2026-11-25T20:57:09+00:00",
-     "summary": "The pitch is an unusual combination of privacy promises and AI features.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Ars Technica:5acdb5a9ff5c"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-     "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-     "published": "2026-11-26T09:44:23+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 411,
-     "comments": 328,
-     "discussion_url": "https://news.ycombinator.com/item?id=50653477",
-     "id": "hackernews:50653477"
-    }
-   ]
-  },
-  {
-   "id": "4dc51137d9",
-   "headline": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
-   "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
-   "first_published": "2026-11-26T12:00:00+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs",
-    "AI agents & products"
-   ],
-   "score": 31.4,
-   "signals": {
-    "coverage": 0.28,
-    "engagement": 0.59,
-    "velocity": 0.276,
-    "freshness": 0.581,
-    "age_hours": 31.2
-   },
-   "reasons": [
-    "1 outlet: Wired",
-    "HN 56 points, 28 comments",
-    "first seen 31h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "steady",
-   "outlet_count": 1,
-   "outlets": [
-    "Wired"
-   ],
-   "engagement": 112,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "feed",
-     "outlet": "Wired",
-     "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
-     "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
-     "published": "2026-11-26T12:00:00+00:00",
-     "summary": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.85,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:Wired:863c11be95c0"
-    },
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
-     "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-     "published": "2026-11-27T00:03:18+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 56,
-     "comments": 28,
-     "discussion_url": "https://news.ycombinator.com/item?id=50661218",
-     "id": "hackernews:50661218"
-    }
-   ]
-  },
-  {
-   "id": "657cb6a91c",
-   "headline": "Much shorter version of GRH Lean verification from Anthropic",
-   "url": "https://github.com/lsernau/grh-lean",
-   "first_published": "2026-11-25T21:48:10+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 31.3,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.893,
-    "velocity": 0.61,
-    "freshness": 0.505,
-    "age_hours": 45.4
-   },
-   "reasons": [
-    "HN 559 points, 357 comments",
-    "first seen 45h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 1273,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Much shorter version of GRH Lean verification from Anthropic",
-     "url": "https://github.com/lsernau/grh-lean",
-     "published": "2026-11-25T21:48:10+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 559,
-     "comments": 357,
-     "discussion_url": "https://news.ycombinator.com/item?id=50648050",
-     "id": "hackernews:50648050"
-    }
-   ]
-  },
-  {
    "id": "0c5a6a8108",
-   "headline": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-   "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-   "first_published": "2026-11-25T19:54:57+00:00",
+   "headline": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "first_published": "2026-11-26T18:09:18+00:00",
    "topic": "AI business & chips",
    "topics": [
-    "AI business & chips",
-    "Tech & startups"
+    "AI business & chips"
    ],
-   "score": 30.6,
+   "score": 29.7,
    "signals": {
-    "coverage": 0.674,
-    "engagement": 0.598,
-    "velocity": 0.228,
-    "freshness": 0.497,
-    "age_hours": 47.3
+    "coverage": 0.57,
+    "engagement": 0.6,
+    "velocity": 0.243,
+    "freshness": 0.515,
+    "age_hours": 42.8
    },
    "reasons": [
-    "4 outlets: TechCrunch, BBC Technology, The Guardian Tech, Engadget",
-    "HN 43 points, 38 comments",
-    "first seen 47h ago",
+    "3 outlets: TechCrunch, BBC Technology, Engadget",
+    "HN 43 points, 39 comments",
+    "first seen 43h ago",
     "topic: AI business & chips"
    ],
    "first_seen": "2026-11-19",
    "status": "steady",
-   "outlet_count": 4,
+   "outlet_count": 3,
    "outlets": [
     "BBC Technology",
     "Engadget",
-    "TechCrunch",
-    "The Guardian Tech"
+    "TechCrunch"
    ],
-   "engagement": 119,
+   "engagement": 121,
    "regions": [
     "International"
    ],
    "brief": {},
    "llm_status": "",
    "articles": [
-    {
-     "source": "feed",
-     "outlet": "TechCrunch",
-     "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-     "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-     "published": "2026-11-25T19:54:57+00:00",
-     "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch:f05190a57348"
-    },
-    {
-     "source": "feed",
-     "outlet": "TechCrunch AI",
-     "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-     "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-     "published": "2026-11-25T19:54:57+00:00",
-     "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:TechCrunch AI:f05190a57348"
-    },
-    {
-     "source": "feed",
-     "outlet": "The Guardian Tech",
-     "title": "A vocal cohort of tech leaders celebrates Huang’s Nvidia return, but others are keeping quiet",
-     "url": "https://www.theguardian.com/technology/2026/nov/26/jensen-huang-nvidia-tech",
-     "published": "2026-11-26T10:00:52+00:00",
-     "summary": "Elon Musk and Sam Altman among those rejoicing but Google, Meta and Apple chiefs have declined to weigh in The phrase “return of the king” rippled across social media on Monday. A vocal subsection of the tech industry was celebrating the resurrection of Jensen Huang as Nvidia’s CEO. Some called him ",
-     "region": "International",
-     "lang": "en",
-     "weight": 0.9,
-     "points": 0,
-     "comments": 0,
-     "discussion_url": "",
-     "id": "feed:The Guardian Tech:140a281c412e"
-    },
     {
      "source": "feed",
      "outlet": "Engadget",
@@ -1629,7 +715,7 @@
      "lang": "en",
      "weight": 1.0,
      "points": 43,
-     "comments": 38,
+     "comments": 39,
      "discussion_url": "https://news.ycombinator.com/item?id=50659532",
      "id": "hackernews:50659532"
     },
@@ -1647,152 +733,51 @@
      "comments": 0,
      "discussion_url": "",
      "id": "feed:BBC Technology:55ca6f3c080c"
-    }
-   ]
-  },
-  {
-   "id": "e16d36447a",
-   "headline": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
-   "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
-   "first_published": "2026-11-26T16:55:15+00:00",
-   "topic": "AI models & labs",
-   "topics": [
-    "AI models & labs"
-   ],
-   "score": 27.7,
-   "signals": {
-    "coverage": 0.0,
-    "engagement": 0.636,
-    "velocity": 0.356,
-    "freshness": 0.618,
-    "age_hours": 26.3
-   },
-   "reasons": [
-    "HN 60 points, 51 comments",
-    "first seen 26h ago",
-    "topic: AI models & labs"
-   ],
-   "first_seen": "2026-11-26",
-   "status": "steady",
-   "outlet_count": 0,
-   "outlets": [],
-   "engagement": 162,
-   "regions": [],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
-     "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
-     "published": "2026-11-26T16:55:15+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 60,
-     "comments": 51,
-     "discussion_url": "https://news.ycombinator.com/item?id=50657110",
-     "id": "hackernews:50657110"
-    }
-   ]
-  },
-  {
-   "id": "c03592763c",
-   "headline": "Google will soon share Android developers' addresses publicly",
-   "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
-   "first_published": "2026-11-27T03:11:41+00:00",
-   "topic": "Tech & startups",
-   "topics": [
-    "Tech & startups"
-   ],
-   "score": 27.2,
-   "signals": {
-    "coverage": 0.241,
-    "engagement": 0.735,
-    "velocity": 0.571,
-    "freshness": 0.724,
-    "age_hours": 16.0
-   },
-   "reasons": [
-    "1 outlet: Engadget",
-    "HN 168 points, 95 comments",
-    "first seen 16h ago",
-    "topic: Tech & startups"
-   ],
-   "first_seen": "2026-11-27",
-   "status": "new",
-   "outlet_count": 1,
-   "outlets": [
-    "Engadget"
-   ],
-   "engagement": 358,
-   "regions": [
-    "International"
-   ],
-   "brief": {},
-   "llm_status": "",
-   "articles": [
-    {
-     "source": "hackernews",
-     "outlet": "Hacker News",
-     "title": "Google will show solo Android developers' phone numbers and addresses",
-     "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
-     "published": "2026-11-27T03:11:41+00:00",
-     "summary": "",
-     "region": "Social",
-     "lang": "en",
-     "weight": 1.0,
-     "points": 168,
-     "comments": 95,
-     "discussion_url": "https://news.ycombinator.com/item?id=50662322",
-     "id": "hackernews:50662322"
     },
     {
      "source": "feed",
      "outlet": "Engadget",
-     "title": "Google will soon share Android developers' addresses publicly",
-     "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
-     "published": "2026-11-27T09:38:33+00:00",
-     "summary": "Google is getting flak for its decision to publish Android developers' identifying information around the world to comply with European laws.",
+     "title": "Restricted NVIDIA chips were installed at a Chinese data center linked to Alice Huang",
+     "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+     "published": "2026-11-27T19:45:23+00:00",
+     "summary": "Bloomberg traced the lineage of one GB300 server rack to Gigabyte Technology.",
      "region": "International",
      "lang": "en",
      "weight": 0.7,
      "points": 0,
      "comments": 0,
      "discussion_url": "",
-     "id": "feed:Engadget:09df04752000"
+     "id": "feed:Engadget:900294a73320"
     }
    ]
   },
   {
-   "id": "738652d873",
-   "headline": "Bare Metal Qwen",
-   "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-   "first_published": "2026-11-25T22:15:34+00:00",
+   "id": "22c200d76e",
+   "headline": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "first_published": "2026-11-26T17:11:29+00:00",
    "topic": "AI models & labs",
    "topics": [
     "AI models & labs"
    ],
-   "score": 25.6,
+   "score": 28.8,
    "signals": {
     "coverage": 0.0,
-    "engagement": 0.733,
-    "velocity": 0.395,
-    "freshness": 0.506,
-    "age_hours": 44.9
+    "engagement": 0.811,
+    "velocity": 0.503,
+    "freshness": 0.511,
+    "age_hours": 43.8
    },
    "reasons": [
-    "HN 233 points, 60 comments",
-    "first seen 45h ago",
+    "HN 444 points, 109 comments",
+    "first seen 44h ago",
     "topic: AI models & labs"
    ],
-   "first_seen": "2026-11-25",
+   "first_seen": "2026-11-26",
    "status": "steady",
    "outlet_count": 0,
    "outlets": [],
-   "engagement": 353,
+   "engagement": 662,
    "regions": [],
    "brief": {},
    "llm_status": "",
@@ -1800,17 +785,65 @@
     {
      "source": "hackernews",
      "outlet": "Hacker News",
-     "title": "Bare Metal Qwen",
-     "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-     "published": "2026-11-25T22:15:34+00:00",
+     "title": "AMD-specific fork of llama.cpp",
+     "url": "https://devnull.land/amd-specific-llama-cpp",
+     "published": "2026-11-26T17:11:29+00:00",
      "summary": "",
      "region": "Social",
      "lang": "en",
      "weight": 1.0,
-     "points": 233,
-     "comments": 60,
-     "discussion_url": "https://news.ycombinator.com/item?id=50648365",
-     "id": "hackernews:50648365"
+     "points": 444,
+     "comments": 109,
+     "discussion_url": "https://news.ycombinator.com/item?id=50657265",
+     "id": "hackernews:50657265"
+    }
+   ]
+  },
+  {
+   "id": "e47254e5f8",
+   "headline": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "first_published": "2026-11-27T23:06:29+00:00",
+   "topic": "Tech & startups",
+   "topics": [
+    "Tech & startups"
+   ],
+   "score": 27.6,
+   "signals": {
+    "coverage": 0.0,
+    "engagement": 0.835,
+    "velocity": 0.737,
+    "freshness": 0.752,
+    "age_hours": 13.9
+   },
+   "reasons": [
+    "HN 463 points, 169 comments",
+    "first seen 14h ago",
+    "topic: Tech & startups"
+   ],
+   "first_seen": "2026-11-28",
+   "status": "new",
+   "outlet_count": 0,
+   "outlets": [],
+   "engagement": 801,
+   "regions": [],
+   "brief": {},
+   "llm_status": "",
+   "articles": [
+    {
+     "source": "hackernews",
+     "outlet": "Hacker News",
+     "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+     "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+     "published": "2026-11-27T23:06:29+00:00",
+     "summary": "",
+     "region": "Social",
+     "lang": "en",
+     "weight": 1.0,
+     "points": 463,
+     "comments": 169,
+     "discussion_url": "https://news.ycombinator.com/item?id=50672565",
+     "id": "hackernews:50672565"
     }
    ]
   }
